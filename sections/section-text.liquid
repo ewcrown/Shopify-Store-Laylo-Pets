@@ -17,6 +17,9 @@
   #Text--{{ unique }} {
     --PT: {{ section.settings.padding_top }}px;
     --PB: {{ section.settings.padding_bottom }}px;
+    {% if section.settings.background_custom_color != blank %}
+      background: {{ section.settings.background_custom_color }};
+    {% endif %}
   }
 {%- endstyle -%}
 
@@ -402,6 +405,11 @@
     {
       "type": "header",
       "content": "Colors"
+    },
+    {
+      "type": "color",
+      "id": "background_custom_color",
+      "label": "Background Custom Color",
     },
     {
       "type": "checkbox",

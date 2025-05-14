@@ -1,0 +1,304 @@
+{% style %}
+#ew-testimonial-slider-{{ section.id }} {
+  padding-top: {{ section.settings.padding_top }}px;
+  padding-bottom: {{ section.settings.padding_bottom }}px;
+  background-color: {{ section.settings.background_color }};
+  text-align: center;
+}
+
+#ew-testimonial-slider-{{ section.id }} .testimonial-heading {
+  color: var(--Black, #1B1B1B);
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: 56px; /* 116.667% */
+  margin-bottom: 40px;
+}
+
+#ew-testimonial-slider-{{ section.id }} .testimonial-card {
+  background: #fff;
+  border-radius: 12px;
+  text-align: left;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#ew-testimonial-slider-{{ section.id }} .testimonial-media {
+  position: relative;
+  margin-bottom: 16px;
+}
+
+#ew-testimonial-slider-{{ section.id }} .testimonial-media video,
+#ew-testimonial-slider-{{ section.id }} .testimonial-media img {
+  width: 100%;
+  border-radius: 12px;
+  display: block;
+  object-fit: cover;
+}
+
+#ew-testimonial-slider-{{ section.id }} .video-wrapper {
+  position: relative;
+}
+
+#ew-testimonial-slider-{{ section.id }} .play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.9);
+  border: none;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 2;
+}
+
+#ew-testimonial-slider-{{ section.id }} .play-button::before {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  border-left: 18px solid black;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  margin:auto;
+}
+
+#ew-testimonial-slider-{{ section.id }} .testimonial-text {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+#ew-testimonial-slider-{{ section.id }} .stars {
+  color: #f4b400;
+  margin-bottom: 6px;
+}
+
+#ew-testimonial-slider-{{ section.id }} .testimonial-meta {
+  color: #000;
+font-family: var(--FONT-STACK-BODY);
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 21.88px;
+}
+
+#ew-testimonial-slider-{{ section.id }} .cta-button {
+  margin-top: 80px;
+  font-size: 24px;
+padding: 16px 40px;
+}
+@media(max-width:479px){
+  #ew-testimonial-slider-{{ section.id }} {
+    padding: 40px var(--gutter-mobile);
+  }
+  #ew-testimonial-slider-{{ section.id }} .testimonial-heading {
+    font-size: 28px;
+    line-height:24px;
+  }
+  #ew-testimonial-slider-{{ section.id }} .cta-button {
+  margin-top: 40px;
+    font-size: 18px;
+  padding: 16px;
+  }
+}
+{% endstyle %}
+
+<section class="ew-testimonial-slider" id="ew-testimonial-slider-{{ section.id }}">
+  <div class="container">
+    <h2 class="testimonial-heading">{{ section.settings.heading }}</h2>
+
+    <div class="splide" id="splide-{{ section.id }}">
+      <div class="splide__track">
+        <ul class="splide__list">
+          {% for block in section.blocks %}
+            <li class="splide__slide">
+              <div class="testimonial-card">
+                <div class="testimonial-media">
+                  {% if block.settings.video != blank %}
+                    <div class="video-wrapper">
+                      <video
+                        id="video-{{ block.id }}"
+                        poster="{{ block.settings.video.preview_image | image_url: width: 800 }}"
+                        playsinline
+                        preload="metadata"
+                      >
+                      {% for source in block.settings.video.sources %}
+                        <source src="{{ source.url }}" type="{{ source.mime_type }}">
+                      {% endfor %}
+                      </video>
+                      <button class="play-button" onclick="toggleVideo('{{ block.id }}')"></button>
+                    </div>
+                  {% elsif block.settings.image != blank %}
+                    <img src="{{ block.settings.image | image_url: width: 600 }}" alt="Testimonial image">
+                  {% endif %}
+                </div>
+                <p class="testimonial-text">{{ block.settings.text }}</p>
+                {% if block.settings.rating != blank %}
+                  <div class="stars">
+                    {% for i in (1..block.settings.rating) %}
+                      <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
+                        <path d="M10.7327 5.72267L8.50762 0.982422L6.28197 5.72267L1.30762 6.48273L4.90737 10.1721L4.05777 15.3824L8.50762 12.9221L12.9575 15.3824L12.1073 10.1721L15.7076 6.48273L10.7327 5.72267Z" fill="#FFAC37" stroke="#FFAC37" stroke-width="0.6"/>
+                      </svg>
+                    {% endfor %}
+                  </div>
+                {% endif %}
+                <div class="testimonial-meta">
+                  {{ block.settings.name }}<br>
+                  {{ block.settings.location }}
+                </div>
+              </div>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+
+    {% if section.settings.button_text != blank and section.settings.button_link != blank %}
+      <a class="cta-button btn btn--primary" href="{{ section.settings.button_link }}">{{ section.settings.button_text }}</a>
+    {% endif %}
+  </div>
+</section>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    new Splide('#splide-{{ section.id }}', {
+      type: 'slide',
+      padding: '4rem',
+      perPage: {{ section.settings.per_page }},
+      gap: 30,
+      arrows: false,
+      pagination: false,
+      breakpoints: {
+        1024: { perPage: 2, padding: 0 },
+        640: { perPage: 1.5 }
+      }
+    }).mount();
+  });
+
+  function toggleVideo(blockId) {
+    const video = document.getElementById('video-' + blockId);
+    const playButton = video.nextElementSibling;
+    video.play();
+    video.setAttribute('controls', 'controls');
+    playButton.style.display = 'none';
+  }
+</script>
+
+
+{% schema %}
+{
+  "name": "<> Reviews Slider",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Trusted by 1,000+ pup parents"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button text",
+      "default": "Book your free behavior call"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button link"
+    },
+    {
+      "type": "range",
+      "id": "per_page",
+      "label": "Experts per slide (desktop)",
+      "min": 1,
+      "max": 5,
+      "step": 1,
+      "default": 4
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Padding Top",
+      "default": 60,
+      "min": 0,
+      "max": 200,
+      "step": 4
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Padding Bottom",
+      "default": 60,
+      "min": 0,
+      "max": 200,
+      "step": 4
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background Color",
+      "default": "#ffffff"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "testimonial",
+      "name": "Testimonial",
+      "settings": [
+        {
+          "type": "video",
+          "id": "video",
+          "label": "Shopify Video (optional)"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Fallback Image (if no video)"
+        },
+        {
+          "type": "textarea",
+          "id": "text",
+          "label": "Testimonial text",
+          "default": "I thought it was such an amazing investment..."
+        },
+        {
+          "type": "range",
+          "id": "rating",
+          "label": "Star rating",
+          "min": 1,
+          "max": 5,
+          "default": 5
+        },
+        {
+          "type": "text",
+          "id": "name",
+          "label": "Name",
+          "default": "Anna & Bruno"
+        },
+        {
+          "type": "text",
+          "id": "location",
+          "label": "Location",
+          "default": "Rogers, AR"
+        }
+      ]
+    }
+  ],
+  "max_blocks": 10,
+  "presets": [
+    {
+      "name": "<> Reviews Slider",
+      "category": "Custom",
+      "blocks": [
+        { "type": "testimonial" },
+        { "type": "testimonial" },
+        { "type": "testimonial" }
+      ]
+    }
+  ]
+}
+{% endschema %}

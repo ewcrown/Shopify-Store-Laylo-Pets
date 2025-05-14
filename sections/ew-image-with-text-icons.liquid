@@ -1,0 +1,216 @@
+{% style %}
+#ew-program-benefits-{{ section.id }} {
+  padding-top: {{ section.settings.padding_top }}px;
+  padding-bottom: {{ section.settings.padding_bottom }}px;
+  background-color: {{ section.settings.background_color }};
+}
+
+#ew-program-benefits-{{ section.id }} .program-benefits-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+
+#ew-program-benefits-{{ section.id }} .program-benefits-image {
+  flex: 1 1 400px;
+  max-width: 700px;
+}
+
+#ew-program-benefits-{{ section.id }} .program-benefits-image img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+#ew-program-benefits-{{ section.id }} .program-benefits-content {
+  flex: 1 1 400px;
+  text-align: left;
+}
+
+#ew-program-benefits-{{ section.id }} .program-benefits-content h2 {
+  color: #3F3F3F;
+font-size: 36px;
+font-style: normal;
+font-weight: 500;
+line-height: 110%; /* 39.6px */
+  margin-bottom: 52px;
+}
+
+#ew-program-benefits-{{ section.id }} .program-benefit-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 40px;
+}
+
+#ew-program-benefits-{{ section.id }} .program-benefit-item img {
+  width: 50px;
+  height: 50px;
+  margin-top: 3px;
+}
+
+#ew-program-benefits-{{ section.id }} .program-benefit-item p {
+    color: #3F3F3F;
+  font-family: var(--FONT-STACK-BODY);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 21.6px */
+  margin: 0;
+}
+
+#ew-program-benefits-{{ section.id }} .program-benefits-button {
+      font-size: 24px;
+    padding: 16px 40px;
+    margin-top: 20px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  #ew-program-benefits-{{ section.id }} .program-benefits-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #ew-program-benefits-{{ section.id }} .program-benefits-content {
+    text-align: center;
+  }
+
+  #ew-program-benefits-{{ section.id }} .program-benefit-item {
+    justify-content: center;
+  }
+
+  #ew-program-benefits-{{ section.id }} {
+    padding-top: 40px;
+    padding-bottom: 40px; 
+  }
+  #ew-program-benefits-{{ section.id }} .program-benefits-container {
+    gap: 0px;
+  }
+
+  #ew-program-benefits-{{ section.id }} .program-benefit-item p {
+    text-align:left;
+}
+#ew-program-benefits-{{ section.id }} .program-benefits-button {
+      font-size: 18px;
+    padding: 16px;
+}
+}
+{% endstyle %}
+
+<section id="ew-program-benefits-{{ section.id }}">
+  <div class="wrapper">
+    <div class="program-benefits-container">
+      {% if section.settings.image != blank %}
+        <div class="program-benefits-image">
+          <img src="{{ section.settings.image | image_url: width: 800 }}" alt="Benefits image" />
+        </div>
+      {% endif %}
+
+      <div class="program-benefits-content">
+        <h2>{{ section.settings.heading }}</h2>
+        {% for block in section.blocks %}
+          <div class="program-benefit-item">
+            {% if block.settings.icon != blank %}
+              <img src="{{ block.settings.icon | image_url: width: 40 }}" alt="icon">
+            {% endif %}
+            <p>{{ block.settings.text }}</p>
+          </div>
+        {% endfor %}
+
+        {% if section.settings.button_text != blank and section.settings.button_link != blank %}
+          <a class="program-benefits-button btn btn--primary" href="{{ section.settings.button_link }}">
+            {{ section.settings.button_text }}
+          </a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "<> Img | Text Icons",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Left Image"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "This program is for you if:"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button text",
+      "default": "Book your free behavior call"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button link"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Padding Top (px)",
+      "default": 60,
+      "min": 0,
+      "max": 200,
+      "step": 4
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Padding Bottom (px)",
+      "default": 60,
+      "min": 0,
+      "max": 200,
+      "step": 4
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background Color",
+      "default": "#ffffff"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "benefit",
+      "name": "Benefit",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "icon",
+          "label": "Icon"
+        },
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Benefit Text",
+          "default": "More support. You get access to your expert between sessions."
+        }
+      ]
+    }
+  ],
+  "max_blocks": 8,
+  "presets": [
+    {
+      "name": "<> Img | Text Icons",
+      "blocks": [
+        { "type": "benefit" },
+        { "type": "benefit" },
+        { "type": "benefit" }
+      ]
+    }
+  ]
+}
+{% endschema %}

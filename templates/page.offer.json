@@ -1,0 +1,895 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "extra_class": "",
+        "bg_color_secondary": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_text_iWF9cz": {
+      "type": "section-text",
+      "blocks": {
+        "heading_3PHnVm": {
+          "type": "heading",
+          "settings": {
+            "text": "<h3>Improve your dog’s most challenging behavior in as little as 6 weeks.</h3>",
+            "size": 270,
+            "heading_highlight_type": "italics"
+          }
+        },
+        "text_LmhEmV": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our Dog Foundations Program helps empower you to improve frustrating behaviors like barking, pulling, or reactivity—with 1:1 expert guidance, a clear plan, and support that fits your real life.</p>",
+            "size": 150
+          }
+        },
+        "button_hmNQT3": {
+          "type": "button",
+          "settings": {
+            "btn_text": "Book Your Free Behavior Call",
+            "btn_link": "",
+            "btn_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_3PHnVm",
+        "text_LmhEmV",
+        "button_hmNQT3"
+      ],
+      "custom_css": [
+        ".btn--primary {font-size: 24px; padding: 16px 40px; margin-top: 20px;}",
+        "@media only screen and (max-width: 479px) {.btn--primary {font-size: 18px; padding: 16px; }}"
+      ],
+      "name": "Text",
+      "settings": {
+        "text_position": "center",
+        "background_custom_color": "#faf8f7",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 100,
+        "padding_bottom": 40
+      }
+    },
+    "ew_section_video_C6zGFC": {
+      "type": "ew-section-video",
+      "name": "<> Video Section",
+      "settings": {
+        "heading": "Watch how we help dog parents feel confident again →",
+        "video": "shopify://files/videos/LayLo BR Final 16x9 TEXT 1080 mp4 h264.mp4",
+        "padding_top": 40,
+        "padding_bottom": 100,
+        "background_color": "#faf8f7"
+      }
+    },
+    "section_icons_row_r8NQU8": {
+      "type": "section-icons-row",
+      "blocks": {
+        "text_KtbapW": {
+          "type": "text",
+          "settings": {
+            "icon_name": "none",
+            "icon_image": "shopify://shop_images/logo_1_png.png",
+            "title": "",
+            "text": ""
+          }
+        },
+        "text_t64KJb": {
+          "type": "text",
+          "settings": {
+            "icon_name": "none",
+            "icon_image": "shopify://shop_images/logo_2_png.png",
+            "title": "",
+            "text": ""
+          }
+        },
+        "text_c9wepB": {
+          "type": "text",
+          "settings": {
+            "icon_name": "none",
+            "icon_image": "shopify://shop_images/logo_3_png.png",
+            "title": "",
+            "text": ""
+          }
+        },
+        "text_3wCniz": {
+          "type": "text",
+          "settings": {
+            "icon_name": "none",
+            "icon_image": "shopify://shop_images/logo_4_png.png",
+            "title": "",
+            "text": ""
+          }
+        },
+        "text_MkLxg7": {
+          "type": "text",
+          "settings": {
+            "icon_name": "none",
+            "icon_image": "shopify://shop_images/logo_5_png.png",
+            "title": "",
+            "text": ""
+          }
+        },
+        "text_qNmD6K": {
+          "type": "text",
+          "settings": {
+            "icon_name": "none",
+            "icon_image": "shopify://shop_images/logo_6_png.png",
+            "title": "",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_KtbapW",
+        "text_t64KJb",
+        "text_c9wepB",
+        "text_3wCniz",
+        "text_MkLxg7",
+        "text_qNmD6K"
+      ],
+      "custom_css": [
+        "section {margin-top: 24px; margin-bottom: 24px; border-top: 1px solid rgba(36, 42, 46, 0.2); border-bottom: 1px solid rgba(36, 42, 46, 0.2);}",
+        ".icons-row__icon {width: 100%;}"
+      ],
+      "name": "Icons row",
+      "settings": {
+        "alignment": "left",
+        "columns": 6,
+        "icons_width": 100,
+        "heading": "",
+        "subheading": "",
+        "bg_color_secondary": false,
+        "box_color": "",
+        "text_color": "#333333",
+        "button_text": "",
+        "button_link": "",
+        "button_style": "btn--secondary btn--small",
+        "enable_slider_mobile": false,
+        "padding_top": 22,
+        "padding_bottom": 10
+      }
+    },
+    "section_image_with_text_B77mcn": {
+      "type": "section-image-with-text",
+      "custom_css": [
+        ".btn--primary {font-size: 24px; padding: 16px 40px; margin-top: 20px;}",
+        "@media only screen and (max-width: 479px) {.btn--primary {font-size: 18px; padding: 16px; }}"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "section_height": "seven-fifty-height",
+        "layout": "inline",
+        "image_location": "right",
+        "image_width": "standard",
+        "image": "shopify://shop_images/Placeholder_Image_da41c103-f09b-4732-8123-5bd494f0b0c1.png",
+        "subheading": "",
+        "title": "<p>Most training programs assume the problem is the dog.</p>",
+        "heading_highlight_type": "circle",
+        "heading_size": 130,
+        "text_content": "But the truth is, most dog parents are overwhelmed, inconsistent, and unsure what’s actually working. That’s not your fault.\n\nWhat you need isn’t more YouTube tips, one-off trainer visits, or group classes that don’t fit your life. \n\nYou need a simple, expert-supported plan—and someone who helps you stick to it.",
+        "text_alignment": "left",
+        "button_text": "Book Your Free Behavior Call",
+        "button_link": "",
+        "button_style": "btn--primary",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "#f5f5f5",
+        "section_width": "wrapper",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "section_text_3xBnVH": {
+      "type": "section-text",
+      "blocks": {
+        "heading_3VzGUU": {
+          "type": "heading",
+          "settings": {
+            "text": "<h3>What Makes This Different</h3>",
+            "size": 175,
+            "heading_highlight_type": "italics"
+          }
+        },
+        "text_ng9UhX": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our highly personalized programs are tailored to you and your dog’s needs. You’ll meet 1:1 your dedicated holistic training team without leaving your house, keeping you accountable, helping your dog improve –– all while you learn the tools you need to be the best dog parent.</p>",
+            "size": 100
+          }
+        }
+      },
+      "block_order": [
+        "heading_3VzGUU",
+        "text_ng9UhX"
+      ],
+      "name": "Text",
+      "settings": {
+        "text_position": "center",
+        "background_custom_color": "",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 100,
+        "padding_bottom": 60
+      }
+    },
+    "section_columns_8cFedf": {
+      "type": "section-columns",
+      "blocks": {
+        "text_block_iMKmdp": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/Video_Thumbnail.png",
+            "title": "Understand what's going on with your pup.",
+            "text": "<p>In this free call, we'll assess your challenges as well as your pup's breed and age to recommend actionable tips and schedule time with the ideal dog expert for your needs.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--text",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_9LTH3G": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/Video_Thumbnail_1.png",
+            "title": "Make immediate progress alongside a dog expert.",
+            "text": "<p>After the call, we'll place you with your dedicated, certified expert to work with you and your pup 1-on-1 and solve your toughest issues together. This is not a group class, this is a personal program just for you.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--text",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_nHz7L9": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/Video_Thumbnail_2.png",
+            "title": "A custom plan made for your dog's needs.",
+            "text": "<p>Your dedicated expert (no bots here!) will create a unique custom online dog training plan with weekly milestones and homework based on your dog’s breed, adoption story and training knowledge — all designed to meet your goals.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--text",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_iMKmdp",
+        "text_block_9LTH3G",
+        "text_block_nHz7L9"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "title": "",
+        "align_text": "text-left",
+        "columns": 3,
+        "equalize_height": true,
+        "image_aspect_ratio": 0.8,
+        "show_images": true,
+        "bg_color_secondary": false,
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 100
+      }
+    },
+    "ew_image_with_text_icons_dWYM86": {
+      "type": "ew-image-with-text-icons",
+      "blocks": {
+        "benefit_7UBhDp": {
+          "type": "benefit",
+          "settings": {
+            "icon": "shopify://shop_images/service_1.png",
+            "text": "More support, more often. You get access to your expert in between sessions."
+          }
+        },
+        "benefit_Xc6JHW": {
+          "type": "benefit",
+          "settings": {
+            "icon": "shopify://shop_images/pet_1.png",
+            "text": "We train you, not just your dog. So you actually know what to do (and why)."
+          }
+        },
+        "benefit_NkMfqj": {
+          "type": "benefit",
+          "settings": {
+            "icon": "shopify://shop_images/reminder_1.png",
+            "text": "Fits your schedule. No driving. No group classes. No stress."
+          }
+        },
+        "benefit_LmHfHL": {
+          "type": "benefit",
+          "settings": {
+            "icon": "shopify://shop_images/recording_1.png",
+            "text": "Every session is recorded. Rewatch anytime or share with your partner or sitter."
+          }
+        },
+        "benefit_Fj3TfN": {
+          "type": "benefit",
+          "settings": {
+            "icon": "shopify://shop_images/planning_1.png",
+            "text": "Built for real life. You’ll get structure and consistency—without overhauling your day."
+          }
+        }
+      },
+      "block_order": [
+        "benefit_7UBhDp",
+        "benefit_Xc6JHW",
+        "benefit_NkMfqj",
+        "benefit_LmHfHL",
+        "benefit_Fj3TfN"
+      ],
+      "name": "<> Img | Text Icons",
+      "settings": {
+        "image": "shopify://shop_images/Placeholder_Image_da41c103-f09b-4732-8123-5bd494f0b0c1.png",
+        "heading": "This program is for you if:",
+        "button_text": "Book your free behavior call",
+        "button_link": "#",
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "background_color": "#f5f5f5"
+      }
+    },
+    "ew_section_reviews_KBQ87q": {
+      "type": "ew-section-reviews",
+      "blocks": {
+        "testimonial_TwUixq": {
+          "type": "testimonial",
+          "settings": {
+            "video": "shopify://files/videos/LayLo BR Final 16x9 TEXT 1080 mp4 h264.mp4",
+            "text": "\"I thought it was such an amazing\ninvestment. As a reactive dog owner, with a\nvirtual outlet, I was able to have access to a\ntrainer that kept everyone safe.\"",
+            "rating": 5,
+            "name": "Anna & Bruno",
+            "location": "Rogers, AR"
+          }
+        },
+        "testimonial_7EbQKq": {
+          "type": "testimonial",
+          "settings": {
+            "video": "shopify://files/videos/Welcome Video .mp4",
+            "text": "\"I thought it was awesome. Every time Vivi\nwas super helpful when she diagnosed what\nwas going on. Nori has caught on to\neverything we worked on in the classes.\"",
+            "rating": 5,
+            "name": "Jake, Lauren & Nori",
+            "location": "Richmond, VA"
+          }
+        },
+        "testimonial_qkk9jt": {
+          "type": "testimonial",
+          "settings": {
+            "video": "shopify://files/videos/LayLo BR Final 16x9 TEXT 1080 mp4 h264.mp4",
+            "text": "“I loved it. My trainer was amazing. In a\nperfect world, we can work with her\nforever. Having that dedicated time with\nthe trainer to see how Savannah was\nreacting with my instructions was very\nhelpful.\"",
+            "rating": 5,
+            "name": "Sharee & Savannah",
+            "location": "Atlanta, GA"
+          }
+        },
+        "testimonial_XHq43i": {
+          "type": "testimonial",
+          "settings": {
+            "video": "shopify://files/videos/Welcome Video .mp4",
+            "text": "\"I thought it was awesome. Every time Vivi\nwas super helpful when she diagnosed what\nwas going on. Nori has caught on to\neverything we worked on in the classes.\"",
+            "rating": 5,
+            "name": "Jake, Lauren & Nori",
+            "location": "Richmond, VA"
+          }
+        },
+        "testimonial_Vq6ieR": {
+          "type": "testimonial",
+          "settings": {
+            "video": "shopify://files/videos/ToyVideo-NoVO.mp4",
+            "text": "\"Compared to puppy school, meeting 1:1\nwhere there are no other dogs around was\nthe absolute best for me and Oso.\"",
+            "rating": 5,
+            "name": "Bethany & Oso",
+            "location": "Providence, RI"
+          }
+        },
+        "testimonial_gmtz7W": {
+          "type": "testimonial",
+          "settings": {
+            "video": "shopify://files/videos/Welcome Video .mp4",
+            "text": "\"I thought it was awesome. Every time Vivi\nwas super helpful when she diagnosed what\nwas going on. Nori has caught on to\neverything we worked on in the classes.\"",
+            "rating": 5,
+            "name": "Jake, Lauren & Nori",
+            "location": "Richmond, VA"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_TwUixq",
+        "testimonial_7EbQKq",
+        "testimonial_qkk9jt",
+        "testimonial_XHq43i",
+        "testimonial_Vq6ieR",
+        "testimonial_gmtz7W"
+      ],
+      "name": "<> Reviews Slider",
+      "settings": {
+        "heading": "Trusted by 1,000+ pup parents",
+        "button_text": "Book your free behavior call",
+        "button_link": "#",
+        "per_page": 4,
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "background_color": "#ffffff"
+      }
+    },
+    "ew_section_program_PNeWce": {
+      "type": "ew-section-program",
+      "blocks": {
+        "feature_Wmphzw": {
+          "type": "feature",
+          "settings": {
+            "text": "1x weekly private coaching sessions"
+          }
+        },
+        "feature_A8ggAx": {
+          "type": "feature",
+          "settings": {
+            "text": "Weekly check-ins to keep momentum strong"
+          }
+        },
+        "feature_AFXFrL": {
+          "type": "feature",
+          "settings": {
+            "text": "Unlimited texting + video messaging with your trainer"
+          }
+        },
+        "feature_e3qPGk": {
+          "type": "feature",
+          "settings": {
+            "text": "A personalized plan tailored to your dog and household"
+          }
+        },
+        "feature_3ybgKf": {
+          "type": "feature",
+          "settings": {
+            "text": "Recordings of every session"
+          }
+        },
+        "feature_gdVNE6": {
+          "type": "feature",
+          "settings": {
+            "text": "Bonus tools: leash guide, enrichment calendar, anxiety worksheet"
+          }
+        },
+        "feature_U34yjb": {
+          "type": "feature",
+          "settings": {
+            "text": "Full access to our Accountability Plan throughout the program"
+          }
+        },
+        "feature_DmpWeJ": {
+          "type": "feature",
+          "settings": {
+            "text": "Automatically continues after the program for $149/mo unless canceled"
+          }
+        }
+      },
+      "block_order": [
+        "feature_Wmphzw",
+        "feature_A8ggAx",
+        "feature_AFXFrL",
+        "feature_e3qPGk",
+        "feature_3ybgKf",
+        "feature_gdVNE6",
+        "feature_U34yjb",
+        "feature_DmpWeJ"
+      ],
+      "custom_css": [],
+      "name": "<> Program Section",
+      "settings": {
+        "heading": "The Dog Foundations Program",
+        "subheading": "6 weeks of structure, expert guidance, and accountability",
+        "image": "shopify://shop_images/Frame_1321315036.png",
+        "button_text": "Book Your Free Behavior Call",
+        "button_link": "#",
+        "note_text": "Starting at $125/week",
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "background_color": "#f5f5f5",
+        "inner_padding_top": 40,
+        "inner_padding_bottom": 40,
+        "inner_padding_left": 20,
+        "inner_padding_right": 20
+      }
+    },
+    "ew_section_experts_FmgcJb": {
+      "type": "ew-section-experts",
+      "blocks": {
+        "expert_tDHf8q": {
+          "type": "expert",
+          "settings": {
+            "image": "shopify://shop_images/Img_-_Jeny_P._-_Fear-free_trainer.png",
+            "name": "Jeny P. - Fear-free trainer",
+            "cert_heading": "Certifications:",
+            "certifications": "CPDT-KA\nCertified Professional Dog Trainer – Knowledge Assessed"
+          }
+        },
+        "expert_iLdirA": {
+          "type": "expert",
+          "settings": {
+            "image": "shopify://shop_images/Img_-_Katie_C._-_Fear-free_Dog_Trainer.png",
+            "name": "Katie C. - Fear-free Dog Trainer",
+            "cert_heading": "Certifications:",
+            "certifications": "Certified Professional Dog Trainer –\nKnowledge Assessed (CPDT-KA)\n\nBachelors of Science – Biology and Animal\nEcology (BSc)"
+          }
+        },
+        "expert_J3YAyE": {
+          "type": "expert",
+          "settings": {
+            "image": "shopify://shop_images/Img_-_Emily_L._-_Nutrition_Specialist.png",
+            "name": "Emily L. - Nutrition Specialist",
+            "cert_heading": "Certifications:",
+            "certifications": "DNM University – Certified Pet Food Nutrition Specialist"
+          }
+        },
+        "expert_DiW7CV": {
+          "type": "expert",
+          "settings": {
+            "image": "shopify://shop_images/Img_-_Jeny_P._-_Fear-free_trainer.png",
+            "name": "Jeny P. - Fear-free trainer",
+            "cert_heading": "Certifications:",
+            "certifications": "CPDT-KA\nCertified Professional Dog Trainer – Knowledge Assessed"
+          }
+        },
+        "expert_eA8LxD": {
+          "type": "expert",
+          "settings": {
+            "image": "shopify://shop_images/Img_-_Katie_C._-_Fear-free_Dog_Trainer.png",
+            "name": "Katie C. - Fear-free Dog Trainer",
+            "cert_heading": "Certifications:",
+            "certifications": "Certified Professional Dog Trainer –\nKnowledge Assessed (CPDT-KA)\n\nBachelors of Science – Biology and Animal\nEcology (BSc)"
+          }
+        },
+        "expert_znVjVf": {
+          "type": "expert",
+          "settings": {
+            "image": "shopify://shop_images/Img_-_Emily_L._-_Nutrition_Specialist.png",
+            "name": "Emily L. - Nutrition Specialist",
+            "cert_heading": "Certifications:",
+            "certifications": "DNM University – Certified Pet Food Nutrition Specialist"
+          }
+        }
+      },
+      "block_order": [
+        "expert_tDHf8q",
+        "expert_iLdirA",
+        "expert_J3YAyE",
+        "expert_DiW7CV",
+        "expert_eA8LxD",
+        "expert_znVjVf"
+      ],
+      "name": "<> Experts",
+      "settings": {
+        "heading": "Meet some of our experts",
+        "subheading": "The best of the best, accredited and certified dog trainers",
+        "button_text": "Book Your Free Behavior Call",
+        "button_link": "#",
+        "padding_top": 100,
+        "per_page": 3,
+        "padding_bottom": 100,
+        "background_color": "#ffffff"
+      }
+    },
+    "section_image_with_text_9ieh8H": {
+      "type": "section-image-with-text",
+      "custom_css": [
+        ".btn--primary {font-size: 24px; padding: 16px 40px; margin-top: 20px;}",
+        "@media only screen and (max-width: 479px) {.btn--primary {font-size: 18px; padding: 16px; }}"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "section_height": "five-fifty-height",
+        "layout": "inline",
+        "image_location": "right",
+        "image_width": "standard",
+        "image": "shopify://shop_images/Frame_1321315036_c15b1a67-dd43-4904-948f-fb9777c9989b.png",
+        "subheading": "",
+        "title": "<p>No pressure. No commitments. Just expert advice.</p>",
+        "heading_highlight_type": "circle",
+        "heading_size": 130,
+        "text_content": "We’ll help you build a plan during your free call—whether or not you choose to train with us.",
+        "text_alignment": "left",
+        "button_text": "Book Your Free Behavior Call",
+        "button_link": "",
+        "button_style": "btn--primary",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "#f5f5f5",
+        "section_width": "wrapper",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "section_accordions_rLmQby": {
+      "type": "section-accordions",
+      "blocks": {
+        "text_di7Th9": {
+          "type": "text",
+          "settings": {
+            "title": "1. What exactly is the Dog Foundations Program?",
+            "text": "<p>Domestic shipping can take up to 5 business days.<br/><br/>Foreign shipping could take up to 14 business days.<br/><br/>Due to global supply chain challenges, shipping times could be longer than usual.</p>"
+          }
+        },
+        "text_npqffV": {
+          "type": "text",
+          "settings": {
+            "title": "3. What kind of issues can you help with?",
+            "text": "<p>All our products are subject to quality control.<br/><br/>Our warranty provides a guarantee against manufacturer defects.<br/><br/>The guarantee covers any manufacturing, design, or material defect. Please notify us within 2 months of noticing any defects.<br/><br/>It does not cover blows, improper use, or other issues that are not attributable to a manufacturer defects.</p>"
+          }
+        },
+        "text_MxDGnX": {
+          "type": "text",
+          "settings": {
+            "title": "5. Is this just for puppies, or do you help older dogs too?",
+            "text": "<p>Yes, we offer full and partial refunds.<br/><br/>Please enquire for more information about our Refund policy.</p>"
+          }
+        },
+        "text_UAYBVt": {
+          "type": "text",
+          "settings": {
+            "title": "7. What if my dog is aggressive or highly reactive?",
+            "text": "<p>We use all major carriers, and local courier partners. Use the shipping estimator in the cart to check your shipping rates.</p>"
+          }
+        },
+        "text_PaMQax": {
+          "type": "text",
+          "settings": {
+            "title": "9. What happens if I miss a session?",
+            "text": "<p>We use all major carriers, and local courier partners. Use the shipping estimator in the cart to check your shipping rates.</p>"
+          }
+        },
+        "text_CrzfRq": {
+          "type": "text",
+          "settings": {
+            "title": "11. What’s the Accountability Plan?",
+            "text": "<p>We use all major carriers, and local courier partners. Use the shipping estimator in the cart to check your shipping rates.</p>"
+          }
+        },
+        "text_Ah8E87": {
+          "type": "text",
+          "settings": {
+            "title": "13. How do I know this will work for my dog?",
+            "text": "<p>We use all major carriers, and local courier partners. Use the shipping estimator in the cart to check your shipping rates.</p>"
+          }
+        },
+        "text_3RTYyE": {
+          "type": "text",
+          "settings": {
+            "title": "15. Can I get help faster than once a week?",
+            "text": "<p>We use all major carriers, and local courier partners. Use the shipping estimator in the cart to check your shipping rates.</p>"
+          }
+        },
+        "text_xwnXDC": {
+          "type": "text",
+          "settings": {
+            "title": "17. Do I need to commit on the free call?",
+            "text": "<p>We use all major carriers, and local courier partners. Use the shipping estimator in the cart to check your shipping rates.</p>"
+          }
+        },
+        "text_AtrEdY": {
+          "type": "text",
+          "settings": {
+            "title": "19. Do you offer refunds?",
+            "text": "<p>We use all major carriers, and local courier partners. Use the shipping estimator in the cart to check your shipping rates.</p>"
+          }
+        },
+        "text_HpCtV8": {
+          "type": "text",
+          "settings": {
+            "title": "2. Can this really work online? Don’t I need someone in-person?",
+            "text": "<p>We use all major carriers, and local courier partners. Use the shipping estimator in the cart to check your shipping rates.</p>"
+          }
+        },
+        "text_bE4PjX": {
+          "type": "text",
+          "settings": {
+            "title": "4. How much time do I need to dedicate each week?",
+            "text": "<p>We use all major carriers, and local courier partners. Use the shipping estimator in the cart to check your shipping rates.</p>"
+          }
+        },
+        "text_gyNWcH": {
+          "type": "text",
+          "settings": {
+            "title": "6. What if I’ve already tried other training methods?",
+            "text": "<p>We use all major carriers, and local courier partners. Use the shipping estimator in the cart to check your shipping rates.</p>"
+          }
+        },
+        "text_UjzbM3": {
+          "type": "text",
+          "settings": {
+            "title": "8. Can multiple family members join the training?",
+            "text": "<p>We use all major carriers, and local courier partners. Use the shipping estimator in the cart to check your shipping rates.</p>"
+          }
+        },
+        "text_DkwpNm": {
+          "type": "text",
+          "settings": {
+            "title": "10. Is this a subscription?",
+            "text": "<p>We use all major carriers, and local courier partners. Use the shipping estimator in the cart to check your shipping rates.</p>"
+          }
+        },
+        "text_PWAQdJ": {
+          "type": "text",
+          "settings": {
+            "title": "12. Do I need any special equipment?",
+            "text": "<p>We use all major carriers, and local courier partners. Use the shipping estimator in the cart to check your shipping rates.</p>"
+          }
+        },
+        "text_meEA9E": {
+          "type": "text",
+          "settings": {
+            "title": "14. How soon will I see progress?",
+            "text": "<p>We use all major carriers, and local courier partners. Use the shipping estimator in the cart to check your shipping rates.</p>"
+          }
+        },
+        "text_ekJTBr": {
+          "type": "text",
+          "settings": {
+            "title": "16. How do I get started?",
+            "text": "<p>We use all major carriers, and local courier partners. Use the shipping estimator in the cart to check your shipping rates.</p>"
+          }
+        },
+        "text_UdTDqy": {
+          "type": "text",
+          "settings": {
+            "title": "18. Is this worth the price?",
+            "text": "<p>We use all major carriers, and local courier partners. Use the shipping estimator in the cart to check your shipping rates.</p>"
+          }
+        },
+        "text_y3xQrG": {
+          "type": "text",
+          "settings": {
+            "title": "20. Can I choose my trainer?",
+            "text": "<p>We use all major carriers, and local courier partners. Use the shipping estimator in the cart to check your shipping rates.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_di7Th9",
+        "text_npqffV",
+        "text_MxDGnX",
+        "text_UAYBVt",
+        "text_PaMQax",
+        "text_CrzfRq",
+        "text_Ah8E87",
+        "text_3RTYyE",
+        "text_xwnXDC",
+        "text_AtrEdY",
+        "text_HpCtV8",
+        "text_bE4PjX",
+        "text_gyNWcH",
+        "text_UjzbM3",
+        "text_DkwpNm",
+        "text_PWAQdJ",
+        "text_meEA9E",
+        "text_ekJTBr",
+        "text_UdTDqy",
+        "text_y3xQrG"
+      ],
+      "name": "Tabs",
+      "settings": {
+        "title": "Frequently Asked Questions",
+        "subheading": "",
+        "text": "",
+        "layout": "two-columns",
+        "show_accordion_divider": false,
+        "tabs_bg_color": "#ece9e4",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 92,
+        "padding_bottom": 92
+      }
+    },
+    "section_text_tRtTkY": {
+      "type": "section-text",
+      "blocks": {
+        "heading_XLe4RH": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>You don’t need to figure this out alone anymore.</p>",
+            "size": 140,
+            "heading_highlight_type": "italics"
+          }
+        },
+        "text_T99XUY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Book your free call and let’s build your plan together.</p>",
+            "size": 100
+          }
+        }
+      },
+      "block_order": [
+        "heading_XLe4RH",
+        "text_T99XUY"
+      ],
+      "name": "Text",
+      "settings": {
+        "text_position": "center",
+        "background_custom_color": "#1f294f",
+        "bg_color_secondary": false,
+        "text_color": "text-light",
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 0
+      }
+    },
+    "section_text_piwyCR": {
+      "type": "section-text",
+      "blocks": {
+        "button_x4DGeP": {
+          "type": "button",
+          "settings": {
+            "btn_text": "Book Your Free Behavior Call",
+            "btn_link": "",
+            "btn_style": "btn--secondary"
+          }
+        },
+        "text_cCEdGJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Limited weekly slots. Booking takes 30 seconds</p>",
+            "size": 100
+          }
+        }
+      },
+      "block_order": [
+        "button_x4DGeP",
+        "text_cCEdGJ"
+      ],
+      "custom_css": [
+        ".btn--secondary {font-size: 24px; padding: 16px 40px; margin-top: 20px;}",
+        "section {margin-bottom: 0;}",
+        "@media only screen and (max-width: 479px) {.btn--secondary {font-size: 18px; padding: 16px; }}"
+      ],
+      "name": "Text",
+      "settings": {
+        "text_position": "center",
+        "background_custom_color": "#1f294f",
+        "bg_color_secondary": false,
+        "text_color": "text-light",
+        "width": "wrapper--narrow",
+        "padding_top": 80,
+        "padding_bottom": 100
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_text_iWF9cz",
+    "ew_section_video_C6zGFC",
+    "section_icons_row_r8NQU8",
+    "section_image_with_text_B77mcn",
+    "section_text_3xBnVH",
+    "section_columns_8cFedf",
+    "ew_image_with_text_icons_dWYM86",
+    "ew_section_reviews_KBQ87q",
+    "ew_section_program_PNeWce",
+    "ew_section_experts_FmgcJb",
+    "section_image_with_text_9ieh8H",
+    "section_accordions_rLmQby",
+    "section_text_tRtTkY",
+    "section_text_piwyCR"
+  ]
+}

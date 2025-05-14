@@ -1,0 +1,61 @@
+{% liquid 
+  assign show_color_swatches = false
+  assign swatch_handles = ''
+  for tag in product.tags
+    if tag contains '_swatch_group:'
+      assign group_tag = tag
+      assign show_color_swatches = true
+    endif
+  endfor
+  assign swatch_handles = swatch_handles | remove_first: ',' | split: ','
+  assign current_variant = product.selected_or_first_available_variant
+%}
+{% if show_color_swatches %}
+<div class="color-swatches-container">
+  <div class="color-title radio__legend__label">Choose your color</div>
+  <div class="color-swatches-wrap"></div>
+</div>
+{% endif %}
+
+{% if group_tag %}
+<script>
+  (async () => {
+    let swatches_html = await fetch(`/collections/all/{{ group_tag }}?view=raw-swatches`).then((res) => res.text());
+    document.querySelector('.color-swatches-wrap').innerHTML = swatches_html;
+
+    // add active state to current product
+    document.querySelectorAll('.color-swatch').forEach(($item) => {
+      let is_current = $item.dataset.product == '{{ product.handle }}';
+      $item.classList.toggle('active', is_current);
+    });
+
+    // update swatch urls to same variant
+    document.addEventListener('variant:change', (e) => {
+      console.log('change');
+      let values = [];
+      [1,2,3].forEach((id) => {
+        let option_id = `option${ id }`;
+        let value = e.detail.variant[option_id];
+        if (value) {
+          console.log(value);
+          values.push(value);
+          
+        }
+      });
+
+      document.querySelectorAll('.color-swatch').forEach(($swatch) => {
+        let variants = JSON.parse($swatch.dataset.variants).variants;
+        let matching_variant = variants.find((v) => v.options.join('/') == values.join('/'));
+        console.log(matching_variant.id +':'+ matching_variant.available);
+        $swatch.dataset.variant = matching_variant.id;
+        $swatch.querySelector('a').setAttribute('href', `/products/${ $swatch.dataset.product }?variant=${ matching_variant.id }`);
+        $swatch.classList.toggle('soldout', !matching_variant.available);
+      });
+    });
+
+    // trigger on page load
+    let current_variant = {{ current_variant | json }};
+    document.dispatchEvent(new CustomEvent('variant:change', {detail: { variant: current_variant }}));
+  })();
+</script>
+{% endif %}

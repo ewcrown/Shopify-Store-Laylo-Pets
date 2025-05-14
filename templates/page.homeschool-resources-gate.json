@@ -1,0 +1,129 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "extra_class": "",
+        "bg_color_secondary": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_text_4KLcxh": {
+      "type": "section-text",
+      "blocks": {
+        "subheading_tx7yRA": {
+          "type": "subheading",
+          "settings": {
+            "text": "<p>Exclusive Resources</p>",
+            "size": 100
+          }
+        },
+        "heading_Hd4wmE": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>Access over 20 free training courses created by dog experts.</p>",
+            "size": 100,
+            "heading_highlight_type": "italics"
+          }
+        },
+        "text_GzHq96": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Get instant access to video courses covering puppy basics,  separation anxiety, and even reactivity. Enter your information below to unlock our full resource library.</p>",
+            "size": 100
+          }
+        }
+      },
+      "block_order": [
+        "subheading_tx7yRA",
+        "heading_Hd4wmE",
+        "text_GzHq96"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_x9Mb4C": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_iHbJUy": {
+          "type": "image",
+          "settings": {
+            "text_position": "middle-center",
+            "overlay_opacity": 10,
+            "text_color": "text-light",
+            "title": "Welcome to Palo Alto",
+            "heading_size": 100,
+            "text": "Describe in a few words your special products, collection, or brand.",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--primary btn--small"
+          }
+        },
+        "text_grQpBd": {
+          "type": "text",
+          "settings": {
+            "text_position": "center",
+            "top_image_width": 100,
+            "text_color": "text-dark",
+            "subheading": "Subheading",
+            "title": "Our Story",
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "button_text": "Learn More",
+            "button_link": "",
+            "button_style": "btn--primary btn--small",
+            "secondary_button_text": "",
+            "secondary_button_link": "",
+            "secondary_button_style": "btn--secondary btn--small",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_iHbJUy",
+        "text_grQpBd"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "six-fifty-height",
+        "bg_color": "",
+        "width": "wrapper",
+        "add_gutter": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_custom_html_DdxhgA": {
+      "type": "section-custom-html",
+      "settings": {
+        "custom_code": "<div class=\"klaviyo-form-UHUgMH\"></div>",
+        "width": "wrapper",
+        "padding_top": 30,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_text_4KLcxh",
+    "section_custom_content_x9Mb4C",
+    "section_custom_html_DdxhgA"
+  ]
+}

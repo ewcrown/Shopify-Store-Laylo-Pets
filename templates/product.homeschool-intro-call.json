@@ -1,0 +1,298 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "shogun-helper": {
+      "type": "shogun-helper",
+      "disabled": true,
+      "settings": {}
+    },
+    "shogun-above": {
+      "type": "shogun-above",
+      "disabled": true,
+      "settings": {}
+    },
+    "main": {
+      "type": "product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "subheading": "breadcrumbs",
+            "show_rating": true,
+            "show_rating_count": true,
+            "padding_bottom": 20
+          }
+        },
+        "1d4ae0b0-0a4d-43d5-adef-73b63d3cb27f": {
+          "type": "shopify://apps/yotpo-product-reviews/blocks/star-rating/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "settings": {
+            "product": "homeschool-by-lay-lo-introductory-virtual-training-session"
+          }
+        },
+        "inventory_countdown": {
+          "type": "inventory_countdown",
+          "settings": {
+            "max_inventory": 10,
+            "hide_inventory_count": true,
+            "padding_bottom": 20
+          }
+        },
+        "form": {
+          "type": "form",
+          "settings": {
+            "info_page": "dog-bed-size-chart",
+            "info_page_title_override": "Size Guide",
+            "show_labels": true,
+            "show_quantity": false,
+            "show_payment_button": false,
+            "enable_subscriptions_selectors": false,
+            "padding_bottom": 20
+          }
+        },
+        "upsell": {
+          "type": "upsell",
+          "disabled": true,
+          "settings": {
+            "stack_upsells": true,
+            "product_list": [
+              "lay-lo-pets-premium-waterproof-dog-bed-liner-stuff-sack"
+            ],
+            "padding_bottom": 20
+          }
+        },
+        "icon_row": {
+          "type": "icon_row",
+          "settings": {
+            "icon_name_1": "smile",
+            "icon_color_1": "",
+            "icon_width_1": 20,
+            "icon_text_1": "Live 1:1 Session",
+            "icon_name_2": "check",
+            "icon_color_2": "",
+            "icon_width_2": 20,
+            "icon_text_2": "Personalized Plan",
+            "icon_name_3": "paw-heart",
+            "icon_color_3": "",
+            "icon_width_3": 20,
+            "icon_text_3": "R+ Certified Experts",
+            "icon_name_4": "award",
+            "icon_color_4": "",
+            "icon_width_4": 20,
+            "icon_text_4": "Satisfaction Guarantee",
+            "alignment": "center",
+            "bg_color": "#ffffff",
+            "padding_bottom": 20
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "padding_bottom": 20
+          }
+        },
+        "product_accordions": {
+          "type": "product_accordions",
+          "settings": {
+            "accordion_heading_1": "How it works",
+            "accordion_text_1": "<p><strong>STEP 1: </strong>After you sign up, you'll receive a link to book a pup discovery call with a Homeschool dog expert so we can better understand your goals and connect you to your dedicated team.  </p><p><strong>STEP 2: </strong>Your dedicated trainer will reach out to answer your questions and share your custom plan to begin tackling together. </p><p><strong>STEP 3: </strong>Message your expert team on-demand with questions or videos to review. In return, we'll share our advice along with additional resources. </p>",
+            "accordion_page_1": "",
+            "accordion_heading_2": "",
+            "accordion_text_2": "",
+            "accordion_page_2": "",
+            "accordion_heading_3": "What you need",
+            "accordion_text_3": "<p>You'll be meeting your certified trainer over Zoom video app. You will need to connect either by phone, laptop, or tablet with an internet connection. <br/><br/>You are welcome to download the free <a href=\"https://zoom.us/download\" title=\"https://zoom.us/download\">Zoom app</a> directly before your session, but it is not required.</p>",
+            "accordion_page_3": "",
+            "accordion_heading_4": "What's included",
+            "accordion_text_4": "<p>Your introductory session will include a full assessment from a certified behavior or training expert, including a written plan specific to your dog's needs as well as a plan recommendation for future sessions.<br/><br/>In addition, you have the following benefits:</p><ul><li>Message your trainer ahead of the call for video analysis of your pup's behavior.</li><li>Access to our video and resource video library to help implement any plan</li><li>Up to 25% off LAY LO's signature products</li></ul>",
+            "accordion_page_4": "",
+            "accordion_heading_5": "",
+            "accordion_text_5": "",
+            "accordion_page_5": "",
+            "padding_bottom": 20
+          }
+        },
+        "share-button": {
+          "type": "share-button",
+          "disabled": true,
+          "settings": {
+            "text": "Share",
+            "padding_bottom": 20
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "1d4ae0b0-0a4d-43d5-adef-73b63d3cb27f",
+        "inventory_countdown",
+        "form",
+        "upsell",
+        "icon_row",
+        "description",
+        "product_accordions",
+        "share-button"
+      ],
+      "settings": {
+        "product_sticky_enable": true,
+        "image_layout": "grid",
+        "image_width": "large",
+        "enable_zoom": true,
+        "hide_product_thumbnails": true,
+        "enable_video_looping": true,
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "1740639973c7923c3e": {
+      "type": "apps",
+      "blocks": {
+        "yotpo_product_reviews_reviews_gcKhn4": {
+          "type": "shopify://apps/yotpo-product-reviews/blocks/reviews/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "settings": {
+            "product": "homeschool-by-lay-lo-introductory-virtual-training-session"
+          }
+        }
+      },
+      "block_order": [
+        "yotpo_product_reviews_reviews_gcKhn4"
+      ],
+      "settings": {
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "0b271cde-7edb-437b-a7b8-052e7178b5d6": {
+      "type": "section-image-accordions",
+      "blocks": {
+        "template--16010683777210__0b271cde-7edb-437b-a7b8-052e7178b5d6-167502648232521f10-1": {
+          "type": "image",
+          "settings": {
+            "overlay_opacity": 10,
+            "text_width": "full",
+            "text_position": "left",
+            "text_color": "text-light",
+            "title": "Welcome to Palo Alto",
+            "text": "This text helps you provide some more detail to the title above.",
+            "btn_text": "",
+            "btn_link": "",
+            "btn_style": "btn--primary btn--small",
+            "btn_text_2": "",
+            "btn_link_2": "",
+            "btn_style_2": "btn--secondary btn--small"
+          }
+        },
+        "template--16010683777210__0b271cde-7edb-437b-a7b8-052e7178b5d6-167502648232521f10-2": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "overlay_opacity": 10,
+            "text_width": "full",
+            "text_position": "left",
+            "text_color": "text-light",
+            "title": "Welcome to Palo Alto",
+            "text": "This text helps you provide some more detail to the title above.",
+            "btn_text": "",
+            "btn_link": "",
+            "btn_style": "btn--primary btn--small",
+            "btn_text_2": "",
+            "btn_link_2": "",
+            "btn_style_2": "btn--secondary btn--small"
+          }
+        },
+        "template--16010683777210__0b271cde-7edb-437b-a7b8-052e7178b5d6-167502648232521f10-3": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "overlay_opacity": 10,
+            "text_width": "full",
+            "text_position": "left",
+            "text_color": "text-light",
+            "title": "Welcome to Palo Alto",
+            "text": "This text helps you provide some more detail to the title above.",
+            "btn_text": "",
+            "btn_link": "",
+            "btn_style": "btn--primary btn--small",
+            "btn_text_2": "",
+            "btn_link_2": "",
+            "btn_style_2": "btn--secondary btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "template--16010683777210__0b271cde-7edb-437b-a7b8-052e7178b5d6-167502648232521f10-1",
+        "template--16010683777210__0b271cde-7edb-437b-a7b8-052e7178b5d6-167502648232521f10-2",
+        "template--16010683777210__0b271cde-7edb-437b-a7b8-052e7178b5d6-167502648232521f10-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "accordion_height": "six-fifty-height",
+        "enable_mobile_height": false,
+        "mobile_section_height": "five-fifty-height-mobile",
+        "heading_size": 100,
+        "width": "wrapper--full-padded",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "related": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "limit": 4,
+        "product_recommendations_heading": "You May Also Like",
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "16796286950518c688": {
+      "type": "apps",
+      "blocks": {
+        "1fe89063-f440-4bf6-8a32-3219d8423cbc": {
+          "type": "shopify://apps/yotpo-product-reviews/blocks/reviews/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "disabled": true,
+          "settings": {
+            "product": "{{product}}"
+          }
+        }
+      },
+      "block_order": [
+        "1fe89063-f440-4bf6-8a32-3219d8423cbc"
+      ],
+      "disabled": true,
+      "settings": {
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "shogun-below": {
+      "type": "shogun-below",
+      "disabled": true,
+      "settings": {}
+    }
+  },
+  "order": [
+    "shogun-helper",
+    "shogun-above",
+    "main",
+    "1740639973c7923c3e",
+    "0b271cde-7edb-437b-a7b8-052e7178b5d6",
+    "related",
+    "16796286950518c688",
+    "shogun-below"
+  ]
+}

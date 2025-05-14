@@ -1,0 +1,276 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "list-collections",
+      "blocks": {
+        "collection_f9f9qC": {
+          "type": "collection",
+          "settings": {
+            "collection": "boho-collection-1",
+            "bg_color": "",
+            "text_color": "text-light",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_D49XmP": {
+          "type": "collection",
+          "settings": {
+            "collection": "brigette-romanek-collection",
+            "bg_color": "",
+            "text_color": "text-light",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_zXmJCy": {
+          "type": "collection",
+          "settings": {
+            "collection": "checker-collection",
+            "custom_collection_image": "shopify://shop_images/lay_lo_checker_collection_dog_beds_mobile_3a34508e-33cf-4ddc-95d6-ad3dd0ca38ad.png",
+            "bg_color": "",
+            "text_color": "text-light",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_iHzTN8": {
+          "type": "collection",
+          "settings": {
+            "collection": "classic",
+            "bg_color": "",
+            "text_color": "text-light",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_eYt8N6": {
+          "type": "collection",
+          "settings": {
+            "collection": "grid-collection",
+            "bg_color": "",
+            "text_color": "text-light",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_AmzPJC": {
+          "type": "collection",
+          "settings": {
+            "collection": "john-legend-creator-collab",
+            "bg_color": "",
+            "text_color": "text-light",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_tfamFP": {
+          "type": "collection",
+          "settings": {
+            "collection": "frontpage",
+            "custom_collection_image": "shopify://shop_images/laylo-pets-minimalist-sage-dog-bed-or-bed-cover-lay-lo-23448008327354.jpg",
+            "bg_color": "",
+            "text_color": "text-light",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_NrMpzX": {
+          "type": "collection",
+          "settings": {
+            "collection": "terrazzo-collection-1",
+            "bg_color": "",
+            "text_color": "text-light",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_MHa8Rg": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "feeding-bowls",
+            "custom_collection_image": "shopify://shop_images/waggo-ripple-ceramic-dog-bowl-by-waggo-lay-lo-34886273532090.jpg",
+            "bg_color": "",
+            "text_color": "text-light",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_8WU4kt": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "on-the-go",
+            "bg_color": "",
+            "text_color": "text-light",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_dM3f4M": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "pet-blankets",
+            "custom_collection_image": "shopify://shop_images/lay-lo-pets-brigette-romanek-brigette-romanek-luxury-pet-blanket-cream-lay-lo-36329664151738.jpg",
+            "bg_color": "",
+            "text_color": "text-light",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_EirjeT": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "nutrition",
+            "bg_color": "",
+            "text_color": "text-light",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "collection_f9f9qC",
+        "collection_D49XmP",
+        "collection_zXmJCy",
+        "collection_iHzTN8",
+        "collection_eYt8N6",
+        "collection_AmzPJC",
+        "collection_tfamFP",
+        "collection_NrMpzX",
+        "collection_MHa8Rg",
+        "collection_8WU4kt",
+        "collection_dM3f4M",
+        "collection_EirjeT"
+      ],
+      "settings": {
+        "layout": "grid",
+        "columns": 4,
+        "image_size": 90,
+        "image_shape": "square",
+        "title": "Bed Collections",
+        "text_size": 100,
+        "overlay_text": false,
+        "layout_mobile": "grid",
+        "columns_mobile": "2",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_list_collection_NfJctP": {
+      "type": "section-list-collection",
+      "blocks": {
+        "collection_8PaKn6": {
+          "type": "collection",
+          "settings": {
+            "collection": "feeding-bowls",
+            "custom_collection_image": "shopify://shop_images/waggo-ripple-ceramic-dog-bowl-by-waggo-lay-lo-34886273532090.jpg",
+            "bg_color": "",
+            "text_color": "text-light",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_cFmEwJ": {
+          "type": "collection",
+          "settings": {
+            "collection": "nutrition",
+            "custom_collection_image": "shopify://shop_images/wild-earth-3-pack-superfood-dog-treats-with-koji-5-oz-per-bag-by-wild-earth-lay-lo-33653244821690.jpg",
+            "bg_color": "",
+            "text_color": "text-light",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_e8Fkfy": {
+          "type": "collection",
+          "settings": {
+            "collection": "on-the-go",
+            "bg_color": "",
+            "text_color": "text-light",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_L7kGp6": {
+          "type": "collection",
+          "settings": {
+            "collection": "pet-blankets",
+            "custom_collection_image": "shopify://shop_images/lay-lo-pets-brigette-romanek-brigette-romanek-luxury-pet-blanket-cream-lay-lo-36329664151738.jpg",
+            "bg_color": "",
+            "text_color": "text-light",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_mNCxgM": {
+          "type": "collection",
+          "settings": {
+            "collection": "play",
+            "bg_color": "",
+            "text_color": "text-light",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_BjfeXV": {
+          "type": "collection",
+          "settings": {
+            "collection": "accessories",
+            "bg_color": "",
+            "text_color": "text-light",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "collection_8PaKn6",
+        "collection_cFmEwJ",
+        "collection_e8Fkfy",
+        "collection_L7kGp6",
+        "collection_mNCxgM",
+        "collection_BjfeXV"
+      ],
+      "settings": {
+        "layout": "grid",
+        "columns": 3,
+        "image_size": 90,
+        "image_shape": "square",
+        "title": "Accessories for every pup",
+        "text_size": 100,
+        "overlay_text": false,
+        "layout_mobile": "grid",
+        "columns_mobile": "2",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_collection_djweKU": {
+      "type": "section-collection",
+      "settings": {
+        "collection": "all-products",
+        "products_layout": "grid",
+        "number_of_products": 48,
+        "text_alignment": "text-left",
+        "title": "Shop All",
+        "heading_size": 75,
+        "text": "",
+        "text_size": 125,
+        "button_text": "",
+        "button_style": "btn--primary",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "columns_mobile": "2",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_list_collection_NfJctP",
+    "section_collection_djweKU"
+  ]
+}

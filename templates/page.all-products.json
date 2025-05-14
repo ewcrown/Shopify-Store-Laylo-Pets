@@ -1,0 +1,594 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "extra_class": "",
+        "bg_color_secondary": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_slideshow_3qgFwa": {
+      "type": "section-slideshow",
+      "blocks": {
+        "image_jtLQDF": {
+          "type": "image",
+          "settings": {
+            "overlay_opacity": 10,
+            "text_width": "normal",
+            "text_position": "center",
+            "text_color": "text-light",
+            "subheading": "",
+            "title": "Livable Luxe",
+            "text": "Introducing the Brigette Romanek Collection",
+            "slide_btn_text": "Shop All",
+            "slide_btn_link": "shopify://collections/all",
+            "slide_btn_style": "btn--primary btn--small",
+            "slide_btn_text_2": "",
+            "slide_btn_link_2": "",
+            "slide_btn_style_2": "btn--secondary btn--small",
+            "video_text": "",
+            "video_link": ""
+          }
+        },
+        "image_m3dQFX": {
+          "type": "image",
+          "settings": {
+            "overlay_opacity": 10,
+            "text_width": "normal",
+            "text_position": "center",
+            "text_color": "text-light",
+            "subheading": "",
+            "title": "Welcome to Palo Alto",
+            "text": "Add more info or delete this text",
+            "slide_btn_text": "Shop All",
+            "slide_btn_link": "shopify://collections/all",
+            "slide_btn_style": "btn--primary btn--small",
+            "slide_btn_text_2": "",
+            "slide_btn_link_2": "",
+            "slide_btn_style_2": "btn--secondary btn--small",
+            "video_text": "",
+            "video_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_jtLQDF",
+        "image_m3dQFX"
+      ],
+      "settings": {
+        "slide_height": "six-fifty-height",
+        "enable_mobile_height": false,
+        "mobile_slide_height": "five-fifty-height-mobile",
+        "show_nav_dots": true,
+        "show_nav_arrows": true,
+        "show_arrow_down": false,
+        "autoplay": false,
+        "duration": 4,
+        "transition": "wipe",
+        "enable_zoom_animation": true,
+        "heading_size": 120
+      }
+    },
+    "section_text_myzzFc": {
+      "type": "section-text",
+      "blocks": {
+        "subheading_MHLhed": {
+          "type": "subheading",
+          "settings": {
+            "text": "",
+            "size": 100
+          }
+        },
+        "heading_aFzBcD": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>Award-winning pet products vetted by industry experts</p>",
+            "size": 100,
+            "heading_highlight_type": "italics"
+          }
+        },
+        "text_3dB7aB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>From puppy to full grown best friend, every product was curated and designed to be the very best for your dog (and home) at every stage of life.</p>",
+            "size": 100
+          }
+        }
+      },
+      "block_order": [
+        "subheading_MHLhed",
+        "heading_aFzBcD",
+        "text_3dB7aB"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 30
+      }
+    },
+    "section_list_collection_QHGi3a": {
+      "type": "section-list-collection",
+      "blocks": {
+        "collection_TVyDqn": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "bg_color": "",
+            "text_color": "text-light",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_JHkMNF": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "bg_color": "",
+            "text_color": "text-light",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_Jqra4m": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "bg_color": "",
+            "text_color": "text-light",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_QLVNAi": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "bg_color": "",
+            "text_color": "text-light",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_wGMa6q": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "bg_color": "",
+            "text_color": "text-light",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_L7BP3Q": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "bg_color": "",
+            "text_color": "text-light",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "collection_TVyDqn",
+        "collection_JHkMNF",
+        "collection_Jqra4m",
+        "collection_QLVNAi",
+        "collection_wGMa6q",
+        "collection_L7BP3Q"
+      ],
+      "settings": {
+        "layout": "carousel",
+        "columns": 6,
+        "image_size": 100,
+        "image_shape": "square",
+        "title": "",
+        "text_size": 100,
+        "overlay_text": false,
+        "layout_mobile": "carousel",
+        "columns_mobile": "2",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 30,
+        "padding_bottom": 60
+      }
+    },
+    "section_icons_row_Ckcc4Q": {
+      "type": "section-icons-row",
+      "blocks": {
+        "text_PCUfxR": {
+          "type": "text",
+          "settings": {
+            "icon_name": "truck",
+            "title": "Vetted by experts",
+            "text": "<p>Designed in collaboration with experts from training to behavior.</p>"
+          }
+        },
+        "text_yPTxG7": {
+          "type": "text",
+          "settings": {
+            "icon_name": "check",
+            "title": "Designed for the home",
+            "text": "<p>Look great in any room while helping every pup in it.</p>"
+          }
+        },
+        "text_PfQyBJ": {
+          "type": "text",
+          "settings": {
+            "icon_name": "eco-friendly",
+            "title": "Paired with real advice",
+            "text": "<p>Every product includes with access to world-class dog experts.</p>"
+          }
+        },
+        "text_bQMQxz": {
+          "type": "text",
+          "settings": {
+            "icon_name": "clock",
+            "title": "One Year Warranty",
+            "text": "<p>This is where we talk about durability and quality.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_PCUfxR",
+        "text_yPTxG7",
+        "text_PfQyBJ",
+        "text_bQMQxz"
+      ],
+      "settings": {
+        "alignment": "center",
+        "columns": 4,
+        "icons_width": 30,
+        "heading": "",
+        "subheading": "",
+        "bg_color_secondary": true,
+        "box_color": "",
+        "text_color": "#333",
+        "button_text": "",
+        "button_link": "",
+        "button_style": "btn--secondary btn--small",
+        "enable_slider_mobile": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_overlapping_images_a67k7d": {
+      "type": "section-overlapping-images",
+      "settings": {
+        "text_position": "right",
+        "text_alignment": "left",
+        "images_width": 750,
+        "images_offset": 60,
+        "image_1": "shopify://shop_images/Screen_Shot_2024-04-02_at_2.05.28_PM.png",
+        "image_link_1": "",
+        "image_2": "shopify://shop_images/lay-lo-pets-session-lay-lo-session-cooperative-care-live-training-lay-lo-36184466129082.png",
+        "image_link_2": "",
+        "hide_image_2": false,
+        "heading": "Build a bond with your pup alongside the world’s best.",
+        "description": "<p>From dog training, to nutrition, and vet advice — every expert in our collective has been selected to ensure top certifications and years of experience within their field.</p>",
+        "button_text": "View the Collective >",
+        "button_link": "",
+        "button_style": "btn--text",
+        "video_text": "",
+        "video_link": "",
+        "bg_color_secondary": false,
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_look_Htk3Eg": {
+      "type": "section-look",
+      "blocks": {
+        "product_j7eBJw": {
+          "type": "product",
+          "settings": {
+            "product": "brigette-romanek-cream-dog-bed-or-bed-cover",
+            "position_x": 31,
+            "position_y": 41
+          }
+        },
+        "product_GQCFQC": {
+          "type": "product",
+          "settings": {
+            "product": "brigette-romanek-taupe-dog-bed-or-bed-cover",
+            "position_x": 50,
+            "position_y": 50
+          }
+        },
+        "product_wD7MGK": {
+          "type": "product",
+          "settings": {
+            "product": "brigette-romanek-luxury-pet-blanket-cream",
+            "position_x": 50,
+            "position_y": 63
+          }
+        },
+        "product_DQRdjC": {
+          "type": "product",
+          "settings": {
+            "product": "brigette-romanek-luxury-pet-blanket-cream",
+            "position_x": 73,
+            "position_y": 47
+          }
+        }
+      },
+      "block_order": [
+        "product_j7eBJw",
+        "product_GQCFQC",
+        "product_wD7MGK",
+        "product_DQRdjC"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Brigette_Romanek_LAY_LO_Hero_Collection_2040x1220-min.jpg",
+        "enable_aspect_ratio": true,
+        "main_image_aspect_ratio": 1,
+        "title": "New: Brigette Romanek Collection",
+        "text": "<p>Our most popular looks of the season</p>",
+        "text_alignment": "text-left",
+        "show_hotspots": false,
+        "content_color": "text-dark",
+        "hotspot_color": "",
+        "bg_color_secondary": false,
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_image_with_text_LbagmV": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "three-fifty-height",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "wide",
+        "image": "shopify://shop_images/laylo-pets-grid-lay-lo-pets-tan-grid-dog-bed-or-bed-cover-lay-lo-29788512452794.jpg",
+        "subheading": "OUR BEDS",
+        "title": "<p>Functional designs without forgetting your home decor.</p>",
+        "heading_highlight_type": "circle",
+        "heading_size": 100,
+        "text_content": "From dog beds to enrichment toys, we’ve designed products made to improve life at home.",
+        "text_alignment": "left",
+        "button_text": "Shop All",
+        "button_link": "shopify://collections/all-products",
+        "button_style": "btn--primary btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_tab_collections_8BgjKx": {
+      "type": "section-tab-collections",
+      "blocks": {
+        "collection_F3xKeL": {
+          "type": "collection",
+          "settings": {
+            "title": "John Legend",
+            "tab_collection": "john-legend-creator-collab",
+            "show_image": true,
+            "image": "shopify://shop_images/lay-lo-pets-john-legend-john-legend-tan-geometric-dog-bed-or-bed-cover-lay-lo-33249316503738.png",
+            "overlay_opacity": 10,
+            "heading": "<p>John Legend</p>",
+            "text_color": "text-light",
+            "link_text": "View All",
+            "link": "",
+            "button_style": "btn--primary btn--small"
+          }
+        },
+        "collection_RNXBeK": {
+          "type": "collection",
+          "settings": {
+            "title": "",
+            "tab_collection": "",
+            "show_image": false,
+            "overlay_opacity": 10,
+            "heading": "",
+            "text_color": "text-light",
+            "link_text": "View All",
+            "link": "",
+            "button_style": "btn--primary btn--small"
+          }
+        },
+        "collection_JrYWBq": {
+          "type": "collection",
+          "settings": {
+            "title": "New Arrivals",
+            "tab_collection": "",
+            "show_image": false,
+            "overlay_opacity": 10,
+            "heading": "",
+            "text_color": "text-light",
+            "link_text": "View All",
+            "link": "",
+            "button_style": "btn--primary btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "collection_F3xKeL",
+        "collection_RNXBeK",
+        "collection_JrYWBq"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Our expert collaborations",
+        "bg_color_secondary": false,
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_collection_tHF7fK": {
+      "type": "section-collection",
+      "settings": {
+        "collection": "all",
+        "products_layout": "grid",
+        "number_of_products": 8,
+        "text_alignment": "text-left",
+        "title": "Bed Collections",
+        "heading_size": 300,
+        "text": "<p>Where it all started, our award-winning beds. Dig proof, orthopedic comfort with unique patterns that look great in any home.</p>",
+        "text_size": 125,
+        "button_text": "Shop All",
+        "button_style": "btn--primary btn--small",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "columns_mobile": "2",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_press_9DF9mk": {
+      "type": "section-press",
+      "blocks": {
+        "press_wVCxcM": {
+          "type": "press",
+          "settings": {
+            "text": "<p>For the pet parents who refuse to bow down on style.</p>",
+            "link": "",
+            "press_logo": "shopify://shop_images/logo_1.png",
+            "logo_width": 180
+          }
+        },
+        "press_xf7bDq": {
+          "type": "press",
+          "settings": {
+            "text": "<p>These stylish dog beds are nicer than most human beds.</p>",
+            "link": "",
+            "press_logo": "shopify://shop_images/logo_2.png",
+            "logo_width": 180
+          }
+        },
+        "press_xBhfc6": {
+          "type": "press",
+          "settings": {
+            "text": "<p>The next puppy I plan to adopt deserves a bed like this one.</p>",
+            "link": "",
+            "press_logo": "shopify://shop_images/logo_3.png",
+            "logo_width": 180
+          }
+        },
+        "press_twfbRC": {
+          "type": "press",
+          "settings": {
+            "text": "<p>This bed was added to the top of our wish lists</p>",
+            "link": "",
+            "press_logo": "shopify://shop_images/logo_4.png",
+            "logo_width": 180
+          }
+        },
+        "press_y8zYCF": {
+          "type": "press",
+          "settings": {
+            "text": "<p>These beds offer more than just good looks.</p>",
+            "link": "",
+            "press_logo": "shopify://shop_images/logo_5.png",
+            "logo_width": 180
+          }
+        },
+        "press_QmkdVa": {
+          "type": "press",
+          "settings": {
+            "text": "<p>A win for pets and pet parents alike.</p>",
+            "link": "",
+            "press_logo": "shopify://shop_images/logo_6.png",
+            "logo_width": 180
+          }
+        }
+      },
+      "block_order": [
+        "press_wVCxcM",
+        "press_xf7bDq",
+        "press_xBhfc6",
+        "press_twfbRC",
+        "press_y8zYCF",
+        "press_QmkdVa"
+      ],
+      "settings": {
+        "title": "Press",
+        "show_quotations": true,
+        "bg_color_secondary": true,
+        "width": "wrapper--narrow",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "section_image_with_text_aAp83E": {
+      "type": "section-image-with-text",
+      "disabled": true,
+      "settings": {
+        "section_height": "five-fifty-height",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "wide",
+        "subheading": "THE COLLECTIVE",
+        "title": "<p>Build a bond with your pup alongside the world’s best.</p>",
+        "heading_highlight_type": "circle",
+        "heading_size": 130,
+        "text_content": "From dog training, to nutrition, and vet advice — every expert in our collective has been selected to ensure top certifications and years of experience within their field.",
+        "text_alignment": "left",
+        "button_text": "Learn More >",
+        "button_link": "",
+        "button_style": "btn--text",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_collection_YXjJhy": {
+      "type": "section-collection",
+      "settings": {
+        "collection": "feeding-bowls",
+        "products_layout": "grid",
+        "number_of_products": 4,
+        "text_alignment": "text-left",
+        "title": "For the home",
+        "heading_size": 300,
+        "text": "<p>Use this text to share information about your collection with your customers.</p>",
+        "text_size": 125,
+        "button_text": "Shop All",
+        "button_style": "btn--primary btn--small",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "columns_mobile": "2",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_slideshow_3qgFwa",
+    "section_text_myzzFc",
+    "section_list_collection_QHGi3a",
+    "section_icons_row_Ckcc4Q",
+    "section_overlapping_images_a67k7d",
+    "section_look_Htk3Eg",
+    "section_image_with_text_LbagmV",
+    "section_tab_collections_8BgjKx",
+    "section_collection_tHF7fK",
+    "section_press_9DF9mk",
+    "section_image_with_text_aAp83E",
+    "section_collection_YXjJhy"
+  ]
+}

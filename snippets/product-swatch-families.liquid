@@ -1,0 +1,96 @@
+{% liquid 
+    assign show_color_swatches = false
+    if product.metafields.custom.color_families != blank
+    assign show_color_swatches = true
+    assign families = product.metafields.custom.color_families
+    endif
+    assign current_variant = product.selected_or_first_available_variant
+    assign this_product = product
+    assign total_colors = 0
+    assign scroll_area_id = 'scroll-area-' | append: id
+  %}
+  {% if show_color_swatches %}
+  <div class="color-swatches-container">
+    <div class="color-title radio__legend__label">Choose your color &dash; <em>{{ product.title | split: '|' | first | remove: 'Dog Bed' | strip }}</em></div>
+    <div class="color-swatches-wrap" id="{{ scroll_area_id }}">
+        {% for family in families.value %}
+            <div class="family-title">{{ family.title }}</div>
+            <div class="family-wrap">
+                {% for product in family.products.value %}
+                {% liquid
+                    assign total_colors = total_colors | plus: 1
+                    assign color_name = product.title | split: '|' | first | remove:'Dog Bed' | strip
+                    assign color_swatch_img = product.metafields.custom.color_swatch_image | default: product.media.first.preview_image
+                    assign current_swatch_variant = product.selected_or_first_available_variant
+                %}
+                {% capture size_variants %}{"variants": [{% for variant in product.variants %}{"available": {{ variant.available | json }},"options": {{ variant.options | json }},"id": {{ variant.id | json }}}{% unless forloop.last %},{% endunless %}{% endfor %}]}{% endcapture %}    
+                <div class="color-swatch{% if product.id == this_product.id %} active{% endif %}"
+                    data-product="{{ product.handle }}"
+                    data-variant="{{ current_swatch_variant.id }}"
+                    data-variants="{{ size_variants | escape }}"
+                    aria-label="{{ color_name }}" data-balloon-pos="up"
+                    style="background-color: {{ product.metafields.custom.color_swatch_hex }}">
+                    <a href="{{ product.url }}" data-label="{{ color_name }}">
+                    {% if color_swatch_img %}
+                        <img src="{{ color_swatch_img | img_url: 'medium' }}" />
+                    {% endif %}
+                    </a>
+                </div>
+                {% endfor %}
+            </div>
+        {% endfor %}
+          
+    </div>
+    {%- assign default_progress = total_colors | times: 1.0 | divided_by: 3 -%}
+    {%- render 'scrollbar', observes: scroll_area_id, default_progress: default_progress -%}
+      
+  </div>
+  {% endif %}
+  
+  
+  {% if show_color_swatches %}
+  <script>
+    (async () => {
+      
+      // add active state to current product
+      document.querySelectorAll('.color-swatch').forEach(($item) => {
+        let is_current = $item.dataset.product == '{{ product.handle }}';
+        $item.classList.toggle('active', is_current);
+      });
+  
+      // update swatch urls to same variant
+      document.addEventListener('variant:change', (e) => {
+        //console.log('change');
+        let values = [];
+        [1,2,3].forEach((id) => {
+          let option_id = `option${ id }`;
+          let value = e.detail.variant[option_id];
+          if (value) {
+            //console.log(value);
+            values.push(value);
+          }
+        });
+  
+        document.querySelectorAll('.color-swatch').forEach(($swatch) => {
+          let variants = JSON.parse($swatch.dataset.variants).variants;
+          //console.log(variants)
+          let matching_variant = variants.find((v) => v.options.join('/') == values.join('/'));
+          //console.log('swatch data:', matching_variant);
+          //console.log(values.join('/'));
+          if (matching_variant) {
+            //console.log(matching_variant.id + ':' + matching_variant.available);
+            $swatch.dataset.variant = matching_variant.id;
+            $swatch.querySelector('a').setAttribute('href', `/products/${$swatch.dataset.product}?variant=${matching_variant.id}`);
+            $swatch.classList.toggle('soldout', !matching_variant.available);
+          } else {
+              //console.error('No matching variant found for options:', values);
+          }
+        });
+      });
+  
+      // trigger on page load
+      let current_swatch_variant = {{ current_swatch_variant | json }};
+      document.dispatchEvent(new CustomEvent('variant:change', {detail: { variant: current_swatch_variant }}));
+    })();
+  </script>
+  {% endif %}

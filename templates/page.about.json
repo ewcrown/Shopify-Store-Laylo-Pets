@@ -1,0 +1,754 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow": {
+      "type": "section-slideshow",
+      "blocks": {
+        "slideshow-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Laylo_May_2022-339-Edit.jpg",
+            "image_mobile": "shopify://shop_images/Screen_Shot_2023-01-29_at_11.17.45_AM.png",
+            "overlay_opacity": 10,
+            "text_width": "normal",
+            "text_position": "center",
+            "text_color": "text-light",
+            "subheading": "Our Mission",
+            "title": "Creating a more beautiful life for parents and pups at home.",
+            "text": "",
+            "slide_btn_text": "",
+            "slide_btn_link": "",
+            "slide_btn_style": "btn--primary btn--small",
+            "slide_btn_text_2": "",
+            "slide_btn_link_2": "",
+            "slide_btn_style_2": "btn--secondary btn--small",
+            "video_text": "",
+            "video_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "slideshow-0"
+      ],
+      "settings": {
+        "slide_height": "six-fifty-height",
+        "enable_mobile_height": false,
+        "mobile_slide_height": "five-fifty-height-mobile",
+        "show_nav_dots": true,
+        "show_nav_arrows": true,
+        "show_arrow_down": false,
+        "autoplay": false,
+        "duration": 4,
+        "transition": "wipe",
+        "enable_zoom_animation": true,
+        "heading_size": 120
+      }
+    },
+    "overlapping-images": {
+      "type": "section-overlapping-images",
+      "settings": {
+        "text_position": "right",
+        "text_alignment": "left",
+        "images_width": 750,
+        "images_offset": 60,
+        "image_1": "shopify://shop_images/Screen_Shot_2023-01-09_at_8.05.05_PM.png",
+        "image_link_1": "",
+        "image_2": "shopify://shop_images/Gab_in_Studio.png",
+        "image_link_2": "",
+        "hide_image_2": false,
+        "heading": "Our story",
+        "description": "<p>I started LAY LO in 2019 with one simple goal: to create products for my dogs that I’d be proud to showcase in my home.<br/><br/>What began as a personal mission has grown into something so much bigger, thanks to an incredible team and our shared passion for elevating life with dogs.</p><p>Over the past five years, we’ve designed more than fifteen unique bed collections, partnered with amazing retailers like Bloomingdale’s, and collaborated with visionaries like Etsy, Joseph Altuzarra, and John Legend.</p><p>In 2023, we expanded our mission with the launch of the LAY LO Collective and Homeschool by LAY LO, bringing expert guidance together with our thoughtfully designed products. Whether it’s 1:1 live help from certified training experts or simple tips to make life with your dog easier, everything we do is aimed at helping you and your dog feel closer at home.</p><p>Thank you for being part of this journey.</p><p>— Gabriela, Founder</p>",
+        "button_text": "",
+        "button_link": "",
+        "button_style": "btn--primary btn--small",
+        "video_text": "",
+        "video_link": "",
+        "bg_color_secondary": false,
+        "width": "wrapper--full-padded",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "be3df09a-d824-47c3-9f1b-7f615dd1a652": {
+      "type": "section-columns",
+      "blocks": {
+        "template--16059995881658__be3df09a-d824-47c3-9f1b-7f615dd1a652-1678648411145a7169-0": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/Gabriela_First_Garage_Studio.png",
+            "title": "Humble Beginnings",
+            "text": "<p>We launched our first dog bed on Etsy made from upcycled fabrics we sourced globally. Starting from a garage, we made every bed made-to-order, and word got out.</p>",
+            "button_text": "2018",
+            "button_link": "",
+            "button_style": "btn--text",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "template--16059995881658__be3df09a-d824-47c3-9f1b-7f615dd1a652-1678648411145a7169-1": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/LAY-LO-Pets-Boho-Dog-Beds.jpg",
+            "title": "First collections",
+            "text": "<p>Inspired by the global fabrics we found around the world, we developed a unique, yet durable knit material and launched our first collection, Boho, in May of 2019.</p>",
+            "button_text": "2019",
+            "button_link": "",
+            "button_style": "btn--text",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "template--16059995881658__be3df09a-d824-47c3-9f1b-7f615dd1a652-1678648411145a7169-2": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/Screen_Shot_2023-03-15_at_7.36.36_AM.png",
+            "title": "Etsy x Altuzarra",
+            "text": "<p>We developed a custom collection alongside designer Joseph Altuzarra in partnership with Etsy. Later that year we became a Etsy design finalist. <em>Image: Elle Decor</em></p>",
+            "button_text": "2020",
+            "button_link": "",
+            "button_style": "btn--text",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "template--16059995881658__be3df09a-d824-47c3-9f1b-7f615dd1a652-1678648411145a7169-3": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/slide_4.jpg",
+            "title": "New collections",
+            "text": "<p>We continued to launch new patterns and colors, such as Terra, Sage, and Terrazzo — a launch complete with a photoshoot to benefit the animal shelter in Palm Springs.</p>",
+            "button_text": "2021",
+            "button_link": "",
+            "button_style": "btn--text",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "2bf18c48-7c74-40af-a27d-07608ac0c28f": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/Saks_Fifth_Avenue_Logo.jpg",
+            "title": "Retailer Growth",
+            "text": "<p>We were humbled to have our products available at exclusive retailers such as Nordstrom, Saks, and Anthropologie. </p>",
+            "button_text": "2022",
+            "button_link": "",
+            "button_style": "btn--text",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "5602bd10-4007-4104-ab6f-77efe1ec9d41": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/Frame_158_1.jpg",
+            "title": "Launched our first service: Homeschool",
+            "text": "<p>With Homeschool, we expanded on our mission of creating a better home for you and your pets with online, 1:1 expert help from trainers, nutritionists, and groomers.</p>",
+            "button_text": "2023",
+            "button_link": "shopify://pages/homeschool",
+            "button_style": "btn--text",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        }
+      },
+      "block_order": [
+        "template--16059995881658__be3df09a-d824-47c3-9f1b-7f615dd1a652-1678648411145a7169-0",
+        "template--16059995881658__be3df09a-d824-47c3-9f1b-7f615dd1a652-1678648411145a7169-1",
+        "template--16059995881658__be3df09a-d824-47c3-9f1b-7f615dd1a652-1678648411145a7169-2",
+        "template--16059995881658__be3df09a-d824-47c3-9f1b-7f615dd1a652-1678648411145a7169-3",
+        "2bf18c48-7c74-40af-a27d-07608ac0c28f",
+        "5602bd10-4007-4104-ab6f-77efe1ec9d41"
+      ],
+      "settings": {
+        "title": "Our journey",
+        "align_text": "text-left",
+        "columns": 3,
+        "equalize_height": true,
+        "image_aspect_ratio": 0.8,
+        "show_images": true,
+        "bg_color_secondary": true,
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "9c5ad345-51de-4dd4-bcf6-6dcbc113ab16": {
+      "type": "section-image-accordions",
+      "blocks": {
+        "template--16059995881658__9c5ad345-51de-4dd4-bcf6-6dcbc113ab16-16786732631852f814-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/210714-LayLo_BrigetteRomanek_163_3eaf6a6c-4dd0-4922-a685-b5d0427039ab.jpg",
+            "overlay_opacity": 35,
+            "text_width": "narrow",
+            "text_position": "left",
+            "text_color": "text-light",
+            "title": "\"I wanted to create a dog bed that would look great in any room of your home.\"",
+            "text": "Gabriela, Founder",
+            "btn_text": "",
+            "btn_link": "",
+            "btn_style": "btn--primary btn--small",
+            "btn_text_2": "",
+            "btn_link_2": "",
+            "btn_style_2": "btn--secondary btn--small"
+          }
+        },
+        "template--16059995881658__9c5ad345-51de-4dd4-bcf6-6dcbc113ab16-16786732631852f814-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "overlay_opacity": 10,
+            "text_width": "full",
+            "text_position": "left",
+            "text_color": "text-light",
+            "title": "Welcome to Palo Alto",
+            "text": "This text helps you provide some more detail to the title above.",
+            "btn_text": "",
+            "btn_link": "",
+            "btn_style": "btn--primary btn--small",
+            "btn_text_2": "",
+            "btn_link_2": "",
+            "btn_style_2": "btn--secondary btn--small"
+          }
+        },
+        "template--16059995881658__9c5ad345-51de-4dd4-bcf6-6dcbc113ab16-16786732631852f814-2": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "overlay_opacity": 10,
+            "text_width": "full",
+            "text_position": "left",
+            "text_color": "text-light",
+            "title": "Welcome to Palo Alto",
+            "text": "This text helps you provide some more detail to the title above.",
+            "btn_text": "",
+            "btn_link": "",
+            "btn_style": "btn--primary btn--small",
+            "btn_text_2": "",
+            "btn_link_2": "",
+            "btn_style_2": "btn--secondary btn--small"
+          }
+        },
+        "template--16059995881658__9c5ad345-51de-4dd4-bcf6-6dcbc113ab16-16786732631852f814-3": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "overlay_opacity": 10,
+            "text_width": "full",
+            "text_position": "left",
+            "text_color": "text-light",
+            "title": "Welcome to Palo Alto",
+            "text": "This text helps you provide some more detail to the title above.",
+            "btn_text": "",
+            "btn_link": "",
+            "btn_style": "btn--primary btn--small",
+            "btn_text_2": "",
+            "btn_link_2": "",
+            "btn_style_2": "btn--secondary btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "template--16059995881658__9c5ad345-51de-4dd4-bcf6-6dcbc113ab16-16786732631852f814-0",
+        "template--16059995881658__9c5ad345-51de-4dd4-bcf6-6dcbc113ab16-16786732631852f814-1",
+        "template--16059995881658__9c5ad345-51de-4dd4-bcf6-6dcbc113ab16-16786732631852f814-2",
+        "template--16059995881658__9c5ad345-51de-4dd4-bcf6-6dcbc113ab16-16786732631852f814-3"
+      ],
+      "settings": {
+        "accordion_height": "six-fifty-height",
+        "enable_mobile_height": false,
+        "mobile_section_height": "five-fifty-height-mobile",
+        "heading_size": 100,
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "0119721b-9c64-4f2c-ba61-a2683ed45cf0": {
+      "type": "section-icons-row",
+      "blocks": {
+        "template--16059995881658__0119721b-9c64-4f2c-ba61-a2683ed45cf0-1678648380c78f0d0b-0": {
+          "type": "text",
+          "settings": {
+            "icon_name": "truck",
+            "title": "Free Shipping",
+            "text": "<p>on all order over $99</p>"
+          }
+        },
+        "template--16059995881658__0119721b-9c64-4f2c-ba61-a2683ed45cf0-1678648380c78f0d0b-1": {
+          "type": "text",
+          "settings": {
+            "icon_name": "check",
+            "title": "Free Returns",
+            "text": "<p>within 30 days of purchase</p>"
+          }
+        },
+        "template--16059995881658__0119721b-9c64-4f2c-ba61-a2683ed45cf0-1678648380c78f0d0b-2": {
+          "type": "text",
+          "settings": {
+            "icon_name": "eco-friendly",
+            "title": "1% Donated Annually",
+            "text": "<p>to forest conservation</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16059995881658__0119721b-9c64-4f2c-ba61-a2683ed45cf0-1678648380c78f0d0b-0",
+        "template--16059995881658__0119721b-9c64-4f2c-ba61-a2683ed45cf0-1678648380c78f0d0b-1",
+        "template--16059995881658__0119721b-9c64-4f2c-ba61-a2683ed45cf0-1678648380c78f0d0b-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "alignment": "left",
+        "columns": 4,
+        "icons_width": 30,
+        "heading": "",
+        "subheading": "",
+        "bg_color_secondary": false,
+        "box_color": "",
+        "text_color": "#333333",
+        "button_text": "",
+        "button_link": "",
+        "button_style": "btn--secondary btn--small",
+        "enable_slider_mobile": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "05207a3b-b3b5-4855-a347-d391526296ec": {
+      "type": "section-text",
+      "blocks": {
+        "template--16010683613370__05207a3b-b3b5-4855-a347-d391526296ec-16733222338243f527-1": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>Better products made for life at home with pets.</p>",
+            "size": 140,
+            "heading_highlight_type": "italics"
+          }
+        }
+      },
+      "block_order": [
+        "template--16010683613370__05207a3b-b3b5-4855-a347-d391526296ec-16733222338243f527-1"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_image_with_text_DFhD4D": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "five-fifty-height",
+        "layout": "inline",
+        "image_location": "right",
+        "image_width": "wide",
+        "image": "shopify://shop_images/lay-lo-pets-homeschool-service-homeschool-premium-4-week-plan-lay-lo-33258021388474.png",
+        "subheading": "Our Expert Collective",
+        "title": "<p>Backed by expert guidance and support</p>",
+        "heading_highlight_type": "circle",
+        "heading_size": 100,
+        "text_content": "We feel like pet parenting isn't limited to great products alone. That's why we ensure our products are both vetted by experts and that you're supported by them, too.",
+        "text_alignment": "left",
+        "button_text": "Learn more >",
+        "button_link": "https://www.laylopets.com/pages/homeschool",
+        "button_style": "btn--text",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "6b9d903b-d256-4472-9474-272b3e4ba371": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "four-fifty-height",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "wide",
+        "image": "shopify://shop_images/Laylo-Fabric_Teal-Terrazzo-02_Webedit.jpg",
+        "subheading": "Our Fabrics",
+        "title": "<p>Globally inspired, functionally knitted. </p>",
+        "heading_highlight_type": "circle",
+        "heading_size": 100,
+        "text_content": "Beautiful designs and patterns created by our in-house team, never off the shelf. Always knitted, never printed.",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "",
+        "button_style": "btn--primary btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "aca39c44-6331-4731-9cb7-299b45c548d6": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "four-fifty-height",
+        "layout": "inline",
+        "image_location": "right",
+        "image_width": "wide",
+        "image": "shopify://shop_images/Laylo3848-Edit_websize_01dbdbe9-ea20-4eea-bbf9-04cdceebf052.jpg",
+        "subheading": "Our Bed System",
+        "title": "<p>Custom comfort that reduces waste.</p>",
+        "heading_highlight_type": "circle",
+        "heading_size": 100,
+        "text_content": "Whether your choosing the styles you want on your bed cover or what cushioning goes in it, our modular system gives you the most options for your bed to look and feel like home — without tossing anything out.",
+        "text_alignment": "left",
+        "button_text": "Learn More",
+        "button_link": "",
+        "button_style": "btn--primary btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "33de0d4a-3d2b-4722-8a26-d63e9e5382e8": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "four-fifty-height",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "wide",
+        "image": "shopify://shop_images/Frame_10.png",
+        "subheading": "Our Products",
+        "title": "<p>Practicality that meets good looks.</p>",
+        "heading_highlight_type": "circle",
+        "heading_size": 100,
+        "text_content": "Each bed is made for real dog owners, bringing to life features like washability and quality without sacrificing an ounce of style.",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "https://www.laylopets.com/pages/dog-bed-cover",
+        "button_style": "btn--primary btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "25a3c25f-b847-42a5-9529-64baad9ba614": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "four-fifty-height",
+        "layout": "inline",
+        "image_location": "right",
+        "image_width": "wide",
+        "image": "shopify://shop_images/0X5A3010_McCoolFinals.jpg",
+        "subheading": "Our Quality",
+        "title": "<p>Made to last (and last).</p>",
+        "heading_highlight_type": "circle",
+        "heading_size": 100,
+        "text_content": "Every domestic and international partner has been vetted to ensure each product is knit with the highest quality yarns and machines used by the top textile manufacturers around the world.",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "",
+        "button_style": "btn--primary btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "text": {
+      "type": "section-text",
+      "blocks": {
+        "subheading": {
+          "type": "subheading",
+          "settings": {
+            "text": "<p>Our Vision</p>",
+            "size": 110
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>Fostering a well-rounded life at home with your pets.</p>",
+            "size": 110,
+            "heading_highlight_type": "italics"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Through our weekly newsletter and 1:1 dog training platform, Homeschool.</p>",
+            "size": 100
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "btn_text": "",
+            "btn_link": "",
+            "btn_style": "btn--primary btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "subheading",
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 20
+      }
+    },
+    "c7057463-5cec-4c97-b37b-ff448c559226": {
+      "type": "section-grid",
+      "blocks": {
+        "template--16010683613370__c7057463-5cec-4c97-b37b-ff448c559226-16733223829cb91a60-0": {
+          "type": "image",
+          "settings": {
+            "width": "50",
+            "image": "shopify://shop_images/210714-LayLo_BrigetteRomanek_04-HDR_websize_fb9df2e0-35de-4375-9393-2085259498f7.jpg",
+            "overlay_opacity": 20,
+            "text_position": "center",
+            "subheading": "",
+            "title": "The Weekly Dig",
+            "text": "Inspiration for the modern pet parent. Delivered weekly.",
+            "button_text": "Subscribe",
+            "link": "https://www.laylopets.com/pages/the-weekly-dig",
+            "secondary_button_text": "",
+            "secondary_button_link": "",
+            "text_color": "text-light"
+          }
+        },
+        "template--16010683613370__c7057463-5cec-4c97-b37b-ff448c559226-16733223829cb91a60-1": {
+          "type": "image",
+          "settings": {
+            "width": "50",
+            "image": "shopify://shop_images/Screen_Shot_2023-06-02_at_12.38.19_PM.png",
+            "overlay_opacity": 10,
+            "text_position": "center",
+            "subheading": "",
+            "title": "Homeschool Dog Training",
+            "text": "A 1:1 dog training program with lifestyle in mind.",
+            "button_text": "Learn More",
+            "link": "https://www.laylopets.com/pages/homeschool?",
+            "secondary_button_text": "",
+            "secondary_button_link": "",
+            "text_color": "text-light"
+          }
+        }
+      },
+      "block_order": [
+        "template--16010683613370__c7057463-5cec-4c97-b37b-ff448c559226-16733223829cb91a60-0",
+        "template--16010683613370__c7057463-5cec-4c97-b37b-ff448c559226-16733223829cb91a60-1"
+      ],
+      "settings": {
+        "height": "650",
+        "heading_size": 100,
+        "button_style": "btn--secondary btn--small",
+        "secondary_button_style": "btn--secondary btn--small",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper",
+        "add_gutter": true,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "columns": {
+      "type": "section-columns",
+      "blocks": {
+        "column-0": {
+          "type": "text_block",
+          "settings": {
+            "title": "Humble Beginnings",
+            "text": "",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--text",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "column-1": {
+          "type": "text_block",
+          "settings": {
+            "title": "Add a title or tagline",
+            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--text",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "column-2": {
+          "type": "text_block",
+          "settings": {
+            "title": "Add a title or tagline",
+            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--text",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "column-3": {
+          "type": "text_block",
+          "settings": {
+            "title": "Add a title or tagline",
+            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--text",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        }
+      },
+      "block_order": [
+        "column-0",
+        "column-1",
+        "column-2",
+        "column-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "align_text": "text-left",
+        "columns": 3,
+        "equalize_height": true,
+        "image_aspect_ratio": 0.8,
+        "show_images": true,
+        "bg_color_secondary": false,
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "0c3cf043-13ae-4ce6-81e4-bd2a198817b2": {
+      "type": "section-grid",
+      "blocks": {
+        "template--16010683613370__0c3cf043-13ae-4ce6-81e4-bd2a198817b2-16733223829cb91a60-0": {
+          "type": "image",
+          "settings": {
+            "width": "33.33",
+            "image": "shopify://shop_images/Screen_Shot_2023-01-08_at_1.38.17_PM.png",
+            "overlay_opacity": 10,
+            "text_position": "center",
+            "subheading": "",
+            "title": "Our trade program",
+            "text": "",
+            "button_text": "",
+            "link": "https://www.laylopets.com/pages/affiliate-partner",
+            "secondary_button_text": "",
+            "secondary_button_link": "",
+            "text_color": "text-light"
+          }
+        },
+        "template--16010683613370__0c3cf043-13ae-4ce6-81e4-bd2a198817b2-16733223829cb91a60-1": {
+          "type": "image",
+          "settings": {
+            "width": "33.33",
+            "image": "shopify://shop_images/LAY_LO_Dig_Proof.png",
+            "overlay_opacity": 10,
+            "text_position": "center",
+            "subheading": "",
+            "title": "Become an affiliate",
+            "text": "",
+            "button_text": "",
+            "link": "https://www.laylopets.com/pages/affiliate-partner",
+            "secondary_button_text": "",
+            "secondary_button_link": "",
+            "text_color": "text-light"
+          }
+        },
+        "template--16010683613370__0c3cf043-13ae-4ce6-81e4-bd2a198817b2-16733223829cb91a60-2": {
+          "type": "image",
+          "settings": {
+            "width": "33.33",
+            "image": "shopify://shop_images/Heather_F.png",
+            "overlay_opacity": 20,
+            "text_position": "center",
+            "subheading": "",
+            "title": "Say hi on social",
+            "text": "",
+            "button_text": "",
+            "link": "",
+            "secondary_button_text": "",
+            "secondary_button_link": "",
+            "text_color": "text-light"
+          }
+        }
+      },
+      "block_order": [
+        "template--16010683613370__0c3cf043-13ae-4ce6-81e4-bd2a198817b2-16733223829cb91a60-0",
+        "template--16010683613370__0c3cf043-13ae-4ce6-81e4-bd2a198817b2-16733223829cb91a60-1",
+        "template--16010683613370__0c3cf043-13ae-4ce6-81e4-bd2a198817b2-16733223829cb91a60-2"
+      ],
+      "settings": {
+        "height": "auto",
+        "heading_size": 100,
+        "button_style": "btn--secondary btn--small",
+        "secondary_button_style": "btn--secondary btn--small",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper",
+        "add_gutter": true,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "extra_class": "",
+        "bg_color_secondary": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "overlapping-images",
+    "be3df09a-d824-47c3-9f1b-7f615dd1a652",
+    "9c5ad345-51de-4dd4-bcf6-6dcbc113ab16",
+    "0119721b-9c64-4f2c-ba61-a2683ed45cf0",
+    "05207a3b-b3b5-4855-a347-d391526296ec",
+    "section_image_with_text_DFhD4D",
+    "6b9d903b-d256-4472-9474-272b3e4ba371",
+    "aca39c44-6331-4731-9cb7-299b45c548d6",
+    "33de0d4a-3d2b-4722-8a26-d63e9e5382e8",
+    "25a3c25f-b847-42a5-9529-64baad9ba614",
+    "text",
+    "c7057463-5cec-4c97-b37b-ff448c559226",
+    "columns",
+    "0c3cf043-13ae-4ce6-81e4-bd2a198817b2",
+    "main"
+  ]
+}

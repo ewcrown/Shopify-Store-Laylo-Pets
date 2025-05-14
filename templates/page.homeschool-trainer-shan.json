@@ -1,0 +1,638 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_split_images_4rme46": {
+      "type": "section-split-images",
+      "blocks": {
+        "image_TrTeTU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screen_Shot_2023-06-02_at_12.38.19_PM.png"
+          }
+        }
+      },
+      "block_order": [
+        "image_TrTeTU"
+      ],
+      "settings": {
+        "image_height": "full-height",
+        "enable_mobile_height": false,
+        "mobile_image_height": "five-fifty-height-mobile",
+        "mobile_layout": "split",
+        "text_position": "middle-center",
+        "overlay_opacity": 10,
+        "width": "wrapper--narrow",
+        "text_color": "text-light",
+        "title": "<p>Virtual dog training from world-class experts</p>",
+        "heading_highlight_type": "italics",
+        "heading_size": 120,
+        "text": "Raise the very best dog at home with 1:1 online mentorship from certified trainers, groomers, and nutritionists.",
+        "button_text": "Book your first session",
+        "button_link": "",
+        "button_style": "btn--secondary btn--small"
+      }
+    },
+    "section_image_with_text_GUeYid": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "five-fifty-height",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "standard",
+        "image": "shopify://shop_images/Screen_Shot_2024-04-02_at_2.05.19_PM.png",
+        "subheading": "Your Certified Homeschool Trainer",
+        "title": "<p>Shannen Bard, CFSE</p>",
+        "heading_highlight_type": "circle",
+        "heading_size": 120,
+        "text_content": "Shannen is a passionate trainer working to better the lives of dogs and their owners. She focuses on positive, science-backed methods that revolve around patience, love, and positivity. She is certified in applied animal behavior which focuses on behavior ethology, learning theory, and the biology behind training in relation to companion animals. Her mission is to educate owners on how to understand their dog on a deeper level to create the bond they've always dreamed of.",
+        "text_alignment": "left",
+        "button_text": "Book with Shannen",
+        "button_link": "https://calendly.com/homeschoolbylaylo/onboarding-meeting-shs",
+        "button_style": "btn--primary btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "5dfbc12b-2350-4c42-8a69-13ece72ffef7": {
+      "type": "section-text",
+      "blocks": {
+        "template--16127676285114__5dfbc12b-2350-4c42-8a69-13ece72ffef7-1686511540b03a1d7e-1": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>Book your free pup discovery call</p>",
+            "size": 100,
+            "heading_highlight_type": "italics"
+          }
+        },
+        "template--16127676285114__5dfbc12b-2350-4c42-8a69-13ece72ffef7-1686511540b03a1d7e-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>For the last 5 years, we've helped thousands of pet owners improve life at home with their dog. </p><p>This pet discovery call will be your chance to discuss the most challenging problems with a dog expert and develop a plan to improve it together with real-time advice. </p>",
+            "size": 100
+          }
+        }
+      },
+      "block_order": [
+        "template--16127676285114__5dfbc12b-2350-4c42-8a69-13ece72ffef7-1686511540b03a1d7e-1",
+        "template--16127676285114__5dfbc12b-2350-4c42-8a69-13ece72ffef7-1686511540b03a1d7e-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_columns_HUAy3Y": {
+      "type": "section-columns",
+      "blocks": {
+        "text_block_VDAexA": {
+          "type": "text_block",
+          "settings": {
+            "title": "Bachelors, Applied Animal Behavior",
+            "text": "<p>University of Washington</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--text",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_zKagTb": {
+          "type": "text_block",
+          "settings": {
+            "title": "AKC Good Citizen Evaluator",
+            "text": "<p>This program is rapidly becoming recognized as the standard of behavior for dogs in our communities.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--text",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_mFMidR": {
+          "type": "text_block",
+          "settings": {
+            "title": "Force-free Dog Trainer (7 years)",
+            "text": "<p>Force-free is simply the method of training dogs without using force, coercion, threats, intimidation or inflicting pain. </p>",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--text",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_VDAexA",
+        "text_block_zKagTb",
+        "text_block_mFMidR"
+      ],
+      "settings": {
+        "title": "Shannen's Experience",
+        "align_text": "text-left",
+        "columns": 3,
+        "equalize_height": true,
+        "image_aspect_ratio": 0.8,
+        "show_images": false,
+        "bg_color_secondary": true,
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "extra_class": "",
+        "bg_color_secondary": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "67f7744f-33ad-4a01-bf3a-a39288bbc3a8": {
+      "type": "section-custom-html",
+      "disabled": true,
+      "settings": {
+        "custom_code": "<!-- Calendly inline widget begin -->\n<div class=\"calendly-inline-widget\" data-url=\"https://calendly.com/homeschoolbylaylo/homeschoolgabrielad\" style=\"min-width:320px;height:700px;\"></div>\n<script type=\"text/javascript\" src=\"https://assets.calendly.com/assets/external/widget.js\" async></script>\n<!-- Calendly inline widget end -->",
+        "width": "wrapper--narrow",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_text_3hjGGp": {
+      "type": "section-text",
+      "blocks": {
+        "subheading_nFMgaW": {
+          "type": "subheading",
+          "settings": {
+            "text": "<p>Homeschool Online Training</p>",
+            "size": 100
+          }
+        },
+        "heading_HzrcQd": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>You and your pup better together, guaranteed.</p>",
+            "size": 100,
+            "heading_highlight_type": "italics"
+          }
+        },
+        "text_feAWmb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>For the last 5 years, we've helped thousands of people improve life at <br/>home with their dogs through our award-winning products and  online <br/>support from our expert collective. And with Homeschool's \"better pup\" <br/>guarantee, you'll rest easy knowing that there is no better place to <br/>train than at home with the person your dog trusts the most, you.</p>",
+            "size": 100
+          }
+        },
+        "button_PqPU33": {
+          "type": "button",
+          "settings": {
+            "btn_text": "",
+            "btn_link": "",
+            "btn_style": "btn--primary btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_nFMgaW",
+        "heading_HzrcQd",
+        "text_feAWmb",
+        "button_PqPU33"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_icons_row_XhhJpe": {
+      "type": "section-icons-row",
+      "blocks": {
+        "text_y44Bpf": {
+          "type": "text",
+          "settings": {
+            "icon_name": "calendar",
+            "title": "45-min Session with Shannen",
+            "text": "<p>Your main training session with to work with you and your pup, live.</p>"
+          }
+        },
+        "text_wk9RDM": {
+          "type": "text",
+          "settings": {
+            "icon_name": "check",
+            "title": "15-min Office Hours (2)",
+            "text": "<p>Additional video sessions with a trainer to help maximize practice time between sessions.</p>"
+          }
+        },
+        "text_6mBVnh": {
+          "type": "text",
+          "settings": {
+            "icon_name": "message",
+            "title": "24/7 Messaging Service",
+            "text": "<p>Got a pup-related question? As a dog expert as easily as sending a text.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_y44Bpf",
+        "text_wk9RDM",
+        "text_6mBVnh"
+      ],
+      "settings": {
+        "alignment": "center",
+        "columns": 3,
+        "icons_width": 30,
+        "heading": "",
+        "subheading": "",
+        "bg_color_secondary": false,
+        "box_color": "",
+        "text_color": "#333333",
+        "button_text": "",
+        "button_link": "",
+        "button_style": "btn--secondary btn--small",
+        "enable_slider_mobile": false,
+        "padding_top": 60,
+        "padding_bottom": 30
+      }
+    },
+    "section_icons_row_QAWTN4": {
+      "type": "section-icons-row",
+      "blocks": {
+        "text_PDPYDU": {
+          "type": "text",
+          "settings": {
+            "icon_name": "dollar-sign",
+            "title": "LAY LO Product Discounts",
+            "text": "<p>You'll receive 15% off of products at LAY LO as well as first dibs on new releases.</p>"
+          }
+        },
+        "text_txNCq8": {
+          "type": "text",
+          "settings": {
+            "icon_name": "clipboard",
+            "title": "Personalized Training Plan",
+            "text": "<p>Every Homeschool premium member receives a personalized plan specific to your pup's needs.  </p>"
+          }
+        },
+        "text_CDRiJD": {
+          "type": "text",
+          "settings": {
+            "icon_name": "download",
+            "title": "Access to Course Library",
+            "text": "<p>Get lifetime access to over 20+ training course videos, from crate training to barking.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_PDPYDU",
+        "text_txNCq8",
+        "text_CDRiJD"
+      ],
+      "settings": {
+        "alignment": "center",
+        "columns": 3,
+        "icons_width": 30,
+        "heading": "",
+        "subheading": "",
+        "bg_color_secondary": false,
+        "box_color": "",
+        "text_color": "#333333",
+        "button_text": "",
+        "button_link": "",
+        "button_style": "btn--secondary btn--small",
+        "enable_slider_mobile": false,
+        "padding_top": 30,
+        "padding_bottom": 60
+      }
+    },
+    "4dff55d1-b1f5-4596-87e0-ef0740ff2b46": {
+      "type": "section-icons-row",
+      "blocks": {
+        "template--16127676285114__4dff55d1-b1f5-4596-87e0-ef0740ff2b46-1686512696ceb156e8-0": {
+          "type": "text",
+          "settings": {
+            "icon_name": "support",
+            "title": "1. Schedule a Free Evaluation",
+            "text": "<p>Schedule your free intro call with an expert to learn more about you and your pup's needs. No commitment required. </p>"
+          }
+        },
+        "template--16127676285114__4dff55d1-b1f5-4596-87e0-ef0740ff2b46-1686512696ceb156e8-1": {
+          "type": "text",
+          "settings": {
+            "icon_name": "calendar",
+            "title": "2. Receive Your Personalized Plan",
+            "text": "<p>Once you're on board, your holistic plan will be tailored to you and your pup's needs and discussed live. </p>"
+          }
+        },
+        "template--16127676285114__4dff55d1-b1f5-4596-87e0-ef0740ff2b46-1686512696ceb156e8-2": {
+          "type": "text",
+          "settings": {
+            "icon_name": "award",
+            "title": "3. Learn With The Best",
+            "text": "<p>Start your training journey with 1:1 live, video sessions alongside your dedicated trainer and ongoing text support. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16127676285114__4dff55d1-b1f5-4596-87e0-ef0740ff2b46-1686512696ceb156e8-0",
+        "template--16127676285114__4dff55d1-b1f5-4596-87e0-ef0740ff2b46-1686512696ceb156e8-1",
+        "template--16127676285114__4dff55d1-b1f5-4596-87e0-ef0740ff2b46-1686512696ceb156e8-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "alignment": "left",
+        "columns": 3,
+        "icons_width": 30,
+        "heading": "How it Works",
+        "subheading": "",
+        "bg_color_secondary": false,
+        "box_color": "",
+        "text_color": "#333333",
+        "button_text": "",
+        "button_link": "",
+        "button_style": "btn--secondary btn--small",
+        "enable_slider_mobile": false,
+        "padding_top": 20,
+        "padding_bottom": 60
+      }
+    },
+    "690f51b9-93ce-45d2-99ad-d3a4d62a6113": {
+      "type": "section-columns",
+      "blocks": {
+        "template--16127676285114__690f51b9-93ce-45d2-99ad-d3a4d62a6113-1686512678fe21029f-0": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/Screen_Shot_2023-06-19_at_10.19.52_PM_127d5ed8-653d-41af-ba05-a0ed2b6f255f.png",
+            "title": "\"It was such an amazing investment. As a reactive dog owner, with a virtual outlet I was able to have access to a trainer in a way that kept everyone safe.",
+            "text": "<p>⭐⭐⭐⭐⭐</p><p><br/><strong>Anna & Bruno<br/></strong>Rodgers, AR</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--text",
+            "video_link_popup": "https://youtu.be/EXt96K74My4",
+            "video_link_color": "text-light"
+          }
+        },
+        "template--16127676285114__690f51b9-93ce-45d2-99ad-d3a4d62a6113-1686512678fe21029f-1": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/Bethany_Oso_-_Image.jpg",
+            "title": "\"Compared to a puppy school, meeting 1:1 virtually where there were no other dogs around was the absolute best for me and Oso.\"",
+            "text": "<p>⭐⭐⭐⭐⭐<br/><br/><strong>Bethany & Oso</strong><br/>Providence, RI</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--text",
+            "video_link_popup": "https://youtu.be/7qApLAMSj-s",
+            "video_link_color": "text-light"
+          }
+        },
+        "template--16127676285114__690f51b9-93ce-45d2-99ad-d3a4d62a6113-1686512678fe21029f-2": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/Screen_Shot_2023-06-02_at_3.05.17_PM.png",
+            "title": "“I loved Homeschool. My trainer was amazing. In a perfect world, we can work with her forever. Having that dedicated time with the trainer to see how Savannah was reacting with my instructions was very helpful.“",
+            "text": "<p>⭐⭐⭐⭐⭐</p><p><strong>Sharee & Savannah</strong><br/>Atlanta, GA</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--text",
+            "video_link_popup": "https://youtu.be/tG_eKMRL7yU",
+            "video_link_color": "text-light"
+          }
+        }
+      },
+      "block_order": [
+        "template--16127676285114__690f51b9-93ce-45d2-99ad-d3a4d62a6113-1686512678fe21029f-0",
+        "template--16127676285114__690f51b9-93ce-45d2-99ad-d3a4d62a6113-1686512678fe21029f-1",
+        "template--16127676285114__690f51b9-93ce-45d2-99ad-d3a4d62a6113-1686512678fe21029f-2"
+      ],
+      "settings": {
+        "title": "Trusted by 1,000+ pup parents",
+        "align_text": "text-center",
+        "columns": 3,
+        "equalize_height": true,
+        "image_aspect_ratio": 0.8,
+        "show_images": true,
+        "bg_color_secondary": false,
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 16
+      }
+    },
+    "section_columns_kqAaKX": {
+      "type": "section-columns",
+      "blocks": {
+        "text_block_RMyWzL": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/Screen_Shot_2024-04-08_at_12.08.00_PM.png",
+            "title": "\"Working with LAY LO was a life saver for me since I’ve never raised a puppy before. Shannon was informative and super patient to help me through the first 6 weeks. Chantilley is well behaved and I have no problems getting her in the crate now.\"",
+            "text": "<p>⭐⭐⭐⭐⭐</p><p><br/><strong>Carole & Chantilly<br/></strong>Kingsburg, CA</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--text",
+            "video_link_popup": "https://www.youtube.com/watch?v=1iGv21jfX50&t=1s",
+            "video_link_color": "text-light"
+          }
+        },
+        "text_block_zJjRzd": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/Screen_Shot_2024-04-08_at_12.21.20_PM.png",
+            "title": "“Homeschool is professional in every way and the teachers are fabulous! But by far the most helpful are the weekly lessons and 15 minute check-ins. It’s really me that they’re teaching so I can then teach/train my dog. Bruno is happier and more relaxed since I signed up for Homeschool. I really liked the zoom lessons, too. It was simple and in-person truly wasn’t necessary. I highly recommend Homeschool!\"",
+            "text": "<p>⭐⭐⭐⭐⭐<br/><br/><strong>Frances & Bruno</strong><br/>Berkeley, CA</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--text",
+            "video_link_popup": "https://www.youtube.com/watch?v=4aRJyWvJmKs",
+            "video_link_color": "text-light"
+          }
+        },
+        "text_block_VmHJ9W": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/Screen_Shot_2023-06-02_at_3.04.17_PM.png",
+            "title": "\"I thought it was awesome. Vivi was super helpful when she diagnosed what was going on. Now Nori has caught on to everything we worked on in the classes.\"",
+            "text": "<p>⭐⭐⭐⭐⭐</p><p><strong>Jacob, Lauren & Nori</strong><br/>Richmond, VA</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--text",
+            "video_link_popup": "https://youtu.be/EEZrhyOSqA0",
+            "video_link_color": "text-light"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_RMyWzL",
+        "text_block_zJjRzd",
+        "text_block_VmHJ9W"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "text-center",
+        "columns": 3,
+        "equalize_height": true,
+        "image_aspect_ratio": 0.8,
+        "show_images": true,
+        "bg_color_secondary": false,
+        "width": "wrapper",
+        "padding_top": 16,
+        "padding_bottom": 60
+      }
+    },
+    "section_text_FR4djk": {
+      "type": "section-text",
+      "blocks": {
+        "subheading_Mpz9J6": {
+          "type": "subheading",
+          "settings": {
+            "text": "<p>Homeschool Online Training</p>",
+            "size": 100
+          }
+        },
+        "heading_pDYY3H": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>Schedule onboarding call </p>",
+            "size": 100,
+            "heading_highlight_type": "italics"
+          }
+        },
+        "text_JWqinW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Schedule an onboarding session to get started.</p>",
+            "size": 100
+          }
+        },
+        "button_3VcATq": {
+          "type": "button",
+          "settings": {
+            "btn_text": "",
+            "btn_link": "",
+            "btn_style": "btn--primary btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_Mpz9J6",
+        "heading_pDYY3H",
+        "text_JWqinW",
+        "button_3VcATq"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 16
+      }
+    },
+    "section_custom_html_3QkNce": {
+      "type": "section-custom-html",
+      "settings": {
+        "custom_code": "<!-- Calendly inline widget begin -->\n<div class=\"calendly-inline-widget\" data-url=\"https://calendly.com/homeschoolbylaylo/onboarding-meeting-shs\" style=\"min-width:320px;height:700px;\"></div>\n<script type=\"text/javascript\" src=\"https://assets.calendly.com/assets/external/widget.js\" async></script>\n<!-- Calendly inline widget end -->",
+        "width": "wrapper",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "section_accordions_4nkBhU": {
+      "type": "section-accordions",
+      "blocks": {
+        "text_Gtjxxf": {
+          "type": "text",
+          "settings": {
+            "title": "Why do you train online?",
+            "text": "<p>Science has proven that the best environment for your pup to learn is without distractions. Training outside of the home brings not only new smells but new people and other dogs to get excited about which breaks <br/>your dog’s focus and slows down the behavior modification process. That’s why we only offer virtual training at home so you and your pup <br/>can make progress together ASAP. </p>"
+          }
+        },
+        "text_Uy4awU": {
+          "type": "text",
+          "settings": {
+            "title": "How much time do you spend with my dog?",
+            "text": "<p>With Homeschool, YOU become the expert in training your dog throughout the program and beyond. It takes 1,000 repetitions to shape a dog’s behavior – which is why outside of our 45-min, 1:1 video sessions we check-in daily via text and are available for any questions so you can get faster results.</p>"
+          }
+        },
+        "text_qtXJVJ": {
+          "type": "text",
+          "settings": {
+            "title": "What is virtual dog training?",
+            "text": "<p>Virtual training is quickly becoming the most effective training method to get long-term results. Through weekly 1:1 video calls with your dedicated trainer, we demonstrate the training techniques and watch as you practice in real time with your pup. After each call, we'll provide homework and video lessons to track your progress. Still curious? Watch a sample virtual training lesson <a href=\"https://fub.direct/1/-8r8SWmgQ6mGu0nIMQoO0KB48bJeKRwbhImxJ_eJbkJmAVQstrWW-CwiqVOlv9bO1XaggZc-7wdj10103TwdJQ/https/www.instagram.com/p/Cp8R9bcA2XA/\" target=\"_blank\" title=\"https://www.instagram.com/p/Cp8R9bcA2XA/\"><span style=\"text-decoration:underline\">here</span></a> &gt;</p>"
+          }
+        },
+        "text_34jcB4": {
+          "type": "text",
+          "settings": {
+            "title": "What is your training philosophy?",
+            "text": "<p>We are proud to stand behind positive-reinforcement training practices, the most powerful tool recognized by PETA, the ASPCA, and the Humane  Society of America to transform your pup’s behavior. All of our trainers are force-free certified experts ensuring that the techniques you learn are promoting a positive and healthy relationship between you and your pup. </p>"
+          }
+        },
+        "text_hH3nHc": {
+          "type": "text",
+          "settings": {
+            "title": "Does virtual training work?",
+            "text": "<p>We’ve worked with pet parents across the country to transform their dog’s behavior from complex reactivity issues to puppy training, the <a href=\"https://fub.direct/1/eeU_0HM1yBmykb6BMUt4kvI5Y9JJqzvM70XERtK0ytjfA98XIpYTk1yu-xKRc9B1yW29Km2EIGnDZ_ZfOpcq7w/https/www.bark.com/settings/profile/my_profile/?&ps=reviews\" target=\"_blank\" title=\"https://www.bark.com/settings/profile/my_profile/?&ps=reviews\"><span style=\"text-decoration:underline\">dozens of video reviews</span></a> we have speak for themselves.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_Gtjxxf",
+        "text_Uy4awU",
+        "text_qtXJVJ",
+        "text_34jcB4",
+        "text_hH3nHc"
+      ],
+      "settings": {
+        "title": "Frequently Asked Questions",
+        "subheading": "",
+        "text": "",
+        "layout": "two-columns",
+        "show_accordion_divider": false,
+        "tabs_bg_color": "#fafafa",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "section_split_images_4rme46",
+    "section_image_with_text_GUeYid",
+    "5dfbc12b-2350-4c42-8a69-13ece72ffef7",
+    "section_columns_HUAy3Y",
+    "main",
+    "67f7744f-33ad-4a01-bf3a-a39288bbc3a8",
+    "section_text_3hjGGp",
+    "section_icons_row_XhhJpe",
+    "section_icons_row_QAWTN4",
+    "4dff55d1-b1f5-4596-87e0-ef0740ff2b46",
+    "690f51b9-93ce-45d2-99ad-d3a4d62a6113",
+    "section_columns_kqAaKX",
+    "section_text_FR4djk",
+    "section_custom_html_3QkNce",
+    "section_accordions_4nkBhU"
+  ]
+}

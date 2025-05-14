@@ -1,0 +1,108 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero": {
+      "type": "collection-image-with-title",
+      "settings": {
+        "banner_height": "two-fifty-height",
+        "text_position": "middle-center",
+        "show_image": true,
+        "banner_image": "shopify://shop_images/LayloPets_SageTerra_Group2_Edit.jpg",
+        "text_color": "text-dark",
+        "overlay_opacity": 10,
+        "bg_color_secondary": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "subcollections": {
+      "type": "subcollections",
+      "settings": {
+        "layout": "grid",
+        "image_source": "collection",
+        "image_aspect_ratio": 0.6,
+        "image_overlay_opacity": 10,
+        "bg_color": "",
+        "text_color": "text-light",
+        "padding_top": 60,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "collection",
+      "blocks": {
+        "3d6a919a-adc1-43b8-9d1d-5b1a66d6176f": {
+          "type": "promo",
+          "settings": {
+            "collection": "",
+            "position": 1,
+            "width": "auto",
+            "text_color": "text-light",
+            "text_position": "center",
+            "layout": "stacked",
+            "overlay_opacity": 10,
+            "bg_color": "#1f294f",
+            "title": "<p>Black Friday Sale</p>",
+            "heading_highlight_type": "circle",
+            "heading_size": 100,
+            "content": "Use code BF20 at checkout to receive 20% off your order.",
+            "text_size": 100,
+            "btn_text": "Details",
+            "btn_link": "https://www.laylopets.com/pages/black-friday-sale-2023-details",
+            "btn_style": "btn--text"
+          }
+        },
+        "promo-1": {
+          "type": "promo",
+          "disabled": true,
+          "settings": {
+            "collection": "",
+            "position": 1,
+            "width": "auto",
+            "image": "shopify://shop_images/Laylo3596.jpg",
+            "text_color": "text-light",
+            "text_position": "center",
+            "layout": "stacked",
+            "overlay_opacity": 35,
+            "bg_color": "#d3d3d3",
+            "title": "<p>Bundle & Save 20%</p>",
+            "heading_highlight_type": "circle",
+            "heading_size": 120,
+            "content": "Build your ensemble with 2 or more products using our bundle builder.",
+            "text_size": 100,
+            "btn_text": "Shop Bundles",
+            "btn_link": "https://www.laylopets.com/products/bed-ensemble-bundle?variant=38088295645370",
+            "btn_style": "btn--secondary btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "3d6a919a-adc1-43b8-9d1d-5b1a66d6176f",
+        "promo-1"
+      ],
+      "settings": {
+        "show_breadcrumbs": true,
+        "enable_sorting": true,
+        "enable_filters": true,
+        "filters_open": true,
+        "filter_mode": "default",
+        "bg_color": "",
+        "padding_top": 30,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "subcollections",
+    "main"
+  ]
+}

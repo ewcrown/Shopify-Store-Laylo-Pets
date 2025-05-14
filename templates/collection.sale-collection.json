@@ -1,0 +1,100 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero": {
+      "type": "collection-image-with-title",
+      "disabled": true,
+      "settings": {
+        "banner_height": "two-fifty-height",
+        "text_position": "middle-center",
+        "show_image": true,
+        "text_color": "text-light",
+        "overlay_opacity": 10,
+        "bg_color_secondary": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "subcollections": {
+      "type": "subcollections",
+      "settings": {
+        "layout": "grid",
+        "image_source": "collection",
+        "image_aspect_ratio": 0.6,
+        "image_overlay_opacity": 10,
+        "bg_color": "",
+        "text_color": "text-light",
+        "padding_top": 60,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "collection",
+      "blocks": {
+        "e4238843-2f46-4c18-9eeb-939f5fb49dcc": {
+          "type": "promo",
+          "settings": {
+            "collection": "",
+            "position": 4,
+            "width": "auto",
+            "image": "shopify://shop_images/Laylo3596.jpg",
+            "text_color": "text-light",
+            "text_position": "center",
+            "layout": "stacked",
+            "overlay_opacity": 35,
+            "bg_color": "#D3D3D3",
+            "title": "<p>Bundle and Save</p>",
+            "heading_highlight_type": "circle",
+            "heading_size": 100,
+            "content": "Save 20% when you build a bundle of two or more beds or covers.",
+            "text_size": 100,
+            "btn_text": "Shop Bundles",
+            "btn_link": "https://www.laylopets.com/apps/bundles/bundle/66852",
+            "btn_style": "btn--secondary btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "e4238843-2f46-4c18-9eeb-939f5fb49dcc"
+      ],
+      "settings": {
+        "show_breadcrumbs": true,
+        "enable_sorting": true,
+        "enable_filters": true,
+        "filters_open": true,
+        "filter_mode": "default",
+        "bg_color": "",
+        "padding_top": 30,
+        "padding_bottom": 60
+      }
+    },
+    "shogun-above": {
+      "type": "shogun-above",
+      "settings": {}
+    },
+    "shogun-below": {
+      "type": "shogun-below",
+      "settings": {}
+    },
+    "shogun-helper": {
+      "type": "shogun-helper",
+      "settings": {}
+    }
+  },
+  "order": [
+    "shogun-helper",
+    "shogun-above",
+    "hero",
+    "subcollections",
+    "main",
+    "shogun-below"
+  ]
+}

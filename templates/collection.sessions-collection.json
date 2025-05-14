@@ -1,0 +1,181 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_image_with_text_EemEia": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "three-fifty-height",
+        "layout": "inline",
+        "image_location": "right",
+        "image_width": "narrow",
+        "image": "shopify://shop_images/Sessions_Hero_Image.png",
+        "subheading": "LAY LO SESSIONS",
+        "title": "<p>Learn from the best—live sessions with real dog pros</p>",
+        "heading_highlight_type": "circle",
+        "heading_size": 130,
+        "text_content": "Feel more confident and connected with your dog, one session at a time. Our expert-led, live sessions dive into the topics that matter most—from training and behavior to nutrition and more. Each on-demand, one-on-one experience is flexible and commitment-free, giving you trusted advice tailored to your dog—without the overwhelm.",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "",
+        "button_style": "btn--primary btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "shogun-helper": {
+      "type": "shogun-helper",
+      "disabled": true,
+      "settings": {}
+    },
+    "shogun-above": {
+      "type": "shogun-above",
+      "disabled": true,
+      "settings": {}
+    },
+    "hero": {
+      "type": "collection-image-with-title",
+      "disabled": true,
+      "settings": {
+        "banner_height": "two-fifty-height",
+        "text_position": "middle-center",
+        "show_image": true,
+        "text_color": "text-light",
+        "overlay_opacity": 10,
+        "bg_color_secondary": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "subcollections": {
+      "type": "subcollections",
+      "disabled": true,
+      "settings": {
+        "layout": "grid",
+        "image_source": "collection",
+        "image_aspect_ratio": 0.6,
+        "image_overlay_opacity": 10,
+        "bg_color": "",
+        "text_color": "text-light",
+        "padding_top": 60,
+        "padding_bottom": 0
+      }
+    },
+    "section_icons_row_eLULeC": {
+      "type": "section-icons-row",
+      "blocks": {
+        "text_UVcFa6": {
+          "type": "text",
+          "settings": {
+            "icon_name": "check",
+            "title": "Choose your topic",
+            "text": "<p>From behavior, training, to nutrition—learn only what you want need.</p>"
+          }
+        },
+        "text_tKhmVG": {
+          "type": "text",
+          "settings": {
+            "icon_name": "calendar",
+            "title": "Schedule your first session",
+            "text": "<p>Flexible times that work around your busy schedule—no need to leave your home.</p>"
+          }
+        },
+        "text_TWF9dJ": {
+          "type": "text",
+          "settings": {
+            "icon_name": "eco-friendly",
+            "icon_image": "shopify://shop_images/noun-video-call-7120956.svg",
+            "title": "Meet your expert",
+            "text": "<p>Get personalized instruction tailored to your topic and your dog.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_UVcFa6",
+        "text_tKhmVG",
+        "text_TWF9dJ"
+      ],
+      "settings": {
+        "alignment": "inline-center",
+        "columns": 3,
+        "icons_width": 40,
+        "heading": "",
+        "subheading": "",
+        "bg_color_secondary": true,
+        "box_color": "",
+        "text_color": "#333333",
+        "button_text": "",
+        "button_link": "",
+        "button_style": "btn--secondary btn--small",
+        "enable_slider_mobile": false,
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "main": {
+      "type": "collection",
+      "blocks": {
+        "promo_69rzD4": {
+          "type": "promo",
+          "settings": {
+            "collection": "",
+            "position": 1,
+            "width": "half",
+            "image": "shopify://shop_images/Homeschool_by_LAY_LO-min.png",
+            "text_color": "text-light",
+            "text_position": "center",
+            "layout": "stacked",
+            "overlay_opacity": 10,
+            "bg_color": "#d3d3d3",
+            "title": "",
+            "heading_highlight_type": "circle",
+            "heading_size": 140,
+            "content": "Premium Training Packages",
+            "text_size": 105,
+            "btn_text": "Shop Now",
+            "btn_link": "shopify://pages/homeschool",
+            "btn_style": "btn--text"
+          }
+        }
+      },
+      "block_order": [
+        "promo_69rzD4"
+      ],
+      "settings": {
+        "show_breadcrumbs": true,
+        "enable_sorting": true,
+        "enable_filters": true,
+        "filters_open": true,
+        "filter_mode": "group",
+        "bg_color": "",
+        "padding_top": 30,
+        "padding_bottom": 60
+      }
+    },
+    "shogun-below": {
+      "type": "shogun-below",
+      "settings": {}
+    }
+  },
+  "order": [
+    "section_image_with_text_EemEia",
+    "shogun-helper",
+    "shogun-above",
+    "hero",
+    "subcollections",
+    "section_icons_row_eLULeC",
+    "main",
+    "shogun-below"
+  ]
+}

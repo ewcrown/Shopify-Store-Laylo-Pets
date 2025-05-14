@@ -1,0 +1,172 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "shogun-helper": {
+      "type": "shogun-helper",
+      "disabled": true,
+      "settings": {}
+    },
+    "shogun-above": {
+      "type": "shogun-above",
+      "disabled": true,
+      "settings": {}
+    },
+    "hero": {
+      "type": "collection-image-with-title",
+      "disabled": true,
+      "settings": {
+        "banner_height": "two-fifty-height",
+        "text_position": "middle-center",
+        "show_image": true,
+        "text_color": "text-light",
+        "overlay_opacity": 10,
+        "bg_color_secondary": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "subcollections": {
+      "type": "subcollections",
+      "settings": {
+        "layout": "grid",
+        "image_source": "collection",
+        "image_aspect_ratio": 0.6,
+        "image_overlay_opacity": 10,
+        "bg_color": "",
+        "text_color": "text-light",
+        "padding_top": 60,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "collection",
+      "blocks": {
+        "promo_UL3gYm": {
+          "type": "promo",
+          "settings": {
+            "collection": "all",
+            "position": 1,
+            "width": "auto",
+            "image": "shopify://shop_images/Wirecutter_Promo_3.png",
+            "text_color": "text-light",
+            "text_position": "center",
+            "layout": "stacked",
+            "overlay_opacity": 0,
+            "bg_color": "#f7f7f7",
+            "title": "",
+            "heading_highlight_type": "circle",
+            "heading_size": 100,
+            "content": "",
+            "text_size": 100,
+            "btn_text": "",
+            "btn_link": "",
+            "btn_style": "btn--primary btn--small"
+          }
+        },
+        "promo_Djpjkd": {
+          "type": "promo",
+          "settings": {
+            "collection": "all-products",
+            "position": 1,
+            "width": "auto",
+            "image": "shopify://shop_images/Wirecutter_Promo-1.png",
+            "text_color": "text-light",
+            "text_position": "center",
+            "layout": "stacked",
+            "overlay_opacity": 0,
+            "bg_color": "#f7f7f7",
+            "title": "",
+            "heading_highlight_type": "circle",
+            "heading_size": 100,
+            "content": "",
+            "text_size": 100,
+            "btn_text": "",
+            "btn_link": "",
+            "btn_style": "btn--primary btn--small"
+          }
+        },
+        "e4238843-2f46-4c18-9eeb-939f5fb49dcc": {
+          "type": "promo",
+          "disabled": true,
+          "settings": {
+            "collection": "",
+            "position": 4,
+            "width": "auto",
+            "image": "shopify://shop_images/Laylo3596.jpg",
+            "text_color": "text-light",
+            "text_position": "center",
+            "layout": "stacked",
+            "overlay_opacity": 35,
+            "bg_color": "#d3d3d3",
+            "title": "<p>Bundle and Save</p>",
+            "heading_highlight_type": "circle",
+            "heading_size": 100,
+            "content": "Save 20% when you build a bundle of two or more beds or covers.",
+            "text_size": 100,
+            "btn_text": "Shop Bundles",
+            "btn_link": "https://www.laylopets.com/apps/bundles/bundle/66852",
+            "btn_style": "btn--secondary btn--small"
+          }
+        },
+        "promo_69rzD4": {
+          "type": "promo",
+          "settings": {
+            "collection": "all",
+            "position": 6,
+            "width": "auto",
+            "image": "shopify://shop_images/lay-lo-pets-brigette-romanek-brigette-romanek-luxury-pet-blanket-taupe-lay-lo-36329738272954.jpg",
+            "text_color": "text-light",
+            "text_position": "center",
+            "layout": "stacked",
+            "overlay_opacity": 10,
+            "bg_color": "#d3d3d3",
+            "title": "",
+            "heading_highlight_type": "circle",
+            "heading_size": 140,
+            "content": "Brigette Romanek Collection",
+            "text_size": 105,
+            "btn_text": "Shop Now",
+            "btn_link": "shopify://collections/brigette-romanek-collection",
+            "btn_style": "btn--text"
+          }
+        }
+      },
+      "block_order": [
+        "promo_UL3gYm",
+        "promo_Djpjkd",
+        "e4238843-2f46-4c18-9eeb-939f5fb49dcc",
+        "promo_69rzD4"
+      ],
+      "settings": {
+        "show_breadcrumbs": true,
+        "enable_sorting": true,
+        "enable_filters": true,
+        "filters_open": true,
+        "filter_mode": "default",
+        "bg_color": "",
+        "padding_top": 30,
+        "padding_bottom": 60
+      }
+    },
+    "shogun-below": {
+      "type": "shogun-below",
+      "settings": {}
+    }
+  },
+  "order": [
+    "shogun-helper",
+    "shogun-above",
+    "hero",
+    "subcollections",
+    "main",
+    "shogun-below"
+  ]
+}

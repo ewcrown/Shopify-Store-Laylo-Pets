@@ -1,0 +1,333 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_text_UdU634": {
+      "type": "section-text",
+      "blocks": {
+        "subheading_FP9RMK": {
+          "type": "subheading",
+          "settings": {
+            "text": "<p>LAY LO PERSONAL SUPPORT</p>",
+            "size": 100
+          }
+        },
+        "heading_eQ3VbG": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>Chat live with a dog expert</p>",
+            "size": 100,
+            "heading_highlight_type": "italics"
+          }
+        },
+        "text_dE3hmr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Get real-time product support and discuss your most challenging dog questions with a dog expert and develop a plan to improve it together with real-time advice. No commitment required.</p>",
+            "size": 100
+          }
+        },
+        "button_A67tfY": {
+          "type": "button",
+          "settings": {
+            "btn_text": "Read More",
+            "btn_link": "",
+            "btn_style": "btn--primary btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_FP9RMK",
+        "heading_eQ3VbG",
+        "text_dE3hmr",
+        "button_A67tfY"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "5dfbc12b-2350-4c42-8a69-13ece72ffef7": {
+      "type": "section-text",
+      "blocks": {
+        "template--16127676285114__5dfbc12b-2350-4c42-8a69-13ece72ffef7-1686511540b03a1d7e-1": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>Book your free pup discovery call</p>",
+            "size": 100,
+            "heading_highlight_type": "italics"
+          }
+        },
+        "template--16127676285114__5dfbc12b-2350-4c42-8a69-13ece72ffef7-1686511540b03a1d7e-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>For the last 5 years, we've helped thousands of pet owners improve life at home with their dog. </p><p>This pet discovery call will be your chance to discuss the most challenging problems with a dog expert and develop a plan to improve it together with real-time advice. </p>",
+            "size": 100
+          }
+        }
+      },
+      "block_order": [
+        "template--16127676285114__5dfbc12b-2350-4c42-8a69-13ece72ffef7-1686511540b03a1d7e-1",
+        "template--16127676285114__5dfbc12b-2350-4c42-8a69-13ece72ffef7-1686511540b03a1d7e-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "extra_class": "",
+        "bg_color_secondary": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "67f7744f-33ad-4a01-bf3a-a39288bbc3a8": {
+      "type": "section-custom-html",
+      "settings": {
+        "custom_code": "<!-- Calendly inline widget begin -->\n<div class=\"calendly-inline-widget\" data-url=\"https://calendly.com/d/cnmj-55c-nq9/talk-to-a-dog-expert\" style=\"min-width:320px;height:700px;\"></div>\n<script type=\"text/javascript\" src=\"https://assets.calendly.com/assets/external/widget.js\" async></script>\n<!-- Calendly inline widget end -->",
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "cf9a4a64-d5dc-428a-8238-3b873b5ff7eb": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "five-fifty-height",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "wide",
+        "image": "shopify://shop_images/Frame_139_1.png",
+        "subheading": "",
+        "title": "<p>Live guidance when you need it</p>",
+        "heading_highlight_type": "circle",
+        "heading_size": 120,
+        "text_content": "Our dog expert will chat with you in real-time, providing tips and guidance and giving you the confidence to be the very best pet parent you can be.",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "",
+        "button_style": "btn--primary btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "a1fef923-1a06-42e5-8281-acf46898dc66": {
+      "type": "section-columns",
+      "blocks": {
+        "template--16127693848762__a1fef923-1a06-42e5-8281-acf46898dc66-16865153063e704aed-1": {
+          "type": "text_block",
+          "settings": {
+            "title": "Expert Diagnosis",
+            "text": "<p>Based on your dog's history, breed and behavior, we will assess the root of the problem (s) to ensure you fully understand your dog and how to improve their mental and physical state. </p>",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--text",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "template--16127693848762__a1fef923-1a06-42e5-8281-acf46898dc66-16865153063e704aed-2": {
+          "type": "text_block",
+          "settings": {
+            "title": "Pup Behavioral Modification Plan",
+            "text": "<p>We'll share an assessment for what is needed to reach your goals at home, including the cues you should teach and roughly how long it will take to improve it. </p>",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--text",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "template--16127693848762__a1fef923-1a06-42e5-8281-acf46898dc66-16865153063e704aed-0": {
+          "type": "text_block",
+          "settings": {
+            "title": "Homeschool's Daily Enrichment Routine",
+            "text": "<p>Dog's need a calculated amount of exercise, mental stimulation and enrichment to avoid destructive behavior. We'll evaluate your routine together to ensure your dog is receiving the proper amount of stimulation at home. </p>",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--text",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        }
+      },
+      "block_order": [
+        "template--16127693848762__a1fef923-1a06-42e5-8281-acf46898dc66-16865153063e704aed-1",
+        "template--16127693848762__a1fef923-1a06-42e5-8281-acf46898dc66-16865153063e704aed-2",
+        "template--16127693848762__a1fef923-1a06-42e5-8281-acf46898dc66-16865153063e704aed-0"
+      ],
+      "settings": {
+        "title": "30 minutes dedicated to you and your dog",
+        "align_text": "text-center",
+        "columns": 3,
+        "equalize_height": true,
+        "image_aspect_ratio": 0.8,
+        "show_images": false,
+        "bg_color_secondary": false,
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "690f51b9-93ce-45d2-99ad-d3a4d62a6113": {
+      "type": "section-columns",
+      "blocks": {
+        "template--16127676285114__690f51b9-93ce-45d2-99ad-d3a4d62a6113-1686512678fe21029f-0": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/Screen_Shot_2023-06-19_at_10.19.52_PM_127d5ed8-653d-41af-ba05-a0ed2b6f255f.png",
+            "title": "\"It was such an amazing investment. As a reactive dog owner, with a virtual outlet I was able to have access to a trainer in a way that kept everyone safe.",
+            "text": "<p>⭐⭐⭐⭐⭐</p><p><br/><strong>Anna & Bruno<br/></strong>Rodgers, AR</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--text",
+            "video_link_popup": "https://youtu.be/EXt96K74My4",
+            "video_link_color": "text-light"
+          }
+        },
+        "template--16127676285114__690f51b9-93ce-45d2-99ad-d3a4d62a6113-1686512678fe21029f-1": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/Bethany_Oso_-_Image.jpg",
+            "title": "\"Compared to a puppy school, meeting 1:1 virtually where there were no other dogs around was the absolute best for me and Oso.\"",
+            "text": "<p>⭐⭐⭐⭐⭐<br/><br/><strong>Bethany & Oso</strong><br/>Providence, RI</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--text",
+            "video_link_popup": "https://youtu.be/7qApLAMSj-s",
+            "video_link_color": "text-light"
+          }
+        },
+        "template--16127676285114__690f51b9-93ce-45d2-99ad-d3a4d62a6113-1686512678fe21029f-2": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/Screen_Shot_2023-06-02_at_3.05.17_PM.png",
+            "title": "“I loved Homeschool. My trainer was amazing. In a perfect world, we can work with her forever. Having that dedicated time with the trainer to see how Savannah was reacting with my instructions was very helpful.“",
+            "text": "<p>⭐⭐⭐⭐⭐</p><p><strong>Sharee & Savannah</strong><br/>Atlanta, GA</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--text",
+            "video_link_popup": "https://youtu.be/tG_eKMRL7yU",
+            "video_link_color": "text-light"
+          }
+        },
+        "template--16127676285114__690f51b9-93ce-45d2-99ad-d3a4d62a6113-1686512678fe21029f-3": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/Screen_Shot_2023-06-02_at_3.04.17_PM.png",
+            "title": "\"I thought it was awesome. Vivi was super helpful when she diagnosed what was going on. Now Nori has caught on to everything we worked on in the classes.\"",
+            "text": "<p>⭐⭐⭐⭐⭐</p><p><strong>Jacob, Lauren & Nori</strong><br/>Richmond, VA</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--text",
+            "video_link_popup": "https://youtu.be/EEZrhyOSqA0",
+            "video_link_color": "text-light"
+          }
+        }
+      },
+      "block_order": [
+        "template--16127676285114__690f51b9-93ce-45d2-99ad-d3a4d62a6113-1686512678fe21029f-0",
+        "template--16127676285114__690f51b9-93ce-45d2-99ad-d3a4d62a6113-1686512678fe21029f-1",
+        "template--16127676285114__690f51b9-93ce-45d2-99ad-d3a4d62a6113-1686512678fe21029f-2",
+        "template--16127676285114__690f51b9-93ce-45d2-99ad-d3a4d62a6113-1686512678fe21029f-3"
+      ],
+      "settings": {
+        "title": "Pup-approved results",
+        "align_text": "text-left",
+        "columns": 3,
+        "equalize_height": true,
+        "image_aspect_ratio": 0.8,
+        "show_images": true,
+        "bg_color_secondary": false,
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "4dff55d1-b1f5-4596-87e0-ef0740ff2b46": {
+      "type": "section-icons-row",
+      "blocks": {
+        "template--16127676285114__4dff55d1-b1f5-4596-87e0-ef0740ff2b46-1686512696ceb156e8-0": {
+          "type": "text",
+          "settings": {
+            "icon_name": "support",
+            "title": "1. Schedule a Free Evaluation",
+            "text": "<p>Schedule your free intro call with an expert to learn more about you and your pup's needs. No commitment required. </p>"
+          }
+        },
+        "template--16127676285114__4dff55d1-b1f5-4596-87e0-ef0740ff2b46-1686512696ceb156e8-1": {
+          "type": "text",
+          "settings": {
+            "icon_name": "calendar",
+            "title": "2. Receive Your Personalized Plan",
+            "text": "<p>Once you're on board, your holistic plan will be tailored to you and your pup's needs and discussed live. </p>"
+          }
+        },
+        "template--16127676285114__4dff55d1-b1f5-4596-87e0-ef0740ff2b46-1686512696ceb156e8-2": {
+          "type": "text",
+          "settings": {
+            "icon_name": "award",
+            "title": "3. Learn With The Best",
+            "text": "<p>Start your training journey with 1:1 live, video sessions alongside your dedicated trainer and ongoing text support. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16127676285114__4dff55d1-b1f5-4596-87e0-ef0740ff2b46-1686512696ceb156e8-0",
+        "template--16127676285114__4dff55d1-b1f5-4596-87e0-ef0740ff2b46-1686512696ceb156e8-1",
+        "template--16127676285114__4dff55d1-b1f5-4596-87e0-ef0740ff2b46-1686512696ceb156e8-2"
+      ],
+      "settings": {
+        "alignment": "center",
+        "columns": 3,
+        "icons_width": 30,
+        "heading": "How Homeschool works",
+        "subheading": "",
+        "bg_color_secondary": false,
+        "box_color": "",
+        "text_color": "#333333",
+        "button_text": "",
+        "button_link": "",
+        "button_style": "btn--secondary btn--small",
+        "enable_slider_mobile": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "section_text_UdU634",
+    "5dfbc12b-2350-4c42-8a69-13ece72ffef7",
+    "main",
+    "67f7744f-33ad-4a01-bf3a-a39288bbc3a8",
+    "cf9a4a64-d5dc-428a-8238-3b873b5ff7eb",
+    "a1fef923-1a06-42e5-8281-acf46898dc66",
+    "690f51b9-93ce-45d2-99ad-d3a4d62a6113",
+    "4dff55d1-b1f5-4596-87e0-ef0740ff2b46"
+  ]
+}

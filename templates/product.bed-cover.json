@@ -1,0 +1,687 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "shogun-helper": {
+      "type": "shogun-helper",
+      "disabled": true,
+      "settings": {}
+    },
+    "shogun-above": {
+      "type": "shogun-above",
+      "disabled": true,
+      "settings": {}
+    },
+    "main": {
+      "type": "product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "subheading": "breadcrumbs",
+            "show_rating": true,
+            "show_rating_count": true,
+            "padding_bottom": 10
+          }
+        },
+        "1d4ae0b0-0a4d-43d5-adef-73b63d3cb27f": {
+          "type": "shopify://apps/yotpo-product-reviews/blocks/star-rating/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
+        "inventory_countdown": {
+          "type": "inventory_countdown",
+          "settings": {
+            "max_inventory": 10,
+            "hide_inventory_count": true,
+            "padding_bottom": 20
+          }
+        },
+        "form": {
+          "type": "form",
+          "settings": {
+            "info_page": "dog-bed-size-chart",
+            "info_page_title_override": "Size Guide",
+            "show_labels": true,
+            "show_quantity": false,
+            "show_payment_button": false,
+            "enable_subscriptions_selectors": true,
+            "padding_bottom": 20
+          }
+        },
+        "icon_row": {
+          "type": "icon_row",
+          "settings": {
+            "icon_name_1": "dishwasher-safe",
+            "icon_color_1": "rgba(0,0,0,0)",
+            "icon_image_1": "shopify://shop_images/washable.png",
+            "icon_width_1": 40,
+            "icon_text_1": "Machine Washable",
+            "icon_name_2": "paw-heart",
+            "icon_color_2": "",
+            "icon_image_2": "shopify://shop_images/digproof.png",
+            "icon_width_2": 40,
+            "icon_text_2": "Orthopedic Comfort",
+            "icon_name_3": "shield",
+            "icon_color_3": "",
+            "icon_width_3": 25,
+            "icon_text_3": "Dig proof  Outer Knit",
+            "icon_name_4": "award",
+            "icon_color_4": "",
+            "icon_width_4": 25,
+            "icon_text_4": "1-Year Warranty",
+            "alignment": "center",
+            "bg_color": "#f7f8fb",
+            "padding_bottom": 10
+          }
+        },
+        "upsell": {
+          "type": "upsell",
+          "settings": {
+            "stack_upsells": true,
+            "product_list": [
+              "lay-lo-pets-premium-waterproof-dog-bed-liner-stuff-sack",
+              "macrame-rope-dog-toys-bundle-pack"
+            ],
+            "padding_bottom": 20
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "padding_bottom": 22
+          }
+        },
+        "product_accordions": {
+          "type": "product_accordions",
+          "settings": {
+            "accordion_heading_1": "Materials and specs",
+            "accordion_text_1": "<p>Our outer dog bed covers are made from an extremely durable polyester knit that's soft to the touch but tough enough to earn our dig-proof claim. Our orthopedic inner mattress is a combination of polyurethane <br/>support foam, and a soft poly-fill for a bed that's supportive yet breathable.</p>",
+            "accordion_page_1": "",
+            "accordion_heading_2": "Shipping and returns",
+            "accordion_text_2": "<p>Shipping over $100 is free to domestic locations. New items can be returned within 30 days for a full refund minus $10 restocking fee. </p>",
+            "accordion_page_2": "",
+            "accordion_heading_3": "Care Instructions",
+            "accordion_text_3": "<p>Each outer cover is easy to clean and 100% machine washable. The <br/>discreet zipper also makes it easy to remove the cover. Please use cold water and tumble dry low, with zipper closed. Do not put the inner foam insert into the washing machine.</p>",
+            "accordion_page_3": "",
+            "accordion_heading_4": "Measurements & Dimensions",
+            "accordion_text_4": "<p>SMALL: 24\" x 18\"x 3.5\": Under 25 lbs (Boston Terrier, Pomeranian, Pug)</p><p>MEDIUM: 36\" x 28\" x 4\": Under 60 lbs (Collie, Beagle, Cocker Spaniel)</p><p>LARGE: 44\" x 28\" x 4\": Under 95 lbs (German Shepherd, Lab, Golden Retriever)</p><p>EXTRA LARGE: 45\" x 35\" x 4\": Under 240 lbs (Great Dane, Akita, Newfoundland)</p>",
+            "accordion_page_4": "dog-bed-size-chart",
+            "accordion_heading_5": "",
+            "accordion_text_5": "",
+            "accordion_page_5": "",
+            "padding_bottom": 20
+          }
+        },
+        "share-button": {
+          "type": "share-button",
+          "disabled": true,
+          "settings": {
+            "text": "Share",
+            "padding_bottom": 20
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "1d4ae0b0-0a4d-43d5-adef-73b63d3cb27f",
+        "inventory_countdown",
+        "form",
+        "icon_row",
+        "upsell",
+        "description",
+        "product_accordions",
+        "share-button"
+      ],
+      "custom_css": [
+        ".product__icon__row.product__icon__row--multiple {font-size: 90%;}"
+      ],
+      "settings": {
+        "product_sticky_enable": true,
+        "image_layout": "grid",
+        "image_width": "large",
+        "enable_zoom": true,
+        "hide_product_thumbnails": true,
+        "enable_video_looping": true,
+        "bg_color": "",
+        "width": "wrapper--full-padded",
+        "padding_top": 10,
+        "padding_bottom": 40
+      }
+    },
+    "bd134d06-84b0-4be7-b37c-69040f4adf68": {
+      "type": "section-text",
+      "blocks": {
+        "template--16010683777210__bd134d06-84b0-4be7-b37c-69040f4adf68-16750269123769c858-0": {
+          "type": "subheading",
+          "settings": {
+            "text": "<p>The LAY LO™ System</p>",
+            "size": 100
+          }
+        },
+        "template--16010683777210__bd134d06-84b0-4be7-b37c-69040f4adf68-16750269123769c858-1": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>Custom comfort and smarter style</p>",
+            "size": 100,
+            "heading_highlight_type": "italics"
+          }
+        }
+      },
+      "block_order": [
+        "template--16010683777210__bd134d06-84b0-4be7-b37c-69040f4adf68-16750269123769c858-0",
+        "template--16010683777210__bd134d06-84b0-4be7-b37c-69040f4adf68-16750269123769c858-1"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 50,
+        "padding_bottom": 20
+      }
+    },
+    "icons": {
+      "type": "section-icons-row",
+      "blocks": {
+        "icon-0": {
+          "type": "text",
+          "settings": {
+            "icon_name": "pencils",
+            "title": "Pick your design",
+            "text": "<p>Pick from one of our globally-inspired patterns, or <a href=\"https://www.laylopets.com/apps/bundles/bundle/66852\"><span style=\"text-decoration:underline\">bundle a few</span></a> and save.</p>"
+          }
+        },
+        "icon-1": {
+          "type": "text",
+          "settings": {
+            "icon_name": "check",
+            "title": "Choose what's inside",
+            "text": "<p>Bundle a cover with one of our own orthopedic mattresses or fill it with soft clothes or towels — even re-cover an old dog bed of your own.</p>"
+          }
+        },
+        "icon-2": {
+          "type": "text",
+          "settings": {
+            "icon_name": "recycle-circle",
+            "title": "Change it up",
+            "text": "<p>Keep your mattress and swap your cover when one is in the wash, or whenever you want to change your style.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "icon-0",
+        "icon-1",
+        "icon-2"
+      ],
+      "settings": {
+        "alignment": "center",
+        "columns": 3,
+        "icons_width": 45,
+        "heading": "",
+        "subheading": "",
+        "bg_color_secondary": false,
+        "box_color": "",
+        "text_color": "#333333",
+        "button_text": "",
+        "button_link": "",
+        "button_style": "btn--secondary btn--small",
+        "enable_slider_mobile": false,
+        "padding_top": 10,
+        "padding_bottom": 50
+      }
+    },
+    "0b271cde-7edb-437b-a7b8-052e7178b5d6": {
+      "type": "section-image-accordions",
+      "blocks": {
+        "template--16010683777210__0b271cde-7edb-437b-a7b8-052e7178b5d6-167502648232521f10-1": {
+          "type": "image",
+          "settings": {
+            "overlay_opacity": 10,
+            "text_width": "full",
+            "text_position": "left",
+            "text_color": "text-light",
+            "title": "Welcome to Palo Alto",
+            "text": "This text helps you provide some more detail to the title above.",
+            "btn_text": "",
+            "btn_link": "",
+            "btn_style": "btn--primary btn--small",
+            "btn_text_2": "",
+            "btn_link_2": "",
+            "btn_style_2": "btn--secondary btn--small"
+          }
+        },
+        "template--16010683777210__0b271cde-7edb-437b-a7b8-052e7178b5d6-167502648232521f10-2": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "overlay_opacity": 10,
+            "text_width": "full",
+            "text_position": "left",
+            "text_color": "text-light",
+            "title": "Welcome to Palo Alto",
+            "text": "This text helps you provide some more detail to the title above.",
+            "btn_text": "",
+            "btn_link": "",
+            "btn_style": "btn--primary btn--small",
+            "btn_text_2": "",
+            "btn_link_2": "",
+            "btn_style_2": "btn--secondary btn--small"
+          }
+        },
+        "template--16010683777210__0b271cde-7edb-437b-a7b8-052e7178b5d6-167502648232521f10-3": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "overlay_opacity": 10,
+            "text_width": "full",
+            "text_position": "left",
+            "text_color": "text-light",
+            "title": "Welcome to Palo Alto",
+            "text": "This text helps you provide some more detail to the title above.",
+            "btn_text": "",
+            "btn_link": "",
+            "btn_style": "btn--primary btn--small",
+            "btn_text_2": "",
+            "btn_link_2": "",
+            "btn_style_2": "btn--secondary btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "template--16010683777210__0b271cde-7edb-437b-a7b8-052e7178b5d6-167502648232521f10-1",
+        "template--16010683777210__0b271cde-7edb-437b-a7b8-052e7178b5d6-167502648232521f10-2",
+        "template--16010683777210__0b271cde-7edb-437b-a7b8-052e7178b5d6-167502648232521f10-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "accordion_height": "six-fifty-height",
+        "enable_mobile_height": false,
+        "mobile_section_height": "five-fifty-height-mobile",
+        "heading_size": 100,
+        "width": "wrapper--full-padded",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "c8f12a96-64e7-48a7-9d30-7860e820d407": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "four-fifty-height",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "wide",
+        "image": "shopify://shop_images/Laylo3848-Edit_websize_01dbdbe9-ea20-4eea-bbf9-04cdceebf052.jpg",
+        "subheading": "Our Bed Ensemble",
+        "title": "<p>Keep the mattress. <br/>Swap the look.</p>",
+        "heading_highlight_type": "circle",
+        "heading_size": 100,
+        "text_content": "With new cover collections released quarterly you can update your beds look to match your style.",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "",
+        "button_style": "btn--primary btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "section_width": "wrapper",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "8f849384-8337-49b8-92c2-a5d37b4e142e": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "four-fifty-height",
+        "layout": "inline",
+        "image_location": "right",
+        "image_width": "wide",
+        "image": "shopify://shop_images/Screen_Shot_2023-03-12_at_7.46.31_PM.png",
+        "subheading": "Our Fabric",
+        "title": "<p>Easy to wash and make good-as-new.</p>",
+        "heading_highlight_type": "circle",
+        "heading_size": 100,
+        "text_content": "Our 3-sided zipper makes it a breeze to quickly and easily remove the cover and toss it in the wash.",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "",
+        "button_style": "btn--primary btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "section_width": "wrapper",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "a3e3d48b-e060-40f5-865f-321180f095ad": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "four-fifty-height",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "wide",
+        "image": "shopify://shop_images/Laylo-Fabric_Teal-Terrazzo-02_Webedit.jpg",
+        "subheading": "Our Fabric",
+        "title": "<p>A dig-proof knit that brings patterns to life.</p>",
+        "heading_highlight_type": "circle",
+        "heading_size": 100,
+        "text_content": "No generic, printed patterns here. Each of our colorful, vibrant patterns is brought to life using a unique knitting process that adds durability and quality.",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "",
+        "button_style": "btn--primary btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "section_width": "wrapper",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "d7648cce-d9aa-4c66-8647-e335aedeaf5e": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "four-fifty-height",
+        "layout": "inline",
+        "image_location": "right",
+        "image_width": "wide",
+        "image": "shopify://shop_images/LAY_LO_Nonslip_Bottom.png",
+        "subheading": "Our Details",
+        "title": "<p>A sturdy base that doesn't slip.</p>",
+        "heading_highlight_type": "circle",
+        "heading_size": 100,
+        "text_content": "From cases of the zoomies to tug-of-wars, our durable, non-slip base material holds things steady during your pup's most active hours.",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "",
+        "button_style": "btn--primary btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "section_width": "wrapper",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "655e47e5-7dcc-4b3f-bc30-52d564cd7538": {
+      "type": "section-accordions",
+      "blocks": {
+        "template--16067035562170__655e47e5-7dcc-4b3f-bc30-52d564cd7538-167865199039f3885b-0": {
+          "type": "text",
+          "settings": {
+            "title": "How long does it take to get my products?",
+            "text": "<p>Domestic shipping can take up to 5-7 business days from the day it leaves our warehouse. We ship UPS ground for most orders.<br/></p>"
+          }
+        },
+        "template--16067035562170__655e47e5-7dcc-4b3f-bc30-52d564cd7538-167865199039f3885b-1": {
+          "type": "text",
+          "settings": {
+            "title": "Do you offer warranty for your products?",
+            "text": "<p>Our 365 warranty provides a guarantee against manufacturer defects. <br/><br/>The guarantee covers any manufacturing, design, or material defect.<br/><br/>The warranty does <strong>not</strong> cover damage due to chewing or shredding by your pup.</p><p>You can fund our full policy <a href=\"https://www.laylopets.com/pages/faq\" target=\"_blank\" title=\"https://www.laylopets.com/pages/faq\">here</a>.</p>"
+          }
+        },
+        "template--16067035562170__655e47e5-7dcc-4b3f-bc30-52d564cd7538-167865199039f3885b-2": {
+          "type": "text",
+          "settings": {
+            "title": "Do you offer refunds?",
+            "text": "<p>Yes, we offer full and partial refunds. <br/><br/>You can find our full refund policy <a href=\"https://www.laylopets.com/pages/faq\" target=\"_blank\" title=\"https://www.laylopets.com/pages/faq\">here</a>.</p>"
+          }
+        },
+        "template--16067035562170__655e47e5-7dcc-4b3f-bc30-52d564cd7538-167865199039f3885b-3": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16067035562170__655e47e5-7dcc-4b3f-bc30-52d564cd7538-167865199039f3885b-0",
+        "template--16067035562170__655e47e5-7dcc-4b3f-bc30-52d564cd7538-167865199039f3885b-1",
+        "template--16067035562170__655e47e5-7dcc-4b3f-bc30-52d564cd7538-167865199039f3885b-2",
+        "template--16067035562170__655e47e5-7dcc-4b3f-bc30-52d564cd7538-167865199039f3885b-3"
+      ],
+      "settings": {
+        "title": "Frequently Asked Questions",
+        "subheading": "",
+        "text": "",
+        "layout": "one-column",
+        "show_accordion_divider": false,
+        "tabs_bg_color": "#fafafa",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_image_with_text_6GLF8R": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "three-fifty-height",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "standard",
+        "image": "shopify://shop_images/Frame_139.png",
+        "subheading": "Homeschool by LAY LO®",
+        "title": "<p>A masterclass in pup parenting</p>",
+        "heading_highlight_type": "circle",
+        "heading_size": 130,
+        "text_content": "Raise the very best dog at home with 1:1 online training alongside certified R+ trainers, groomers and nutritionists.",
+        "text_alignment": "left",
+        "button_text": "Learn More",
+        "button_link": "shopify://pages/homeschool",
+        "button_style": "btn--primary btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "#f7f2ee",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "grid": {
+      "type": "section-grid",
+      "blocks": {
+        "grid-0": {
+          "type": "image",
+          "settings": {
+            "width": "100",
+            "image": "shopify://shop_images/0X5A3010_McCoolFinals.jpg",
+            "overlay_opacity": 10,
+            "text_position": "center",
+            "subheading": "",
+            "title": "1-Year Quality Guarantee",
+            "text": "Each bed is designed an California and made to last. We protect against any product defect for up to one year.",
+            "button_text": "",
+            "link": "",
+            "secondary_button_text": "",
+            "secondary_button_link": "",
+            "text_color": "text-light"
+          }
+        }
+      },
+      "block_order": [
+        "grid-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "350",
+        "heading_size": 150,
+        "button_style": "btn--secondary btn--small",
+        "secondary_button_style": "btn--secondary btn--small",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper",
+        "add_gutter": true,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "167866229113e22330": {
+      "type": "apps",
+      "blocks": {
+        "92e43edb-6f2c-42ec-bbac-948b543d32e4": {
+          "type": "shopify://apps/yotpo-product-reviews/blocks/reviews/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "settings": {
+            "product": "{{product}}"
+          }
+        }
+      },
+      "block_order": [
+        "92e43edb-6f2c-42ec-bbac-948b543d32e4"
+      ],
+      "settings": {
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "testimonials": {
+      "type": "section-testimonials",
+      "blocks": {
+        "testimonial-block-text": {
+          "type": "text",
+          "settings": {
+            "heading": "We let our reviews speak for themselves.",
+            "text_size": 125,
+            "subheading": "<p>4.98 average<br/>213 reviews</p>",
+            "block_color": "#000000",
+            "text_color": "text-light",
+            "text_alignment": "text-left"
+          }
+        },
+        "testimonial-block-0": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "text": "<p>Excellent customer service. I love their products!</p>",
+            "customer_name": "John Edmonson",
+            "subheading": "<p>Loyal Customer</p>"
+          }
+        },
+        "testimonial-block-1": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "text": "<p>Excellent customer service. I love their products!</p>",
+            "customer_name": "John Edmonson",
+            "subheading": "<p>Loyal Customer</p>"
+          }
+        },
+        "testimonial-block-2": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "text": "<p>Excellent customer service. I love their products!</p>",
+            "customer_name": "John Edmonson",
+            "subheading": "<p>Loyal Customer</p>"
+          }
+        },
+        "testimonial-block-3": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "text": "<p>Excellent customer service. I love their products!</p>",
+            "customer_name": "John Edmonson",
+            "subheading": "<p>Loyal Customer</p>"
+          }
+        },
+        "testimonial-block-4": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "text": "<p>Excellent customer service. I love their products!</p>",
+            "customer_name": "John Edmonson",
+            "subheading": "<p>Loyal Customer</p>"
+          }
+        },
+        "testimonial-block-5": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "text": "<p>Excellent customer service. I love their products!</p>",
+            "customer_name": "John Edmonson",
+            "subheading": "<p>Loyal Customer</p>"
+          }
+        },
+        "testimonial-block-6": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "text": "<p>Excellent customer service. I love their products!</p>",
+            "customer_name": "John Edmonson",
+            "subheading": "<p>Loyal Customer</p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial-block-text",
+        "testimonial-block-0",
+        "testimonial-block-1",
+        "testimonial-block-2",
+        "testimonial-block-3",
+        "testimonial-block-4",
+        "testimonial-block-5",
+        "testimonial-block-6"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Testimonials",
+        "text_size": 100,
+        "text_alignment": "text-left",
+        "bg_color": "",
+        "testimonial_block_color": "",
+        "testimonial_text_color": "text-dark",
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "related": {
+      "type": "related-products",
+      "settings": {
+        "limit": 4,
+        "product_recommendations_heading": "You May Also Like",
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "shogun-below": {
+      "type": "shogun-below",
+      "disabled": true,
+      "settings": {}
+    }
+  },
+  "order": [
+    "shogun-helper",
+    "shogun-above",
+    "main",
+    "bd134d06-84b0-4be7-b37c-69040f4adf68",
+    "icons",
+    "0b271cde-7edb-437b-a7b8-052e7178b5d6",
+    "c8f12a96-64e7-48a7-9d30-7860e820d407",
+    "8f849384-8337-49b8-92c2-a5d37b4e142e",
+    "a3e3d48b-e060-40f5-865f-321180f095ad",
+    "d7648cce-d9aa-4c66-8647-e335aedeaf5e",
+    "655e47e5-7dcc-4b3f-bc30-52d564cd7538",
+    "section_image_with_text_6GLF8R",
+    "grid",
+    "167866229113e22330",
+    "testimonials",
+    "related",
+    "shogun-below"
+  ]
+}

@@ -1,0 +1,433 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_slideshow_Yk4WzY": {
+      "type": "section-slideshow",
+      "blocks": {
+        "image_UPtegh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Homeschool_by_LAY_LO.png",
+            "overlay_opacity": 10,
+            "text_width": "normal",
+            "text_position": "center",
+            "text_color": "text-light",
+            "subheading": "",
+            "title": "Raise a better dog at home with help from the experts.",
+            "text": "Add more info or delete this text",
+            "slide_btn_text": "Shop All",
+            "slide_btn_link": "shopify://collections/all",
+            "slide_btn_style": "btn--primary btn--small",
+            "slide_btn_text_2": "",
+            "slide_btn_link_2": "",
+            "slide_btn_style_2": "btn--secondary btn--small",
+            "video_text": "Watch Video",
+            "video_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_UPtegh"
+      ],
+      "settings": {
+        "slide_height": "five-fifty-height",
+        "enable_mobile_height": false,
+        "mobile_slide_height": "five-fifty-height-mobile",
+        "show_nav_dots": true,
+        "show_nav_arrows": true,
+        "show_arrow_down": false,
+        "autoplay": false,
+        "duration": 4,
+        "transition": "wipe",
+        "enable_zoom_animation": true,
+        "heading_size": 120
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "extra_class": "",
+        "bg_color_secondary": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_text_WX3LQq": {
+      "type": "section-text",
+      "blocks": {
+        "subheading_c7RrEP": {
+          "type": "subheading",
+          "settings": {
+            "text": "",
+            "size": 100
+          }
+        },
+        "heading_pkqHrB": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>Be your dog's best trainer with premium virtual help.</p>",
+            "size": 100,
+            "heading_highlight_type": "italics"
+          }
+        },
+        "text_gyYRdc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We're not just about great products. Whether you're just adopting a new puppy or are lifelong pet parents looking for some extra guidance, we have services tailored to you from training, nutrition, grooming, and more. </p>",
+            "size": 100
+          }
+        },
+        "button_EJ9Ee9": {
+          "type": "button",
+          "settings": {
+            "btn_text": "Schedule a Free Session",
+            "btn_link": "",
+            "btn_style": "btn--primary btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_c7RrEP",
+        "heading_pkqHrB",
+        "text_gyYRdc",
+        "button_EJ9Ee9"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 30
+      }
+    },
+    "section_columns_LjVmMN": {
+      "type": "section-columns",
+      "blocks": {
+        "text_block_tziRXm": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/Frame_139_1.png",
+            "title": "Personal, live sessions from anywhere",
+            "text": "<p>Whether it's just a question or a personalized program, we'll coach you in real-time, giving you the confidence to be the very best pet parent you can be.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--text",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_mAzPfC": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/HomeschoolbyLAYLO-SMS_108131cd-fe80-4164-a195-56616d060222.png",
+            "title": "Access expert help 24/7",
+            "text": "<p>Instantly chat with a certified dog expert all from the comfort of home. Share videos and receive guidance at every step.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--text",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_At4tP6": {
+          "type": "text_block",
+          "settings": {
+            "title": "Get the right help, tailored to your pup",
+            "text": "<p>Browse expert profiles and session subjects to find the best fits your dog, or join a premium package for a personalized program.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--text",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_tziRXm",
+        "text_block_mAzPfC",
+        "text_block_At4tP6"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "text-left",
+        "columns": 3,
+        "equalize_height": true,
+        "image_aspect_ratio": 0.8,
+        "show_images": true,
+        "bg_color_secondary": false,
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_tab_collections_QMtLaz": {
+      "type": "section-tab-collections",
+      "blocks": {
+        "collection_xC6NiE": {
+          "type": "collection",
+          "settings": {
+            "title": "Sale",
+            "tab_collection": "",
+            "show_image": false,
+            "overlay_opacity": 10,
+            "heading": "",
+            "text_color": "text-light",
+            "link_text": "View All",
+            "link": "",
+            "button_style": "btn--primary btn--small"
+          }
+        },
+        "collection_MJmVUL": {
+          "type": "collection",
+          "settings": {
+            "title": "New Arrivals",
+            "tab_collection": "",
+            "show_image": false,
+            "overlay_opacity": 10,
+            "heading": "",
+            "text_color": "text-light",
+            "link_text": "View All",
+            "link": "",
+            "button_style": "btn--primary btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "collection_xC6NiE",
+        "collection_MJmVUL"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Best Sellers",
+        "bg_color_secondary": false,
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_text_F6VPCa": {
+      "type": "section-text",
+      "blocks": {
+        "subheading_ppt64g": {
+          "type": "subheading",
+          "settings": {
+            "text": "",
+            "size": 100
+          }
+        },
+        "heading_MahQUd": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>Ways to work with us</p>",
+            "size": 100,
+            "heading_highlight_type": "italics"
+          }
+        },
+        "text_U99npg": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Whether you're just adopting a new puppy or are lifelong pet parents looking for some extra guidance, we have services tailored to you from training, nutrition, grooming, and more. </p>",
+            "size": 100
+          }
+        }
+      },
+      "block_order": [
+        "subheading_ppt64g",
+        "heading_MahQUd",
+        "text_U99npg"
+      ],
+      "disabled": true,
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 30
+      }
+    },
+    "section_promotion_row_tUbJzg": {
+      "type": "section-promotion-row",
+      "blocks": {
+        "column_GWeiWJ": {
+          "type": "column",
+          "settings": {
+            "subheading": "",
+            "subheading_size": 90,
+            "heading": "<p>20% OFF</p>",
+            "heading_highlight_type": "italics",
+            "heading_size": 295,
+            "description": "Share details about the promotion",
+            "description_size": 100,
+            "disclaimer": "*Use this text for a disclaimer.",
+            "disclaimer_size": 75,
+            "button_text": "Button text",
+            "button_link": "",
+            "button_style": "btn--primary btn--small",
+            "bg_color": "",
+            "text_color": "",
+            "gradient_background": "",
+            "overlay_opacity": 0
+          }
+        },
+        "column_Bermd6": {
+          "type": "column",
+          "settings": {
+            "subheading": "",
+            "subheading_size": 80,
+            "heading": "<p>BOGO</p>",
+            "heading_highlight_type": "italics",
+            "heading_size": 260,
+            "description": "Share details about the promotion",
+            "description_size": 85,
+            "disclaimer": "*Use this text for a disclaimer.",
+            "disclaimer_size": 75,
+            "button_text": "Button text",
+            "button_link": "",
+            "button_style": "btn--primary btn--small",
+            "bg_color": "",
+            "text_color": "",
+            "gradient_background": "",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "column_GWeiWJ",
+        "column_Bermd6"
+      ],
+      "disabled": true,
+      "settings": {
+        "layout": "none",
+        "height": "350",
+        "bg_color": "",
+        "enable_slider_mobile": true,
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_image_with_text_d9QgJ6": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "five-fifty-height",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "wide",
+        "subheading": "",
+        "title": "<p>Premium packages, personalized to your pup</p>",
+        "heading_highlight_type": "circle",
+        "heading_size": 100,
+        "text_content": "Share details about a promotion, welcome customers, describe a product, or talk about your brand.",
+        "text_alignment": "left",
+        "button_text": "Button text",
+        "button_link": "",
+        "button_style": "btn--primary btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_image_with_text_rhDtNj": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "five-fifty-height",
+        "layout": "inline",
+        "image_location": "right",
+        "image_width": "wide",
+        "subheading": "",
+        "title": "<p>Subject-based sessions led by experts</p>",
+        "heading_highlight_type": "circle",
+        "heading_size": 100,
+        "text_content": "Share details about a promotion, welcome customers, describe a product, or talk about your brand.",
+        "text_alignment": "left",
+        "button_text": "Button text",
+        "button_link": "",
+        "button_style": "btn--primary btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_icons_row_ktymUB": {
+      "type": "section-icons-row",
+      "blocks": {
+        "text_RE8RDL": {
+          "type": "text",
+          "settings": {
+            "icon_name": "check",
+            "title": "Find what your pup needs",
+            "text": "<p>From nutrition, to training, speak we have certified experts for you.</p>"
+          }
+        },
+        "text_wjdhKH": {
+          "type": "text",
+          "settings": {
+            "icon_name": "calendar",
+            "title": "Book a session, or a package",
+            "text": "<p>Whether it’s just one session, or a full training plan, we’re here to help.</p>"
+          }
+        },
+        "text_gFCnNQ": {
+          "type": "text",
+          "settings": {
+            "icon_name": "eco-friendly",
+            "icon_image": "shopify://shop_images/noun-video-call-7120956.svg",
+            "title": "Learn with the best",
+            "text": "<p>Receive your video link via zoom to work with your expert face-to-face.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_RE8RDL",
+        "text_wjdhKH",
+        "text_gFCnNQ"
+      ],
+      "settings": {
+        "alignment": "center",
+        "columns": 3,
+        "icons_width": 35,
+        "heading": "",
+        "subheading": "",
+        "bg_color_secondary": false,
+        "box_color": "",
+        "text_color": "#333",
+        "button_text": "",
+        "button_link": "",
+        "button_style": "btn--secondary btn--small",
+        "enable_slider_mobile": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "section_slideshow_Yk4WzY",
+    "main",
+    "section_text_WX3LQq",
+    "section_columns_LjVmMN",
+    "section_tab_collections_QMtLaz",
+    "section_text_F6VPCa",
+    "section_promotion_row_tUbJzg",
+    "section_image_with_text_d9QgJ6",
+    "section_image_with_text_rhDtNj",
+    "section_icons_row_ktymUB"
+  ]
+}

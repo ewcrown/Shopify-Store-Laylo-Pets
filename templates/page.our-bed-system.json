@@ -1,0 +1,714 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "3e54aa4e-042b-4459-8661-7594cf671c10": {
+      "type": "section-slideshow",
+      "blocks": {
+        "template--16066973663418__3e54aa4e-042b-4459-8661-7594cf671c10-16786479626aa6508b-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Cover_Page_Header_Desktop.png",
+            "overlay_opacity": 10,
+            "text_width": "full",
+            "text_position": "left",
+            "text_color": "text-light",
+            "subheading": "The LAY LO™ Bed System",
+            "title": "Smarter style for you and your pet.",
+            "text": "",
+            "slide_btn_text": "",
+            "slide_btn_link": "",
+            "slide_btn_style": "btn--primary btn--small",
+            "slide_btn_text_2": "",
+            "slide_btn_link_2": "",
+            "slide_btn_style_2": "btn--secondary btn--small",
+            "video_text": "",
+            "video_link": ""
+          }
+        },
+        "template--16066973663418__3e54aa4e-042b-4459-8661-7594cf671c10-16786479626aa6508b-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "overlay_opacity": 10,
+            "text_width": "normal",
+            "text_position": "center",
+            "text_color": "text-light",
+            "subheading": "",
+            "title": "Welcome to Palo Alto",
+            "text": "Add more info or delete this text",
+            "slide_btn_text": "Shop All",
+            "slide_btn_link": "shopify://collections/all",
+            "slide_btn_style": "btn--primary btn--small",
+            "slide_btn_text_2": "",
+            "slide_btn_link_2": "",
+            "slide_btn_style_2": "btn--secondary btn--small",
+            "video_text": "",
+            "video_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16066973663418__3e54aa4e-042b-4459-8661-7594cf671c10-16786479626aa6508b-0",
+        "template--16066973663418__3e54aa4e-042b-4459-8661-7594cf671c10-16786479626aa6508b-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "slide_height": "four-fifty-height",
+        "enable_mobile_height": false,
+        "mobile_slide_height": "five-fifty-height-mobile",
+        "show_nav_dots": true,
+        "show_nav_arrows": true,
+        "show_arrow_down": false,
+        "autoplay": false,
+        "duration": 4,
+        "transition": "wipe",
+        "enable_zoom_animation": true,
+        "heading_size": 120
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "extra_class": "",
+        "bg_color_secondary": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "1432ab01-5b66-40b6-984e-c4bd255edeeb": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "four-fifty-height",
+        "layout": "inline",
+        "image_location": "right",
+        "image_width": "wide",
+        "image": "shopify://shop_images/Screen_Shot_2023-03-12_at_12.11.16_PM.png",
+        "subheading": "The LAY LO™ Bed System",
+        "title": "<p>A versatile dog bed that feels like home.</p>",
+        "heading_highlight_type": "circle",
+        "heading_size": 130,
+        "text_content": "The LAY LO dog bed system is our solution \"throw-away\" dog beds that look as cheap as they felt. By creating beautiful cover designs that can be swapped out for new styles and allowing you to choose what goes inside, we're creating a long-lasting comfortable bed that looks—and feels—right at home.",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "",
+        "button_style": "btn--primary btn--small",
+        "video_link": "https://www.youtube.com/watch?v=EpEt1M1s9d4",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "1a77e978-2d6d-4f83-9564-14793c36fdd2": {
+      "type": "section-icons-row",
+      "blocks": {
+        "template--16066973663418__1a77e978-2d6d-4f83-9564-14793c36fdd2-1678648380c78f0d0b-0": {
+          "type": "text",
+          "settings": {
+            "icon_name": "check",
+            "title": "Pick a design",
+            "text": "<p>Pick from one of our globally-inspired patterns, or <a href=\"https://www.laylopets.com/apps/bundles/bundle/66852\"><span style=\"text-decoration:underline\">bundle a few </span></a>and save.</p>"
+          }
+        },
+        "template--16066973663418__1a77e978-2d6d-4f83-9564-14793c36fdd2-1678648380c78f0d0b-1": {
+          "type": "text",
+          "settings": {
+            "icon_name": "check",
+            "title": "Choose what's inside",
+            "text": "<p>Bundle a cover with one of our own orthopedic mattresses, or fill it with soft clothes or towels — even recover an old dog bed.</p>"
+          }
+        },
+        "template--16066973663418__1a77e978-2d6d-4f83-9564-14793c36fdd2-1678648380c78f0d0b-2": {
+          "type": "text",
+          "settings": {
+            "icon_name": "eco-friendly",
+            "title": "Change it up",
+            "text": "<p>Keep your mattress and swap your cover when one is in the wash, or whenever you want to change your style.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16066973663418__1a77e978-2d6d-4f83-9564-14793c36fdd2-1678648380c78f0d0b-0",
+        "template--16066973663418__1a77e978-2d6d-4f83-9564-14793c36fdd2-1678648380c78f0d0b-1",
+        "template--16066973663418__1a77e978-2d6d-4f83-9564-14793c36fdd2-1678648380c78f0d0b-2"
+      ],
+      "settings": {
+        "alignment": "center",
+        "columns": 3,
+        "icons_width": 40,
+        "heading": "How it works",
+        "subheading": "",
+        "bg_color_secondary": true,
+        "box_color": "",
+        "text_color": "#333333",
+        "button_text": "",
+        "button_link": "",
+        "button_style": "btn--secondary btn--small",
+        "enable_slider_mobile": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "3e39b9c3-79e0-4db0-8882-974ce99a35d0": {
+      "type": "section-columns",
+      "blocks": {
+        "template--16066973663418__3e39b9c3-79e0-4db0-8882-974ce99a35d0-1678648411145a7169-0": {
+          "type": "text_block",
+          "settings": {
+            "title": "Add a title or tagline",
+            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
+            "button_text": "Learn More",
+            "button_link": "",
+            "button_style": "btn--text",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "template--16066973663418__3e39b9c3-79e0-4db0-8882-974ce99a35d0-1678648411145a7169-1": {
+          "type": "text_block",
+          "settings": {
+            "title": "Add a title or tagline",
+            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
+            "button_text": "Learn More",
+            "button_link": "",
+            "button_style": "btn--text",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        }
+      },
+      "block_order": [
+        "template--16066973663418__3e39b9c3-79e0-4db0-8882-974ce99a35d0-1678648411145a7169-0",
+        "template--16066973663418__3e39b9c3-79e0-4db0-8882-974ce99a35d0-1678648411145a7169-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "align_text": "text-left",
+        "columns": 3,
+        "equalize_height": true,
+        "image_aspect_ratio": 0.8,
+        "show_images": true,
+        "bg_color_secondary": false,
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "39d4fe11-b984-4b2a-aeff-6c76d480c9d5": {
+      "type": "section-columns",
+      "blocks": {
+        "template--16066973663418__39d4fe11-b984-4b2a-aeff-6c76d480c9d5-1678648411145a7169-0": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/Laylo3596.jpg",
+            "title": "Stuffable bed covers",
+            "text": "<p>Our unique stuffable cover design can bring new life to an old dog bed you already own or be filled with pillows, blankets, or clothes to customize a bed that helps your pup feel right at home.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--text",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "template--16066973663418__39d4fe11-b984-4b2a-aeff-6c76d480c9d5-1678648411145a7169-1": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/Laylo3718.jpg",
+            "title": "Full bed with orthopedic mattress",
+            "text": "<p>A full dog bed comes with an orthopedic, water-resistant mattress insert. Grab an extra cover design to extend the life of your mattress whenever you want to swap your style.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--text",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        }
+      },
+      "block_order": [
+        "template--16066973663418__39d4fe11-b984-4b2a-aeff-6c76d480c9d5-1678648411145a7169-0",
+        "template--16066973663418__39d4fe11-b984-4b2a-aeff-6c76d480c9d5-1678648411145a7169-1"
+      ],
+      "settings": {
+        "title": "Two ways to shop",
+        "align_text": "text-center",
+        "columns": 2,
+        "equalize_height": true,
+        "image_aspect_ratio": 0.5,
+        "show_images": true,
+        "bg_color_secondary": false,
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "fe9e8e68-ebea-4fb2-8765-772484de393e": {
+      "type": "section-tab-collections",
+      "blocks": {
+        "template--16066973663418__fe9e8e68-ebea-4fb2-8765-772484de393e-1681489071d0651513-0": {
+          "type": "collection",
+          "settings": {
+            "title": "Boho",
+            "tab_collection": "boho-collection-1",
+            "show_image": false,
+            "overlay_opacity": 10,
+            "heading": "",
+            "text_color": "text-light",
+            "link_text": "View All",
+            "link": "",
+            "button_style": "btn--primary btn--small"
+          }
+        },
+        "template--16066973663418__fe9e8e68-ebea-4fb2-8765-772484de393e-1681489071d0651513-1": {
+          "type": "collection",
+          "settings": {
+            "title": "Checker",
+            "tab_collection": "checker-collection",
+            "show_image": false,
+            "overlay_opacity": 10,
+            "heading": "",
+            "text_color": "text-light",
+            "link_text": "View All",
+            "link": "",
+            "button_style": "btn--primary btn--small"
+          }
+        },
+        "53715e09-c388-40c0-9751-1567a9416a67": {
+          "type": "collection",
+          "settings": {
+            "title": "Grid",
+            "tab_collection": "grid-collection",
+            "show_image": false,
+            "overlay_opacity": 10,
+            "heading": "",
+            "text_color": "text-light",
+            "link_text": "View All",
+            "link": "",
+            "button_style": "btn--primary btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "template--16066973663418__fe9e8e68-ebea-4fb2-8765-772484de393e-1681489071d0651513-0",
+        "template--16066973663418__fe9e8e68-ebea-4fb2-8765-772484de393e-1681489071d0651513-1",
+        "53715e09-c388-40c0-9751-1567a9416a67"
+      ],
+      "settings": {
+        "title": "Best Sellers",
+        "bg_color_secondary": false,
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "312ba2e6-4e06-4b70-aee5-e7880e07896f": {
+      "type": "section-text",
+      "blocks": {
+        "template--16066973663418__312ba2e6-4e06-4b70-aee5-e7880e07896f-1678649203f4141e28-0": {
+          "type": "subheading",
+          "settings": {
+            "text": "",
+            "size": 100
+          }
+        },
+        "template--16066973663418__312ba2e6-4e06-4b70-aee5-e7880e07896f-1678649203f4141e28-1": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>Better for your pet and your home.</p>",
+            "size": 130,
+            "heading_highlight_type": "italics"
+          }
+        },
+        "template--16066973663418__312ba2e6-4e06-4b70-aee5-e7880e07896f-1678649203f4141e28-2": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "size": 100
+          }
+        }
+      },
+      "block_order": [
+        "template--16066973663418__312ba2e6-4e06-4b70-aee5-e7880e07896f-1678649203f4141e28-0",
+        "template--16066973663418__312ba2e6-4e06-4b70-aee5-e7880e07896f-1678649203f4141e28-1",
+        "template--16066973663418__312ba2e6-4e06-4b70-aee5-e7880e07896f-1678649203f4141e28-2"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "83459949-0c43-451e-a2e1-f738e4eca6a1": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "six-fifty-height",
+        "layout": "inline",
+        "image_location": "right",
+        "image_width": "wide",
+        "image": "shopify://shop_images/LAY-LO-Better-for-your-pet.jpg",
+        "subheading": "",
+        "title": "<p>Elevated designs that match your style.</p>",
+        "heading_highlight_type": "circle",
+        "heading_size": 100,
+        "text_content": "Every pattern was designed alongside renowned designers to bring global trends and patterns into your home. Each cover is carefully crafted featuring a proprietary knit that is both breathable and durable. It looks like furniture and feels like home.",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "",
+        "button_style": "btn--primary btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "da3a6f74-b774-464a-a348-4c5b124f1a69": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "six-fifty-height",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "wide",
+        "image": "shopify://shop_images/LAY-LO-bed-System-GIF-Stuffable-cover3.gif",
+        "subheading": "",
+        "title": "<p>Comfort that you control</p>",
+        "heading_highlight_type": "circle",
+        "heading_size": 100,
+        "text_content": "You choose the comfort that's best for your pup. Go for a full bed & mattress or just a cover alone and to stuff it yourself with pillows, blankets, or clothes for a custom comfort that reminds them of home.",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "",
+        "button_style": "btn--primary btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "fb53dae6-2010-4753-8f1b-67d05d3d5a38": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "six-fifty-height",
+        "layout": "inline",
+        "image_location": "right",
+        "image_width": "wide",
+        "image": "shopify://shop_images/Laylo3848-Edit_websize_01dbdbe9-ea20-4eea-bbf9-04cdceebf052.jpg",
+        "subheading": "",
+        "title": "<p>Swap it. Don't toss it.</p>",
+        "heading_highlight_type": "circle",
+        "heading_size": 100,
+        "text_content": "You don't throw your mattress away when your sheets get dirty, right? Swap out any LAY LO cover with new design to provide a facelift to your dog's mattress while extending its life for years to come.",
+        "text_alignment": "left",
+        "button_text": "Shop Bundles & Save",
+        "button_link": "https://www.laylopets.com/apps/bundles/bundle/66852",
+        "button_style": "btn--primary btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "c1339769-a255-4108-9776-b7828e56d2e7": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "six-fifty-height",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "wide",
+        "image": "shopify://shop_images/Screen_Shot_2023-03-12_at_12.39.27_PM.png",
+        "subheading": "",
+        "title": "<p>Easy to wash. Easy to use.</p>",
+        "heading_highlight_type": "circle",
+        "heading_size": 100,
+        "text_content": "Your bed needs a freshening up? No problem. Our easy-access, 3-sided zipper makes it simple to remove the cover to wash and re-use over and over again.",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "",
+        "button_style": "btn--primary btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "234f1921-9d46-4aa5-a5e0-abb09931d27c": {
+      "type": "section-text",
+      "blocks": {
+        "5eff98a1-341d-413d-9865-1d809e7208d6": {
+          "type": "subheading",
+          "settings": {
+            "text": "",
+            "size": 100
+          }
+        },
+        "4e225c5b-0ab1-4bf1-86e0-425e5f011bfa": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>Digging in to the features</p>",
+            "size": 130,
+            "heading_highlight_type": "italics"
+          }
+        },
+        "68121922-57a5-4f4d-a4ae-8b531b9561a3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "size": 100
+          }
+        }
+      },
+      "block_order": [
+        "5eff98a1-341d-413d-9865-1d809e7208d6",
+        "4e225c5b-0ab1-4bf1-86e0-425e5f011bfa",
+        "68121922-57a5-4f4d-a4ae-8b531b9561a3"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "c49884d1-c9f8-4393-be9e-a567a46dfcae": {
+      "type": "section-icons-row",
+      "blocks": {
+        "template--16066973663418__c49884d1-c9f8-4393-be9e-a567a46dfcae-1678648380c78f0d0b-0": {
+          "type": "text",
+          "settings": {
+            "icon_name": "dishwasher-safe",
+            "title": "Washable",
+            "text": "<p>Our three-sided zipper design makes laundry day a breeze. Just zip off the cover and throw it in the wash as often as you need.</p>"
+          }
+        },
+        "template--16066973663418__c49884d1-c9f8-4393-be9e-a567a46dfcae-1678648380c78f0d0b-1": {
+          "type": "text",
+          "settings": {
+            "icon_name": "recycle",
+            "title": "Reduce Waste",
+            "text": "<p>Whether you're re-using an old bed, or stuffing with old clothes, you're making a choice to reduce and re-use.</p>"
+          }
+        },
+        "template--16066973663418__c49884d1-c9f8-4393-be9e-a567a46dfcae-1678648380c78f0d0b-2": {
+          "type": "text",
+          "settings": {
+            "icon_name": "shield",
+            "title": "Dig-proof Durability",
+            "text": "<p>Our durable, yet soft knited material can stand up to even the most rambunctious pups.</p>"
+          }
+        },
+        "873e9cb7-ccbd-4230-81db-7b8c50e38605": {
+          "type": "text",
+          "settings": {
+            "icon_name": "smile",
+            "title": "Orthopedic Comfort",
+            "text": "<p>Whether you're covering an old mattress your dog loves, or filling it with clothes or pillows — you're in control of the comfort.</p>"
+          }
+        },
+        "d1359e6d-951c-4e52-b5e8-227df4a73ee7": {
+          "type": "text",
+          "settings": {
+            "icon_name": "recycle-circle",
+            "title": "Swappable Styles",
+            "text": "<p>Our three-sided zipper design makes laundry day a breeze. Just zip off the cover and throw it in the wash as often as you need.</p>"
+          }
+        },
+        "11c4459e-66fb-4bda-8b5a-c0f71e449f66": {
+          "type": "text",
+          "settings": {
+            "icon_name": "paw-heart",
+            "title": "Breathable Knit",
+            "text": "<p>Our durable, yet soft knitted material can stand up to even the most rambunctious pups while keeping them just as cool.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16066973663418__c49884d1-c9f8-4393-be9e-a567a46dfcae-1678648380c78f0d0b-0",
+        "template--16066973663418__c49884d1-c9f8-4393-be9e-a567a46dfcae-1678648380c78f0d0b-1",
+        "template--16066973663418__c49884d1-c9f8-4393-be9e-a567a46dfcae-1678648380c78f0d0b-2",
+        "873e9cb7-ccbd-4230-81db-7b8c50e38605",
+        "d1359e6d-951c-4e52-b5e8-227df4a73ee7",
+        "11c4459e-66fb-4bda-8b5a-c0f71e449f66"
+      ],
+      "settings": {
+        "alignment": "center",
+        "columns": 3,
+        "icons_width": 40,
+        "heading": "",
+        "subheading": "",
+        "bg_color_secondary": false,
+        "box_color": "",
+        "text_color": "#333333",
+        "button_text": "",
+        "button_link": "",
+        "button_style": "btn--secondary btn--small",
+        "enable_slider_mobile": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "a33658bc-c95d-4057-8745-c1f9cc98c027": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "six-fifty-height",
+        "layout": "overlay",
+        "image_location": "left",
+        "image_width": "wide",
+        "image": "shopify://shop_images/0X5A3010_McCoolFinals.jpg",
+        "subheading": "365 Guarantee",
+        "title": "<p>Made to last (and last)</p>",
+        "heading_highlight_type": "circle",
+        "heading_size": 130,
+        "text_content": "We work with both domestic and international suppliers and artisans across our range of collections. Every partner has been vetted to ensure each cover is knit with the highest quality yarns and machines used by the top garment manufacturers around the world.",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_link": "",
+        "button_style": "btn--primary btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "b5a372ae-03b5-4414-b031-a9403cb92127": {
+      "type": "section-text",
+      "blocks": {
+        "4b3a43da-0325-4f15-88bb-e058abd688c5": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>More to explore</p>",
+            "size": 95,
+            "heading_highlight_type": "italics"
+          }
+        }
+      },
+      "block_order": [
+        "4b3a43da-0325-4f15-88bb-e058abd688c5"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 20
+      }
+    },
+    "94009d67-c041-4b79-b25c-289a9a871f0c": {
+      "type": "section-grid",
+      "blocks": {
+        "template--16066973663418__94009d67-c041-4b79-b25c-289a9a871f0c-167865095456d496af-0": {
+          "type": "image",
+          "settings": {
+            "width": "33.33",
+            "image": "shopify://shop_images/Screen_Shot_2023-01-29_at_11.56.31_AM.png",
+            "overlay_opacity": 10,
+            "text_position": "center",
+            "subheading": "",
+            "title": "Our Story",
+            "text": "",
+            "button_text": "",
+            "link": "shopify://pages/about-laylo",
+            "secondary_button_text": "",
+            "secondary_button_link": "",
+            "text_color": "text-light"
+          }
+        },
+        "template--16066973663418__94009d67-c041-4b79-b25c-289a9a871f0c-167865095456d496af-1": {
+          "type": "image",
+          "settings": {
+            "width": "33.33",
+            "image": "shopify://shop_images/Screen_Shot_2023-01-29_at_11.17.45_AM_b71a30d2-04f8-4499-b3a3-a2b7edf2f100.png",
+            "overlay_opacity": 10,
+            "text_position": "center",
+            "subheading": "",
+            "title": "Shop All",
+            "text": "",
+            "button_text": "",
+            "link": "shopify://collections",
+            "secondary_button_text": "",
+            "secondary_button_link": "",
+            "text_color": "text-light"
+          }
+        },
+        "template--16066973663418__94009d67-c041-4b79-b25c-289a9a871f0c-167865095456d496af-2": {
+          "type": "image",
+          "settings": {
+            "width": "33.33",
+            "image": "shopify://shop_images/210714-LayLo_BrigetteRomanek_101_a4b711d8-64ee-4710-96a3-623c856c8627.jpg",
+            "overlay_opacity": 10,
+            "text_position": "center",
+            "subheading": "",
+            "title": "Stories",
+            "text": "",
+            "button_text": "",
+            "link": "shopify://blogs/barkives",
+            "secondary_button_text": "",
+            "secondary_button_link": "",
+            "text_color": "text-light"
+          }
+        }
+      },
+      "block_order": [
+        "template--16066973663418__94009d67-c041-4b79-b25c-289a9a871f0c-167865095456d496af-0",
+        "template--16066973663418__94009d67-c041-4b79-b25c-289a9a871f0c-167865095456d496af-1",
+        "template--16066973663418__94009d67-c041-4b79-b25c-289a9a871f0c-167865095456d496af-2"
+      ],
+      "settings": {
+        "height": "550",
+        "heading_size": 100,
+        "button_style": "btn--secondary btn--small",
+        "secondary_button_style": "btn--secondary btn--small",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper",
+        "add_gutter": true,
+        "padding_top": 20,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "3e54aa4e-042b-4459-8661-7594cf671c10",
+    "main",
+    "1432ab01-5b66-40b6-984e-c4bd255edeeb",
+    "1a77e978-2d6d-4f83-9564-14793c36fdd2",
+    "3e39b9c3-79e0-4db0-8882-974ce99a35d0",
+    "39d4fe11-b984-4b2a-aeff-6c76d480c9d5",
+    "fe9e8e68-ebea-4fb2-8765-772484de393e",
+    "312ba2e6-4e06-4b70-aee5-e7880e07896f",
+    "83459949-0c43-451e-a2e1-f738e4eca6a1",
+    "da3a6f74-b774-464a-a348-4c5b124f1a69",
+    "fb53dae6-2010-4753-8f1b-67d05d3d5a38",
+    "c1339769-a255-4108-9776-b7828e56d2e7",
+    "234f1921-9d46-4aa5-a5e0-abb09931d27c",
+    "c49884d1-c9f8-4393-be9e-a567a46dfcae",
+    "a33658bc-c95d-4057-8745-c1f9cc98c027",
+    "b5a372ae-03b5-4414-b031-a9403cb92127",
+    "94009d67-c041-4b79-b25c-289a9a871f0c"
+  ]
+}

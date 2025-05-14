@@ -1,0 +1,330 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "extra_class": "",
+        "bg_color_secondary": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_text_HcCaX7": {
+      "type": "section-text",
+      "blocks": {
+        "subheading_YUBydQ": {
+          "type": "subheading",
+          "settings": {
+            "text": "",
+            "size": 100
+          }
+        },
+        "heading_xqGhxd": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>Frequently Asked Questions</p>",
+            "size": 100,
+            "heading_highlight_type": "italics"
+          }
+        },
+        "text_RMTptP": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Everything you need to know before and after making your LAY LO purchase. If you can't find what you're looking for, we're always available at support@laylopets.com.</p>",
+            "size": 100
+          }
+        },
+        "button_iCmcPN": {
+          "type": "button",
+          "settings": {
+            "btn_text": "",
+            "btn_link": "",
+            "btn_style": "btn--primary btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_YUBydQ",
+        "heading_xqGhxd",
+        "text_RMTptP",
+        "button_iCmcPN"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "accordion-section-2": {
+      "type": "section-accordions",
+      "blocks": {
+        "accordion_block_2_0": {
+          "type": "text",
+          "settings": {
+            "title": "How long does it take to get my products?",
+            "text": "<p>Products are shipped from our Brooklyn warehouse Monday-Friday.<br/><br/>Domestic shipping can take up to 3-8 business days, depending on the location. We typically ship USPS or UPS ground.<br/><br/>Foreign shipping could take up to 14 business days.<br/><br/></p>"
+          }
+        },
+        "accordion_block_2_1": {
+          "type": "text",
+          "settings": {
+            "title": "How much does it cost?",
+            "text": "<p>Shipping is free to domestic US states on orders over $100. Orders under $100 shipping to a domestic location are $5. <br/><br/>International shipping rates are calculated depending on shipping destination.</p>"
+          }
+        },
+        "accordion_block_2_2": {
+          "type": "text",
+          "settings": {
+            "title": "Is there free shipping?",
+            "text": "<p>Yes, we offer free shipping on domestic orders over $100!</p>"
+          }
+        },
+        "accordion_block_2_3": {
+          "type": "text",
+          "settings": {
+            "title": "Do you ship internationally?",
+            "text": "<p>Yes, we ship our products all over the globe. The fees and VAT are calculated during the checkout process once you input your shipping address.<br/><br/>Please note that free shipping is not applicable for international orders and that shipping rates could vary depending on your region.</p>"
+          }
+        },
+        "accordion_block_2_4": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "Do you ship to my area?",
+            "text": "<p>A full list of all of our shipping areas can be found <a href=\"/policies/shipping-policy\" title=\"Shipping Policy\">here</a>.<br/><br/>If your country or region is not mentioned, please feel free to reach out to see if we can work out the details.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "accordion_block_2_0",
+        "accordion_block_2_1",
+        "accordion_block_2_2",
+        "accordion_block_2_3",
+        "accordion_block_2_4"
+      ],
+      "settings": {
+        "title": "Shipping & Delivery",
+        "subheading": "",
+        "text": "",
+        "layout": "one-column",
+        "show_accordion_divider": false,
+        "tabs_bg_color": "#fafafa",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "accordion-section-4": {
+      "type": "section-accordions",
+      "blocks": {
+        "accordion_block_4_0": {
+          "type": "text",
+          "settings": {
+            "title": "What is your return policy?",
+            "text": "<p><strong>For LAY LO Beds and Bed Covers:</strong> if you have not opened the vacuum seal or original packaging, you will be eligible for a return or an exchange of size. Returns must be requested within 30 days of the  purchase date. LAY LO beds must be unopened for a return or a refund.  <br/><br/><strong>Liners, toys, and and other products</strong> must be unused to be eligible for a return. </p><p>For <strong>exchange items</strong>, please see \"How do I exchange a product?\" in the questions below. </p><p>If you wish to return or exchange your items, knowing the above, please contact our team at <a href=\"mailto:support@laylopets.com\">support@laylopets.com</a> for return details. Please provide your order number and photo of your product. </p><p>Return shipping of a LAY LO bed will be subject to a $20 return fee, which will be deducted from your final refund amount. Other returned products will be subject to a $5 fee. </p><p>Once the product is received and passes inspection, the payment will be processed to the original payment method and the customer will receive an email notification.</p>"
+          }
+        },
+        "accordion_block_4_1": {
+          "type": "text",
+          "settings": {
+            "title": "How long after I complete a purchase can I ask for a refund?",
+            "text": "<p>A refund request can be submitted within a month after the purchase is made, pending the requirements are met in our return policy above. Email support@laylopets.com to request a refund. Please include your order number and photo of the packaged product.</p>"
+          }
+        },
+        "accordion_block_4_2": {
+          "type": "text",
+          "settings": {
+            "title": "How much can I get refunded?",
+            "text": "<p>In the case when the <strong>product and packaging are unopened and undamaged</strong>, you are<strong> eligible </strong>for a full refund.*<br/><br/>In the case when<strong> the packaging has been opened and the product has been used</strong>, you are <strong>eligible</strong> for a partial refund.*<br/><br/>In the case when a<strong> product has been damaged</strong>, and the damage is not covered by your warranty, you are<strong> not eligible </strong>for a refund.*<br/><br/>*Dog bed mattresses that have been opened and used are eligible for exchange but not a refund. Eligible returned or exchanged items are subject to up to a restocking and shipping fee. <br/></p>"
+          }
+        },
+        "accordion_block_4_3": {
+          "type": "text",
+          "settings": {
+            "title": "How do I exchange a product?",
+            "text": "<p>Exchanges happen, we understand. <br/><br/>We recommend viewing our size chart before your purchase and ensuring you pick the best size for your pup. <br/><br/>Bed exchanges are subject to a $20 exchange shipping and handling fee.<br/><br/>All other products are subject to a $5 exchange shipping and handling fee.</p>"
+          }
+        },
+        "accordion_block_4_4": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "Who pays the shipping costs in the case of a refund when the order has free shipping?",
+            "text": "<p>When an order includes free shipping, only the cost of the return shipping is handled by the customer.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "accordion_block_4_0",
+        "accordion_block_4_1",
+        "accordion_block_4_2",
+        "accordion_block_4_3",
+        "accordion_block_4_4"
+      ],
+      "settings": {
+        "title": "Returns & Exchanges",
+        "subheading": "",
+        "text": "",
+        "layout": "one-column",
+        "show_accordion_divider": false,
+        "tabs_bg_color": "#fafafa",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "accordion-section-3": {
+      "type": "section-accordions",
+      "blocks": {
+        "accordion_block_3_0": {
+          "type": "text",
+          "settings": {
+            "title": "Do you offer warranty for your products?",
+            "text": "<p>We stand behind the craftsmanship of each one of our products. <br/><br/>That’s why we offer a <strong>1-year warranty</strong> that covers manufacturing and workmanship defects outside of normal wear and tear. For full coverage and exclusions see below. <br/><br/>We take pride in our product so if you notice anything out of the ordinary, please submit a claim by emailing us at support@laylopets.com. We review messages daily and will get back to you within 24 hours. <br/><br/>This Limited Warranty excludes: (a) minor imperfections and slight cosmetic flaws; (b) normal wear and tear associated with intended use and washing; (c) stains, soiling, burns, dampness, wetness, mold or discoloration that occur over time; (d) individual or personalized allergies and sensitivities; (e) color variations; (f) changes in personal comfort preferences; (g) damage or abuse caused by failure reasonably to use and care for the Product; (h) commercial use; or (i) chewing and destructive activity not related to paws digging on fabric; (j) any combination of defects resulting from the aforementioned.</p>"
+          }
+        },
+        "accordion_block_3_2": {
+          "type": "text",
+          "settings": {
+            "title": "How do I submit a claim?",
+            "text": "<p>If you have any issues within the warranty period, please reach out to support@laylopets.com with your order number and a photo of the issue. If the defect is covered by our warranty, we'll make it right.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "accordion_block_3_0",
+        "accordion_block_3_2"
+      ],
+      "settings": {
+        "title": "Warranty & Repair",
+        "subheading": "",
+        "text": "",
+        "layout": "one-column",
+        "show_accordion_divider": false,
+        "tabs_bg_color": "#fafafa",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 30,
+        "padding_bottom": 60
+      }
+    },
+    "section_accordions_DmVJhk": {
+      "type": "section-accordions",
+      "blocks": {
+        "text_jchkdK": {
+          "type": "text",
+          "settings": {
+            "title": "Do you offer warranty for your products?",
+            "text": "<p>We stand behind the craftsmanship of each one of our products. <br/><br/>That’s why we offer a <strong>1-year warranty</strong> that covers manufacturing and workmanship defects outside of normal wear and tear. For full coverage and exclusions see below. <br/><br/>We take pride in our product so if you notice anything out of the ordinary, please submit a claim by emailing us at support@laylopets.com. We review messages daily and will get back to you within 24 hours. <br/><br/>This Limited Warranty excludes: (a) minor imperfections and slight cosmetic flaws; (b) normal wear and tear associated with intended use and washing; (c) stains, soiling, burns, dampness, wetness, mold or discoloration that occur over time; (d) individual or personalized allergies and sensitivities; (e) color variations; (f) changes in personal comfort preferences; (g) damage or abuse caused by failure reasonably to use and care for the Product; (h) commercial use; or (i) chewing and destructive activity not related to paws digging on fabric; (j) any combination of defects resulting from the aforementioned.</p>"
+          }
+        },
+        "text_Ey6ddG": {
+          "type": "text",
+          "settings": {
+            "title": "How do I submit a claim?",
+            "text": "<p>If you have any issues within the warranty period, please reach out to support@laylopets.com with your order number and a photo of the issue. If the defect is covered by our warranty, we'll make it right.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_jchkdK",
+        "text_Ey6ddG"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "About our company",
+        "subheading": "",
+        "text": "",
+        "layout": "one-column",
+        "show_accordion_divider": false,
+        "tabs_bg_color": "#fafafa",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 30,
+        "padding_bottom": 60
+      }
+    },
+    "accordion-section-1": {
+      "type": "section-accordions",
+      "blocks": {
+        "accordion_block_1_1": {
+          "type": "text",
+          "settings": {
+            "title": "Is my payment data safe with you?",
+            "text": "<p>All direct payment gateways adhere to the standards set by PCI-DSS as managed by the PCI Security Standards Council, which is a joint effort of brands like Visa, MasterCard, American Express, and Discover.</p>"
+          }
+        },
+        "accordion_block_1_2": {
+          "type": "text",
+          "settings": {
+            "title": "Do you accept online payments?",
+            "text": "<p>Yes, we accept online payments. All payment processing and vital customer information is quick, easy, and secure.<br/></p><p>Learn more about our store's safe checkout experience (powered by Shopify) <a href=\"https://www.shopify.com/legal/terms#DataProtection\" target=\"_blank\" title=\"https://www.shopify.com/legal/terms#DataProtection\">here</a>.</p>"
+          }
+        },
+        "accordion_block_1_3": {
+          "type": "text",
+          "settings": {
+            "title": "Where can I learn more about the payment and processing on your store?",
+            "text": "<p>For more insight, you may also want to read Shopify’s Terms of Service <a href=\"https://www.shopify.com/legal/terms\" target=\"_blank\" title=\"https://www.shopify.com/legal/terms\">here</a> or Privacy Statement <a href=\"https://www.shopify.com/legal/privacy\" target=\"_blank\" title=\"https://www.shopify.com/legal/privacy\">here</a>.</p>"
+          }
+        },
+        "accordion_block_1_4": {
+          "type": "text",
+          "settings": {
+            "title": "What forms of payment do you accept?",
+            "text": "<p>We accept payments from major credit card companies like Visa, Mastercard, and American Express.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "accordion_block_1_1",
+        "accordion_block_1_2",
+        "accordion_block_1_3",
+        "accordion_block_1_4"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Shipping",
+        "subheading": "",
+        "text": "",
+        "layout": "two-columns",
+        "show_accordion_divider": false,
+        "tabs_bg_color": "#fafafa",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper",
+        "padding_top": 30,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_text_HcCaX7",
+    "accordion-section-2",
+    "accordion-section-4",
+    "accordion-section-3",
+    "section_accordions_DmVJhk",
+    "accordion-section-1"
+  ]
+}

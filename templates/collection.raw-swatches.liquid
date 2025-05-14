@@ -1,0 +1,25 @@
+{% layout none %}
+
+<div class="color-swatches-wrap">
+  {% for product in collection.products %}
+    {% liquid
+      assign color_name = product.title | split: '|' | first
+      assign color_swatch_img = product.metafields.custom.color_swatch_image | default: product.media.first.preview_image
+      assign current_variant = product.selected_or_first_available_variant
+      assign is_current = false
+    %}
+    {% capture size_variants %}{"variants": [{% for variant in product.variants %}{"available": {{ variant.available | json }},"options": {{ variant.options | json }},"id": {{ variant.id | json }}}{% unless forloop.last %},{% endunless %}{% endfor %}]}{% endcapture %}    
+  <div class="color-swatch"
+      data-product="{{ product.handle }}"
+      data-variant="{{ current_variant.id }}"
+      data-variants="{{ size_variants | escape }}"
+      aria-label="{{ color_name }}" data-balloon-pos="up"
+      style="background-color: {{ product.metafields.custom.color_swatch_hex }}">
+      <a href="{{ product.url }}" data-label="{{ color_name }}">
+        {% if color_swatch_img %}
+          <img src="{{ color_swatch_img | img_url: 'medium' }}" />
+        {% endif %}
+      </a>
+    </div>
+  {% endfor %}
+</div>

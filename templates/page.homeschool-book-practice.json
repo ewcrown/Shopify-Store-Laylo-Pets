@@ -1,0 +1,576 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_text_BbNbpT": {
+      "type": "section-text",
+      "blocks": {
+        "subheading_H7yFt4": {
+          "type": "subheading",
+          "settings": {
+            "text": "<p>BOOK WITH YOUR TRAINER</p>",
+            "size": 100
+          }
+        },
+        "heading_y9qQJN": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>Practice Sessions</p>",
+            "size": 100,
+            "heading_highlight_type": "italics"
+          }
+        },
+        "text_3CLJxG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>To help guarantee your success, we offer Practice Sessions to review the homework in your Training Plan with the guidance of a force-free trainer. </p>",
+            "size": 100
+          }
+        }
+      },
+      "block_order": [
+        "subheading_H7yFt4",
+        "heading_y9qQJN",
+        "text_3CLJxG"
+      ],
+      "disabled": true,
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_icons_row_9imNxr": {
+      "type": "section-icons-row",
+      "blocks": {
+        "text_U3EEjU": {
+          "type": "text",
+          "settings": {
+            "icon_name": "calendar",
+            "title": "Find the Correct Calendar",
+            "text": "<p>Find your primary trainer's calendar from the list below.</p>"
+          }
+        },
+        "text_pWDJtt": {
+          "type": "text",
+          "settings": {
+            "icon_name": "check",
+            "title": "Book your time",
+            "text": "<p>Use the calendar to book your practice session. </p>"
+          }
+        },
+        "text_7mjtEM": {
+          "type": "text",
+          "settings": {
+            "icon_name": "eco-friendly",
+            "title": "Join the Zoom",
+            "text": "<p>You will receive a Zoom link to join the video call. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_U3EEjU",
+        "text_pWDJtt",
+        "text_7mjtEM"
+      ],
+      "settings": {
+        "alignment": "center",
+        "columns": 3,
+        "icons_width": 30,
+        "heading": "Instructions for Booking Practice Sessions",
+        "subheading": "<p>IMPORTANT: Please only select your weekly trainer from the list below. Do not book with a new trainer.</p>",
+        "bg_color_secondary": true,
+        "box_color": "",
+        "text_color": "#333",
+        "button_text": "",
+        "button_link": "",
+        "button_style": "btn--secondary btn--small",
+        "enable_slider_mobile": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_text_EQYqXH": {
+      "type": "section-text",
+      "blocks": {
+        "subheading_RCdFaq": {
+          "type": "subheading",
+          "settings": {
+            "text": "<p>FIND YOUR TRAINER BELOW</p>",
+            "size": 100
+          }
+        },
+        "button_4YWjUH": {
+          "type": "button",
+          "settings": {
+            "btn_text": "Trainer Emily",
+            "btn_link": "https://calendly.com/emily-laylopets/practice-sessions",
+            "btn_style": "btn--primary btn--small"
+          }
+        },
+        "button_W7Ka6i": {
+          "type": "button",
+          "settings": {
+            "btn_text": "Trainer Morgan",
+            "btn_link": "https://calendly.com/morgan-laylopets/practice-sessions",
+            "btn_style": "btn--primary btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_RCdFaq",
+        "button_4YWjUH",
+        "button_W7Ka6i"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 20
+      }
+    },
+    "section_text_wKjwaQ": {
+      "type": "section-text",
+      "blocks": {
+        "subheading_3JhCb7": {
+          "type": "subheading",
+          "settings": {
+            "text": "",
+            "size": 100
+          }
+        },
+        "button_8tBcQk": {
+          "type": "button",
+          "settings": {
+            "btn_text": "Trainer Tracy",
+            "btn_link": "https://calendly.com/tracy-laylopets/practice-sessions",
+            "btn_style": "btn--primary btn--small"
+          }
+        },
+        "button_L763ij": {
+          "type": "button",
+          "settings": {
+            "btn_text": "Trainer Karen",
+            "btn_link": "https://calendly.com/karen-laylopets/practice-sessions",
+            "btn_style": "btn--primary btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_3JhCb7",
+        "button_8tBcQk",
+        "button_L763ij"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "section_text_4JTjgd": {
+      "type": "section-text",
+      "blocks": {
+        "subheading_UakjmB": {
+          "type": "subheading",
+          "settings": {
+            "text": "",
+            "size": 100
+          }
+        },
+        "button_FCxDVm": {
+          "type": "button",
+          "settings": {
+            "btn_text": "Trainer Shannen",
+            "btn_link": "https://calendly.com/shannenlaylo/pet-training-with-shannen-clone",
+            "btn_style": "btn--primary btn--small"
+          }
+        },
+        "button_UKWdHC": {
+          "type": "button",
+          "settings": {
+            "btn_text": "Trainer Katie",
+            "btn_link": "https://calendly.com/katie-laylopets/practice-sessions",
+            "btn_style": "btn--primary btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_UakjmB",
+        "button_FCxDVm",
+        "button_UKWdHC"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 20,
+        "padding_bottom": 60
+      }
+    },
+    "section_text_Gjfapw": {
+      "type": "section-text",
+      "blocks": {
+        "subheading_gFKB36": {
+          "type": "subheading",
+          "settings": {
+            "text": "<p>OR BOOK WITH TRAINER NICOLE (AVAILABLE TO ALL)</p>",
+            "size": 100
+          }
+        },
+        "button_WaFE46": {
+          "type": "button",
+          "settings": {
+            "btn_text": "Trainer Nicole",
+            "btn_link": "https://calendly.com/nicole-laylopets/practice-sessions",
+            "btn_style": "btn--primary btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_gFKB36",
+        "button_WaFE46"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 20,
+        "padding_bottom": 60
+      }
+    },
+    "section_text_88akFc": {
+      "type": "section-text",
+      "blocks": {
+        "heading_MyLyrC": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Book with Emily B.</p>",
+            "size": 100,
+            "heading_highlight_type": "italics"
+          }
+        }
+      },
+      "block_order": [
+        "heading_MyLyrC"
+      ],
+      "disabled": true,
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_custom_html_AzLURX": {
+      "type": "section-custom-html",
+      "disabled": true,
+      "settings": {
+        "custom_code": "<!-- Calendly inline widget begin -->\n<div class=\"calendly-inline-widget\" data-url=\"https://calendly.com/emily-laylopets/practice-sessions\" style=\"min-width:320px;height:700px;\"></div>\n<script type=\"text/javascript\" src=\"https://assets.calendly.com/assets/external/widget.js\" async></script>\n<!-- Calendly inline widget end -->",
+        "width": "wrapper",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "section_divider_xgMaHU": {
+      "type": "section-divider",
+      "disabled": true,
+      "settings": {
+        "show_line": true,
+        "width": "wrapper",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_text_iinefE": {
+      "type": "section-text",
+      "blocks": {
+        "heading_xFYy6p": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Book with Jeny P.</p>",
+            "size": 100,
+            "heading_highlight_type": "italics"
+          }
+        }
+      },
+      "block_order": [
+        "heading_xFYy6p"
+      ],
+      "disabled": true,
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 10,
+        "padding_bottom": 60
+      }
+    },
+    "section_custom_html_rb9NYw": {
+      "type": "section-custom-html",
+      "disabled": true,
+      "settings": {
+        "custom_code": "<!-- Calendly inline widget begin -->\n<div class=\"calendly-inline-widget\" data-url=\"https://calendly.com/jeny-homeschool/practice-sessions\" style=\"min-width:320px;height:700px;\"></div>\n<script type=\"text/javascript\" src=\"https://assets.calendly.com/assets/external/widget.js\" async></script>\n<!-- Calendly inline widget end -->",
+        "width": "wrapper",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "extra_class": "",
+        "bg_color_secondary": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_divider_eVLVrp": {
+      "type": "section-divider",
+      "disabled": true,
+      "settings": {
+        "show_line": true,
+        "width": "wrapper",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_text_haHfME": {
+      "type": "section-text",
+      "blocks": {
+        "heading_nErCqA": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Book with Katie C.</p>",
+            "size": 100,
+            "heading_highlight_type": "italics"
+          }
+        }
+      },
+      "block_order": [
+        "heading_nErCqA"
+      ],
+      "disabled": true,
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_custom_html_MbXVYE": {
+      "type": "section-custom-html",
+      "disabled": true,
+      "settings": {
+        "custom_code": "<!-- Calendly inline widget begin -->\n<div class=\"calendly-inline-widget\" data-url=\"https://calendly.com/katie-laylopets/practice-sessions\" style=\"min-width:320px;height:700px;\"></div>\n<script type=\"text/javascript\" src=\"https://assets.calendly.com/assets/external/widget.js\" async></script>\n<!-- Calendly inline widget end -->",
+        "width": "wrapper",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "section_divider_mUQR4M": {
+      "type": "section-divider",
+      "disabled": true,
+      "settings": {
+        "show_line": true,
+        "width": "wrapper",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_text_g6XCyL": {
+      "type": "section-text",
+      "blocks": {
+        "heading_aJgVFX": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>Book with Tracy M.</p>",
+            "size": 100,
+            "heading_highlight_type": "italics"
+          }
+        }
+      },
+      "block_order": [
+        "heading_aJgVFX"
+      ],
+      "disabled": true,
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_custom_html_Eir6EQ": {
+      "type": "section-custom-html",
+      "disabled": true,
+      "settings": {
+        "custom_code": "<div class=\"calendly-inline-widget\" data-url=\"https://calendly.com/tracy-laylopets/practice-sessions\" style=\"min-width:320px;height:700px;\"></div>",
+        "width": "wrapper",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "section_text_dhjpFh": {
+      "type": "section-text",
+      "blocks": {
+        "heading_rHTNQX": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Book with Morgan C.</p>",
+            "size": 100,
+            "heading_highlight_type": "italics"
+          }
+        }
+      },
+      "block_order": [
+        "heading_rHTNQX"
+      ],
+      "disabled": true,
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_custom_html_UbthRU": {
+      "type": "section-custom-html",
+      "disabled": true,
+      "settings": {
+        "custom_code": "<!-- Calendly inline widget begin -->\n<div class=\"calendly-inline-widget\" data-url=\"https://calendly.com/morgan-laylopets/practice-sessions\" style=\"min-width:320px;height:700px;\"></div>\n<script type=\"text/javascript\" src=\"https://assets.calendly.com/assets/external/widget.js\" async></script>\n<!-- Calendly inline widget end -->",
+        "width": "wrapper",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "section_text_67eiVf": {
+      "type": "section-text",
+      "blocks": {
+        "heading_qGzr4P": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>Book with Karen</p>",
+            "size": 100,
+            "heading_highlight_type": "italics"
+          }
+        }
+      },
+      "block_order": [
+        "heading_qGzr4P"
+      ],
+      "disabled": true,
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_custom_html_pxy9n6": {
+      "type": "section-custom-html",
+      "disabled": true,
+      "settings": {
+        "custom_code": "<!-- Calendly inline widget begin -->\n<div class=\"calendly-inline-widget\" data-url=\"https://calendly.com/karen-laylopets/practice-sessions\" style=\"min-width:320px;height:700px;\"></div>\n<script type=\"text/javascript\" src=\"https://assets.calendly.com/assets/external/widget.js\" async></script>\n<!-- Calendly inline widget end -->",
+        "width": "wrapper",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "section_text_MKeT6z": {
+      "type": "section-text",
+      "blocks": {
+        "heading_TaAXcp": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Book with Shannen</p>",
+            "size": 100,
+            "heading_highlight_type": "italics"
+          }
+        }
+      },
+      "block_order": [
+        "heading_TaAXcp"
+      ],
+      "disabled": true,
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_custom_html_k3hr7z": {
+      "type": "section-custom-html",
+      "disabled": true,
+      "settings": {
+        "custom_code": "<!-- Calendly inline widget begin -->\n<div class=\"calendly-inline-widget\" data-url=\"https://calendly.com/shannenlaylo/practice-sessions\" style=\"min-width:320px;height:700px;\"></div>\n<script type=\"text/javascript\" src=\"https://assets.calendly.com/assets/external/widget.js\" async></script>\n<!-- Calendly inline widget end -->",
+        "width": "wrapper",
+        "padding_top": 10,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "section_text_BbNbpT",
+    "section_icons_row_9imNxr",
+    "section_text_EQYqXH",
+    "section_text_wKjwaQ",
+    "section_text_4JTjgd",
+    "section_text_Gjfapw",
+    "section_text_88akFc",
+    "section_custom_html_AzLURX",
+    "section_divider_xgMaHU",
+    "section_text_iinefE",
+    "section_custom_html_rb9NYw",
+    "main",
+    "section_divider_eVLVrp",
+    "section_text_haHfME",
+    "section_custom_html_MbXVYE",
+    "section_divider_mUQR4M",
+    "section_text_g6XCyL",
+    "section_custom_html_Eir6EQ",
+    "section_text_dhjpFh",
+    "section_custom_html_UbthRU",
+    "section_text_67eiVf",
+    "section_custom_html_pxy9n6",
+    "section_text_MKeT6z",
+    "section_custom_html_k3hr7z"
+  ]
+}

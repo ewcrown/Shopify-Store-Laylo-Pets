@@ -1,0 +1,466 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_divider_HK9iEX": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_text_83Q3Dq": {
+      "type": "section-text",
+      "blocks": {
+        "heading_igNgGk": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>Train with Karen</p>",
+            "size": 100,
+            "heading_highlight_type": "italics"
+          }
+        },
+        "subheading_UfkcBB": {
+          "type": "subheading",
+          "settings": {
+            "text": "<p>Introductory and Intermediate Behaviors</p>",
+            "size": 100
+          }
+        }
+      },
+      "block_order": [
+        "heading_igNgGk",
+        "subheading_UfkcBB"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_custom_html_d96aJK": {
+      "type": "section-custom-html",
+      "settings": {
+        "custom_code": "<!-- Calendly inline widget begin -->\n<div class=\"calendly-inline-widget\" data-url=\"https://calendly.com/karen-laylopets/dogtraining\" style=\"min-width:320px;height:700px;\"></div>\n<script type=\"text/javascript\" src=\"https://assets.calendly.com/assets/external/widget.js\" async></script>\n<!-- Calendly inline widget end -->",
+        "width": "wrapper",
+        "padding_top": 16,
+        "padding_bottom": 20
+      }
+    },
+    "section_divider_w8yURz": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_text_dPyQzw": {
+      "type": "section-text",
+      "blocks": {
+        "heading_bnLyrc": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>Train with Emily</p>",
+            "size": 100,
+            "heading_highlight_type": "italics"
+          }
+        },
+        "subheading_tcJGLC": {
+          "type": "subheading",
+          "settings": {
+            "text": "<p>Introductory, Intermediate and Advanced Behaviors. Specialty: Separation Anxiety</p>",
+            "size": 100
+          }
+        }
+      },
+      "block_order": [
+        "heading_bnLyrc",
+        "subheading_tcJGLC"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "section_custom_html_AzLURX": {
+      "type": "section-custom-html",
+      "settings": {
+        "custom_code": "<!-- Calendly inline widget begin -->\n<div class=\"calendly-inline-widget\" data-url=\"https://calendly.com/emily-laylopets/training\" style=\"min-width:320px;height:700px;\"></div>\n<script type=\"text/javascript\" src=\"https://assets.calendly.com/assets/external/widget.js\" async></script>\n<!-- Calendly inline widget end -->",
+        "width": "wrapper",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "section_divider_jyhAbX": {
+      "type": "section-divider",
+      "disabled": true,
+      "settings": {
+        "show_line": true,
+        "width": "wrapper",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_text_UN7fXc": {
+      "type": "section-text",
+      "blocks": {
+        "heading_Ezr9tH": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Train with Tracy</p>",
+            "size": 100,
+            "heading_highlight_type": "italics"
+          }
+        },
+        "subheading_EDTNt8": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Beginning, Intermediate and Advanced Behaviors</p>",
+            "size": 100
+          }
+        }
+      },
+      "block_order": [
+        "heading_Ezr9tH",
+        "subheading_EDTNt8"
+      ],
+      "disabled": true,
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_custom_html_4kTkHC": {
+      "type": "section-custom-html",
+      "disabled": true,
+      "settings": {
+        "custom_code": "<!-- Calendly inline widget begin -->\n<div class=\"calendly-inline-widget\" data-url=\"https://calendly.com/tracy-laylopets/dogtraining\" style=\"min-width:320px;height:700px;\"></div>\n<script type=\"text/javascript\" src=\"https://assets.calendly.com/assets/external/widget.js\" async></script>\n<!-- Calendly inline widget end -->",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_divider_yGremC": {
+      "type": "section-divider",
+      "disabled": true,
+      "settings": {
+        "show_line": true,
+        "width": "wrapper",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_text_HTCjLz": {
+      "type": "section-text",
+      "blocks": {
+        "heading_64Q8Pw": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Train with Morgan</p>",
+            "size": 100,
+            "heading_highlight_type": "italics"
+          }
+        },
+        "text_ixz9pQ": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p><strong>Introductory, Intermediate and Advanced Behaviors</strong></p>",
+            "size": 100
+          }
+        }
+      },
+      "block_order": [
+        "heading_64Q8Pw",
+        "text_ixz9pQ"
+      ],
+      "disabled": true,
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_custom_html_URRQkR": {
+      "type": "section-custom-html",
+      "disabled": true,
+      "settings": {
+        "custom_code": "<!-- Calendly inline widget begin -->\n<div class=\"calendly-inline-widget\" data-url=\"https://calendly.com/morgan-laylopets/dogtraining\" style=\"min-width:320px;height:700px;\"></div>\n<script type=\"text/javascript\" src=\"https://assets.calendly.com/assets/external/widget.js\" async></script>\n<!-- Calendly inline widget end -->",
+        "width": "wrapper",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "section_divider_rJQcky": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_text_Mjz3mc": {
+      "type": "section-text",
+      "blocks": {
+        "heading_iRH6Nf": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Train with Jeny</p>",
+            "size": 100,
+            "heading_highlight_type": "italics"
+          }
+        },
+        "subheading_4LWQHT": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Introductory Behaviors + Puppies</p>",
+            "size": 100
+          }
+        }
+      },
+      "block_order": [
+        "heading_iRH6Nf",
+        "subheading_4LWQHT"
+      ],
+      "disabled": true,
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
+    "section_custom_html_CewtBG": {
+      "type": "section-custom-html",
+      "disabled": true,
+      "settings": {
+        "custom_code": "<!-- Calendly inline widget begin -->\n<div class=\"calendly-inline-widget\" data-url=\"https://calendly.com/jeny-homeschool/training\" style=\"min-width:320px;height:700px;\"></div>\n<script type=\"text/javascript\" src=\"https://assets.calendly.com/assets/external/widget.js\" async></script>\n<!-- Calendly inline widget end -->",
+        "width": "wrapper",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "section_divider_Mz39TM": {
+      "type": "section-divider",
+      "disabled": true,
+      "settings": {
+        "show_line": true,
+        "width": "wrapper",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_text_HMTHPB": {
+      "type": "section-text",
+      "blocks": {
+        "heading_CV873B": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>Train with Shannen</p>",
+            "size": 100,
+            "heading_highlight_type": "italics"
+          }
+        },
+        "subheading_VCjyBQ": {
+          "type": "subheading",
+          "settings": {
+            "text": "<p>Introductory and Intermediate Behaviors</p>",
+            "size": 100
+          }
+        }
+      },
+      "block_order": [
+        "heading_CV873B",
+        "subheading_VCjyBQ"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 30
+      }
+    },
+    "section_custom_html_UH3Pcz": {
+      "type": "section-custom-html",
+      "settings": {
+        "custom_code": "<!-- Calendly inline widget begin -->\n<div class=\"calendly-inline-widget\" data-url=\"https://calendly.com/shannenlaylo/training\" style=\"min-width:320px;height:700px;\"></div>\n<script type=\"text/javascript\" src=\"https://assets.calendly.com/assets/external/widget.js\" async></script>\n<!-- Calendly inline widget end -->",
+        "width": "wrapper",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "section_divider_a9n4hK": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_text_VGFcrT": {
+      "type": "section-text",
+      "blocks": {
+        "heading_fTdNqU": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>Train with Katie</p>",
+            "size": 100,
+            "heading_highlight_type": "italics"
+          }
+        },
+        "subheading_bf6KVY": {
+          "type": "subheading",
+          "settings": {
+            "text": "<p>Introductory Behaviors + Puppies</p>",
+            "size": 100
+          }
+        }
+      },
+      "block_order": [
+        "heading_fTdNqU",
+        "subheading_bf6KVY"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_custom_html_NjNLKT": {
+      "type": "section-custom-html",
+      "settings": {
+        "custom_code": "<!-- Calendly inline widget begin -->\n<div class=\"calendly-inline-widget\" data-url=\"https://calendly.com/katie-laylopets/training\" style=\"min-width:320px;height:700px;\"></div>\n<script type=\"text/javascript\" src=\"https://assets.calendly.com/assets/external/widget.js\" async></script>\n<!-- Calendly inline widget end -->",
+        "width": "wrapper",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "section_divider_LDqBkw": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_text_VGJiDm": {
+      "type": "section-text",
+      "blocks": {
+        "heading_wMUEDQ": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>Book with Tracy</p>",
+            "size": 100,
+            "heading_highlight_type": "italics"
+          }
+        },
+        "text_kfLpyH": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Introductory, Intermediate and Advanced Behaviors. Specialty: Separation Anxiety</strong></p>",
+            "size": 100
+          }
+        }
+      },
+      "block_order": [
+        "heading_wMUEDQ",
+        "text_kfLpyH"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_custom_html_84PJVx": {
+      "type": "section-custom-html",
+      "settings": {
+        "custom_code": "<!-- Calendly inline widget begin -->\n<div class=\"calendly-inline-widget\" data-url=\"https://calendly.com/tracy-laylopets/dogtraining\" style=\"min-width:320px;height:700px;\"></div>\n<script type=\"text/javascript\" src=\"https://assets.calendly.com/assets/external/widget.js\" async></script>\n<!-- Calendly inline widget end -->",
+        "width": "wrapper",
+        "padding_top": 10,
+        "padding_bottom": 60
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "extra_class": "",
+        "bg_color_secondary": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "section_divider_HK9iEX",
+    "section_text_83Q3Dq",
+    "section_custom_html_d96aJK",
+    "section_divider_w8yURz",
+    "section_text_dPyQzw",
+    "section_custom_html_AzLURX",
+    "section_divider_jyhAbX",
+    "section_text_UN7fXc",
+    "section_custom_html_4kTkHC",
+    "section_divider_yGremC",
+    "section_text_HTCjLz",
+    "section_custom_html_URRQkR",
+    "section_divider_rJQcky",
+    "section_text_Mjz3mc",
+    "section_custom_html_CewtBG",
+    "section_divider_Mz39TM",
+    "section_text_HMTHPB",
+    "section_custom_html_UH3Pcz",
+    "section_divider_a9n4hK",
+    "section_text_VGFcrT",
+    "section_custom_html_NjNLKT",
+    "section_divider_LDqBkw",
+    "section_text_VGJiDm",
+    "section_custom_html_84PJVx",
+    "main"
+  ]
+}

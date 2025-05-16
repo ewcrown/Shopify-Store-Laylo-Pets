@@ -87,9 +87,8 @@ line-height: 21.88px;
 
 #ew-testimonial-slider-{{ section.id }} .cta-button {
   margin-top: 80px;
-  font-size: 24px;
-padding: 16px 40px;
 }
+
 @media(max-width:479px){
   #ew-testimonial-slider-{{ section.id }} {
     padding: 40px var(--gutter-mobile);
@@ -99,9 +98,7 @@ padding: 16px 40px;
     line-height:24px;
   }
   #ew-testimonial-slider-{{ section.id }} .cta-button {
-  margin-top: 40px;
-    font-size: 18px;
-  padding: 16px;
+    margin-top: 40px;
   }
 }
 {% endstyle %}
@@ -157,7 +154,7 @@ padding: 16px 40px;
     </div>
 
     {% if section.settings.button_text != blank and section.settings.button_link != blank %}
-      <a class="cta-button btn btn--primary" href="{{ section.settings.button_link }}">{{ section.settings.button_text }}</a>
+      <a class="cta-button btn {{ section.settings.button_style }}" href="{{ section.settings.button_link }}">{{ section.settings.button_text }}</a>
     {% endif %}
   </div>
 </section>
@@ -242,6 +239,19 @@ padding: 16px 40px;
       "id": "background_color",
       "label": "Background Color",
       "default": "#ffffff"
+    },
+    {
+      "type": "select",
+      "id": "button_style",
+      "label": "Style",
+      "default": "btn--primary btn--small",
+      "options": [
+        { "label": "Text", "value": "btn--text" },
+        { "label": "Small button", "value": "btn--primary btn--small" },
+        { "label": "Large button", "value": "btn--primary" },
+        { "label": "Small secondary button", "value": "btn--secondary btn--small" },
+        { "label": "Large secondary button", "value": "btn--secondary" }
+      ]
     }
   ],
   "blocks": [

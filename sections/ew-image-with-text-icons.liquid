@@ -61,12 +61,6 @@ line-height: 110%; /* 39.6px */
   margin: 0;
 }
 
-#ew-program-benefits-{{ section.id }} .program-benefits-button {
-      font-size: 24px;
-    padding: 16px 40px;
-    margin-top: 20px;
-}
-
 /* Responsive */
 @media (max-width: 768px) {
   #ew-program-benefits-{{ section.id }} .program-benefits-container {
@@ -93,10 +87,6 @@ line-height: 110%; /* 39.6px */
   #ew-program-benefits-{{ section.id }} .program-benefit-item p {
     text-align:left;
 }
-#ew-program-benefits-{{ section.id }} .program-benefits-button {
-      font-size: 18px;
-    padding: 16px;
-}
 }
 {% endstyle %}
 
@@ -121,7 +111,7 @@ line-height: 110%; /* 39.6px */
         {% endfor %}
 
         {% if section.settings.button_text != blank and section.settings.button_link != blank %}
-          <a class="program-benefits-button btn btn--primary" href="{{ section.settings.button_link }}">
+          <a class="btn {{ section.settings.button_style }}" href="{{ section.settings.button_link }}">
             {{ section.settings.button_text }}
           </a>
         {% endif %}
@@ -180,6 +170,19 @@ line-height: 110%; /* 39.6px */
       "id": "background_color",
       "label": "Background Color",
       "default": "#ffffff"
+    },
+    {
+      "type": "select",
+      "id": "button_style",
+      "label": "Style",
+      "default": "btn--primary btn--small",
+      "options": [
+        { "label": "Text", "value": "btn--text" },
+        { "label": "Small button", "value": "btn--primary btn--small" },
+        { "label": "Large button", "value": "btn--primary" },
+        { "label": "Small secondary button", "value": "btn--secondary btn--small" },
+        { "label": "Large secondary button", "value": "btn--secondary" }
+      ]
     }
   ],
   "blocks": [

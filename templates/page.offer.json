@@ -52,10 +52,7 @@
         "text_LmhEmV",
         "button_hmNQT3"
       ],
-      "custom_css": [
-        ".btn--primary {font-size: 24px; padding: 16px 40px; margin-top: 20px;}",
-        "@media only screen and (max-width: 479px) {.btn--primary {font-size: 18px; padding: 16px; }}"
-      ],
+      "custom_css": [],
       "name": "Text",
       "settings": {
         "text_position": "center",
@@ -168,10 +165,7 @@
     },
     "section_image_with_text_B77mcn": {
       "type": "section-image-with-text",
-      "custom_css": [
-        ".btn--primary {font-size: 24px; padding: 16px 40px; margin-top: 20px;}",
-        "@media only screen and (max-width: 479px) {.btn--primary {font-size: 18px; padding: 16px; }}"
-      ],
+      "custom_css": [],
       "name": "Image with text",
       "settings": {
         "section_height": "seven-fifty-height",
@@ -346,7 +340,8 @@
         "button_link": "#",
         "padding_top": 100,
         "padding_bottom": 100,
-        "background_color": "#f5f5f5"
+        "background_color": "#f5f5f5",
+        "button_style": "btn--primary"
       }
     },
     "ew_section_reviews_KBQ87q": {
@@ -429,7 +424,8 @@
         "per_page": 4,
         "padding_top": 100,
         "padding_bottom": 100,
-        "background_color": "#ffffff"
+        "background_color": "#ffffff",
+        "button_style": "btn--primary"
       }
     },
     "ew_section_program_PNeWce": {
@@ -509,7 +505,8 @@
         "inner_padding_top": 40,
         "inner_padding_bottom": 40,
         "inner_padding_left": 20,
-        "inner_padding_right": 20
+        "inner_padding_right": 20,
+        "button_style": "btn--primary"
       }
     },
     "ew_section_experts_FmgcJb": {
@@ -587,15 +584,13 @@
         "padding_top": 100,
         "per_page": 3,
         "padding_bottom": 100,
-        "background_color": "#ffffff"
+        "background_color": "#ffffff",
+        "button_style": "btn--primary"
       }
     },
     "section_image_with_text_9ieh8H": {
       "type": "section-image-with-text",
-      "custom_css": [
-        ".btn--primary {font-size: 24px; padding: 16px 40px; margin-top: 20px;}",
-        "@media only screen and (max-width: 479px) {.btn--primary {font-size: 18px; padding: 16px; }}"
-      ],
+      "custom_css": [],
       "name": "Image with text",
       "settings": {
         "section_height": "five-fifty-height",
@@ -859,9 +854,7 @@
         "text_cCEdGJ"
       ],
       "custom_css": [
-        ".btn--secondary {font-size: 24px; padding: 16px 40px; margin-top: 20px;}",
-        "section {margin-bottom: 0;}",
-        "@media only screen and (max-width: 479px) {.btn--secondary {font-size: 18px; padding: 16px; }}"
+        "section {margin-bottom: 0;}"
       ],
       "name": "Text",
       "settings": {

@@ -44,7 +44,7 @@ line-height: 34.23px; /* 114.098% */
 
   #ew-expert-slider-section-{{ section.id }} .expert-card h3 {
     color: #000;
-font-family: Inter;
+font-family: var(--FONT-STACK-BODY);
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
@@ -75,8 +75,6 @@ line-height: 25.767px; /* 156.286% */
   }
 
   #ew-expert-slider-section-{{ section.id }} .expert-button {
-    font-size: 24px;
-    padding: 16px 40px;
     margin-top: 20px;
   }
 
@@ -96,10 +94,6 @@ line-height: 25.767px; /* 156.286% */
       font-size: 18px;
       line-height: normal;
       margin-bottom: 40px;
-    }
-    #ew-expert-slider-section-{{ section.id }} .expert-button {
-      font-size: 18px;
-      padding: 16px;
     }
   }
 {% endstyle %}
@@ -130,7 +124,7 @@ line-height: 25.767px; /* 156.286% */
 
     {% if section.settings.button_text != blank and section.settings.button_link != blank %}
       <div class="expert-button-wrap">
-        <a href="{{ section.settings.button_link }}" class="btn btn--primary expert-button">{{ section.settings.button_text }}</a>
+        <a href="{{ section.settings.button_link }}" class="btn {{ section.settings.button_style }} expert-button">{{ section.settings.button_text }}</a>
       </div>
     {% endif %}
   </div>
@@ -216,6 +210,19 @@ line-height: 25.767px; /* 156.286% */
       "id": "background_color",
       "label": "Background Color",
       "default": "#ffffff"
+    },
+    {
+      "type": "select",
+      "id": "button_style",
+      "label": "Style",
+      "default": "btn--primary btn--small",
+      "options": [
+        { "label": "Text", "value": "btn--text" },
+        { "label": "Small button", "value": "btn--primary btn--small" },
+        { "label": "Large button", "value": "btn--primary" },
+        { "label": "Small secondary button", "value": "btn--secondary btn--small" },
+        { "label": "Large secondary button", "value": "btn--secondary" }
+      ]
     }
   ],
   "blocks": [

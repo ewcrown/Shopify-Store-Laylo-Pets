@@ -74,7 +74,7 @@ margin-top:0;
 background: var(--White, #FFF);
 box-shadow: 0px 3.803px 11.41px 1.902px rgba(0, 0, 0, 0.06);
 color: var(--Black, #1B1B1B);
-font-family: Inter;
+font-family: var(--FONT-STACK-BODY);
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
@@ -87,8 +87,6 @@ line-height: 24px; /* 125% */
 }
 
 #ew-foundation-program-{{ section.id }} .foundation-footer a {
-  font-size: 24px;
-  padding: 16px 40px;
   margin-top: 20px;
 }
 
@@ -124,10 +122,6 @@ margin-top:10px;
   #ew-foundation-program-{{ section.id }} .foundation-footer p {
     font-size: 18px;
   }
-  #ew-foundation-program-{{ section.id }} .foundation-footer a {
-    font-size: 18px;
-    padding: 16px;
-  }
 }
 {% endstyle %}
 
@@ -153,7 +147,7 @@ margin-top:10px;
       </div>
       <div class="foundation-footer">
         {% if section.settings.button_text != blank and section.settings.button_link != blank %}
-          <a href="{{ section.settings.button_link }}" class="btn btn--primary">{{ section.settings.button_text }}</a>
+          <a href="{{ section.settings.button_link }}" class="btn {{ section.settings.button_style }}">{{ section.settings.button_text }}</a>
         {% endif %}
         {% if section.settings.note_text != blank %}
           <p>{{ section.settings.note_text }}</p>
@@ -227,41 +221,54 @@ margin-top:10px;
       "default": "#F5F5F5"
     },
     {
-  "type": "range",
-  "id": "inner_padding_top",
-  "label": "Inner Padding Top (px)",
-  "default": 40,
-  "min": 0,
-  "max": 200,
-  "step": 4
-},
-{
-  "type": "range",
-  "id": "inner_padding_bottom",
-  "label": "Inner Padding Bottom (px)",
-  "default": 40,
-  "min": 0,
-  "max": 200,
-  "step": 4
-},
-{
-  "type": "range",
-  "id": "inner_padding_left",
-  "label": "Inner Padding Left (px)",
-  "default": 20,
-  "min": 0,
-  "max": 100,
-  "step": 4
-},
-{
-  "type": "range",
-  "id": "inner_padding_right",
-  "label": "Inner Padding Right (px)",
-  "default": 20,
-  "min": 0,
-  "max": 100,
-  "step": 4
-}
+      "type": "range",
+      "id": "inner_padding_top",
+      "label": "Inner Padding Top (px)",
+      "default": 40,
+      "min": 0,
+      "max": 200,
+      "step": 4
+    },
+    {
+      "type": "range",
+      "id": "inner_padding_bottom",
+      "label": "Inner Padding Bottom (px)",
+      "default": 40,
+      "min": 0,
+      "max": 200,
+      "step": 4
+    },
+    {
+      "type": "range",
+      "id": "inner_padding_left",
+      "label": "Inner Padding Left (px)",
+      "default": 20,
+      "min": 0,
+      "max": 100,
+      "step": 4
+    },
+    {
+      "type": "range",
+      "id": "inner_padding_right",
+      "label": "Inner Padding Right (px)",
+      "default": 20,
+      "min": 0,
+      "max": 100,
+      "step": 4
+    },
+    {
+      "type": "select",
+      "id": "button_style",
+      "label": "Style",
+      "default": "btn--primary btn--small",
+      "options": [
+        { "label": "Text", "value": "btn--text" },
+        { "label": "Small button", "value": "btn--primary btn--small" },
+        { "label": "Large button", "value": "btn--primary" },
+        { "label": "Small secondary button", "value": "btn--secondary btn--small" },
+        { "label": "Large secondary button", "value": "btn--secondary" }
+      ]
+    }
   ],
   "blocks": [
     {

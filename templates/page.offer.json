@@ -75,6 +75,65 @@
         "background_color": "#faf8f7"
       }
     },
+    "ew_trusted_section_KrgCNN": {
+      "type": "ew-trusted-section",
+      "blocks": {
+        "logo_CpCTtH": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/logo_2_png_502a3fe8-79ca-4ce3-9fca-11d908d66afa.png",
+            "alt_text": "Company logo"
+          }
+        },
+        "logo_WhtYrg": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/logo_5_png_e0df6083-fec9-4948-88f7-47e7ceec5a5f.png",
+            "alt_text": "Company logo"
+          }
+        },
+        "logo_bMMCxU": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/logo_3_png_02e86545-793a-4bf8-ad43-bb8b65bb1099.png",
+            "alt_text": "Company logo"
+          }
+        },
+        "logo_jHbLEG": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/logo_4_png_86911573-b2b7-4ca0-8c02-789a7bf9fe7f.png",
+            "alt_text": "Company logo"
+          }
+        },
+        "logo_wfimyd": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/logo_6_png_9e3e094c-dd9e-4fdd-8d5b-d5507c6cf6cb.png",
+            "alt_text": "Company logo"
+          }
+        },
+        "logo_gP9hi9": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/logo_1_png_cc2c93a1-4940-4c9b-87b1-bbba66d9a760.png",
+            "alt_text": "Company logo"
+          }
+        }
+      },
+      "block_order": [
+        "logo_CpCTtH",
+        "logo_WhtYrg",
+        "logo_bMMCxU",
+        "logo_jHbLEG",
+        "logo_wfimyd",
+        "logo_gP9hi9"
+      ],
+      "name": "<> Trusted Companies",
+      "settings": {
+        "heading": "Trusted by employees of some of the best companies"
+      }
+    },
     "section_icons_row_r8NQU8": {
       "type": "section-icons-row",
       "blocks": {
@@ -872,6 +931,7 @@
     "main",
     "section_text_iWF9cz",
     "ew_section_video_C6zGFC",
+    "ew_trusted_section_KrgCNN",
     "section_icons_row_r8NQU8",
     "section_image_with_text_B77mcn",
     "section_text_3xBnVH",

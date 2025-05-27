@@ -1,4 +1,48 @@
-{{ 'ew-trusted-section.css' | asset_url | stylesheet_tag }}
+{% style %}
+.trusted-section {
+  padding: 40px 0;
+}
+
+.trusted-section .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.trusted-text h3 {
+  font-size: {{ section.settings.font_size_desktop }}px;
+  color: {{ section.settings.text_color }};
+  max-width: 300px;
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .trusted-text h3 {
+    font-size: {{ section.settings.font_size_mobile }}px;
+  }
+}
+
+.trusted-logos {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+}
+
+.trusted-logos img {
+  height: 40px;
+  opacity: 0.7;
+  filter: grayscale(100%);
+  transition: opacity 0.3s;
+}
+
+.trusted-logos img:hover {
+  opacity: 1;
+  filter: grayscale(0%);
+}
+{% endstyle %}
 
 <section class="trusted-section">
   <div class="wrapper">
@@ -19,6 +63,10 @@
   </div>
 </section>
 
+<!-- Splide Core + AutoScroll Extension -->
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.3/dist/js/splide.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.4.0/dist/js/splide-extension-auto-scroll.min.js"></script>
+
 <script>
   document.addEventListener('DOMContentLoaded', function () {
     new Splide('.trusted-logos', {
@@ -28,7 +76,7 @@
       perPage: 5,
       gap: '2rem',
       autoScroll: {
-        speed: .3,
+        speed: 0.3,
         pauseOnHover: false,
         pauseOnFocus: false,
         rewind: false,
@@ -53,6 +101,30 @@
       "id": "heading",
       "label": "Heading",
       "default": "Trusted by employees of some of the best companies"
+    },
+    {
+      "type": "range",
+      "id": "font_size_desktop",
+      "label": "Heading Font Size (Desktop)",
+      "min": 10,
+      "max": 60,
+      "step": 1,
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "font_size_mobile",
+      "label": "Heading Font Size (Mobile)",
+      "min": 10,
+      "max": 40,
+      "step": 1,
+      "default": 16
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Heading Text Color",
+      "default": "#000000"
     }
   ],
   "blocks": [

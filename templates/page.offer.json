@@ -134,94 +134,6 @@
         "heading": "Trusted by employees of some of the best companies"
       }
     },
-    "section_icons_row_r8NQU8": {
-      "type": "section-icons-row",
-      "blocks": {
-        "text_KtbapW": {
-          "type": "text",
-          "settings": {
-            "icon_name": "none",
-            "icon_image": "shopify://shop_images/logo_1_png.png",
-            "title": "",
-            "text": ""
-          }
-        },
-        "text_t64KJb": {
-          "type": "text",
-          "settings": {
-            "icon_name": "none",
-            "icon_image": "shopify://shop_images/logo_2_png.png",
-            "title": "",
-            "text": ""
-          }
-        },
-        "text_c9wepB": {
-          "type": "text",
-          "settings": {
-            "icon_name": "none",
-            "icon_image": "shopify://shop_images/logo_3_png.png",
-            "title": "",
-            "text": ""
-          }
-        },
-        "text_3wCniz": {
-          "type": "text",
-          "settings": {
-            "icon_name": "none",
-            "icon_image": "shopify://shop_images/logo_4_png.png",
-            "title": "",
-            "text": ""
-          }
-        },
-        "text_MkLxg7": {
-          "type": "text",
-          "settings": {
-            "icon_name": "none",
-            "icon_image": "shopify://shop_images/logo_5_png.png",
-            "title": "",
-            "text": ""
-          }
-        },
-        "text_qNmD6K": {
-          "type": "text",
-          "settings": {
-            "icon_name": "none",
-            "icon_image": "shopify://shop_images/logo_6_png.png",
-            "title": "",
-            "text": ""
-          }
-        }
-      },
-      "block_order": [
-        "text_KtbapW",
-        "text_t64KJb",
-        "text_c9wepB",
-        "text_3wCniz",
-        "text_MkLxg7",
-        "text_qNmD6K"
-      ],
-      "custom_css": [
-        "section {margin-top: 24px; margin-bottom: 24px; border-top: 1px solid rgba(36, 42, 46, 0.2); border-bottom: 1px solid rgba(36, 42, 46, 0.2);}",
-        ".icons-row__icon {width: 100%;}"
-      ],
-      "name": "Icons row",
-      "settings": {
-        "alignment": "left",
-        "columns": 6,
-        "icons_width": 100,
-        "heading": "",
-        "subheading": "",
-        "bg_color_secondary": false,
-        "box_color": "",
-        "text_color": "#333333",
-        "button_text": "",
-        "button_link": "",
-        "button_style": "btn--secondary btn--small",
-        "enable_slider_mobile": false,
-        "padding_top": 22,
-        "padding_bottom": 10
-      }
-    },
     "section_image_with_text_B77mcn": {
       "type": "section-image-with-text",
       "custom_css": [],
@@ -932,7 +844,6 @@
     "section_text_iWF9cz",
     "ew_section_video_C6zGFC",
     "ew_trusted_section_KrgCNN",
-    "section_icons_row_r8NQU8",
     "section_image_with_text_B77mcn",
     "section_text_3xBnVH",
     "section_columns_8cFedf",

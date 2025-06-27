@@ -1,0 +1,97 @@
+#shopify-section-announcement-bar,
+.ew-booking-page-49 footer,
+.ew-booking-page-49 header,
+.ew-free-consultation-booking-page footer,
+.ew-free-consultation-booking-page header,
+.ew-booking-confirmation footer,
+.ew-booking-confirmation header,
+.ew-free-call-hmz footer,
+.ew-free-call-hmz header,
+.ew-free-call-rb-v2 footer,
+.ew-free-call-rb-v2 header,
+.ew-free-call-rb-v1 footer,
+.ew-free-call-rb-v1 header,
+.ew-free-call footer,
+.ew-free-call header {
+  display: none;
+}
+
+.ew-discount-button-image2-wrap {
+  display: flex;
+  align-items: flex-end;
+}
+
+.ew-discount-button-image2 {
+  width: 200px;
+  margin-right: 50px;
+}
+
+@media(min-width:769px) {
+  .ew-discount-button-image {
+    position: relative;
+    top: -100px;
+    right: -280px;
+  }
+
+  .ew-discount-button-image-text {
+    width: 200px;
+    margin-left: auto;
+    position: relative;
+    margin-bottom: -53px;
+    right: 80px;
+  }
+}
+
+@media(max-width:768px) {
+  .ew-discount-button-image-text {
+    width: 200px;
+    margin: auto;
+  }
+
+  .ew-discount-button-image2-wrap {
+    display: flex;
+    flex-direction: column;
+  }
+}
+/* 
+.ew-booking-page-49 .flickity-slider,
+.ew-booking-page .flickity-slider {
+  position: static !important;
+  transition: none !important;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  transform: none !important;
+}
+
+.ew-booking-page-49 .carousel__item,
+.ew-booking-page .carousel__item {
+  width: 100%;
+  position: static !important;
+  transform: none !important;
+  margin: 0 !important;
+}
+
+.ew-booking-page-49 .flickity-enabled.is-draggable .flickity-viewport,
+.ew-booking-page .flickity-enabled.is-draggable .flickity-viewport {
+  height: auto !important;
+  touch-action: auto !important;
+  cursor: pointer !important;
+  overflow: auto !important;
+}
+
+.ew-booking-page-49 .flickity-button,
+.ew-booking-page .flickity-button {
+  display: none !important;
+}
+
+@media(max-width:768px) {
+  .ew-booking-page-49 .section-columns__slider,
+  .ew-booking-page .section-columns__slider {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+    overflow: auto !important;
+    padding-right: 20px;
+  }
+} */

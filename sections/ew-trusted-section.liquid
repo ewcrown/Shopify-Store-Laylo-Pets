@@ -25,6 +25,18 @@
   }
 }
 
+  @media screen and (max-width: 768px) {
+  .splide {
+    width: 100% !important;
+    min-width: 0 !important;
+  }
+    .trusted-section .wrapper {
+    flex-direction: column;
+}
+    .trusted-section .wrapper::after {
+      display:none;
+    }
+}
 .trusted-logos {
   flex: 1;
   min-width: 0;
@@ -68,7 +80,8 @@
 <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.4.0/dist/js/splide-extension-auto-scroll.min.js"></script>
 
 <script>
-  document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded', function () {
+  if (typeof Splide !== 'undefined' && window.splide?.Extensions?.AutoScroll) {
     new Splide('.trusted-logos', {
       type: 'loop',
       arrows: false,
@@ -86,8 +99,10 @@
         768:  { perPage: 3 },
         480:  { perPage: 2 }
       }
-    }).mount(window.splide.Extensions);
-  });
+    }).mount({ AutoScroll: window.splide.Extensions.AutoScroll });
+  }
+});
+
 </script>
 
 {% schema %}

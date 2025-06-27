@@ -1,0 +1,268 @@
+<section class="value-section">
+  <div class="wrapper">
+    <div class="value-table-container">
+      {% if section.settings.heading != blank %}
+        <h2 class="value-heading">{{ section.settings.heading }}</h2>
+      {% endif %}
+
+      <div class="value-table-scroll">
+        <div class="value-table">
+          <div class="value-table-header">
+            <span>Item</span>
+            <span>Value</span>
+          </div>
+
+          {% for block in section.blocks %}
+            <div class="value-row">
+              <div class="value-row-left">
+                {% if block.settings.icon_image != blank %}
+                  <img src="{{ block.settings.icon_image | image_url: width: 32 }}" alt="icon" class="value-icon" loading="lazy">
+                {% endif %}
+                <span>{{ block.settings.item }}</span>
+              </div>
+              <div class="value-row-right">
+                {{ block.settings.value }}
+              </div>
+            </div>
+          {% endfor %}
+
+          <div class="value-total">
+            <strong>Total Value:</strong>
+            <strong>{{ section.settings.total_value }}</strong>
+          </div>
+
+          <div class="value-price">
+            <strong>Your Price:</strong>
+            <strong>{{ section.settings.discounted_price }}</strong>
+          </div>
+    
+          </div>
+     
+        </div>
+
+                   {% if section.settings.note != blank %}
+            <p class="value-note">{{ section.settings.note }}</p>
+          {% endif %}
+
+          <div class="value-button-wrap">
+          {% if section.settings.button_label != blank and section.settings.button_link != blank %}
+            <a href="{{ section.settings.button_link }}" class="btn btn--primary">
+              {{ section.settings.button_label }}
+            </a>
+          {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+.value-section {
+  padding: 60px 20px;
+  background: #FBFBF9;
+  font-family: system-ui, sans-serif;
+}
+.value-heading {
+  text-align: center;
+  font-size: 48px;
+  margin-bottom: 40px;
+  font-family: serif;
+}
+.value-table-scroll {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.value-table-header span {
+  font-size:28px;
+  font-family:var(--FONT-STACK-BODY);
+}
+
+.value-price strong,
+.value-total strong,
+.value-row-right,
+.value-row-left span {
+  font-size:24px;
+  font-family: var(--FONT-STACK-BODY);
+}
+
+.value-table {
+    max-width: 900px;
+    margin: 0 auto;
+}
+.value-table-header {
+  padding: 14px 60px;
+}
+.value-row {
+  padding: 14px 30px;
+}
+.value-table-header,
+.value-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f1eeea;
+  font-weight: bold;
+  border-radius: 8px;
+}
+.value-table-header {
+  background: #eae7e3;
+  font-weight: 600;
+}
+.value-row {
+  background: #fff;
+  margin-top: 10px;
+  font-weight: 400;
+}
+.value-row-left {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.value-icon {
+  width: 38px;
+  height: 38px;
+  object-fit: contain;
+}
+.value-total,
+.value-price {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+  padding: 16px 60px;
+  border-radius: 8px;
+}
+.value-total {
+  background: #f3f1ec;
+}
+.value-price {
+  background: #1d1d1d;
+  color: white;
+}
+.value-note {
+  text-align: center;
+  font-family:var(--FONT-STACK-BODY);
+  margin-top: 20px;
+  font-size:24px;
+  font-weight: 600;
+}
+.value-button-wrap {
+text-align:center;
+margin-top:30px;
+}
+@media(max-width:768px){
+  .value-heading {
+    font-size: 28px;
+  }
+.value-row {
+    gap: 20px;
+    padding: 10px;
+}
+  .value-row-left {
+    gap: 10px;
+}
+.value-icon {
+    width: 28px;
+    height: 28px;
+}
+.value-total, .value-price,
+.value-table-header {
+    padding: 10px;
+}
+  .value-price strong, .value-total strong, .value-row-right {
+    font-size: 16px;
+}
+.value-table-header span {
+    font-size: 20px;
+}
+.value-row-left span {
+    width: 200px;
+    font-size:14px;
+}
+}
+</style>
+
+{% schema %}
+{
+  "name": "<> Pricing Content",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Here’s What You Get When You Enroll:"
+    },
+    {
+      "type": "text",
+      "id": "total_value",
+      "label": "Total Value",
+      "default": "$2,400"
+    },
+    {
+      "type": "text",
+      "id": "discounted_price",
+      "label": "Discounted Price",
+      "default": "$899"
+    },
+    {
+      "type": "text",
+      "id": "note",
+      "label": "Note Text",
+      "default": "That’s less than $150/week"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Button Label",
+      "default": "BOOK FREE BEHAVIOR ASSESSMENT →"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button Link"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "value_item",
+      "name": "Value Item",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "icon_image",
+          "label": "Icon Image"
+        },
+        {
+          "type": "text",
+          "id": "item",
+          "label": "Item",
+          "default": "6x Private 1:1 Training Sessions (45 min)"
+        },
+        {
+          "type": "text",
+          "id": "value",
+          "label": "Value",
+          "default": "$1,200"
+        }
+      ]
+    }
+  ],
+  "max_blocks": 10,
+  "presets": [
+    {
+      "name": "<> Pricing Content",
+      "blocks": [
+        {
+          "type": "value_item"
+        },
+        {
+          "type": "value_item"
+        },
+        {
+          "type": "value_item"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

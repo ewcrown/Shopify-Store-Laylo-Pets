@@ -347,11 +347,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   
 
   {% render 'shogun-head' %}
-
 <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.3/dist/js/splide.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.4.0/dist/js/splide-extension-auto-scroll.min.js"></script>
 <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
 
+  {{ 'ew-styles.css' | asset_url | stylesheet_tag }}
 </head>
 
 {%- capture body_class -%}
@@ -376,7 +376,7 @@ template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}
   assign challenge = 'challenge' | prepend: root
 -%}
 
-<body id="{{ page_title | handle }}" class="{{ body_class | strip_newlines | strip }}" data-animations="{{ settings.animations_enabled }}">
+<body id="{{ page_title | handle }}" class="ew-{{ page.handle }} {{ body_class | strip_newlines | strip }}" data-animations="{{ settings.animations_enabled }}">
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TJCP73B"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>

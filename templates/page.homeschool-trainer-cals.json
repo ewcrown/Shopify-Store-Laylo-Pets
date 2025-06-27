@@ -166,7 +166,6 @@
     },
     "section_divider_yGremC": {
       "type": "section-divider",
-      "disabled": true,
       "settings": {
         "show_line": true,
         "width": "wrapper",
@@ -179,16 +178,14 @@
       "blocks": {
         "heading_64Q8Pw": {
           "type": "heading",
-          "disabled": true,
           "settings": {
-            "text": "<p>Train with Morgan</p>",
+            "text": "<p>Train with Erin</p>",
             "size": 100,
             "heading_highlight_type": "italics"
           }
         },
         "text_ixz9pQ": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "text": "<p><strong>Introductory, Intermediate and Advanced Behaviors</strong></p>",
             "size": 100
@@ -199,7 +196,6 @@
         "heading_64Q8Pw",
         "text_ixz9pQ"
       ],
-      "disabled": true,
       "settings": {
         "text_position": "center",
         "bg_color_secondary": false,
@@ -211,9 +207,8 @@
     },
     "section_custom_html_URRQkR": {
       "type": "section-custom-html",
-      "disabled": true,
       "settings": {
-        "custom_code": "<!-- Calendly inline widget begin -->\n<div class=\"calendly-inline-widget\" data-url=\"https://calendly.com/morgan-laylopets/dogtraining\" style=\"min-width:320px;height:700px;\"></div>\n<script type=\"text/javascript\" src=\"https://assets.calendly.com/assets/external/widget.js\" async></script>\n<!-- Calendly inline widget end -->",
+        "custom_code": "<!-- Calendly inline widget begin -->\n<div class=\"calendly-inline-widget\" data-url=\"https://calendly.com/erin-laylopets/dogtraining\" style=\"min-width:320px;height:700px;\"></div>\n<script type=\"text/javascript\" src=\"https://assets.calendly.com/assets/external/widget.js\" async></script>\n<!-- Calendly inline widget end -->",
         "width": "wrapper",
         "padding_top": 10,
         "padding_bottom": 10

@@ -1,0 +1,413 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "subheading": "breadcrumbs",
+            "show_rating": true,
+            "show_rating_count": true,
+            "padding_bottom": 20
+          }
+        },
+        "1d4ae0b0-0a4d-43d5-adef-73b63d3cb27f": {
+          "type": "shopify://apps/yotpo-product-reviews/blocks/star-rating/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
+        "inventory_countdown": {
+          "type": "inventory_countdown",
+          "settings": {
+            "max_inventory": 10,
+            "hide_inventory_count": true,
+            "padding_bottom": 20
+          }
+        },
+        "form": {
+          "type": "form",
+          "settings": {
+            "info_page": "bohemian-dog-bed",
+            "info_page_title_override": "Choose your size",
+            "show_labels": true,
+            "show_quantity": false,
+            "show_payment_button": false,
+            "enable_subscriptions_selectors": true,
+            "padding_bottom": 20
+          }
+        },
+        "upsell": {
+          "type": "upsell",
+          "settings": {
+            "stack_upsells": true,
+            "product_list": [
+              "3-pack-superfood-dog-treats-with-koji-5-oz-per-bag-by-wild-earth"
+            ],
+            "padding_bottom": 20
+          }
+        },
+        "icon_row": {
+          "type": "icon_row",
+          "settings": {
+            "icon_name_1": "truck",
+            "icon_color_1": "",
+            "icon_width_1": 20,
+            "icon_text_1": "Fast Shipping",
+            "icon_name_2": "message",
+            "icon_color_2": "",
+            "icon_width_2": 20,
+            "icon_text_2": "Text Support",
+            "icon_name_3": "shield",
+            "icon_color_3": "",
+            "icon_width_3": 20,
+            "icon_text_3": "Durable Construction",
+            "icon_name_4": "award",
+            "icon_color_4": "",
+            "icon_width_4": 20,
+            "icon_text_4": "One-Year Warranty",
+            "alignment": "center",
+            "bg_color": "#ffffff",
+            "padding_bottom": 20
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "padding_bottom": 20
+          }
+        },
+        "product_accordions": {
+          "type": "product_accordions",
+          "settings": {
+            "accordion_heading_1": "Materials and specs",
+            "accordion_text_1": "<p>Made from BPA-free, food-grade silicone and natural rubber—gentle on your dog’s mouth, tough enough for daily use, and easy to clean.  </p>",
+            "accordion_page_1": "",
+            "accordion_heading_2": "Shipping and returns",
+            "accordion_text_2": "<ul><li>Ships UPS Ground to most domestic states.</li><li>Unused products can be returned up to 30 days. </li><li>1-year warranty</li></ul>",
+            "accordion_page_2": "",
+            "accordion_heading_3": "Care Instructions",
+            "accordion_text_3": "<p>All items are dishwasher safe</p>",
+            "accordion_page_3": "",
+            "accordion_heading_4": "Measurements & Dimensions",
+            "accordion_text_4": "<p><strong>Snuffle Mat</strong><br/><br/>Dimensions: <strong>16.8\" x 11.2\" x 2.0\"</strong><br/><br/>Weight: <strong>1.25 lbs</strong></p><p><strong>Lick Bowl</strong><br/><br/>Dimensions: <strong>7.9\" x 7.9\" x 1.7\"</strong></p><p><strong>Treat Toy</strong><br/><br/>Dimensions: <strong>3.2\" x 3.2\" x 2.8\"</strong></p>",
+            "accordion_page_4": "",
+            "accordion_heading_5": "",
+            "accordion_text_5": "",
+            "accordion_page_5": "",
+            "padding_bottom": 20
+          }
+        },
+        "share-button": {
+          "type": "share-button",
+          "disabled": true,
+          "settings": {
+            "text": "Share",
+            "padding_bottom": 20
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "1d4ae0b0-0a4d-43d5-adef-73b63d3cb27f",
+        "inventory_countdown",
+        "form",
+        "upsell",
+        "icon_row",
+        "description",
+        "product_accordions",
+        "share-button"
+      ],
+      "settings": {
+        "product_sticky_enable": true,
+        "image_layout": "grid",
+        "image_width": "large",
+        "enable_zoom": true,
+        "hide_product_thumbnails": true,
+        "enable_video_looping": true,
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "bd134d06-84b0-4be7-b37c-69040f4adf68": {
+      "type": "section-text",
+      "blocks": {
+        "template--16010683777210__bd134d06-84b0-4be7-b37c-69040f4adf68-16750269123769c858-0": {
+          "type": "subheading",
+          "settings": {
+            "text": "<p>How it works</p>",
+            "size": 100
+          }
+        },
+        "template--16010683777210__bd134d06-84b0-4be7-b37c-69040f4adf68-16750269123769c858-1": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>A smarter bed system made for you.</p>",
+            "size": 100,
+            "heading_highlight_type": "italics"
+          }
+        },
+        "template--16010683777210__bd134d06-84b0-4be7-b37c-69040f4adf68-16750269123769c858-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>How every LAY LO™ bed is smarter style .</p>",
+            "size": 100
+          }
+        }
+      },
+      "block_order": [
+        "template--16010683777210__bd134d06-84b0-4be7-b37c-69040f4adf68-16750269123769c858-0",
+        "template--16010683777210__bd134d06-84b0-4be7-b37c-69040f4adf68-16750269123769c858-1",
+        "template--16010683777210__bd134d06-84b0-4be7-b37c-69040f4adf68-16750269123769c858-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "text_position": "center",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 50,
+        "padding_bottom": 20
+      }
+    },
+    "icons": {
+      "type": "section-icons-row",
+      "blocks": {
+        "icon-0": {
+          "type": "text",
+          "settings": {
+            "icon_name": "pencils",
+            "title": "Pick your design",
+            "text": "<p>Pick from one of our globally-inspired patterns, or <a href=\"https://www.laylopets.com/apps/bundles/bundle/66852\"><span style=\"text-decoration:underline\">bundle a few</span></a> and save.</p>"
+          }
+        },
+        "icon-1": {
+          "type": "text",
+          "settings": {
+            "icon_name": "check",
+            "title": "Choose what's inside",
+            "text": "<p>Bundle a cover with one of our own orthopedic mattresses, or fill it with soft clothes or towels — even recover an old dog bed.</p>"
+          }
+        },
+        "icon-2": {
+          "type": "text",
+          "settings": {
+            "icon_name": "recycle-circle",
+            "title": "Change it up",
+            "text": "<p>Keep your mattress and swap your cover when one is in the wash, or whenever you want to change your style.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "icon-0",
+        "icon-1",
+        "icon-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "alignment": "center",
+        "columns": 3,
+        "icons_width": 45,
+        "heading": "",
+        "subheading": "",
+        "bg_color_secondary": false,
+        "box_color": "",
+        "text_color": "#333333",
+        "button_text": "",
+        "button_link": "",
+        "button_style": "btn--secondary btn--small",
+        "enable_slider_mobile": false,
+        "padding_top": 10,
+        "padding_bottom": 50
+      }
+    },
+    "0b271cde-7edb-437b-a7b8-052e7178b5d6": {
+      "type": "section-image-accordions",
+      "blocks": {
+        "template--16010683777210__0b271cde-7edb-437b-a7b8-052e7178b5d6-167502648232521f10-1": {
+          "type": "image",
+          "settings": {
+            "overlay_opacity": 10,
+            "text_width": "full",
+            "text_position": "left",
+            "text_color": "text-light",
+            "title": "Welcome to Palo Alto",
+            "text": "This text helps you provide some more detail to the title above.",
+            "btn_text": "",
+            "btn_link": "",
+            "btn_style": "btn--primary btn--small",
+            "btn_text_2": "",
+            "btn_link_2": "",
+            "btn_style_2": "btn--secondary btn--small"
+          }
+        },
+        "template--16010683777210__0b271cde-7edb-437b-a7b8-052e7178b5d6-167502648232521f10-2": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "overlay_opacity": 10,
+            "text_width": "full",
+            "text_position": "left",
+            "text_color": "text-light",
+            "title": "Welcome to Palo Alto",
+            "text": "This text helps you provide some more detail to the title above.",
+            "btn_text": "",
+            "btn_link": "",
+            "btn_style": "btn--primary btn--small",
+            "btn_text_2": "",
+            "btn_link_2": "",
+            "btn_style_2": "btn--secondary btn--small"
+          }
+        },
+        "template--16010683777210__0b271cde-7edb-437b-a7b8-052e7178b5d6-167502648232521f10-3": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "overlay_opacity": 10,
+            "text_width": "full",
+            "text_position": "left",
+            "text_color": "text-light",
+            "title": "Welcome to Palo Alto",
+            "text": "This text helps you provide some more detail to the title above.",
+            "btn_text": "",
+            "btn_link": "",
+            "btn_style": "btn--primary btn--small",
+            "btn_text_2": "",
+            "btn_link_2": "",
+            "btn_style_2": "btn--secondary btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "template--16010683777210__0b271cde-7edb-437b-a7b8-052e7178b5d6-167502648232521f10-1",
+        "template--16010683777210__0b271cde-7edb-437b-a7b8-052e7178b5d6-167502648232521f10-2",
+        "template--16010683777210__0b271cde-7edb-437b-a7b8-052e7178b5d6-167502648232521f10-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "accordion_height": "six-fifty-height",
+        "enable_mobile_height": false,
+        "mobile_section_height": "five-fifty-height-mobile",
+        "heading_size": 100,
+        "width": "wrapper--full-padded",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_image_with_text_nKEKYQ": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "three-fifty-height",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "standard",
+        "image": "shopify://shop_images/Frame_139.png",
+        "subheading": "Homeschool by LAY LO®",
+        "title": "<p>A Masterclass in Pup Parenting</p>",
+        "heading_highlight_type": "circle",
+        "heading_size": 130,
+        "text_content": "Raise the very best dog at home with 1:1 online mentorship alongside certified R+ trainers, groomers and nutritionists.",
+        "text_alignment": "left",
+        "button_text": "Learn More",
+        "button_link": "shopify://pages/homeschool",
+        "button_style": "btn--primary btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "#f7f2ee",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "grid": {
+      "type": "section-grid",
+      "blocks": {
+        "grid-0": {
+          "type": "image",
+          "settings": {
+            "width": "100",
+            "image": "shopify://shop_images/0X5A3010_McCoolFinals.jpg",
+            "overlay_opacity": 10,
+            "text_position": "center",
+            "subheading": "",
+            "title": "1-Year Quality Guarantee",
+            "text": "Each product is designed an California and made to last. We protect against any product defect for up to one year.",
+            "button_text": "",
+            "link": "",
+            "secondary_button_text": "",
+            "secondary_button_link": "",
+            "text_color": "text-light"
+          }
+        }
+      },
+      "block_order": [
+        "grid-0"
+      ],
+      "settings": {
+        "height": "350",
+        "heading_size": 150,
+        "button_style": "btn--secondary btn--small",
+        "secondary_button_style": "btn--secondary btn--small",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "width": "wrapper",
+        "add_gutter": true,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "related": {
+      "type": "related-products",
+      "settings": {
+        "limit": 4,
+        "product_recommendations_heading": "You May Also Like",
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "168238782193835517": {
+      "type": "apps",
+      "blocks": {
+        "e46e1d7e-3d64-404b-8eae-4f3bef703756": {
+          "type": "shopify://apps/yotpo-product-reviews/blocks/reviews/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "settings": {
+            "product": "{{product}}"
+          }
+        }
+      },
+      "block_order": [
+        "e46e1d7e-3d64-404b-8eae-4f3bef703756"
+      ],
+      "settings": {
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "main",
+    "bd134d06-84b0-4be7-b37c-69040f4adf68",
+    "icons",
+    "0b271cde-7edb-437b-a7b8-052e7178b5d6",
+    "section_image_with_text_nKEKYQ",
+    "grid",
+    "related",
+    "168238782193835517"
+  ]
+}

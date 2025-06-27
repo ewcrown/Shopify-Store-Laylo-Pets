@@ -72,8 +72,9 @@ padding: 10px
   <div class="ew-section-video-row">
     <div class="wrapper">
       <div class="ew-section-video-wrap">
-        <h3>{{ section.settings.heading }}</h3>
-
+        {% if section.settings.heading != blank %}
+          <h3>{{ section.settings.heading }}</h3>
+        {% endif %}
         {% if section.settings.video != blank %}
           <div class="ew-video-container">
             <video

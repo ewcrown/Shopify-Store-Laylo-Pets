@@ -1,0 +1,296 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "404",
+      "disabled": true,
+      "settings": {}
+    },
+    "section_text_Yfa6NC": {
+      "type": "section-text",
+      "blocks": {
+        "image_CfbBbV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Homeschool_By_LAY_LO_Logo_2x_1634x_069e01f5-8418-490e-a1b7-10d44dee3c33.png",
+            "image_width": 200,
+            "image_link": "/"
+          }
+        }
+      },
+      "block_order": [
+        "image_CfbBbV"
+      ],
+      "name": "Text",
+      "settings": {
+        "text_position": "center",
+        "background_custom_color": "#fbfbf9",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "ew_booking_section_aWUjnQ": {
+      "type": "ew-booking-section",
+      "name": "<> Booking Section",
+      "settings": {
+        "bg_color": "#f9f9f9",
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "heading": "Schedule Your Free Behavior Assessment",
+        "subheading": "",
+        "original_price": "$299",
+        "offer_heading": "CALL PRICED AT:",
+        "free_label": "FREE",
+        "offer_note": "FOR LIMITED TIME ONLY",
+        "included_heading": "WHATS INCLUDED:",
+        "included_text": "<ul><li>45-minute live 1:1 session with a certified dog expert</li><li>A professional assessment of your dog’s needs</li><li>Bonus: PDF guides for training & enrichment</li></ul>",
+        "widget_code": "<!-- Calendly inline widget begin -->\n<div class=\"calendly-inline-widget\" data-url=\"https://calendly.com/d/cqkx-7yb-zm6/behavior-consult-with-a-dog-expert?utm_source=Directbook\"hide_gdpr_banner=1\" style=\"min-width:320px;height:700px;\"></div>\n<script type=\"text/javascript\" src=\"https://assets.calendly.com/assets/external/widget.js\" async></script>\n<!-- Calendly inline widget end -->"
+      }
+    },
+    "section_text_9eGxmj": {
+      "type": "section-text",
+      "blocks": {
+        "subheading_MEMqT3": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "size": 100
+          }
+        },
+        "heading_RMiezU": {
+          "type": "heading",
+          "settings": {
+            "discount_button_link_heading": "",
+            "text": "<p>Trusted by 1,000+ pup parents</p>",
+            "size": 100,
+            "heading_highlight_type": "italics"
+          }
+        },
+        "text_BnEhhT": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "size": 100
+          }
+        },
+        "button_mAx6gM": {
+          "type": "button",
+          "settings": {
+            "discount_button_link": "",
+            "btn_text": "See all reviews >",
+            "btn_link": "https://www.laylopets.com/pages/homeschool-virtual-dog-training-reviews",
+            "btn_style": "btn--text"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_MEMqT3",
+        "heading_RMiezU",
+        "text_BnEhhT",
+        "button_mAx6gM"
+      ],
+      "settings": {
+        "text_position": "center",
+        "background_custom_color": "",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 10
+      }
+    },
+    "121aca7f-e45f-40ef-831b-7ab278c7b6c8": {
+      "type": "section-columns",
+      "blocks": {
+        "72f5ca56-1762-430e-8939-007d3114f377": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/Screen_Shot_2023-06-19_at_10.19.52_PM.png",
+            "title": "\"I thought it was such an amazing investment. As a reactive dog owner, with a virtual outlet, I was able to have access to a trainer that kept everyone safe.\"",
+            "text": "<p>⭐⭐⭐⭐⭐</p><p><strong>Anna & Bruno<br/></strong>Rogers, AR</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--text",
+            "video_link_popup": "https://youtu.be/EXt96K74My4",
+            "video_link_color": "text-light"
+          }
+        },
+        "687a1866-f739-4189-8671-a2c1387691d3": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/Screen_Shot_2023-06-02_at_3.05.17_PM.png",
+            "title": "“I loved it. My trainer was amazing. In a perfect world, we can work with her forever. Having that dedicated time with the trainer to see how Savannah was reacting with my instructions was very helpful.\"",
+            "text": "<p>⭐⭐⭐⭐⭐</p><p><strong>Sharee & Savannah<br/></strong>Atlanta, GA</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--text",
+            "video_link_popup": "https://youtu.be/tG_eKMRL7yU",
+            "video_link_color": "text-light"
+          }
+        },
+        "3f93de7c-fcdf-4ba1-8b44-327cd54fcbb0": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/Screen_Shot_2023-06-02_at_3.04.17_PM.png",
+            "title": "\"I thought it was awesome. Every time Vivi was super helpful when she diagnosed what was going on. Nori has caught on to everything we worked on in the classes.\"",
+            "text": "<p>⭐⭐⭐⭐⭐</p><p><strong>Jake, Lauren & Nori<br/></strong>Richmond, VA</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--text",
+            "video_link_popup": "https://youtu.be/EEZrhyOSqA0",
+            "video_link_color": "text-light"
+          }
+        },
+        "7784bcd9-2f1c-4607-8044-146980accb95": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/Bethany_Oso_-_Image.jpg",
+            "title": "\"Compared to puppy school, meeting 1:1 where there are no other dogs around was the absolute best for me and Oso.\"",
+            "text": "<p>⭐⭐⭐⭐⭐</p><p><strong>Bethany & Oso<br/></strong>Providence, RI</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--text",
+            "video_link_popup": "https://youtu.be/wC6YpMA1fS4",
+            "video_link_color": "text-light"
+          }
+        },
+        "text_block_Nwpzjm": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/IMG_3447.jpg",
+            "title": "Virtual training made it possible for us to practice all of the commands because he simply wouldn’t behave the same for someone else. It was more training for us, than training for him which I loved. ",
+            "text": "<p>⭐⭐⭐⭐⭐</p><p><strong>Sara & Ozzy<br/></strong>Brooklyn, NY</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--text",
+            "video_link_popup": "https://youtu.be/VFlByKPht6w",
+            "video_link_color": "text-light"
+          }
+        },
+        "1bf2cdb4-9432-4698-8902-9b5e070937a5": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/Tara_Marvn_-_Image_2.png",
+            "title": "\"Marvin has made such great progress. Before he was pulling like a maniac and now he’s pretty loose.\"",
+            "text": "<p>⭐⭐⭐⭐⭐</p><p><strong>Tara & Marvin<br/></strong>Palm Springs, CA</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--text",
+            "video_link_popup": "https://youtu.be/DYOJo_SrwhI",
+            "video_link_color": "text-light"
+          }
+        },
+        "80497941-0b8c-417f-a548-7829b23725ae": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2024-01-16_at_12.37.13_PM.png",
+            "title": "\"Being able to train at his homebase with his family was a huge plus. When we did a simulation of a work. We will recommend it to other people full heartedly.\"",
+            "text": "<p>⭐⭐⭐⭐⭐</p><p><strong>Chinami & Mochi<br/></strong>Los Angeles, CA</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--text",
+            "video_link_popup": "https://youtu.be/rUCLC9ohB4Q",
+            "video_link_color": "text-light"
+          }
+        },
+        "text_block_gWKYfi": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/386430789_659185492994198_6348077567033783363_n.jpg",
+            "title": "\"I’ve gone from having a puppy who tears everything apart to a very lovely little pup who actually listens to me without commands. I can’t thank the team enough for making my life a lot easier.\"",
+            "text": "<p>⭐⭐⭐⭐⭐</p><p><strong>Linnea & Cookie<br/></strong>Westfield, NJ</p>",
+            "button_text": "",
+            "button_link": "https://youtu.be/BVtXKLKEvbM",
+            "button_style": "btn--text",
+            "video_link_popup": "https://youtu.be/qORGt__IbOE",
+            "video_link_color": "text-light"
+          }
+        },
+        "text_block_NWqDjK": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2024-01-16_at_1.02.55_PM.png",
+            "title": "\"If it wasn’t for our trainer and everything she taught us, we would’ve never gotten this far as quickly. We have some really good tools to work with him and continue expanding on that base.\"",
+            "text": "<p>⭐⭐⭐⭐⭐</p><p><strong>Marisa & Jackie<br/></strong>Portland, OR</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--text",
+            "video_link_popup": "https://youtu.be/BVtXKLKEvbM",
+            "video_link_color": "text-light"
+          }
+        },
+        "text_block_DkC38F": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2024-01-16_at_1.13.16_PM.png",
+            "title": "\"My trainer was so good with dog behavior and taught me those things so when something happened between the two dogs, I could understand him better and be able to help the situation.\"",
+            "text": "<p>⭐⭐⭐⭐⭐</p><p><strong>Carmen & Mish<br/></strong>Bloomington, ID</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--text",
+            "video_link_popup": "https://youtu.be/xZU6IWDim_s",
+            "video_link_color": "text-light"
+          }
+        }
+      },
+      "block_order": [
+        "72f5ca56-1762-430e-8939-007d3114f377",
+        "687a1866-f739-4189-8671-a2c1387691d3",
+        "3f93de7c-fcdf-4ba1-8b44-327cd54fcbb0",
+        "7784bcd9-2f1c-4607-8044-146980accb95",
+        "text_block_Nwpzjm",
+        "1bf2cdb4-9432-4698-8902-9b5e070937a5",
+        "80497941-0b8c-417f-a548-7829b23725ae",
+        "text_block_gWKYfi",
+        "text_block_NWqDjK",
+        "text_block_DkC38F"
+      ],
+      "settings": {
+        "discount_button_link": "",
+        "title": "",
+        "align_text": "text-left",
+        "columns": 4,
+        "equalize_height": true,
+        "image_aspect_ratio": 0.8,
+        "show_images": true,
+        "bg_color_secondary": false,
+        "width": "wrapper",
+        "padding_top": 30,
+        "padding_bottom": 60
+      }
+    },
+    "ew_dark_footer_qFq8QB": {
+      "type": "ew-dark-footer",
+      "name": "Dark Footer",
+      "settings": {
+        "footer_logo": "shopify://shop_images/Heading_1_Link_-_LAY_LO_Pets_LAY_LO_Logo_TM-01_png_ea96b92b-9a09-4470-b2fe-03204377cf69.png",
+        "footer_text": "2025. All rights reserved.",
+        "facebook_url": "#",
+        "instagram_url": "#",
+        "twitter_url": "#",
+        "linkedin_url": "#"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_text_Yfa6NC",
+    "ew_booking_section_aWUjnQ",
+    "section_text_9eGxmj",
+    "121aca7f-e45f-40ef-831b-7ab278c7b6c8",
+    "ew_dark_footer_qFq8QB"
+  ]
+}

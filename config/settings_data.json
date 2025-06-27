@@ -281,10 +281,25 @@
               "target_device": "mobile"
             }
           },
+          "text_pPtPPH": {
+            "type": "text",
+            "settings": {
+              "text": "<p><a href=\"https://www.laylopets.com/pages/pricing-update\" title=\"https://www.laylopets.com/pages/pricing-update\">OUR PRICES ARE CHANGING ON JULY 1, LEARN MORE &gt;</a></p>",
+              "icon_name": "none",
+              "icon_color": "",
+              "icon_width": 20,
+              "target_url_enabled": false,
+              "target_url": "shopify://pages/pricing-update",
+              "target_referrer_enabled": false,
+              "target_referrer": "",
+              "target_device_enabled": false,
+              "target_device": "mobile"
+            }
+          },
           "b8a2f97d-5cd3-4890-ab2d-25e9d011b7a9": {
             "type": "text",
             "settings": {
-              "text": "<p><strong>BUY ONE BED GET ONE 25% OFF</strong></p>",
+              "text": "<p><strong>BUNDLE & SAVE: BUY ONE BED GET ONE 15% OFF</strong></p>",
               "icon_name": "none",
               "icon_color": "#1f294f",
               "icon_width": 20,
@@ -298,6 +313,7 @@
           },
           "beb4270a-5e2d-4c19-a999-1687eb3a78f9": {
             "type": "message",
+            "disabled": true,
             "settings": {
               "message": "SPEND ||amount|| MORE FOR FREE DOMESTIC SHIPPING",
               "target_url_enabled": false,
@@ -323,30 +339,14 @@
               "target_device_enabled": false,
               "target_device": "mobile"
             }
-          },
-          "text_pPtPPH": {
-            "type": "text",
-            "disabled": true,
-            "settings": {
-              "text": "<p>New customers save 10% with code WELCOME10</p>",
-              "icon_name": "none",
-              "icon_color": "",
-              "icon_width": 20,
-              "target_url_enabled": false,
-              "target_url": "",
-              "target_referrer_enabled": false,
-              "target_referrer": "",
-              "target_device_enabled": false,
-              "target_device": "mobile"
-            }
           }
         },
         "block_order": [
           "text_hRc9EX",
+          "text_pPtPPH",
           "b8a2f97d-5cd3-4890-ab2d-25e9d011b7a9",
           "beb4270a-5e2d-4c19-a999-1687eb3a78f9",
-          "13f99ffa-2d82-4382-b433-aeaed15b0986",
-          "text_pPtPPH"
+          "13f99ffa-2d82-4382-b433-aeaed15b0986"
         ],
         "settings": {
           "bg_color": "#1f294f",
@@ -533,6 +533,11 @@
       },
       "9498845458295061716": {
         "type": "shopify://apps/getsale/blocks/banner-embed-v3/dae9396b-6892-475e-8260-9c39c0a67574",
+        "disabled": false,
+        "settings": {}
+      },
+      "10840395464443086010": {
+        "type": "shopify://apps/alia/blocks/customer-app-frame/51f1d398-3e41-44da-b81e-defd5804b292",
         "disabled": false,
         "settings": {}
       }

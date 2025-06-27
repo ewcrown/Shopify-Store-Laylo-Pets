@@ -12,12 +12,14 @@
   padding-right: {{ section.settings.inner_padding_right }}px;
   padding-left: {{ section.settings.inner_padding_left }}px;
   border-radius: 12px;
+  margin-bottom:100px;
 }
 
 #ew-foundation-program-{{ section.id }} .foundation-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items:flex-end;
   gap: 40px;
   max-width: 1200px;
   margin: 0 auto;
@@ -98,6 +100,7 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 margin-top:10px;
+margin-bottom:100px;
 }
 
 /* Responsive */
@@ -139,19 +142,23 @@ margin-top:10px;
           </div>
         {% endif %}
 
-        <div class="foundation-features">
-          {% for block in section.blocks %}
-            <div class="foundation-feature">{{ block.settings.text }}</div>
-          {% endfor %}
-        </div>
-      </div>
-      <div class="foundation-footer">
+        <div class="foundation-features-right">
+          <div class="foundation-features">
+            {% for block in section.blocks %}
+              <div class="foundation-feature">{{ block.settings.text }}</div>
+            {% endfor %}
+          </div>
+
+          <div class="foundation-footer">
         {% if section.settings.button_text != blank and section.settings.button_link != blank %}
           <a href="{{ section.settings.button_link }}" class="btn {{ section.settings.button_style }}">{{ section.settings.button_text }}</a>
         {% endif %}
         {% if section.settings.note_text != blank %}
           <p>{{ section.settings.note_text }}</p>
         {% endif %}
+      </div>
+        </div>
+
       </div>
     </div>
   </div>

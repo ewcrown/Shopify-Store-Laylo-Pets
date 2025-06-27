@@ -1,0 +1,207 @@
+{% stylesheet %}
+.behavior-section {
+  text-align: center;
+}
+
+.behavior-section .icon {
+  font-size: 40px;
+  margin-bottom: 15px;
+  color: #4caf50;
+}
+
+.behavior-section .icon img {
+    width: 72px;
+}
+
+.behavior-section h2 {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 110.00000000000001%;
+  max-width: 800px;
+  margin: auto;
+}
+
+.behavior-section .sub-heading {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.behavior-box {
+    background: #FFFFFF;
+    border: 1px solid #e0e0e0;
+    padding: 31px 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    text-align: left;
+    border-radius: 8px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.behavior-box img {
+  width: 30px;
+  height: 30px;
+  margin-top: 5px;
+}
+
+.behavior-box p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.behavior-box p strong {
+  font-weight: 600;
+}
+
+.behavior-section .contact-text {
+    font-size: 15px;
+    margin-top: 50px;
+}
+
+.behavior-section .contact-text a {
+  color: #000;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+  .behavior-box {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .behavior-box img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+
+  .behavior-section {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+  }
+
+  .behavior-section h2 {
+    font-size: 28px;
+  }
+}
+{% endstylesheet %}
+
+<section
+  class="behavior-section"
+  style="background-color: {{ section.settings.bg_color }}; padding-top: {{ section.settings.padding_top }}; padding-bottom: {{ section.settings.padding_bottom }};"
+>
+  <div class="wrapper">
+    <div class="icon">
+      {% if section.settings.top_icon != blank %}
+        <img src="{{ section.settings.top_icon | image_url }}" alt="Top icon">
+      {% endif %}
+    </div>
+    <h2>{{ section.settings.heading }}</h2>
+    <div class="sub-heading">{{ section.settings.subheading }}</div>
+
+    <div class="behavior-box">
+      {% if section.settings.sms_icon != blank %}
+        <img src="{{ section.settings.sms_icon | image_url }}" alt="SMS icon">
+      {% endif %}
+      <p>{{ section.settings.sms_text }}</p>
+    </div>
+
+    <div class="behavior-box">
+      {% if section.settings.dog_icon != blank %}
+        <img src="{{ section.settings.dog_icon | image_url }}" alt="Dog icon">
+      {% endif %}
+      <p>{{ section.settings.dog_text }}</p>
+    </div>
+
+    <div class="contact-text">
+      <a href="sms:{{ section.settings.contact_number | remove: ' ' }}">{{ section.settings.contact_text }}</a>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "<> Thank You",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background Color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "text",
+      "id": "padding_top",
+      "label": "Padding Top",
+      "default": "40px"
+    },
+    {
+      "type": "text",
+      "id": "padding_bottom",
+      "label": "Padding Bottom",
+      "default": "40px"
+    },
+    {
+      "type": "image_picker",
+      "id": "top_icon",
+      "label": "Top Icon"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Main Heading",
+      "default": "Your behavior assessment"
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": "Subheading",
+      "default": "is scheduled. Here is what is next!"
+    },
+    {
+      "type": "image_picker",
+      "id": "sms_icon",
+      "label": "SMS Icon"
+    },
+    {
+      "type": "richtext",
+      "id": "sms_text",
+      "label": "SMS Message",
+      "default": "<p>Check your phone, we just dropped you a text. <strong>You need to respond to our SMS to confirm</strong> your number for us to lock in your time.</p>"
+    },
+    {
+      "type": "image_picker",
+      "id": "dog_icon",
+      "label": "Dog Icon"
+    },
+    {
+      "type": "richtext",
+      "id": "dog_text",
+      "label": "Dog Message",
+      "default": "<p>Check your phone, we dropped you a text. <strong>You need to confirm</strong> your number in order for the consultation to be confirmed.</p>"
+    },
+    {
+      "type": "text",
+      "id": "contact_text",
+      "label": "Contact Text",
+      "default": "Questions? Text us at 310-564-8808"
+    },
+    {
+      "type": "text",
+      "id": "contact_number",
+      "label": "Contact Phone Number",
+      "default": "310-564-8808"
+    }
+  ],
+  "presets": [
+    {
+      "name": "<> Thank You"
+    }
+  ]
+}
+{% endschema %}

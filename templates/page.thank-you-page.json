@@ -1,0 +1,80 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "404",
+      "disabled": true,
+      "settings": {}
+    },
+    "section_text_Yfa6NC": {
+      "type": "section-text",
+      "blocks": {
+        "image_CfbBbV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Heading_1_Link_-_LAY_LO_Pets_LAY_LO_Logo_TM-01_png_65d75b2a-9456-4b53-b997-a25b52bdd19b.png",
+            "image_width": 180,
+            "image_link": "/"
+          }
+        }
+      },
+      "block_order": [
+        "image_CfbBbV"
+      ],
+      "name": "Text",
+      "settings": {
+        "text_position": "center",
+        "background_custom_color": "#fbfbf9",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "ew_thank_you_section_tA7pAk": {
+      "type": "ew-thank-you-section",
+      "name": "<> Thank You>",
+      "settings": {
+        "bg_color": "#fbfbf9",
+        "padding_top": "120px",
+        "padding_bottom": "120px",
+        "top_icon": "shopify://shop_images/Group_85cd2dea-6d21-49c3-a74d-464bd48138cb.png",
+        "heading": "Your behavior assessmentis scheduled. Here is what is next!",
+        "subheading": "",
+        "sms_icon": "shopify://shop_images/Capa_1_ea63c242-a42a-42dc-9132-fd6b9270eee1.png",
+        "sms_text": "<p>Check your phone, we just dropped you a text. <strong>You need to respond to our SMS to confirm</strong> your number for us to lock in your time.</p>",
+        "dog_icon": "shopify://shop_images/Dog.png",
+        "dog_text": "<p>Check your phone, we dropped you a text. <strong>You need to confirm</strong> your number in order for the consultation to be confirmed.</p>",
+        "contact_text": "Questions? Text us at 310-564-8808",
+        "contact_number": "310-564-8808"
+      }
+    },
+    "ew_dark_footer_qFq8QB": {
+      "type": "ew-dark-footer",
+      "name": "Dark Footer",
+      "settings": {
+        "footer_logo": "shopify://shop_images/Heading_1_Link_-_LAY_LO_Pets_LAY_LO_Logo_TM-01_png_ea96b92b-9a09-4470-b2fe-03204377cf69.png",
+        "footer_text": "2025. All rights reserved.",
+        "facebook_url": "#",
+        "instagram_url": "#",
+        "twitter_url": "#",
+        "linkedin_url": "#"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_text_Yfa6NC",
+    "ew_thank_you_section_tA7pAk",
+    "ew_dark_footer_qFq8QB"
+  ]
+}

@@ -19,6 +19,11 @@
   max-width: 700px;
 }
 
+#ew-program-benefits-{{ section.id }} .ew-img-text-anchor {
+    text-align: center;
+    margin-top: 100px;
+}
+
 #ew-program-benefits-{{ section.id }} .program-benefits-image img {
   width: 100%;
   border-radius: 12px;
@@ -42,7 +47,7 @@ line-height: 110%; /* 39.6px */
   display: flex;
   align-items: center;
   gap: 12px;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
 }
 
 #ew-program-benefits-{{ section.id }} .program-benefit-item img {
@@ -110,13 +115,15 @@ line-height: 110%; /* 39.6px */
           </div>
         {% endfor %}
 
-        {% if section.settings.button_text != blank and section.settings.button_link != blank %}
+      </div>
+    </div>
+    {% if section.settings.button_text != blank and section.settings.button_link != blank %}
+      <div class="ew-img-text-anchor">
           <a class="btn {{ section.settings.button_style }}" href="{{ section.settings.button_link }}">
             {{ section.settings.button_text }}
           </a>
+          </div>
         {% endif %}
-      </div>
-    </div>
   </div>
 </section>
 

@@ -33,7 +33,14 @@
   <div class="{{ section_width }}">
 
     {%- if section.settings.title != '' -%}
-      <div class="section__header">
+      <div class="section__header   {% if section.settings.discount_button != blank %}ew-discount-button-image2-wrap{% endif %}">
+        {% if section.settings.discount_button != blank %}
+          <div class="ew-discount-button-image2">
+            <a href="{{ section.settings.discount_button_link }}">
+              <img src="{{ section.settings.discount_button | img_url:'master' }}" class="img=responsive" />
+            </a>
+          </div>
+        {% endif %}
         <h2 class="section__heading h2"
           data-aos="fade-up"
           data-aos-anchor="{{ animation_anchor }}"
@@ -199,6 +206,16 @@
     "name": "Text columns with images",
     "class": "index-section",
     "settings": [
+       {
+          "type": "image_picker",
+          "id": "discount_button",
+          "label": "Discount Button"
+        },
+        {
+          "type": "url",
+          "id": "discount_button_link",
+          "label": "Discount Button Link"
+        },
       {
         "type": "text",
         "id": "title",

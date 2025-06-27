@@ -72,7 +72,18 @@
               {%- liquid
                 assign title = block.settings.text
                 assign heading_highlight_type = block.settings.heading_highlight_type
+                assign discount_button_heading = block.settings.discount_button_heading
+                assign discount_button_link_heading = block.settings.discount_button_link_heading
               -%}
+
+
+                {% if discount_button_heading != blank %}
+                  <div class="ew-discount-button-image-text">
+                    <a href="{{ discount_button_link_heading }}">
+                      <img src="{{ discount_button_heading | img_url:'master' }}" class="img=responsive" />
+                    </a>
+                  </div>
+                {% endif %}
               {% comment %}
   Enhanced text decorations options - Liqiud variables
 
@@ -249,6 +260,8 @@
                 assign prev_block_type = section.blocks[prev_block_index].type
                 assign next_block_type = section.blocks[next_block_index].type
                 assign btn_text = block.settings.btn_text
+                assign discount_button = block.settings.discount_button
+                assign discount_button_link = block.settings.discount_button_link
                 assign btn_link = block.settings.btn_link
                 assign btn_style = block.settings.btn_style
               -%}
@@ -266,7 +279,16 @@
                     <a href="{{ btn_link | default: '#!' }}" class="btn {{ btn_style }}">{{ btn_text }}</a>
                   </div>
                 {%- endif -%}
+                {% if discount_button != blank %}
+                  <div class="ew-discount-button-image">
+                    <a href="{{ discount_button_link }}">
+                      <img src="{{ discount_button | img_url:'master' }}" class="img=responsive" />
+                    </a>
+                  </div>
+                {% endif %}
               {%- endcapture -%}
+
+              
 
               {%- if next_block_type == 'button' -%}
                 <div class="text__buttons-wrapper">
@@ -491,6 +513,16 @@
       "type": "heading",
       "name": "Heading",
       "settings": [
+         {
+          "type": "image_picker",
+          "id": "discount_button_heading",
+          "label": "Discount Button"
+        },
+        {
+          "type": "url",
+          "id": "discount_button_link_heading",
+          "label": "Discount Button Link"
+        },
         {
           "type": "richtext",
           "id": "text",
@@ -599,6 +631,16 @@
       "name": "Button",
       "limit": 2,
       "settings": [
+        {
+          "type": "image_picker",
+          "id": "discount_button",
+          "label": "Discount Button"
+        },
+        {
+          "type": "url",
+          "id": "discount_button_link",
+          "label": "Discount Button Link"
+        },
         {
           "type": "text",
           "id": "btn_text",

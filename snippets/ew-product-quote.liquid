@@ -1,0 +1,69 @@
+{% style %}
+  .ew-product-quote {
+    display: flex;
+    gap: 16px;
+    margin-top: 20px;
+    padding:16px 12px;
+    background:#F7F7F7;
+    border:1px solid #E7E7E7;
+    border-radius:8px;
+  }
+  .ew-product-left img {
+    border-radius: 50%;
+    width:37px;
+    height:37px;
+  }
+  .ew-product-right h3 {
+    margin: 0 0 10px;
+    font-family: 'DM Sans',sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0%;
+    margin-bottom: 0px;
+  }
+  .ew-product-left {
+    width: 100px;
+  }
+  .ew-product-quote-description {
+    font-weight: 400;
+    font-style: italic;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    margin-top:0;
+    color: #000;
+  }
+  .ew-product-quote-description p{
+    margin-top:0;
+  }
+  @media(max-width:600px){
+    .ew-product-left {
+      width: 150px;
+    }
+  }
+{% endstyle %}
+
+{% assign quote_img = product.metafields.custom.quote_image %}
+{% assign quote_title = product.metafields.custom.quote_title %}
+{% assign quote_description = product.metafields.custom.quote_description %}
+
+{% if quote_img != blank or quote_title != blank or quote_description != blank %}
+<div class="ew-product-quote">
+  <div class="ew-product-left">
+    {% if quote_img != blank %}
+      <img src="{{ quote_img | image_url }}" width="50" height="50" alt="Quote Image" />
+    {% endif %}
+  </div>
+  <div class="ew-product-right">
+    {% if quote_title != blank %}
+      <h3>{{ quote_title }}</h3>
+    {% endif %}
+    {% if quote_description != blank %}
+      <div class="ew-product-quote-description">
+        {{ quote_description | metafield_tag }}
+      </div>
+    {% endif %}
+  </div>
+</div>
+{% endif %}

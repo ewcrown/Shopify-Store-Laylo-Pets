@@ -20,8 +20,8 @@
         "image_CfbBbV": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Heading_1_Link_-_LAY_LO_Pets_LAY_LO_Logo_TM-01_png_65d75b2a-9456-4b53-b997-a25b52bdd19b.png",
-            "image_width": 180,
+            "image": "shopify://shop_images/Homeschool_by_LAY_LO_Logo.svg",
+            "image_width": 200,
             "image_link": "/"
           }
         }
@@ -53,8 +53,10 @@
         "sms_icon": "shopify://shop_images/Capa_1_ea63c242-a42a-42dc-9132-fd6b9270eee1.png",
         "sms_text": "<p>Check your phone, we just dropped you a text. <strong>You need to respond to our SMS to confirm</strong> your number for us to lock in your time.</p>",
         "dog_icon": "shopify://shop_images/Dog.png",
-        "dog_text": "<p>Check your phone, we dropped you a text. <strong>You need to confirm</strong> your number in order for the consultation to be confirmed.</p>",
-        "contact_text": "Questions? Text us at 310-564-8808",
+        "dog_text": "<p>Check your phone, we just dropped you a text. You need to confirm your number in order for the consultation to be confirmed.</p>",
+        "goals_icon": "shopify://shop_images/Dog.png",
+        "goals_text": "<p>You'll chat with your guide who will find the best expert based on your goals.</p>",
+        "contact_text": "Your dedicated expert will work directly  with you and your dog in a live, 45-minute session. No commitment, just real advice and a personalized plan.Questions? Text us at 310-564-8808",
         "contact_number": "310-564-8808"
       }
     },
@@ -62,7 +64,7 @@
       "type": "ew-dark-footer",
       "name": "Dark Footer",
       "settings": {
-        "footer_logo": "shopify://shop_images/Heading_1_Link_-_LAY_LO_Pets_LAY_LO_Logo_TM-01_png_ea96b92b-9a09-4470-b2fe-03204377cf69.png",
+        "footer_logo": "shopify://shop_images/laylo-logo-white.svg",
         "footer_text": "2025. All rights reserved.",
         "facebook_url": "#",
         "instagram_url": "#",

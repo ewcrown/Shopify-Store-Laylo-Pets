@@ -20,7 +20,7 @@
         "image_CfbBbV": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Homeschool_By_LAY_LO_Logo_2x_1634x_069e01f5-8418-490e-a1b7-10d44dee3c33.png",
+            "image": "shopify://shop_images/Homeschool_by_LAY_LO_Logo.svg",
             "image_width": 200,
             "image_link": "/"
           }
@@ -47,11 +47,12 @@
         "bg_color": "#f9f9f9",
         "padding_top": 60,
         "padding_bottom": 60,
-        "heading": "Schedule Your Free Behavior Assessment",
+        "heading": "Schedule Your Behavior Assessment",
         "subheading": "",
-        "original_price": "$49",
+        "original_price": "$149",
+        "sale_price": "$49",
         "offer_heading": "CALL PRICED AT:",
-        "free_label": "FREE",
+        "free_label": "",
         "offer_note": "FOR LIMITED TIME ONLY",
         "included_heading": "WHATS INCLUDED:",
         "included_text": "<ul><li>45-minute live 1:1 session with a certified dog expert</li><li>A professional assessment of your dog’s needs</li><li>Bonus: PDF guides for training & enrichment</li></ul>",
@@ -276,7 +277,7 @@
       "type": "ew-dark-footer",
       "name": "Dark Footer",
       "settings": {
-        "footer_logo": "shopify://shop_images/Heading_1_Link_-_LAY_LO_Pets_LAY_LO_Logo_TM-01_png_ea96b92b-9a09-4470-b2fe-03204377cf69.png",
+        "footer_logo": "shopify://shop_images/laylo-logo-white.svg",
         "footer_text": "2025. All rights reserved.",
         "facebook_url": "#",
         "instagram_url": "#",

@@ -15,8 +15,8 @@
         "image_CfbBbV": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Heading_1_Link_-_LAY_LO_Pets_LAY_LO_Logo_TM-01_png_65d75b2a-9456-4b53-b997-a25b52bdd19b.png",
-            "image_width": 180,
+            "image": "shopify://shop_images/Homeschool_by_LAY_LO_Logo.svg",
+            "image_width": 200,
             "image_link": "/"
           }
         }
@@ -45,6 +45,7 @@
         "heading": "Schedule Your Free Behavior Assessment",
         "subheading": "",
         "original_price": "$49",
+        "sale_price": "$299",
         "offer_heading": "CALL PRICED AT:",
         "free_label": "FREE",
         "offer_note": "FOR LIMITED TIME ONLY",

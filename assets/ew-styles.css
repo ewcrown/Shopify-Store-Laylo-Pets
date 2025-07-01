@@ -1,4 +1,6 @@
 #shopify-section-announcement-bar,
+.ew-booking-page footer,
+.ew-booking-page header,
 .ew-booking-page-49 footer,
 .ew-booking-page-49 header,
 .ew-free-consultation-booking-page footer,
@@ -53,45 +55,53 @@
     flex-direction: column;
   }
 }
-/* 
-.ew-booking-page-49 .flickity-slider,
-.ew-booking-page .flickity-slider {
-  position: static !important;
-  transition: none !important;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
-  transform: none !important;
-}
 
-.ew-booking-page-49 .carousel__item,
-.ew-booking-page .carousel__item {
-  width: 100%;
-  position: static !important;
-  transform: none !important;
-  margin: 0 !important;
-}
+.ew-free-call-rb-v2,
+.ew-free-call-rb-v1,
+.ew-booking-page-49,
+.ew-booking-page,
+.ew-free-call {
 
-.ew-booking-page-49 .flickity-enabled.is-draggable .flickity-viewport,
-.ew-booking-page .flickity-enabled.is-draggable .flickity-viewport {
-  height: auto !important;
-  touch-action: auto !important;
-  cursor: pointer !important;
-  overflow: auto !important;
-}
-
-.ew-booking-page-49 .flickity-button,
-.ew-booking-page .flickity-button {
-  display: none !important;
-}
-
-@media(max-width:768px) {
-  .ew-booking-page-49 .section-columns__slider,
-  .ew-booking-page .section-columns__slider {
+  .flickity-slider,
+  .flickity-slider {
+    position: static !important;
+    transition: none !important;
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 30px;
-    overflow: auto !important;
-    padding-right: 20px;
+    transform: none !important;
   }
-} */
+
+  .carousel__item,
+  .carousel__item {
+    width: 100%;
+    position: static !important;
+    transform: none !important;
+    margin: 0 !important;
+  }
+
+  .flickity-enabled.is-draggable .flickity-viewport,
+  .flickity-enabled.is-draggable .flickity-viewport {
+    height: auto !important;
+    touch-action: auto !important;
+    cursor: pointer !important;
+    overflow: auto !important;
+  }
+
+  .flickity-button,
+  .flickity-button {
+    display: none !important;
+  }
+
+  @media(max-width:768px) {
+
+    .section-columns__slider,
+    .section-columns__slider {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 30px;
+      overflow: auto !important;
+      padding-right: 20px;
+    }
+  }
+}

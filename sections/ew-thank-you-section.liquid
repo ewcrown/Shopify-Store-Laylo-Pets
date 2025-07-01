@@ -117,6 +117,13 @@
       <p>{{ section.settings.dog_text }}</p>
     </div>
 
+    <div class="behavior-box">
+      {% if section.settings.goals_icon != blank %}
+        <img src="{{ section.settings.goals_icon | image_url }}" alt="Goals icon">
+      {% endif %}
+      <p>{{ section.settings.goals_text }}</p>
+    </div>
+
     <div class="contact-text">
       <a href="sms:{{ section.settings.contact_number | remove: ' ' }}">{{ section.settings.contact_text }}</a>
     </div>
@@ -183,6 +190,17 @@
       "type": "richtext",
       "id": "dog_text",
       "label": "Dog Message",
+      "default": "<p>Check your phone, we dropped you a text. <strong>You need to confirm</strong> your number in order for the consultation to be confirmed.</p>"
+    },
+    {
+      "type": "image_picker",
+      "id": "goals_icon",
+      "label": "Goals Icon"
+    },
+    {
+      "type": "richtext",
+      "id": "goals_text",
+      "label": "Goals Message",
       "default": "<p>Check your phone, we dropped you a text. <strong>You need to confirm</strong> your number in order for the consultation to be confirmed.</p>"
     },
     {

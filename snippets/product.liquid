@@ -235,6 +235,8 @@
                 </div>
               {%- endif -%}
 
+            {%- when 'product_quote' -%}
+              {% render 'ew-product-quote', product:product %}
             {%- when 'title' -%}
               <div class="product__block product__title-and-price"
                 {% if animations_enabled %}

@@ -125,6 +125,10 @@
             "text": "Share",
             "padding_bottom": 20
           }
+        },
+        "product_quote_9eDTMA": {
+          "type": "product_quote",
+          "settings": {}
         }
       },
       "block_order": [
@@ -136,7 +140,8 @@
         "upsell",
         "description",
         "product_accordions",
-        "share-button"
+        "share-button",
+        "product_quote_9eDTMA"
       ],
       "custom_css": [
         ".product__icon__row.product__icon__row--multiple {font-size: 90%;}"
@@ -261,6 +266,7 @@
         "template--16010683777210__bd134d06-84b0-4be7-b37c-69040f4adf68-16750269123769c858-1": {
           "type": "heading",
           "settings": {
+            "discount_button_link_heading": "",
             "text": "<p>Luxury comfort meets functional aesthetics</p>",
             "size": 100,
             "heading_highlight_type": "italics"
@@ -273,6 +279,7 @@
       ],
       "settings": {
         "text_position": "center",
+        "background_custom_color": "",
         "bg_color_secondary": false,
         "text_color": "text-dark",
         "width": "wrapper",
@@ -370,6 +377,7 @@
           "type": "heading",
           "disabled": true,
           "settings": {
+            "discount_button_link_heading": "",
             "text": "<p>Custom comfort and smarter style</p>",
             "size": 100,
             "heading_highlight_type": "italics"
@@ -383,6 +391,7 @@
       "disabled": true,
       "settings": {
         "text_position": "center",
+        "background_custom_color": "",
         "bg_color_secondary": false,
         "text_color": "text-dark",
         "width": "wrapper--narrow",

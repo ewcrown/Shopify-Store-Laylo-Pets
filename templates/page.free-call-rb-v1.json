@@ -26,9 +26,9 @@
         "image_7iybHt": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Homeschool_By_LAY_LO_Logo_2x_1634x_069e01f5-8418-490e-a1b7-10d44dee3c33.png",
+            "image": "shopify://shop_images/Homeschool_by_LAY_LO_Logo.svg",
             "image_width": 200,
-            "image_link": ""
+            "image_link": "/"
           }
         }
       },
@@ -99,7 +99,7 @@
         "image_KdWR6r": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Button.png",
+            "image": "shopify://shop_images/Button_16b2f12b-0e63-4af2-9b2b-80489d39a8a6.png",
             "image_width": 410,
             "image_link": ""
           }
@@ -563,7 +563,7 @@
       "type": "ew-custom-footer",
       "name": "Custom Footer",
       "settings": {
-        "footer_logo": "shopify://shop_images/Heading_1_Link_-_LAY_LO_Pets_LAY_LO_Logo_TM-01_png_08f2058a-3680-4211-8b1b-d5b21df9514a.png",
+        "footer_logo": "shopify://shop_images/laylo-logo.svg",
         "privacy_policy_url": "#",
         "terms_url": "#",
         "cookies_url": "#",

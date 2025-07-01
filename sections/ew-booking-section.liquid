@@ -32,10 +32,15 @@
     font-weight: 400;
     font-size: 52.9px;
     line-height: 33.06px;
-    text-decoration: line-through;
     font-family: var(--FONT-STACK-HEADING);
     margin: 0 0 20px;
-}
+  }
+  .behavior-offer-original-price {
+    text-decoration: line-through;
+  }
+  .behavior-offer-sale-price {
+    color:#000;
+  }
 .offer-box .free {
   background: #E2FFE7;
   color: #55A277;
@@ -125,12 +130,21 @@ line-height: 19.44px;
       <div class="subheading">{{ section.settings.subheading }}</div>
     {% endif %}
     <div class="behavior-offer">
-      <div class="offer-box {% if section.settings.original_price == "$49" %}offer-box-paid{% endif %}">
+      <div class="offer-box">
         <div class="offer-box-heading">
           <h3>{{ section.settings.offer_heading }}</h3>
-          <div class="free">{{ section.settings.free_label }}</div>
+          {% if section.settings.free_label %}
+            <div class="free">{{ section.settings.free_label }}</div>
+          {% endif %}
         </div>
-        <div class="price">{{ section.settings.original_price }}</div>
+        <div class="price">
+          {% if section.settings.original_price != blank %}
+            <span class="behavior-offer-original-price">{{ section.settings.original_price }}</span>
+          {% endif %}
+          {% if section.settings.sale_price != blank %}
+            <span class="behavior-offer-sale-price">{{ section.settings.sale_price }}</span>
+          {% endif %}
+        </div>
         <div class="note">{{ section.settings.offer_note }}</div>
       </div>
       <div class="included-box">
@@ -193,6 +207,12 @@ line-height: 19.44px;
       "type": "text",
       "id": "original_price",
       "label": "Original Price",
+      "default": "$299"
+    },
+    {
+      "type": "text",
+      "id": "sale_price",
+      "label": "Sale Price",
       "default": "$299"
     },
     {

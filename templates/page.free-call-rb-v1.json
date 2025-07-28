@@ -26,7 +26,7 @@
         "image_7iybHt": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Homeschool_by_LAY_LO_Logo.svg",
+            "image": "shopify://shop_images/test2.svg",
             "image_width": 200,
             "image_link": "/"
           }
@@ -53,7 +53,7 @@
           "type": "heading",
           "settings": {
             "discount_button_link_heading": "",
-            "text": "<h3>Feel like you're doing everything right —and your dog still isn’t getting better? You're not alone.</h3>",
+            "text": "<h3>Feel like you're doing everything right—and your dog still isn’t getting better? You're not alone.</h3>",
             "size": 175,
             "heading_highlight_type": "italics"
           }
@@ -62,7 +62,7 @@
           "type": "text",
           "settings": {
             "text": "<p>Our Dog Foundations Program helps empower you to improve frustrating behaviors like barking, pulling, or reactivity—with 1:1 expert guidance, a clear plan, and support that fits your real life.</p>",
-            "size": 150
+            "size": 120
           }
         }
       },
@@ -89,7 +89,7 @@
         "heading": "",
         "video": "shopify://files/videos/LayLo BR Final 16x9 TEXT 1080 mp4 h264.mp4",
         "padding_top": 40,
-        "padding_bottom": 100,
+        "padding_bottom": 0,
         "background_color": "#faf8f7"
       }
     },
@@ -99,7 +99,7 @@
         "image_KdWR6r": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Button_16b2f12b-0e63-4af2-9b2b-80489d39a8a6.png",
+            "image": "shopify://shop_images/1d8c1875-a644-4138-879d-64354278b740.png",
             "image_width": 410,
             "image_link": ""
           }
@@ -117,7 +117,7 @@
         "text_color": "text-dark",
         "width": "wrapper--narrow",
         "padding_top": 0,
-        "padding_bottom": 36
+        "padding_bottom": 0
       }
     },
     "section_text_X7GAqh": {
@@ -206,7 +206,7 @@
       ],
       "name": "Trusted Companies",
       "settings": {
-        "heading": "Trusted by employees of some of the best companies",
+        "heading": "Featured in:",
         "font_size_desktop": 20,
         "font_size_mobile": 16,
         "text_color": "#000000"
@@ -413,6 +413,7 @@
         "text_block_DkC38F"
       ],
       "settings": {
+        "grid_or_slider": true,
         "discount_button_link": "",
         "title": "",
         "align_text": "text-left",
@@ -470,10 +471,10 @@
         "image_width": "standard",
         "image": "shopify://shop_images/Placeholder_Image_c03b17da-7c45-410c-95f0-ed970f35e0fa.png",
         "subheading": "",
-        "title": "<p>“When I first got my dogs, I tried everything...</p>",
+        "title": "<p>“When I first got my dog, Stella, I tried everything...</p>",
         "heading_highlight_type": "circle",
         "heading_size": 130,
-        "text_content": "I watched videos, took a class, even hired a trainer. Nothing stuck. I was overwhelmed, second-guessing everything, and wondering if it was me. Every walk felt like a battle, every command was a gamble. \n\nThen I found a method that didn’t just train my dogs—it helped me understand them. With Lay-lo, I finally had a clear path, built on calm, consistent steps that actually worked. Today, our bond is stronger, our days are easier, and training finally feels like something we all enjoy.”",
+        "text_content": "Classes, private trainers, hours of YouTube—nothing stuck. Every walk was a battle. Every command felt like a gamble. And then she ran away.\nWhen I finally got her back, I hired a trainer who handed me a shock collar and told me to “correct her fear.” That’s when I knew: this wasn’t the kind of help we needed.\n\nOut of desperation, I tried virtual training—and everything changed.\nIt focused on our bond, our environment, and my confidence as much as hers. For the first time, it worked.\n\nThat experience led me to start Homeschool—a new kind of support system for dog parents like me.\nCalm, clear, personal—and built around real life.\n\nWith my trainer, I finally had a clear plan, grounded in calm, consistent support—for both of us. Today, training feels good. Our bond is strong. And our home? Peaceful. \n\n- Gabriela, Founder",
         "text_alignment": "left",
         "button_text": "Book Your Free Behavior Call →",
         "button_link": "shopify://pages/free-consultation-booking-page",
@@ -502,7 +503,7 @@
           "type": "text",
           "settings": {
             "text": "<p>Book your free call and let’s build your plan together.</p>",
-            "size": 100
+            "size": 120
           }
         }
       },

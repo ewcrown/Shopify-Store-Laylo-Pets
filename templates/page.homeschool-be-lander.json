@@ -21,7 +21,7 @@
         "title": "<p>Get instant, personalized help with your toughest pup challenges.</p>",
         "heading_highlight_type": "circle",
         "heading_size": 100,
-        "text_content": "Get real-time guidance and answers in a live session with a dedicated dog expert and start building a better relationship with your dog today.  \n• Better understand your pup's issues\n• Get instant answers & start making progress\n• Learn our proven plans to help any challenge\n• Become your dog's best trainer for years to come\n• 7-day trial and free behavior evaluation call",
+        "text_content": "Get real-time guidance and answers in a live session with a dedicated dog expert and start building a better relationship with your dog today.  \n• Better understand your pup's issues\n• Get instant answers & start making progress\n• Learn our proven plans to help any challenge\n• Become your dog's best trainer for years to come",
         "text_alignment": "left",
         "button_text": "Talk to an Expert for Free >",
         "button_link": "https://laylopets.typeform.com/to/exWlKhbV?utm_source=xxxxx",
@@ -57,7 +57,7 @@
           "type": "text",
           "settings": {
             "icon_name": "award",
-            "title": "Led by a Certified Expert",
+            "title": "Match With Your Expert",
             "text": "<p>From training to nutrition and behavior, our team holds some of the highest certifications in their fields. Work with the best.</p>"
           }
         },
@@ -209,6 +209,7 @@
         "heading_RMiezU": {
           "type": "heading",
           "settings": {
+            "discount_button_link_heading": "",
             "text": "<p>Trusted by 1,000+ pup parents</p>",
             "size": 100,
             "heading_highlight_type": "italics"
@@ -226,6 +227,7 @@
           "type": "button",
           "disabled": true,
           "settings": {
+            "discount_button_link": "",
             "btn_text": "See all reviews >",
             "btn_link": "https://www.laylopets.com/pages/homeschool-virtual-dog-training-reviews",
             "btn_style": "btn--text"
@@ -240,6 +242,7 @@
       ],
       "settings": {
         "text_position": "center",
+        "background_custom_color": "",
         "bg_color_secondary": false,
         "text_color": "text-dark",
         "width": "wrapper--narrow",
@@ -394,6 +397,8 @@
         "text_block_DkC38F"
       ],
       "settings": {
+        "grid_or_slider": false,
+        "discount_button_link": "",
         "title": "",
         "align_text": "text-left",
         "columns": 4,
@@ -500,6 +505,7 @@
         "template--16010683613370__05207a3b-b3b5-4855-a347-d391526296ec-16733222338243f527-1": {
           "type": "heading",
           "settings": {
+            "discount_button_link_heading": "",
             "text": "<p>A better dog starts with just one session</p>",
             "size": 100,
             "heading_highlight_type": "italics"
@@ -520,6 +526,7 @@
       ],
       "settings": {
         "text_position": "center",
+        "background_custom_color": "",
         "bg_color_secondary": false,
         "text_color": "text-dark",
         "width": "wrapper--narrow",
@@ -841,6 +848,7 @@
         "button_Em8hYR": {
           "type": "button",
           "settings": {
+            "discount_button_link": "",
             "btn_text": "Start Training for Free >",
             "btn_link": "https://laylopets.typeform.com/to/exWlKhbV?utm_source=xxxxx",
             "btn_style": "btn--primary"
@@ -852,6 +860,7 @@
       ],
       "settings": {
         "text_position": "center",
+        "background_custom_color": "",
         "bg_color_secondary": false,
         "text_color": "text-dark",
         "width": "wrapper--narrow",
@@ -1039,6 +1048,8 @@
         "dd00b393-a662-4339-9905-29bcc98ff16c"
       ],
       "settings": {
+        "grid_or_slider": false,
+        "discount_button_link": "",
         "title": "Our experienced experts",
         "align_text": "text-left",
         "columns": 4,

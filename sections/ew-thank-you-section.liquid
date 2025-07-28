@@ -103,26 +103,32 @@
     <h2>{{ section.settings.heading }}</h2>
     <div class="sub-heading">{{ section.settings.subheading }}</div>
 
+    {% if section.settings.sms_text != blank %}
     <div class="behavior-box">
       {% if section.settings.sms_icon != blank %}
         <img src="{{ section.settings.sms_icon | image_url }}" alt="SMS icon">
       {% endif %}
       <p>{{ section.settings.sms_text }}</p>
     </div>
+    {% endif %}
 
+    {% if section.settings.dog_text != blank %}
     <div class="behavior-box">
       {% if section.settings.dog_icon != blank %}
         <img src="{{ section.settings.dog_icon | image_url }}" alt="Dog icon">
       {% endif %}
       <p>{{ section.settings.dog_text }}</p>
     </div>
+    {% endif %}
 
+    {% if section.settings.goals_text != blank %}
     <div class="behavior-box">
       {% if section.settings.goals_icon != blank %}
         <img src="{{ section.settings.goals_icon | image_url }}" alt="Goals icon">
       {% endif %}
       <p>{{ section.settings.goals_text }}</p>
     </div>
+    {% endif %}
 
     <div class="contact-text">
       <a href="sms:{{ section.settings.contact_number | remove: ' ' }}">{{ section.settings.contact_text }}</a>

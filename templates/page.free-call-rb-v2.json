@@ -15,7 +15,7 @@
         "image_7iybHt": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Homeschool_by_LAY_LO_Logo.svg",
+            "image": "shopify://shop_images/test2.svg",
             "image_width": 200,
             "image_link": "/"
           }
@@ -76,7 +76,7 @@
         "heading": "Watch how we help dog parents feel confident again →",
         "video": "shopify://files/videos/LayLo BR Final 16x9 TEXT 1080 mp4 h264.mp4",
         "padding_top": 40,
-        "padding_bottom": 100,
+        "padding_bottom": 0,
         "background_color": "#faf8f7"
       }
     },
@@ -86,7 +86,7 @@
         "image_KdWR6r": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Button.png",
+            "image": "shopify://shop_images/1d8c1875-a644-4138-879d-64354278b740.png",
             "image_width": 410,
             "image_link": ""
           }
@@ -104,7 +104,7 @@
         "text_color": "text-dark",
         "width": "wrapper--narrow",
         "padding_top": 0,
-        "padding_bottom": 36
+        "padding_bottom": 0
       }
     },
     "section_text_X7GAqh": {
@@ -190,7 +190,7 @@
         "logo_gP9hi9"
       ],
       "settings": {
-        "heading": "Trusted by employees of some of the best companies",
+        "heading": "Featured In:",
         "font_size_desktop": 20,
         "font_size_mobile": 16,
         "text_color": "#000000"
@@ -206,12 +206,12 @@
         "layout": "inline",
         "image_location": "right",
         "image_width": "standard",
-        "image": "shopify://shop_images/portrait-dog-peeking-through-paper.png",
-        "subheading": "",
+        "image": "shopify://shop_images/Placeholder_Image_da41c103-f09b-4732-8123-5bd494f0b0c1.png",
+        "subheading": "OUR PERSPECTIVE",
         "title": "<p>Most training programs assume the problem is the dog.</p>",
         "heading_highlight_type": "circle",
         "heading_size": 130,
-        "text_content": "But the truth is, most dog parents are overwhelmed, inconsistent, and unsure what’s actually working. That’s not your fault.\n\nWhat you need isn’t more YouTube tips, one-off trainer visits, or group classes that don’t fit your life. \n\nYou need a simple, expert-supported plan—and someone who helps you stick to it.",
+        "text_content": "But in real life, the challenge is often you—overwhelmed, second-guessing, and trying to do your best without a clear plan.\n\nThat’s not your fault. It’s the system.\n\nYou don’t need another generic tip, one-off session, or class that doesn’t match your lifestyle.\n\nYou need a plan built around your dog and your life—plus the steady, expert support to stick with it.",
         "text_alignment": "left",
         "button_text": "Book Your Free Behavior Call →",
         "button_link": "shopify://pages/free-consultation-booking-page",
@@ -407,6 +407,7 @@
         "text_block_DkC38F"
       ],
       "settings": {
+        "grid_or_slider": true,
         "discount_button_link": "",
         "title": "",
         "align_text": "text-left",
@@ -506,7 +507,7 @@
           "settings": {
             "discount_button_heading": "shopify://shop_images/Button_e758fae2-3275-4334-bf95-1786f69fa8ad.png",
             "discount_button_link_heading": "#",
-            "text": "<h3>What Makes This Different</h3>",
+            "text": "<h3>How it works</h3>",
             "size": 175,
             "heading_highlight_type": "italics"
           }
@@ -514,7 +515,7 @@
         "text_ng9UhX": {
           "type": "text",
           "settings": {
-            "text": "<p>Our highly personalized programs are tailored to you and your dog’s needs. You’ll meet 1:1 your dedicated holistic training team without leaving your house, keeping you accountable, helping your dog improve –– all while you learn the tools you need to be the best dog parent.</p>",
+            "text": "<p>Our highly personalized programs are tailored to you and your dog’s needs. You’ll meet 1:1 your dedicated holistic training team without needing to leave your house, keeping you accountable, helping your dog improve –– all while you learn the tools you need to be the best dog parent for life.</p>",
             "size": 100
           }
         }
@@ -565,7 +566,7 @@
         "text_block_nHz7L9": {
           "type": "text_block",
           "settings": {
-            "image": "shopify://shop_images/Video_Thumbnail_2.png",
+            "image": "shopify://shop_images/HomeschoolbyLAYLO-TrainingPlan_8fae1891-43a4-47f3-ab2c-c87bf7f4ec01.png",
             "title": "A custom plan made for your dog's needs.",
             "text": "<p>Your dedicated expert (no bots here!) will create a unique custom online dog training plan with weekly milestones and homework based on your dog’s breed, adoption story and training knowledge — all designed to meet your goals.</p>",
             "button_text": "",
@@ -582,6 +583,7 @@
         "text_block_nHz7L9"
       ],
       "settings": {
+        "grid_or_slider": false,
         "discount_button_link": "",
         "title": "",
         "align_text": "text-left",
@@ -629,12 +631,12 @@
         "layout": "inline",
         "image_location": "left",
         "image_width": "standard",
-        "image": "shopify://shop_images/67006_1.png",
-        "subheading": "",
-        "title": "<p>Why Virtual Training Works Better</p>",
+        "image": "shopify://shop_images/Sessions_Hero_Image_d6d3c828-ef40-49b2-9e56-41c3714c16cd.png",
+        "subheading": "OUR VIRTUAL TRAINING METHOD",
+        "title": "<p>Real, Impactful Help for the Modern Dog Parent</p>",
         "heading_highlight_type": "circle",
         "heading_size": 130,
-        "text_content": "Structure that fits real life\n\nWeekly sessions, bite-sized check-ins, and unlimited text access keep you on track—even when you’re exhausted.\n\nYou’ll never wonder what to do next\n\nYour trainer is with you—on video, over text, in real time. No second-guessing, no waiting for the next session.\n\nWe train the human, not just the dog\n\nThis is about giving you the confidence to handle anything that comes next.\n\nIt’s built for busy people\n\nLife’s already full. This fits in quietly, effectively, and without adding chaos.\n\nDesigned for your dog—and your home\n\nBreed, age, energy level, apartment or backyard—we build your plan around the reality of your life.",
+        "text_content": "Because real life doesn’t happen in a training studio. It happens on your couch, by your front door, in the middle of dinner, when your dog decides now is the moment to lose their mind.\n\nStructure that fits real life\nYou’ll get weekly 1:1 sessions with a certified trainer, plus bite-sized check-ins and unlimited text support between calls—so you’re never stuck Googling, guessing, or going it alone.\n\nWe train the human, not just the dog\nYour habits, your energy, your voice—it all matters. That’s why we coach you, helping you build the calm, confident leadership your dog actually listens to.\n\nPersonalized to your pup—and your home\nWhether you’re in a high-rise or have a yard, raising a puppy or managing a reactive rescue, we build a plan around your dog’s breed, age, temperament—and your daily life.\n\nBuilt for busy people\nNo driving across town. No rescheduling your week. No pressure to perform in front of strangers. Just flexible, expert-backed support that fits in quietly and consistently.\n\nNo second-guessing. No “what now?” moments.\nYou’ll always know what to do next—and why. And you’ll have someone in your corner to help you stay calm, consistent, and on track.",
         "text_alignment": "left",
         "button_text": "Book Your Free Behavior Call →",
         "button_link": "shopify://pages/free-consultation-booking-page",
@@ -718,6 +720,7 @@
       "blocks": {
         "text_block_YhRtqG": {
           "type": "text_block",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/553BB7DC-1396-41B7-A583-241A931639D4.jpg",
             "title": "Jeny P. - Fear-free Dog Trainer",
@@ -874,6 +877,7 @@
         "text_block_VqY8eG"
       ],
       "settings": {
+        "grid_or_slider": false,
         "discount_button": "shopify://shop_images/Button_1.png",
         "discount_button_link": "#",
         "title": "Meet some of our experts",
@@ -922,9 +926,9 @@
         "section_height": "five-fifty-height",
         "layout": "inline",
         "image_location": "right",
-        "image_width": "standard",
-        "image": "shopify://shop_images/Frame_1321315036_c15b1a67-dd43-4904-948f-fb9777c9989b.png",
-        "subheading": "",
+        "image_width": "wide",
+        "image": "shopify://shop_images/Instagram_post_-_33-min.png",
+        "subheading": "FREE CONSULTATION",
         "title": "<p>No pressure. No commitments. Just expert advice.</p>",
         "heading_highlight_type": "circle",
         "heading_size": 130,

@@ -15,7 +15,7 @@
         "image_7iybHt": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Homeschool_by_LAY_LO_Logo.svg",
+            "image": "shopify://shop_images/test2.svg",
             "image_width": 200,
             "image_link": "/"
           }
@@ -49,16 +49,16 @@
           "type": "heading",
           "settings": {
             "discount_button_link_heading": "",
-            "text": "<h3>Fix Your Dog’s Most Frustrating Behaviors in Just 6 Weeks.(Without Leaving Your House)</h3>",
-            "size": 270,
+            "text": "<h3>Improve Your Dog’s Most Frustrating Behaviors in as Little as 6 Weeks ––Without Having to Leave Your House.</h3>",
+            "size": 220,
             "heading_highlight_type": "italics"
           }
         },
         "text_LmhEmV": {
           "type": "text",
           "settings": {
-            "text": "<p>Limited slots available each week. Book your free behavior call now and get your custom plan, risk-free.</p>",
-            "size": 150
+            "text": "<p>Join the program that has helped hundreds of dog parents and their dogs through personal guidance, resources, and accountability. It's flexible, fun, and tailored just for you. Limited slots available each week. Book your free behavior call now and get your custom plan, risk-free.</p>",
+            "size": 120
           }
         }
       },
@@ -156,8 +156,9 @@
         },
         "logo_gP9hi9": {
           "type": "logo",
+          "disabled": true,
           "settings": {
-            "logo": "shopify://shop_images/logo_1_png_cc2c93a1-4940-4c9b-87b1-bbba66d9a760.png",
+            "logo": "shopify://shop_images/Business_Insider_idaBOXtfR7_0.png",
             "alt_text": "Company logo"
           }
         }
@@ -171,7 +172,7 @@
         "logo_gP9hi9"
       ],
       "settings": {
-        "heading": "Trusted by employees of some of the best companies",
+        "heading": "Featured by:",
         "font_size_desktop": 20,
         "font_size_mobile": 16,
         "text_color": "#000000"
@@ -360,6 +361,7 @@
         "text_block_DkC38F"
       ],
       "settings": {
+        "grid_or_slider": true,
         "discount_button_link": "",
         "title": "",
         "align_text": "text-left",
@@ -420,7 +422,7 @@
           "type": "value_item",
           "settings": {
             "icon_image": "shopify://shop_images/Capa_1_2.png",
-            "item": "Bonus Tools: Leash Guide, Enrichment Plan, Anxiety Guide",
+            "item": "Bonus Tools: Video Courses, PDF Resource Library",
             "value": "$150"
           }
         }
@@ -464,10 +466,17 @@
           "type": "benefit",
           "settings": {
             "icon": "shopify://shop_images/Frame_1321315019_7665e3ed-d8cc-431f-b05e-0d2e278f73e1.png",
-            "text": "You’re ready to solve it, but just need the right plan"
+            "text": "You've tried free videos but needed more guidance"
           }
         },
         "benefit_LmHfHL": {
+          "type": "benefit",
+          "settings": {
+            "icon": "shopify://shop_images/Frame_1321315019_eb379ab9-251b-4704-a742-daf330cd2bb3.png",
+            "text": "You want a clear, personalized routine and daily help to stick to it."
+          }
+        },
+        "benefit_zjiniz": {
           "type": "benefit",
           "settings": {
             "icon": "shopify://shop_images/Frame_1321315019_eb379ab9-251b-4704-a742-daf330cd2bb3.png",
@@ -479,10 +488,11 @@
         "benefit_7UBhDp",
         "benefit_Xc6JHW",
         "benefit_NkMfqj",
-        "benefit_LmHfHL"
+        "benefit_LmHfHL",
+        "benefit_zjiniz"
       ],
       "settings": {
-        "image": "shopify://shop_images/Placeholder_Image_a13bc227-ad10-41af-8c84-1cacb207f1a7.png",
+        "image": "shopify://shop_images/Sessions_Hero_Image_d6d3c828-ef40-49b2-9e56-41c3714c16cd.png",
         "heading": "This program is for you if:",
         "button_text": "Book Free Behavior ASSESSMENT →",
         "button_link": "shopify://pages/free-consultation-booking-page",
@@ -499,12 +509,12 @@
           "type": "image",
           "settings": {
             "text_position": "middle-center",
-            "image": "shopify://shop_images/f065aae559f33fac5d236fb7f99f649eae86b9c8_1.jpg",
-            "overlay_opacity": 60,
+            "image": "shopify://shop_images/april-walker-nNUUpg4nutM-unsplash2.jpg",
+            "overlay_opacity": 30,
             "text_color": "text-light",
-            "title": "Guarantee",
+            "title": "Our Progress Promise:",
             "heading_size": 100,
-            "text": "Our Progress Promise:\n\nIf you don’t feel momentum by Week 3, we’ll extend your support free until you do.\nNo contracts. Cancel anytime after your program.",
+            "text": "If you don’t feel satisfied by the end of your program, we’ll extend your support free until you do.",
             "button_text": "Book Free Behavior ASSESSMENT →",
             "button_link": "shopify://pages/free-consultation-booking-page",
             "button_style": "btn--secondary"
@@ -531,29 +541,36 @@
         "accordion_item_tXk3jD": {
           "type": "accordion_item",
           "settings": {
-            "question": "I don’t have time.",
-            "answer": "Here’s a short response that helps overcome this objection."
+            "question": "Will virtual training even work for my dog?",
+            "answer": "Yes — and in many cases, it works better than in-person sessions. We focus on helping you understand and guide your dog at home, where real behavior change happens and without the distractions of a stranger. That way we can meet with you more times, and be more focused when we do."
           }
         },
         "accordion_item_tgETFF": {
           "type": "accordion_item",
           "settings": {
-            "question": "What if I don’t finish?",
-            "answer": "Here’s a short response that helps overcome this objection."
+            "question": "I’ve already tried training, and it didn’t stick.",
+            "answer": "That’s exactly why Homeschool is different. We pair you with your dedicated expert who gets to know your dog and your lifestyle — and we stay with you every week through the ups, downs, and “is this normal?” moments."
           }
         },
         "accordion_item_DjnfYW": {
           "type": "accordion_item",
           "settings": {
-            "question": "What if it doesn’t work?",
-            "answer": "Here’s a short response that helps overcome this objection."
+            "question": "I don’t have time for a big commitment right now.",
+            "answer": "We get it. That’s why we offer flexible sessions, bite-sized plans, and expert support you can access on your schedule — no driving or daycare pickups needed."
           }
         },
         "accordion_item_Rdfne8": {
           "type": "accordion_item",
           "settings": {
-            "question": "I’ve tried training before and it didn’t work.",
-            "answer": "Here’s a short response that helps overcome this objection."
+            "question": "It feels expensive — is it worth it?",
+            "answer": "Think of it as long-term peace of mind. You’re not just buying sessions — you’re investing in real, lasting support from certified experts who are with you every step of the way. Most clients say they wish they’d started sooner — as they walked away with knowledge for a lifetime."
+          }
+        },
+        "accordion_item_XBqGJk": {
+          "type": "accordion_item",
+          "settings": {
+            "question": "What if it doesn’t work for us?",
+            "answer": "We stand by our service with a satisfaction guarantee. If you don’t feel supported or start seeing progress, we’ll make continue to train for free until you do — no questions asked."
           }
         }
       },
@@ -561,11 +578,12 @@
         "accordion_item_tXk3jD",
         "accordion_item_tgETFF",
         "accordion_item_DjnfYW",
-        "accordion_item_Rdfne8"
+        "accordion_item_Rdfne8",
+        "accordion_item_XBqGJk"
       ],
       "name": "Text | Faqs",
       "settings": {
-        "heading": "Objection Breakers",
+        "heading": "Still unsure if this program is for you?",
         "image": "shopify://shop_images/WhatsApp-Image-2022-09-14-at-3_51_31-PM_jpeg.png"
       }
     },
@@ -577,7 +595,7 @@
           "settings": {
             "discount_button_link_heading": "",
             "text": "<p>Bonus if you book this week:</p>",
-            "size": 140,
+            "size": 120,
             "heading_highlight_type": "italics"
           }
         },

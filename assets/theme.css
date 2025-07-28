@@ -14402,18 +14402,6 @@ section:hover .flickity-enabled > .flickity-prev-next-button:not(:disabled):hove
 }
 
 @media only screen and (min-width: 768px) {
-  .icons-row__slider.items--5 {
-    grid-template-columns: repeat(5, minmax(0, 1fr));
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  .icons-row__slider.items--6 {
-    grid-template-columns: repeat(6, minmax(0, 1fr));
-  }
-}
-
-@media only screen and (min-width: 768px) {
   .icons-row__slider--flex {
     display: flex;
     gap: 0;

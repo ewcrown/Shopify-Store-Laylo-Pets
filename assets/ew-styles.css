@@ -1,18 +1,31 @@
-#shopify-section-announcement-bar,
+.navtext {
+    color: #000;
+    opacity: 1 !important;
+    font-weight: 400;
+}
+
+.ew-booking-page #Announcement--announcement-bar,
 .ew-booking-page footer,
 .ew-booking-page header,
+.ew-booking-page-49 #Announcement--announcement-bar,
 .ew-booking-page-49 footer,
 .ew-booking-page-49 header,
+.ew-free-consultation-booking-page #Announcement--announcement-bar,
 .ew-free-consultation-booking-page footer,
 .ew-free-consultation-booking-page header,
+.ew-booking-confirmation #Announcement--announcement-bar,
 .ew-booking-confirmation footer,
 .ew-booking-confirmation header,
+.ew-free-call-hmz #Announcement--announcement-bar,
 .ew-free-call-hmz footer,
 .ew-free-call-hmz header,
+.ew-free-call-rb-v2 #Announcement--announcement-bar,
 .ew-free-call-rb-v2 footer,
 .ew-free-call-rb-v2 header,
+.ew-free-call-rb-v1 #Announcement--announcement-bar,
 .ew-free-call-rb-v1 footer,
 .ew-free-call-rb-v1 header,
+.ew-free-call #Announcement--announcement-bar,
 .ew-free-call footer,
 .ew-free-call header {
   display: none;

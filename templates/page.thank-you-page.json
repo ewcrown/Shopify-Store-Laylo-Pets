@@ -20,7 +20,7 @@
         "image_CfbBbV": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Homeschool_by_LAY_LO_Logo.svg",
+            "image": "shopify://shop_images/test2.svg",
             "image_width": 200,
             "image_link": "/"
           }
@@ -48,15 +48,14 @@
         "padding_top": "120px",
         "padding_bottom": "120px",
         "top_icon": "shopify://shop_images/Group_85cd2dea-6d21-49c3-a74d-464bd48138cb.png",
-        "heading": "Your behavior assessmentis scheduled. Here is what is next!",
+        "heading": "Your behavior assessment is scheduled. Here is what is next!",
         "subheading": "",
         "sms_icon": "shopify://shop_images/Capa_1_ea63c242-a42a-42dc-9132-fd6b9270eee1.png",
-        "sms_text": "<p>Check your phone, we just dropped you a text. <strong>You need to respond to our SMS to confirm</strong> your number for us to lock in your time.</p>",
+        "sms_text": "<p>Check your phone, we just sent you a text. <strong>You need to respond to our SMS to confirm</strong> your number for us to lock in your time.</p>",
         "dog_icon": "shopify://shop_images/Dog.png",
-        "dog_text": "<p>Check your phone, we just dropped you a text. You need to confirm your number in order for the consultation to be confirmed.</p>",
-        "goals_icon": "shopify://shop_images/Dog.png",
-        "goals_text": "<p>You'll chat with your guide who will find the best expert based on your goals.</p>",
-        "contact_text": "Your dedicated expert will work directly  with you and your dog in a live, 45-minute session. No commitment, just real advice and a personalized plan.Questions? Text us at 310-564-8808",
+        "dog_text": "<p>Your dedicated expert will work directly  with you and your dog in a live video session. No commitment, just real advice and a personalized plan. Questions? Text us at 310-564-8808</p>",
+        "goals_text": "",
+        "contact_text": "",
         "contact_number": "310-564-8808"
       }
     },

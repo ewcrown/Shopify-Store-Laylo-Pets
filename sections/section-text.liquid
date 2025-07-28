@@ -279,7 +279,7 @@
                     <a href="{{ btn_link | default: '#!' }}" class="btn {{ btn_style }}">{{ btn_text }}</a>
                   </div>
                 {%- endif -%}
-                {% if discount_button != blank %}
+                  {% if discount_button != blank %}
                   <div class="ew-discount-button-image">
                     <a href="{{ discount_button_link }}">
                       <img src="{{ discount_button | img_url:'master' }}" class="img=responsive" />
@@ -287,8 +287,6 @@
                   </div>
                 {% endif %}
               {%- endcapture -%}
-
-              
 
               {%- if next_block_type == 'button' -%}
                 <div class="text__buttons-wrapper">
@@ -513,7 +511,7 @@
       "type": "heading",
       "name": "Heading",
       "settings": [
-         {
+           {
           "type": "image_picker",
           "id": "discount_button_heading",
           "label": "Discount Button"
@@ -631,7 +629,7 @@
       "name": "Button",
       "limit": 2,
       "settings": [
-        {
+           {
           "type": "image_picker",
           "id": "discount_button",
           "label": "Discount Button"

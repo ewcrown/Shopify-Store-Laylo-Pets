@@ -187,6 +187,11 @@
                       {{- block.settings.button_text -}}
                     </a>
                   {%- endif -%}
+
+                  {%- if block.settings.calendly_widget != '' -%}
+                    {{ block.settings.calendly_widget }}
+                  {%- endif -%}
+
                 </div>
               </div>
             </div>
@@ -360,6 +365,11 @@
             "id": "button_text",
             "label": "Text",
             "default": "Learn More"
+          },
+          {
+            "type": "liquid",
+            "id": "calendly_widget",
+            "label": "Calendly Widget"
           },
           {
             "type": "url",

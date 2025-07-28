@@ -211,7 +211,7 @@
             "type": "text",
             "settings": {
               "title": "Feel more at home with your pets.",
-              "footer_text": "<p>support@laylopets.com</p><p>+1 310-439-8896</p><p>For Homeschool Training & Expert Support </p><p><a href=\"tel:13105648808\" title=\"tel:13105648808\">+1 310-564-8808</a>, <a href=\"tel:13109239356\" title=\"tel:13109239356\">+1 310-923-9356</a></p>"
+              "footer_text": "<p>support@laylopets.com</p><p><a href=\"tel:+13104398896\" title=\"tel:+13104398896\">+1 310-439-8896</a></p><p>For Homeschool Training & Expert Support </p><p><a href=\"tel:13105648808\" title=\"tel:13105648808\">+1 310-564-8808</a>, <a href=\"tel:13109239356\" title=\"tel:13109239356\">+1 310-923-9356</a></p>"
             }
           },
           "footer-block-2": {
@@ -265,6 +265,18 @@
       "announcement-bar": {
         "type": "announcement-bar",
         "blocks": {
+          "beb4270a-5e2d-4c19-a999-1687eb3a78f9": {
+            "type": "message",
+            "settings": {
+              "message": "SPEND ||amount|| MORE FOR FREE DOMESTIC SHIPPING",
+              "target_url_enabled": false,
+              "target_url": "",
+              "target_referrer_enabled": false,
+              "target_referrer": "",
+              "target_device_enabled": false,
+              "target_device": "mobile"
+            }
+          },
           "text_hRc9EX": {
             "type": "text",
             "disabled": true,
@@ -283,6 +295,7 @@
           },
           "text_pPtPPH": {
             "type": "text",
+            "disabled": true,
             "settings": {
               "text": "<p><a href=\"https://www.laylopets.com/pages/pricing-update\" title=\"https://www.laylopets.com/pages/pricing-update\">OUR PRICES ARE CHANGING ON JULY 1, LEARN MORE &gt;</a></p>",
               "icon_name": "none",
@@ -311,24 +324,11 @@
               "target_device": "mobile"
             }
           },
-          "beb4270a-5e2d-4c19-a999-1687eb3a78f9": {
-            "type": "message",
-            "disabled": true,
-            "settings": {
-              "message": "SPEND ||amount|| MORE FOR FREE DOMESTIC SHIPPING",
-              "target_url_enabled": false,
-              "target_url": "",
-              "target_referrer_enabled": false,
-              "target_referrer": "",
-              "target_device_enabled": false,
-              "target_device": "mobile"
-            }
-          },
           "13f99ffa-2d82-4382-b433-aeaed15b0986": {
             "type": "text",
             "disabled": true,
             "settings": {
-              "text": "<p><a href=\"https://www.laylopets.com/collections/all/products/brigette-romanek-taupe-dog-bed-or-bed-cover?variant=44316823716026\" title=\"https://www.laylopets.com/collections/all/products/brigette-romanek-taupe-dog-bed-or-bed-cover?variant=44316823716026\">NEW: SHOP THE BRIGETTE ROMANEK COLLECTION &gt;</a></p>",
+              "text": "<p>🇺🇸 USE CODE JULY42025 FOR <strong>15% OFF</strong> 🇺🇸</p>",
               "icon_name": "none",
               "icon_color": "#1f294f",
               "icon_width": 20,
@@ -342,10 +342,10 @@
           }
         },
         "block_order": [
+          "beb4270a-5e2d-4c19-a999-1687eb3a78f9",
           "text_hRc9EX",
           "text_pPtPPH",
           "b8a2f97d-5cd3-4890-ab2d-25e9d011b7a9",
-          "beb4270a-5e2d-4c19-a999-1687eb3a78f9",
           "13f99ffa-2d82-4382-b433-aeaed15b0986"
         ],
         "settings": {

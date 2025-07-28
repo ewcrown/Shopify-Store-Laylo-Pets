@@ -17,20 +17,20 @@
         "image_location": "right",
         "image_width": "wide",
         "image": "shopify://shop_images/Homeschool_LAY_LO_Expert_Virtual_Dog_Training_5-min.jpg",
-        "subheading": "Exclusive Price: $49.00",
+        "subheading": "Exclusive Price: $49.00 (Normally $149)",
         "title": "<p>Get instant, personalized help with your toughest pet challenges.</p>",
         "heading_highlight_type": "circle",
         "heading_size": 100,
-        "text_content": "Get real-time guidance and answers in a live session with a certified dog expert and start building a better relationship with your dog today.  \n• Better understand your pup's issues\n• Get instant answers & start making progress\n• Get a personalized training plan for your dog\n• Become your dog's best trainer for years to come",
+        "text_content": "Get a real-time assessment and personalized plan in a live 1:1 session with a certified dog trainer or behaviorist and start building a better relationship with your dog today.  \n• Better understand your pup's issues\n• Get instant answers & start making progress\n• Get a personalized training plan for your dog\n• Become your dog's best trainer for years to come",
         "text_alignment": "left",
-        "button_text": "Book Your Live Session >",
-        "button_link": "https://www.laylopets.com/pages/schedule-an-expert-session",
+        "button_text": "Book Your 1:1 Evaluation for $49 >",
+        "button_link": "https://www.laylopets.com/pages/booking-page-49",
         "button_style": "btn--primary",
         "video_link": "",
         "text_color": "text-dark",
         "bg_color": "#ffffff",
         "section_width": "wrapper",
-        "padding_top": 60,
+        "padding_top": 20,
         "padding_bottom": 30
       }
     },
@@ -138,6 +138,7 @@
         "heading_RMiezU": {
           "type": "heading",
           "settings": {
+            "discount_button_link_heading": "",
             "text": "<p>Trusted by 1,000+ pup parents</p>",
             "size": 100,
             "heading_highlight_type": "italics"
@@ -146,6 +147,7 @@
         "button_9VxA9h": {
           "type": "button",
           "settings": {
+            "discount_button_link": "",
             "btn_text": "View our Verified Bark.com Profile >",
             "btn_link": "https://www.bark.com/en/us/b/homeschool-by-lay-lo-dog-training-with-world-class-experts/q4Z7p/",
             "btn_style": "btn--text"
@@ -170,6 +172,7 @@
           "type": "button",
           "disabled": true,
           "settings": {
+            "discount_button_link": "",
             "btn_text": "See all reviews >",
             "btn_link": "https://www.laylopets.com/pages/homeschool-virtual-dog-training-reviews",
             "btn_style": "btn--text"
@@ -186,6 +189,7 @@
       ],
       "settings": {
         "text_position": "center",
+        "background_custom_color": "",
         "bg_color_secondary": false,
         "text_color": "text-dark",
         "width": "wrapper--narrow",
@@ -340,6 +344,8 @@
         "text_block_DkC38F"
       ],
       "settings": {
+        "grid_or_slider": false,
+        "discount_button_link": "",
         "title": "",
         "align_text": "text-left",
         "columns": 4,
@@ -362,13 +368,13 @@
         "image_width": "standard",
         "image": "shopify://shop_images/Sessions_Hero_Image_d6d3c828-ef40-49b2-9e56-41c3714c16cd.png",
         "subheading": "What's Included",
-        "title": "<h2>Live help and more for just $49 (A $299 Value)</h2>",
+        "title": "<h2>A 1:1 assessment of your dog and custom training plan.</h2>",
         "heading_highlight_type": "circle",
         "heading_size": 130,
         "text_content": "With this first call, you'll walk away feeling more clear about how you can help your dog right away.\n•\t45-minute live video session with a certified dog expert ($150 value)\n•\tProfessional assessment of your dog's needs\n\t•\tPersonalized Plan PDF custom to your dog and goals ($100 value)\n\t•\t1 week of SMS texting with your expert team ($49 value)\n\t•\tBONUS: Download of video recording to reference later\n\t•\tBONUS: PDF guides for leash training, enrichment, and anxiety\n\t•\tBONUS: Access to exclusive product discounts and perks from LAY LO®",
         "text_alignment": "left",
         "button_text": "Book your Live Session >",
-        "button_link": "https://www.laylopets.com/pages/schedule-an-expert-session",
+        "button_link": "https://www.laylopets.com/pages/booking-page-49",
         "button_style": "btn--primary btn--small",
         "video_link": "",
         "text_color": "text-dark",
@@ -451,7 +457,7 @@
         "box_color": "",
         "text_color": "#333333",
         "button_text": "Book Your First Session >",
-        "button_link": "https://www.laylopets.com/pages/schedule-an-expert-session",
+        "button_link": "https://www.laylopets.com/pages/booking-page-49",
         "button_style": "btn--primary btn--small",
         "enable_slider_mobile": true,
         "padding_top": 60,
@@ -472,6 +478,7 @@
         "template--16010683613370__05207a3b-b3b5-4855-a347-d391526296ec-16733222338243f527-1": {
           "type": "heading",
           "settings": {
+            "discount_button_link_heading": "",
             "text": "<p>A better dog starts with just one session</p>",
             "size": 100,
             "heading_highlight_type": "italics"
@@ -492,6 +499,7 @@
       ],
       "settings": {
         "text_position": "center",
+        "background_custom_color": "",
         "bg_color_secondary": false,
         "text_color": "text-dark",
         "width": "wrapper--narrow",
@@ -787,8 +795,9 @@
         "button_Em8hYR": {
           "type": "button",
           "settings": {
+            "discount_button_link": "",
             "btn_text": "Book Your First Session >",
-            "btn_link": "https://www.laylopets.com/pages/schedule-an-expert-session",
+            "btn_link": "https://www.laylopets.com/pages/booking-page-49",
             "btn_style": "btn--primary"
           }
         }
@@ -798,6 +807,7 @@
       ],
       "settings": {
         "text_position": "center",
+        "background_custom_color": "",
         "bg_color_secondary": false,
         "text_color": "text-dark",
         "width": "wrapper--narrow",
@@ -877,6 +887,7 @@
         },
         "template--16036805083322__cf9dc11a-fc55-47d0-b33a-b31e463672ad-1677351842118d106c-2": {
           "type": "text_block",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Screen_Shot_2023-06-02_at_11.23.15_AM.png",
             "title": "Juju - Grooming Expert",
@@ -903,6 +914,7 @@
         },
         "template--16036805083322__cf9dc11a-fc55-47d0-b33a-b31e463672ad-1677351842118d106c-3": {
           "type": "text_block",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/walking.jpg",
             "title": "Emily L. - Nutrition Specialist",
@@ -985,7 +997,9 @@
         "dd00b393-a662-4339-9905-29bcc98ff16c"
       ],
       "settings": {
-        "title": "Some of our experts",
+        "grid_or_slider": false,
+        "discount_button_link": "",
+        "title": "Some of our certified experts",
         "align_text": "text-left",
         "columns": 4,
         "equalize_height": true,
@@ -1178,6 +1192,8 @@
       ],
       "disabled": true,
       "settings": {
+        "grid_or_slider": false,
+        "discount_button_link": "",
         "title": "Our experienced experts",
         "align_text": "text-left",
         "columns": 4,
@@ -1198,22 +1214,22 @@
           "settings": {
             "icon_name": "support",
             "title": "1. Evaluate & Match",
-            "text": "<p>Your free initial call will help our team understand your challenges and find the best trainer for your session.</p>"
+            "text": "<p>Your guide will understand your challenges and will match you to the best trainer for your needs.</p>"
           }
         },
         "template--16036805083322__bf09f991-7e3a-4cff-b515-3225a6d06b60-1677079215bbc5ef89-1": {
           "type": "text",
           "settings": {
             "icon_name": "calendar",
-            "title": "2. Get matched with your expert",
-            "text": "<p>We'll schedule a 1-on-1 session with your certified expert who is the best fit for you and your dog's goals.</p>"
+            "title": "2. Live Assessment",
+            "text": "<p>In your 1:1 session with your expert, we'll evaluate your challenges, history, and goals to determine a plan.</p>"
           }
         },
         "template--16036805083322__bf09f991-7e3a-4cff-b515-3225a6d06b60-1677079215bbc5ef89-2": {
           "type": "text",
           "settings": {
             "icon_name": "award",
-            "title": "3. Learn from the best of the best.",
+            "title": "3. Get immediate help",
             "text": "<p>Your dedicated expert will work directly  with you and your dog in a live, 45-minute session. No commitment, just advice.</p>"
           }
         }
@@ -1246,8 +1262,9 @@
         "button_G4FXkK": {
           "type": "button",
           "settings": {
+            "discount_button_link": "",
             "btn_text": "Book Your First Session >",
-            "btn_link": "https://www.laylopets.com/pages/schedule-an-expert-session",
+            "btn_link": "https://www.laylopets.com/pages/booking-page-49",
             "btn_style": "btn--primary"
           }
         }
@@ -1257,6 +1274,7 @@
       ],
       "settings": {
         "text_position": "center",
+        "background_custom_color": "",
         "bg_color_secondary": false,
         "text_color": "text-dark",
         "width": "wrapper--narrow",

@@ -91,6 +91,7 @@
         "template--16010683613370__05207a3b-b3b5-4855-a347-d391526296ec-16733222338243f527-1": {
           "type": "heading",
           "settings": {
+            "discount_button_link_heading": "",
             "text": "<p>You and your pup better together, guaranteed.</p>",
             "size": 120,
             "heading_highlight_type": "italics"
@@ -111,6 +112,7 @@
       ],
       "settings": {
         "text_position": "center",
+        "background_custom_color": "",
         "bg_color_secondary": false,
         "text_color": "text-dark",
         "width": "wrapper--narrow",
@@ -132,6 +134,7 @@
         "heading_RMiezU": {
           "type": "heading",
           "settings": {
+            "discount_button_link_heading": "",
             "text": "<p>Trusted by 1,000+ pup parents</p>",
             "size": 100,
             "heading_highlight_type": "italics"
@@ -148,6 +151,7 @@
         "button_mAx6gM": {
           "type": "button",
           "settings": {
+            "discount_button_link": "",
             "btn_text": "See all reviews >",
             "btn_link": "https://www.laylopets.com/pages/homeschool-virtual-dog-training-reviews",
             "btn_style": "btn--text"
@@ -162,6 +166,7 @@
       ],
       "settings": {
         "text_position": "center",
+        "background_custom_color": "",
         "bg_color_secondary": false,
         "text_color": "text-dark",
         "width": "wrapper--narrow",
@@ -179,6 +184,7 @@
             "title": "\"I thought it was such an amazing investment. As a reactive dog owner, with a virtual outlet, I was able to have access to a trainer that kept everyone safe.\"",
             "text": "<p>⭐⭐⭐⭐⭐</p><p><strong>Anna & Bruno<br/></strong>Rogers, AR</p>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "https://youtu.be/EXt96K74My4",
@@ -192,6 +198,7 @@
             "title": "“I loved it. My trainer was amazing. In a perfect world, we can work with her forever. Having that dedicated time with the trainer to see how Savannah was reacting with my instructions was very helpful.\"",
             "text": "<p>⭐⭐⭐⭐⭐</p><p><strong>Sharee & Savannah<br/></strong>Atlanta, GA</p>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "https://youtu.be/tG_eKMRL7yU",
@@ -205,6 +212,7 @@
             "title": "\"I thought it was awesome. Every time Vivi was super helpful when she diagnosed what was going on. Nori has caught on to everything we worked on in the classes.\"",
             "text": "<p>⭐⭐⭐⭐⭐</p><p><strong>Jake, Lauren & Nori<br/></strong>Richmond, VA</p>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "https://youtu.be/EEZrhyOSqA0",
@@ -218,6 +226,7 @@
             "title": "\"Compared to puppy school, meeting 1:1 where there are no other dogs around was the absolute best for me and Oso.\"",
             "text": "<p>⭐⭐⭐⭐⭐</p><p><strong>Bethany & Oso<br/></strong>Providence, RI</p>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "https://youtu.be/wC6YpMA1fS4",
@@ -231,6 +240,7 @@
             "title": "Virtual training made it possible for us to practice all of the commands because he simply wouldn’t behave the same for someone else. It was more training for us, than training for him which I loved. ",
             "text": "<p>⭐⭐⭐⭐⭐</p><p><strong>Sara & Ozzy<br/></strong>Brooklyn, NY</p>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "https://youtu.be/VFlByKPht6w",
@@ -244,6 +254,7 @@
             "title": "\"Marvin has made such great progress. Before he was pulling like a maniac and now he’s pretty loose.\"",
             "text": "<p>⭐⭐⭐⭐⭐</p><p><strong>Tara & Marvin<br/></strong>Palm Springs, CA</p>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "https://youtu.be/DYOJo_SrwhI",
@@ -257,6 +268,7 @@
             "title": "\"Being able to train at his homebase with his family was a huge plus. When we did a simulation of a work. We will recommend it to other people full heartedly.\"",
             "text": "<p>⭐⭐⭐⭐⭐</p><p><strong>Chinami & Mochi<br/></strong>Los Angeles, CA</p>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "https://youtu.be/rUCLC9ohB4Q",
@@ -270,6 +282,7 @@
             "title": "\"I’ve gone from having a puppy who tears everything apart to a very lovely little pup who actually listens to me without commands. I can’t thank the team enough for making my life a lot easier.\"",
             "text": "<p>⭐⭐⭐⭐⭐</p><p><strong>Linnea & Cookie<br/></strong>Westfield, NJ</p>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "https://youtu.be/BVtXKLKEvbM",
             "button_style": "btn--text",
             "video_link_popup": "https://youtu.be/qORGt__IbOE",
@@ -283,6 +296,7 @@
             "title": "\"If it wasn’t for our trainer and everything she taught us, we would’ve never gotten this far as quickly. We have some really good tools to work with him and continue expanding on that base.\"",
             "text": "<p>⭐⭐⭐⭐⭐</p><p><strong>Marisa & Jackie<br/></strong>Portland, OR</p>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "https://youtu.be/BVtXKLKEvbM",
@@ -296,6 +310,7 @@
             "title": "\"My trainer was so good with dog behavior and taught me those things so when something happened between the two dogs, I could understand him better and be able to help the situation.\"",
             "text": "<p>⭐⭐⭐⭐⭐</p><p><strong>Carmen & Mish<br/></strong>Bloomington, ID</p>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "https://youtu.be/xZU6IWDim_s",
@@ -316,6 +331,8 @@
         "text_block_DkC38F"
       ],
       "settings": {
+        "grid_or_slider": false,
+        "discount_button_link": "",
         "title": "",
         "align_text": "text-left",
         "columns": 4,
@@ -440,7 +457,7 @@
         "title": "<p>Guaranteed results you can feel really good about. </p>",
         "heading_highlight_type": "circle",
         "heading_size": 100,
-        "text_content": "We couldn't be more committed to your success. Our unique 7-day satisfaction guarantee gives you the confidence to get started without the risk. Plus, at the end of your training program, if you're not 100% satisfied with what you learned, we'll continue training you, on us.",
+        "text_content": "We couldn't be more committed to your success. At the end of your training program, if you're not 100% satisfied with what you learned, we'll continue training with you, on us, until you feel good about your progress.",
         "text_alignment": "left",
         "button_text": "",
         "button_link": "",
@@ -696,6 +713,7 @@
             "title": "Holistic support",
             "text": "<p>Knowing that most behaviors are solved through more than training,<span style=\"text-decoration:underline\">your holistic plan</span> is designed to solve the ENTIRE problem, giving you a better understanding of your dog and a lifetime of results. </p>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "",
@@ -708,6 +726,7 @@
             "title": "Reduced distractions",
             "text": "<p>Training in your dog’s current environment without new smells and distractions is proven to drive faster long-term results. </p>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "",
@@ -720,6 +739,7 @@
             "title": "Train on your terms",
             "text": "<p>Cut the commute and start training in the comfort of your living room. With virtual recorded calls and an extensive video library, the whole family can get involved wherever they are.</p>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "",
@@ -734,6 +754,8 @@
       ],
       "disabled": true,
       "settings": {
+        "grid_or_slider": false,
+        "discount_button_link": "",
         "title": "",
         "align_text": "text-left",
         "columns": 3,
@@ -755,6 +777,7 @@
             "title": "Dedicated, trusted guidance",
             "text": "<p>We believe in people, not bots. Stop spending endless hours watching youtube videos. With Homeschool, you’re matched with a certified training team dedicated to you and your pup through your entire journey. </p>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "",
@@ -767,6 +790,7 @@
             "title": "Safe for all dogs",
             "text": "<p>Whether your puppy isn't old enough for socialization or you have a dog with a bit of extra personality, virtual training can be a lot <span style=\"text-decoration:underline\">less frightening than an unfamiliar environment</span> with unknown people and dogs. By training in your dog’s “safe space”, you are making the process less overwhelming for them (and you!) </p>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "",
@@ -779,6 +803,7 @@
             "title": "Guaranteed results",
             "text": "<p>If you are not satisfied with the dog’s progress after the program, we will give you your money back* OR continue to train with you for 4 more weeks free of cost.</p>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "",
@@ -793,6 +818,8 @@
       ],
       "disabled": true,
       "settings": {
+        "grid_or_slider": false,
+        "discount_button_link": "",
         "title": "",
         "align_text": "text-left",
         "columns": 3,
@@ -808,14 +835,14 @@
     "cf9dc11a-fc55-47d0-b33a-b31e463672ad": {
       "type": "section-columns",
       "blocks": {
-        "text_block_YhRtqG": {
+        "text_block_D8bBUp": {
           "type": "text_block",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/553BB7DC-1396-41B7-A583-241A931639D4.jpg",
-            "title": "Jeny P. - Fear-free Dog Trainer",
-            "text": "<p>Jeny's true passion and joy are in helping dog parents develop happy, healthy, and harmonious friendships with their dogs that will last a lifetime. Driven by her genuine love for dogs, Jeny is committed to strengthening the human-canine bond and helping families achieve their dream life<br/>with their dogs. </p><p>Certifications:</p><ul><li>CPDT-KA </li><li>Certified Professional Dog Trainer-Knowledge Assessed</li></ul>",
+            "image": "shopify://shop_images/https___3eea677b88e9cbe48f289ea4b87ef53d.cdn.bubble.io_f1696618596672x829303150294288900_IMG_20211217_152456.jpg",
+            "title": "Nicole R. - Animal Behavior Consultant",
+            "text": "<p>Nicole is a multi accredited trainer and animal behavior professional with over 20 years of experience working with a variety of animal species and pets with behavioral problems. She is a U.S. Veteran and began her career as a Military Police Dog Handler/Trainer for the U.S. Navy and Department of Defense. She is passionate about helping pet guardians develop a loving and enriching bond with their pets through positive reinforcement and holistic treatment methods. She is a Boston native and is owned by rescues Peter, Edith, Huckleberry cat and Oscar the tortoise. </p><p>Certifications</p><ul><li>Fear Free Shelter Certified</li><li>Certified Holistic Behavior Consultant (CHBC)</li><li>Accredited Dog Trainer (IAABC-ADT Retired)</li><li>MSc Behavioral Medicine</li></ul>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "",
@@ -829,6 +856,105 @@
             "title": "Emily B. - Certified Animal Behavior Consultant, Separation Anxiety Trainer and Aggression Specialist",
             "text": "<p>Emily is an animal behavior consultant that has over 15 years of experience working with dogs and cats. She worked in the behavior department in animal shelters and veterinary clinics to build her skills. She implements behavior modification through force free training. As a certified Behavioral Consultant, Fear Free Certified Animal Trainer and a Separation Anxiety Trainer, Emily holds one of the highest degrees in the field. </p><p>Certifications:</p><ul><li>Certified Canine and Feline Animal Behavioral Consultant (ACDBC, CCBC) </li><li>Certified Separation Anxiety Trainer (CSAT) </li><li>Completion - Aggression in Dogs Master Course</li><li>Bachelor of Science - Animal Ecology (BSc)</li></ul>",
             "button_text": "",
+            "calendly_widget": "",
+            "button_link": "",
+            "button_style": "btn--text",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_CwL4Kb": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/KatieCloyd_HomeschoolbyLAYLODogTrainer.jpg",
+            "title": "Katie C. - Fear-free Dog Trainer",
+            "text": "<p>Katie brings over a decade of experience in the animal industry working with a wide range of species, from dogs and cats to exotic animals. Holding a Bachelor of Science in Animal Ecology from Iowa State University, Katie merges her deep passion for animal behavior with a commitment to education. With various roles across the dog industry combined with her background in zoo animal education, Katie's unique skill set enables her to effectively educate and connect with her clients. </p><p>Certifications:</p><ul><li>Certified Professional Dog Trainer - Knowledge Assessed (CPDT-KA)</li><li>Bachelors of Science – Biology and Animal Ecology (BSc)<br/></li></ul>",
+            "button_text": "",
+            "calendly_widget": "",
+            "button_link": "",
+            "button_style": "btn--text",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_CbGCBG": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/Tracy_M.png",
+            "title": "Tracy M. - Certified Animal Behavior Consultant, Separation Anxiety Trainer and Aggression Specialist",
+            "text": "<p>Tracy is a certified dog trainer with over a decade of experience in animal behavior and training. She specializes in science-based, humane techniques to address behavior challenges, including separation anxiety and scent work. Tracy is a graduate of the Academy for Dog Trainers (CTC) and holds certifications in Fear Free training, Nose Work, and Control Unleashed. When not training, she enjoys audiobooks and exploring the world with her two dogs, Doc Holliday and Herrick.</p><p>Certifications:</p><ul><li>Certified Dog Trainer (CTC)</li><li>Fear Free Certified Professional (CCFP)</li><li>Certified Nose Work Instructor (CNWI)</li><li>Separation Anxiety Trainer (CSAT)</li></ul>",
+            "button_text": "",
+            "calendly_widget": "",
+            "button_link": "",
+            "button_style": "btn--text",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "af2bf11c-a968-4321-b1a9-b76e5c7073ea": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/image0_7.jpg",
+            "title": "Shannen S. - Force-free Dog Trainer",
+            "text": "<p>Shannen is a passionate trainer working to better the lives of dogs and their owners using positive, science-backed methods that revolve around patience, love, and positivity. She is Certified in Applied Animal Behavior which focuses on behavior ethology, learning theory, and the biology behind training and how it relates to companion animals. Her mission is to educate owners on how to understand their dog on a deeper level in order to create a bond that they’ve always dreamed of.<br/><br/>Certifications</p><ul><li>Applied Animal Behavior - University of Washington (UW-AAB) </li><li>AKC Good Citizen Evaluator<br/></li></ul>",
+            "button_text": "",
+            "calendly_widget": "",
+            "button_link": "",
+            "button_style": "btn--text",
+            "video_link_popup": "https://youtube.com/shorts/wUF5lQCr97U?feature=share",
+            "video_link_color": "text-light"
+          }
+        },
+        "text_block_YhRtqG": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/Erin-modified.jpg",
+            "title": "Erin A. - Fear-free Dog Trainer",
+            "text": "<p>Erin is a seasoned animal behavior professional with over two decades of experience helping people build stronger, more rewarding relationships with their pets. She is known for her compassionate, evidence-based approach to training and behavior support, making life better for both animals and the humans who care for them. A passionate educator and advocate, Erin is committed to making high-quality training and behavior support accessible. Her work reflects a core belief: when we understand our pets better, we can live better together.</p><p>Certifications:</p><ul><li>Masters of Science in Clinical Animal Behavior</li><li>Certified Professional Dog Trainer - Knowledge Assessed (CPDT-KA)</li><li>Certified Behavior Consultant Canine - Knowledge Assessed (CBCC-KA)</li><li>Fear Free Certified Professional (FFCP)</li></ul>",
+            "button_text": "",
+            "calendly_widget": "",
+            "button_link": "",
+            "button_style": "btn--text",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "template--16036805083322__cf9dc11a-fc55-47d0-b33a-b31e463672ad-1677351842118d106c-3": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/Karen_Zephyr_Fox_Road_PhotoImagery_102423_05-modified.jpg",
+            "title": "Karen D. - Fear-free Dog Trainer",
+            "text": "<p>Karen is an experienced, credentialed professional dog trainer with a passion for her clients' success--both human and canine. She has over 13 years of experience as a behavior consultant and specializes in helping people whose dogs exhibit behavior issues like reactivity, aggression, compulsive disorders, chronic hyperarousal, impulsivity, fearfulness, anxiety, and stress. She is deeply committed to helping people and their dogs live in harmony and enjoy their best lives together.</p><p>Certifications:</p><ul><li>Karen Pryor Academy Certified Training Partner (KPA CTP)</li><li>Certified Professional Dog Trainer - Knowledge Assessed (CPDT-KA)</li><li>Fear Free Certified Professional Trainer (FFCP-T)</li><li>Completed the L.E.G.S. Applied Ethology Family Dog Mediation Professional Course</li><li>Completed the Living and Learning with Animals: the Science and Technology of Behavior Change Course</li><li>Completed the Natural Encounters Professional Animal Training Workshop</li><li>Completed Applied Behavior Analysis - The Theory Behind the Training Course</li><li>Completed the Control the Meerkat: Trauma in Animals Conference</li><li>Completed the Canine Impulsivity & Fear Course</li></ul>",
+            "button_text": "",
+            "calendly_widget": "",
+            "button_link": "",
+            "button_style": "btn--text",
+            "video_link_popup": "https://youtu.be/Cu6XU0fwQ04",
+            "video_link_color": "text-light"
+          }
+        },
+        "template--16036805083322__cf9dc11a-fc55-47d0-b33a-b31e463672ad-1677351842118d106c-1": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/christi_Kirby.jpg",
+            "title": "Christi B. - Force-free Behavior Consultant",
+            "text": "<p>Christi Kirby-Baron has been actively exhibiting dogs since 1990, participating in many venues.  She has been an active member of both all-breed, specialty and obedience training clubs, having held officer positions locally and on the national level.  She specializes in Service Dog Training as well as  Behavioral Modification for people and their pets virtually across the U.S.   Her current certifications include:</p><p>Certifications: </p><ul><li>Certified Dog Behavioral Consultant ( International Association of Animal Behavior Consultants) </li><li>Accredited Dog Trainer ( International Association of Animal Behavior Consultants) </li><li>Certified Professional Dog Trainer- Knowledge Assessed (Certification Council for Professional Dog Trainers) </li><li>FEAR FREE PROFESSIONAL COACH </li><li>AKC Trick Dog evaluator, CGC evaluator, Level 1 Fit Dog trainer, Farm Dog Judge, Temperament Test evaluator</li><li>AGGRESSION IN DOGS: Master Course Certificate of Completion (Michael Shikashio, CDBC) </li></ul><p><br/></p>",
+            "button_text": "",
+            "calendly_widget": "",
+            "button_link": "",
+            "button_style": "btn--text",
+            "video_link_popup": "",
+            "video_link_color": "text-light"
+          }
+        },
+        "text_block_VqY8eG": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/1370-24-FRI-FDTC-Holiday-Jerry-and-Lois-Photography-Steph_H_7x10_FULL_1_-modified.jpg",
+            "title": "Stephanie D. - Certified Dog Trainer",
+            "text": "<p>Stephanie is dedicated to bringing out the best in every dog and human team. With a science-backed, positive reinforcement approach, she helps dogs learn how to make great choices, and shows you how to support those behaviors with confidence and clarity. She combines behavioral science with real-world strategies to create custom training plans that work and last.<br/><br/>Stephanie believes in training that’s kind, effective, and practical, whether you're raising a new puppy or settling in with a newly adopted dog, she helps humans and dogs thrive together by building trust, reducing frustration, and having fun along the way.</p><p>Certifications:</p><ul><li>Certified Professional Dog Trainer - Knowledge Assessed (CPDT-KA)</li><li>Karen Pryor Academy Certified Training Partner (KPA CTP)</li><li>Certified Control Unleashed Instructor (CCUI)</li><li>Certified Trick Dog Instructor (CTDI)</li></ul>",
+            "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "",
@@ -843,58 +969,7 @@
             "title": "Morgan C. - Force-Free Dog Trainer & Behavior Consultant",
             "text": "<p>Morgan is an accredited dog trainer with a decade of experience in animal behavior and training. She specializes in using science-based, reinforcement-focused training techniques to address behavior challenges while prioritizing the welfare of canines and the people who love them. Morgan has trained and handled conservation detection dogs and search and rescue dogs, and has extensive experience as an educator helping hundreds of future dog trainers learn humane training methods.</p><p>Certifications:</p><ul><li>Accredited Dog Trainer (IAABC-ADT)</li><li>Fear Free Certified Trainer (FFCP-T)</li><li>Family Dog Mediator (FDM)</li></ul>",
             "button_text": "",
-            "button_link": "",
-            "button_style": "btn--text",
-            "video_link_popup": "",
-            "video_link_color": "text-dark"
-          }
-        },
-        "template--16036805083322__cf9dc11a-fc55-47d0-b33a-b31e463672ad-1677351842118d106c-3": {
-          "type": "text_block",
-          "settings": {
-            "image": "shopify://shop_images/walking.jpg",
-            "title": "Emily L. - Nutrition Specialist",
-            "text": "<p>Emily is a pet nutritionist with a specialty in holistic animal wellness who dove head first into the field after her dog Hans became ill. With a specialty incorporating herbs, traditional Chinese medicine principles and other alternative and functional healing modalities, Emily’s expertise has transformed dog’s lives through the power of nutrition. </p><p>Certifications: </p><ul><li>DNM University - Certified Pet Food Nutrition Specialist</li></ul>",
-            "button_text": "",
-            "button_link": "",
-            "button_style": "btn--text",
-            "video_link_popup": "https://youtu.be/Cu6XU0fwQ04",
-            "video_link_color": "text-light"
-          }
-        },
-        "text_block_D8bBUp": {
-          "type": "text_block",
-          "settings": {
-            "image": "shopify://shop_images/https___3eea677b88e9cbe48f289ea4b87ef53d.cdn.bubble.io_f1696618596672x829303150294288900_IMG_20211217_152456.jpg",
-            "title": "Nicole R. - Animal Behavior Consultant",
-            "text": "<p>Nicole is a multi accredited trainer and animal behavior professional with over 20 years of experience working with a variety of animal species and pets with behavioral problems. She is a U.S. Veteran and began her career as a Military Police Dog Handler/Trainer for the U.S. Navy and Department of Defense. She is passionate about helping pet guardians develop a loving and enriching bond with their pets through positive reinforcement and holistic treatment methods. She is a Boston native and is owned by rescues Peter, Edith, Huckleberry cat and Oscar the tortoise. </p><p>Certifications</p><ul><li>Fear Free Shelter Certified</li><li>Certified Holistic Behavior Consultant (CHBC)</li><li>Accredited Dog Trainer (IAABC-ADT Retired)</li><li>MSc Behavioral Medicine</li></ul>",
-            "button_text": "",
-            "button_link": "",
-            "button_style": "btn--text",
-            "video_link_popup": "",
-            "video_link_color": "text-dark"
-          }
-        },
-        "text_block_CwL4Kb": {
-          "type": "text_block",
-          "settings": {
-            "image": "shopify://shop_images/KatieCloyd_HomeschoolbyLAYLODogTrainer.jpg",
-            "title": "Katie C. - Fear-free Dog Trainer",
-            "text": "<p>Katie brings over a decade of experience in the animal industry working with a wide range of species, from dogs and cats to exotic animals. Holding a Bachelor of Science in Animal Ecology from Iowa State University, Katie merges her deep passion for animal behavior with a commitment to education. With various roles across the dog industry combined with her background in zoo animal education, Katie's unique skill set enables her to effectively educate and connect with her clients. </p><p>Certifications:</p><ul><li>Certified Professional Dog Trainer - Knowledge Assessed (CPDT-KA)</li><li>Bachelors of Science – Biology and Animal Ecology (BSc)<br/></li></ul>",
-            "button_text": "",
-            "button_link": "",
-            "button_style": "btn--text",
-            "video_link_popup": "",
-            "video_link_color": "text-dark"
-          }
-        },
-        "text_block_CbGCBG": {
-          "type": "text_block",
-          "settings": {
-            "image": "shopify://shop_images/Tracy_M.png",
-            "title": "Tracy M. - Certified Animal Behavior Consultant, Separation Anxiety Trainer and Aggression Specialist",
-            "text": "<p>Tracy is a certified dog trainer with over a decade of experience in animal behavior and training. She specializes in science-based, humane techniques to address behavior challenges, including separation anxiety and scent work. Tracy is a graduate of the Academy for Dog Trainers (CTC) and holds certifications in Fear Free training, Nose Work, and Control Unleashed. When not training, she enjoys audiobooks and exploring the world with her two dogs, Doc Holliday and Herrick.</p><p>Certifications:</p><ul><li>Certified Dog Trainer (CTC)</li><li>Fear Free Certified Professional (CCFP)</li><li>Certified Nose Work Instructor (CNWI)</li><li>Separation Anxiety Trainer (CSAT)</li></ul>",
-            "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "",
@@ -903,51 +978,13 @@
         },
         "template--16036805083322__cf9dc11a-fc55-47d0-b33a-b31e463672ad-1677351842118d106c-2": {
           "type": "text_block",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Screen_Shot_2023-06-02_at_11.23.15_AM.png",
             "title": "Juju - Grooming Expert",
             "text": "<p>Juju is passionate about changing how your pet experiences grooming at home, she uses a fear-free grooming approach to create a positive, minimally invasive experience for your dogs. With her over a decade of experience, her grooming salons and practices have been featured in GQ and Vogue. Juju's innovative breed-specific techniques are designed to reduce pet anxiety and help maintain your dog's groom with proper and safe upkeep at home.</p><p>Experience:</p><ul><li>Owner - Juju Grooms Pet Grooming, Toronto</li><li>Master Certified Feline Groomer</li></ul>",
             "button_text": "",
-            "button_link": "",
-            "button_style": "btn--text",
-            "video_link_popup": "",
-            "video_link_color": "text-dark"
-          }
-        },
-        "af2bf11c-a968-4321-b1a9-b76e5c7073ea": {
-          "type": "text_block",
-          "settings": {
-            "image": "shopify://shop_images/image0_7.jpg",
-            "title": "Shannen S. - Force-free Dog Trainer",
-            "text": "<p>Shannen is a passionate trainer working to better the lives of dogs and their owners using positive, science-backed methods that revolve around patience, love, and positivity. She is Certified in Applied Animal Behavior which focuses on behavior ethology, learning theory, and the biology behind training and how it relates to companion animals. Her mission is to educate owners on how to understand their dog on a deeper level in order to create a bond that they’ve always dreamed of.<br/><br/>Certifications</p><ul><li>Applied Animal Behavior - University of Washington (UW-AAB) </li><li>AKC Good Citizen Evaluator<br/></li></ul>",
-            "button_text": "",
-            "button_link": "",
-            "button_style": "btn--text",
-            "video_link_popup": "https://youtube.com/shorts/wUF5lQCr97U?feature=share",
-            "video_link_color": "text-light"
-          }
-        },
-        "template--16036805083322__cf9dc11a-fc55-47d0-b33a-b31e463672ad-1677351842118d106c-1": {
-          "type": "text_block",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Screen_Shot_2023-06-02_at_11.22.42_AM.png",
-            "title": "Ashwini A. - Force-free Dog Trainer & Head of Behavior",
-            "text": "<p>Ashwini is a power house within the force free dog training community. With 14 years of training experience, she has devoted her career to dogs from training to pet rescue and relocation. Armed with multiple certifications, she has successfully conducted thousands of online training sessions addressing a wide range of behavioral issues with a minimally invasive approach that continues to change lives. </p><p>Certifications: </p><ul><li>Certified Separation Anxiety Trainer (CSAT)</li><li>Cambridge Institute of Canine Behavior and Training</li><li>Brenda Aloff Fundamentals Instructor Certification</li></ul>",
-            "button_text": "",
-            "button_link": "",
-            "button_style": "btn--text",
-            "video_link_popup": "https://youtu.be/-dJkSc1jzpA",
-            "video_link_color": "text-light"
-          }
-        },
-        "text_block_VqY8eG": {
-          "type": "text_block",
-          "settings": {
-            "image": "shopify://shop_images/IMG_5371.jpg",
-            "title": "Jennifer F - Veterinary Technician & Force-free Dog Trainer",
-            "text": "<p>With a deep understanding of animal behavior & care honed through extensive experience in veterinary medicine, the retail pet space, and academic study, Jennifer is a Certified Professional Dog Trainer and Fear Free Certified Veterinary Partner dedicated to helping pets and their humans live enriched lives together. Her passion for rational, logical communication and ability to offer practical solutions ensures a seamless integration of training into daily life, leading to happy and harmonious relationships.</p><ul><li>Fear Free Certified Professional- Veterinary (Level2 & Avian) </li><li>Certified Professional Dog Trainer- Knowledge Assessed (CPDT-KA)</li></ul>",
-            "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "",
@@ -956,19 +993,21 @@
         }
       },
       "block_order": [
-        "text_block_YhRtqG",
-        "text_block_nLgCTf",
-        "text_block_yCRJWf",
-        "template--16036805083322__cf9dc11a-fc55-47d0-b33a-b31e463672ad-1677351842118d106c-3",
         "text_block_D8bBUp",
+        "text_block_nLgCTf",
         "text_block_CwL4Kb",
         "text_block_CbGCBG",
-        "template--16036805083322__cf9dc11a-fc55-47d0-b33a-b31e463672ad-1677351842118d106c-2",
         "af2bf11c-a968-4321-b1a9-b76e5c7073ea",
+        "text_block_YhRtqG",
+        "template--16036805083322__cf9dc11a-fc55-47d0-b33a-b31e463672ad-1677351842118d106c-3",
         "template--16036805083322__cf9dc11a-fc55-47d0-b33a-b31e463672ad-1677351842118d106c-1",
-        "text_block_VqY8eG"
+        "text_block_VqY8eG",
+        "text_block_yCRJWf",
+        "template--16036805083322__cf9dc11a-fc55-47d0-b33a-b31e463672ad-1677351842118d106c-2"
       ],
       "settings": {
+        "grid_or_slider": false,
+        "discount_button_link": "",
         "title": "Meet some of our experts",
         "align_text": "text-left",
         "columns": 4,
@@ -1072,6 +1111,7 @@
         "template--16036805083322__d762a719-b591-4339-8d56-2b6db54ac56f-16773497307b85ce9c-1": {
           "type": "heading",
           "settings": {
+            "discount_button_link_heading": "",
             "text": "<p>Ready to start training?</p>",
             "size": 100,
             "heading_highlight_type": "italics"
@@ -1092,6 +1132,7 @@
       ],
       "settings": {
         "text_position": "center",
+        "background_custom_color": "",
         "bg_color_secondary": false,
         "text_color": "text-dark",
         "width": "wrapper--narrow",
@@ -1108,11 +1149,11 @@
             "text_position": "center",
             "top_image_width": 100,
             "text_color": "text-dark",
-            "subheading": "$25 / Week (Billed Monthly)",
+            "subheading": "$49 / Week (Billed Monthly)",
             "title": "Homeschool Lite",
-            "text": "<p><strong>Message on-demand with certified  dog experts and get 1:1 help twice a week. <br/><br/>Cancel anytime.</strong><br/><br/><br/>Message-an-Expert</p><p>1x Practice Session (15-min)</p><p>LAY LO™ Product Discounts</p><p>* * * </p><p>Insider Community Access</p><p>Course Membership Library - Limited Access</p>",
+            "text": "<p><strong>Message on-demand with certified dog experts and get 1:1 help every week. <br/><br/>Cancel anytime.</strong><br/><br/><br/>Daily Text Support</p><p>1x Intensive Session / month (45-min)</p><p>4x Practice Sessions / month (15-min)</p><p>LAY LO™ Product Discounts</p><p>* * * </p><p>Insider Community Access</p><p>Course Membership Library Access</p>",
             "button_text": "Get Started >",
-            "button_link": "https://www.laylopets.com/products/copy-of-homeschool-lite-on-demand-messaging-with-d[…]xperts-weekly?variant=43189786902714&selling_plan=3518169274",
+            "button_link": "https://pfnl.co/k9c9xgy",
             "button_style": "btn--primary btn--small",
             "secondary_button_text": "",
             "secondary_button_link": "",
@@ -1129,7 +1170,7 @@
             "subheading": "$125 / Week",
             "title": "Homeschool Premium",
             "text": "<p><strong>Personalized, private 1:1 online training with your dedicated dog expert. Guaranteed results. <br/></strong></p><p><strong>4, 6 and 8 week packages available<br/><br/><br/></strong>Intensive Pup Evaluation</p><p>1x Weekly Live 1:1 Sessions (45 min)</p><p>2x Weekly Private Practice Sessions (15-min)</p><p>Message-an-Expert</p><p>Personalized Training Plan</p><p>LAY LO™ Product Discounts</p><p>Homeschool Training Guarantee*</p><p>* * * </p><p>Insider Community Access</p><p>Course Membership Library - Full Access ($150 value)</p>",
-            "button_text": "Schedule Your Free Pup Evaluation",
+            "button_text": "Schedule Your Free Pup Consult",
             "button_link": "https://laylopets.typeform.com/to/exWlKhbV?utm_source=xxxxx",
             "button_style": "btn--primary btn--small",
             "secondary_button_text": "",
@@ -1367,6 +1408,7 @@
             "title": "Homeschool Lite",
             "text": "<h4><strong>On-demand message support from dog experts, access to online group training & more.</strong></h4><p></p><p>Free Behavior Discovery Call</p><p>Message-an-Expert</p><p></p><p>LAY LO™ Product Discounts</p><p>Insider Community Access</p><p>Video Vault Library Access</p>",
             "button_text": "Learn More",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--primary btn--small",
             "video_link_popup": "",
@@ -1380,6 +1422,7 @@
             "title": "Homeschool Premium",
             "text": "<h4><strong>Personalized, 1:1 live programs alongside dedicated experts, from training to nutrition. 4 week and 8 week plans avaialble.</strong></h4><p>Live 1:1 Sessions</p><p>4-Week & 8-Week Plans</p><p>Dedicated Program Trainer</p><p>Message-an-Expert</p><p>Homeschool Guarantee</p><p>LAY LO™ Product Discounts</p><p>Insider Community Access</p><p>Video Vault Library Access<br/>                </p>",
             "button_text": "Learn More",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--primary btn--small",
             "video_link_popup": "",
@@ -1393,6 +1436,7 @@
             "title": "Add a title or tagline",
             "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
             "button_text": "Learn More",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "",
@@ -1406,6 +1450,7 @@
             "title": "Add a title or tagline",
             "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
             "button_text": "Learn More",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "",
@@ -1421,6 +1466,8 @@
       ],
       "disabled": true,
       "settings": {
+        "grid_or_slider": false,
+        "discount_button_link": "",
         "title": "Our Programs",
         "align_text": "text-left",
         "columns": 2,

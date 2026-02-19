@@ -1,3 +1,7 @@
+body .hengam-product-price-wrapper .hengam-final-price {
+    font-weight: 400!important;
+    font-family: 'DM Sans';
+}
 .navtext {
     color: #000;
     opacity: 1 !important;
@@ -113,4 +117,13 @@
       padding-right: 20px;
     }
   }
+}
+
+@media only screen and (min-width: 768px) {
+    .nav {
+        z-index: 999 !important;
+    }
+    /* .slide__text__container {
+      z-index: 2;
+    } */
 }

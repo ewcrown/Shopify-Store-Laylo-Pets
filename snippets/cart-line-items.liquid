@@ -254,6 +254,7 @@
     {{- line_items_html -}}
 
   {%- when 'upsell-items' -%}
+    {% render 'stylux-cart' %}
     {%- if upsell_products != '' -%}
       <div {% unless settings.stack_cart_pairs %}data-pair-products{% endunless %}>
         {% render 'upsell-products' with upsell_products as upsell_products %}

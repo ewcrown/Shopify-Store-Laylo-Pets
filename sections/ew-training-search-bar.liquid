@@ -1,0 +1,130 @@
+{% style %}
+  #searchResults .column__item {
+    margin: 0;
+    display: block !important;
+    width: auto;
+    transform: none !important;
+    position: static !important;
+  }
+  section[id^='CustomCode--template']{
+    display:none;  
+  }
+  #searchResults {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+  }
+
+  .ew-training-section {
+    padding: 80px 0 0;
+    background-color: #f7f7f7;
+  }
+
+  @media(max-width:600px){
+    #searchResults {
+      grid-template-columns: repeat(1, 1fr) !important;
+      gap: 30px !important;
+    }
+  }
+{% endstyle %}
+
+<div class="ew-training-section">
+  <div class="wrapper">
+    <input type="text" id="searchInput" placeholder="Search by name or description..." style="padding: 8px; margin-bottom: 1rem; width: 100%; max-width: 300px;">
+    <div id="searchResults" class="column__container" style="display: none;"></div>
+  </div>
+</div>
+
+
+
+<script>
+  function setupColumnItemClick() {
+    document.querySelectorAll('.column__item .column__item__button').forEach(button => {
+      button.addEventListener('click', () => {
+        // Hide all previous sections
+        const previousDivs = document.querySelectorAll("section[id^='CustomCode--template']");
+        previousDivs.forEach(div => {
+          div.style.display = "none";
+        });
+
+        setTimeout(() => {
+          const currentUrl = window.location.href;
+          const id = window.location.hash;
+
+          if (id) {
+            const codeSection = document.querySelector(id);
+            if (codeSection) {
+              const parentSection = codeSection.closest('section');
+              if (parentSection) {
+                parentSection.style.display = "block";
+              }
+
+              // Scroll to the codeSection
+              codeSection.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+              });
+            }
+          }
+
+          console.log(currentUrl);
+        }, 500);
+      });
+    });
+  }
+
+  // Run after page load
+  document.addEventListener("DOMContentLoaded", function () {
+    setupColumnItemClick();
+
+    const allItems = Array.from(document.querySelectorAll("#MainContent .column__item"));
+    const resultsContainer = document.getElementById("searchResults");
+    const searchInput = document.getElementById("searchInput");
+    const indexSections = document.querySelectorAll(".shopify-section.index-section");
+
+    searchInput.addEventListener("input", function () {
+      const query = this.value.trim().toLowerCase();
+
+      if (query === "") {
+        resultsContainer.style.display = "none";
+        resultsContainer.innerHTML = "";
+
+        allItems.forEach(item => item.style.display = "");
+        indexSections.forEach(section => section.style.display = "");
+        return;
+      }
+
+      allItems.forEach(item => item.style.display = "none");
+      indexSections.forEach(section => section.style.display = "none");
+
+      const filteredItems = allItems.filter(item => {
+        const heading = item.querySelector(".column__item__heading.h6");
+        const description = item.querySelector(".column__item__text");
+        return heading && heading.innerText.trim().toLowerCase().includes(query) || description && description.innerText.trim().toLowerCase().includes(query);
+      });
+
+      resultsContainer.innerHTML = "";
+      filteredItems.forEach(item => {
+        const clone = item.cloneNode(true);
+        resultsContainer.appendChild(clone);
+      });
+
+      resultsContainer.style.display = "grid";
+
+      // ✅ Re-bind click listeners to cloned buttons
+      setupColumnItemClick();
+    });
+  });
+</script>
+
+{% schema %}
+{
+  "name": "Training Searchbar",
+  "settings": [],
+  "presets": [
+    {
+      "name": "Training Searchbar"
+    }
+  ]
+}
+{% endschema %}

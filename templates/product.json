@@ -26,6 +26,7 @@
             "subheading": "breadcrumbs",
             "show_rating": true,
             "show_rating_count": true,
+            "show_above_mobile": false,
             "padding_bottom": 20
           }
         },
@@ -86,12 +87,14 @@
             "icon_text_4": "One-Year Warranty",
             "alignment": "center",
             "bg_color": "#ffffff",
+            "show_above_mobile": false,
             "padding_bottom": 20
           }
         },
         "description": {
           "type": "description",
           "settings": {
+            "show_above_mobile": false,
             "padding_bottom": 20
           }
         },
@@ -113,6 +116,7 @@
             "accordion_heading_5": "",
             "accordion_text_5": "",
             "accordion_page_5": "",
+            "show_above_mobile": false,
             "padding_bottom": 20
           }
         },
@@ -126,7 +130,6 @@
         },
         "product_quote_mMMbqK": {
           "type": "product_quote",
-          "disabled": true,
           "settings": {}
         }
       },
@@ -168,6 +171,7 @@
         "template--16010683777210__bd134d06-84b0-4be7-b37c-69040f4adf68-16750269123769c858-1": {
           "type": "heading",
           "settings": {
+            "discount_button_link_heading": "",
             "text": "<p>A smarter bed system made for you.</p>",
             "size": 100,
             "heading_highlight_type": "italics"
@@ -188,6 +192,7 @@
       ],
       "settings": {
         "text_position": "center",
+        "background_custom_color": "",
         "bg_color_secondary": false,
         "text_color": "text-dark",
         "width": "wrapper--narrow",
@@ -516,15 +521,18 @@
     "16796286950518c688": {
       "type": "apps",
       "blocks": {
-        "1fe89063-f440-4bf6-8a32-3219d8423cbc": {
-          "type": "shopify://apps/yotpo-product-reviews/blocks/reviews/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+        "judge_me_reviews_review_widget_Kfgnj6": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
-            "product": "{{product}}"
+            "review_data": "sample_data",
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget",
+            "max_width": 1200
           }
         }
       },
       "block_order": [
-        "1fe89063-f440-4bf6-8a32-3219d8423cbc"
+        "judge_me_reviews_review_widget_Kfgnj6"
       ],
       "settings": {
         "bg_color": "",

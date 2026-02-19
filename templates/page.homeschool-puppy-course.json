@@ -123,6 +123,7 @@
           "type": "text",
           "settings": {
             "icon_name": "download",
+            "icon_image": "shopify://shop_images/noun-video-call-7302666.svg",
             "title": "40+ Video Courses",
             "text": "<p>Step by step tutorials by world-class experts with lifetime access.</p>"
           }
@@ -130,7 +131,8 @@
         "template--16036805083322__bf09f991-7e3a-4cff-b515-3225a6d06b60-1677079215bbc5ef89-1": {
           "type": "text",
           "settings": {
-            "icon_name": "support",
+            "icon_name": "camera",
+            "icon_image": "shopify://shop_images/noun-video-call-7120956.svg",
             "title": "8x 1:1 Training Sessions",
             "text": "<p>Speak to a trainer to help guide you through. </p>"
           }
@@ -200,6 +202,7 @@
             "title": "My puppy is peeing everywhere!",
             "text": "<p>I am racking up some cleaning bills and no matter what I do my puppy isn't learning to go outside. </p>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "",
@@ -212,6 +215,7 @@
             "title": "My puppy isn't allowed to train until she is vaccinated at 16 weeks!",
             "text": "<p>My new pup is unvaccinated so I can't socialize them outside of my house, but I want to get them started early.</p>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "",
@@ -224,6 +228,7 @@
             "title": "My puppy is destroying everything.",
             "text": "<p>I can't leave the house without worrying if my puppy is going to chew up my entire house and bark for hours. </p>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "",
@@ -236,6 +241,7 @@
             "title": "The play biting is getting out of control.",
             "text": "<p>The puppy biting has gotten way worse and I'm worried it will turn aggressive.</p>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "",
@@ -248,6 +254,7 @@
             "title": "I am looking for the most affordable solution to train my dog.",
             "text": "<p>I want positive reinforcement dog training that actually works, and doesn't leave me with more questions.</p>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "",
@@ -263,6 +270,8 @@
         "text_block_f8LXcj"
       ],
       "settings": {
+        "grid_or_slider": false,
+        "discount_button_link": "",
         "title": "",
         "align_text": "text-left",
         "columns": 4,
@@ -409,6 +418,7 @@
         "heading_fbGLpx": {
           "type": "heading",
           "settings": {
+            "discount_button_link_heading": "",
             "text": "<p>Plus, all the personal support you need</p>",
             "size": 100,
             "heading_highlight_type": "italics"
@@ -428,6 +438,7 @@
       ],
       "settings": {
         "text_position": "center",
+        "background_custom_color": "",
         "bg_color_secondary": false,
         "text_color": "text-dark",
         "width": "wrapper--narrow",
@@ -498,6 +509,7 @@
         "template--16010683613370__05207a3b-b3b5-4855-a347-d391526296ec-16733222338243f527-1": {
           "type": "heading",
           "settings": {
+            "discount_button_link_heading": "",
             "text": "<p>You and your puppy better together, guaranteed.</p>",
             "size": 120,
             "heading_highlight_type": "italics"
@@ -513,6 +525,7 @@
         "button_aUYqky": {
           "type": "button",
           "settings": {
+            "discount_button_link": "",
             "btn_text": "See More Reviews >",
             "btn_link": "https://www.laylopets.com/pages/homeschool-virtual-dog-training-reviews",
             "btn_style": "btn--text"
@@ -527,6 +540,7 @@
       ],
       "settings": {
         "text_position": "center",
+        "background_custom_color": "",
         "bg_color_secondary": false,
         "text_color": "text-dark",
         "width": "wrapper",
@@ -625,6 +639,7 @@
             "title": "\"I thought it was such an amazing investment. As a reactive dog owner, with a virtual outlet, I was able to have access to a trainer that kept everyone safe.\"",
             "text": "<p>⭐⭐⭐⭐⭐</p><p><strong>Anna & Bruno<br/></strong>Rogers, AR</p>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "https://youtu.be/EXt96K74My4",
@@ -638,6 +653,7 @@
             "title": "“I loved it. My trainer was amazing. In a perfect world, we can work with her forever. Having that dedicated time with the trainer to see how Savannah was reacting with my instructions was very helpful.\"",
             "text": "<p>⭐⭐⭐⭐⭐</p><p><strong>Sharee & Savannah<br/></strong>Atlanta, GA</p>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "https://youtu.be/tG_eKMRL7yU",
@@ -651,6 +667,7 @@
             "title": "\"I’ve gone from having a puppy who tears everything apart to a very lovely little pup who actually listens to me without commands. I can’t thank the team enough for making my life a lot easier.\"",
             "text": "<p>⭐⭐⭐⭐⭐</p><p><strong>Linnea & Cookie<br/></strong>Westfield, NJ</p>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "https://youtu.be/BVtXKLKEvbM",
             "button_style": "btn--text",
             "video_link_popup": "https://youtu.be/qORGt__IbOE",
@@ -664,6 +681,7 @@
             "title": "\"Marvin has made such great progress. Before he was pulling like a maniac and now he’s pretty loose.\"",
             "text": "<p>⭐⭐⭐⭐⭐</p><p><strong>Tara & Marvin<br/></strong>Palm Springs, CA</p>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "https://youtu.be/DYOJo_SrwhI",
@@ -678,6 +696,7 @@
             "title": "\"I thought it was awesome. Every time Vivi was super helpful when she diagnosed what was going on. Nori has caught on to everything we worked on in the classes.\"",
             "text": "<p>⭐⭐⭐⭐⭐</p><p><strong>Jake, Lauren & Nori<br/></strong>Richmond, VA</p>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "https://youtu.be/EEZrhyOSqA0",
@@ -692,6 +711,7 @@
             "title": "\"Compared to puppy school, meeting 1:1 where there are no other dogs around was the absolute best for me and Oso.\"",
             "text": "<p>⭐⭐⭐⭐⭐</p><p><strong>Bethany & Oso<br/></strong>Providence, RI</p>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "https://youtu.be/wC6YpMA1fS4",
@@ -705,6 +725,7 @@
             "title": "\"Being able to train at his homebase with his family was a huge plus. When we did a simulation of a work. We will recommend it to other people full heartedly.\"",
             "text": "<p>⭐⭐⭐⭐⭐</p><p><strong>Chinami & Mochi<br/></strong>Los Angeles, CA</p>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "https://youtu.be/rUCLC9ohB4Q",
@@ -719,6 +740,7 @@
             "title": "\"If it wasn’t for our trainer and everything she taught us, we would’ve never gotten this far as quickly. We have some really good tools to work with him and continue expanding on that base.\"",
             "text": "<p>⭐⭐⭐⭐⭐</p><p><strong>Marisa & Jackie<br/></strong>Portland, OR</p>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "https://youtu.be/BVtXKLKEvbM",
@@ -733,6 +755,7 @@
             "title": "Virtual training made it possible for us to practice all of the commands because he simply wouldn’t behave the same for someone else. It was more training for us, than training for him which I loved. ",
             "text": "<p>⭐⭐⭐⭐⭐</p><p><strong>Sara & Ozzy<br/></strong>Brooklyn, NY</p>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "https://youtu.be/VFlByKPht6w",
@@ -747,6 +770,7 @@
             "title": "\"My trainer was so good with dog behavior and taught me those things so when something happened between the two dogs, I could understand him better and be able to help the situation.\"",
             "text": "<p>⭐⭐⭐⭐⭐</p><p><strong>Carmen & Mish<br/></strong>Bloomington, ID</p>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "https://youtu.be/xZU6IWDim_s",
@@ -767,6 +791,8 @@
         "text_block_DkC38F"
       ],
       "settings": {
+        "grid_or_slider": false,
+        "discount_button_link": "",
         "title": "",
         "align_text": "text-left",
         "columns": 4,
@@ -790,6 +816,7 @@
             "title": "\"I thought it was such an amazing investment. As a reactive dog owner, with a virtual outlet, I was able to have access to a trainer that kept everyone safe.\"",
             "text": "<p>⭐⭐⭐⭐⭐</p><p><strong>Anna & Bruno<br/></strong>Rogers, AR</p>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "https://youtu.be/EXt96K74My4",
@@ -804,6 +831,7 @@
             "title": "“I loved it. My trainer was amazing. In a perfect world, we can work with her forever. Having that dedicated time with the trainer to see how Savannah was reacting with my instructions was very helpful.\"",
             "text": "<p>⭐⭐⭐⭐⭐</p><p><strong>Sharee & Savannah<br/></strong>Atlanta, GA</p>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "https://youtu.be/tG_eKMRL7yU",
@@ -817,6 +845,7 @@
             "title": "\"I thought it was awesome. Every time Vivi was super helpful when she diagnosed what was going on. Nori has caught on to everything we worked on in the classes.\"",
             "text": "<p>⭐⭐⭐⭐⭐</p><p><strong>Jake, Lauren & Nori<br/></strong>Richmond, VA</p>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "https://youtu.be/EEZrhyOSqA0",
@@ -830,6 +859,7 @@
             "title": "\"Compared to puppy school, meeting 1:1 where there are no other dogs around was the absolute best for me and Oso.\"",
             "text": "<p>⭐⭐⭐⭐⭐</p><p><strong>Bethany & Oso<br/></strong>Providence, RI</p>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "https://youtu.be/wC6YpMA1fS4",
@@ -843,6 +873,7 @@
             "title": "Virtual training made it possible for us to practice all of the commands because he simply wouldn’t behave the same for someone else. It was more training for us, than training for him which I loved. ",
             "text": "<p>⭐⭐⭐⭐⭐</p><p><strong>Sara & Ozzy<br/></strong>Brooklyn, NY</p>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "https://youtu.be/VFlByKPht6w",
@@ -857,6 +888,7 @@
             "title": "\"Marvin has made such great progress. Before he was pulling like a maniac and now he’s pretty loose.\"",
             "text": "<p>⭐⭐⭐⭐⭐</p><p><strong>Tara & Marvin<br/></strong>Palm Springs, CA</p>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "https://youtu.be/DYOJo_SrwhI",
@@ -871,6 +903,7 @@
             "title": "\"Being able to train at his homebase with his family was a huge plus. When we did a simulation of a work. We will recommend it to other people full heartedly.\"",
             "text": "<p>⭐⭐⭐⭐⭐</p><p><strong>Chinami & Mochi<br/></strong>Los Angeles, CA</p>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "https://youtu.be/rUCLC9ohB4Q",
@@ -885,6 +918,7 @@
             "title": "\"I’ve gone from having a puppy who tears everything apart to a very lovely little pup who actually listens to me without commands. I can’t thank the team enough for making my life a lot easier.\"",
             "text": "<p>⭐⭐⭐⭐⭐</p><p><strong>Linnea & Cookie<br/></strong>Westfield, NJ</p>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "https://youtu.be/BVtXKLKEvbM",
             "button_style": "btn--text",
             "video_link_popup": "https://youtu.be/qORGt__IbOE",
@@ -898,6 +932,7 @@
             "title": "\"If it wasn’t for our trainer and everything she taught us, we would’ve never gotten this far as quickly. We have some really good tools to work with him and continue expanding on that base.\"",
             "text": "<p>⭐⭐⭐⭐⭐</p><p><strong>Marisa & Jackie<br/></strong>Portland, OR</p>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "https://youtu.be/BVtXKLKEvbM",
@@ -912,6 +947,7 @@
             "title": "\"My trainer was so good with dog behavior and taught me those things so when something happened between the two dogs, I could understand him better and be able to help the situation.\"",
             "text": "<p>⭐⭐⭐⭐⭐</p><p><strong>Carmen & Mish<br/></strong>Bloomington, ID</p>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "https://youtu.be/xZU6IWDim_s",
@@ -932,6 +968,8 @@
         "text_block_Pft9zy"
       ],
       "settings": {
+        "grid_or_slider": false,
+        "discount_button_link": "",
         "title": "",
         "align_text": "text-left",
         "columns": 4,
@@ -953,6 +991,7 @@
             "title": "Holistic support",
             "text": "<p>Knowing that most behaviors are solved through more than training,<span style=\"text-decoration:underline\">your holistic plan</span> is designed to solve the ENTIRE problem, giving you a better understanding of your dog and a lifetime of results. </p>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "",
@@ -965,6 +1004,7 @@
             "title": "Reduced distractions",
             "text": "<p>Training in your dog’s current environment without new smells and distractions is proven to drive faster long-term results. </p>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "",
@@ -977,6 +1017,7 @@
             "title": "Train on your terms",
             "text": "<p>Cut the commute and start training in the comfort of your living room. With virtual recorded calls and an extensive video library, the whole family can get involved wherever they are.</p>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "",
@@ -991,6 +1032,8 @@
       ],
       "disabled": true,
       "settings": {
+        "grid_or_slider": false,
+        "discount_button_link": "",
         "title": "",
         "align_text": "text-left",
         "columns": 3,
@@ -1013,6 +1056,7 @@
             "title": "Stephanie S. - Force-free Dog Trainer & Certified Canine Nutritionist",
             "text": "<p>For nearly 20 years, Stephanie has been on a journey of teaching humans. Now she teaches humans and their four legged companions together. With a background in physiology, psychology, holistic health, nutrition, herbalism, trauma, neuroscience and neuroethology, Stephanie shows her clients how to cultivate a happy, healthy, and harmonized hound and life together.</p><ul><li>Certified Dog Behavior Consultant</li><li>CPCN, CHES, CCDT</li><li>Feed Real Institute (CPCN)</li></ul>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "",
@@ -1027,6 +1071,7 @@
             "title": "Shannen S. - Force-free Dog Trainer",
             "text": "<p>Shannen is a passionate trainer working to better the lives of dogs and their owners using positive, science-backed methods that revolve around patience, love, and positivity. She is Certified in Applied Animal Behavior which focuses on behavior ethology, learning theory, and the biology behind training and how it relates to companion animals. Her mission is to educate owners on how to understand their dog on a deeper level in order to create a bond that they’ve always dreamed of.<br/><br/>Certifications</p><ul><li>UW-AAB </li><li>Applied Animal Behavior - University of Washington</li><li>AKC Good Citizen Evaluator<br/></li></ul>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "https://youtube.com/shorts/wUF5lQCr97U?feature=share",
@@ -1040,6 +1085,7 @@
             "title": "Jennifer F - Veterinary Technician & Force-free Dog Trainer",
             "text": "<p>With a deep understanding of animal behavior & care honed through extensive experience in veterinary medicine, the retail pet space, and academic study, Jennifer is a Certified Professional Dog Trainer and Fear Free Certified Veterinary Partner dedicated to helping pets and their humans live enriched lives together. Her passion for rational, logical communication and ability to offer practical solutions ensures a seamless integration of training into daily life, leading to happy and harmonious relationships.</p><ul><li>Certified Fear Free Dog Trainer - Level 3 & Avian Pet Professional Guild Member</li><li>Masters-level Veterinary Education</li><li>BSc Neurobiology, Physiology and Behavior</li></ul>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "",
@@ -1054,6 +1100,7 @@
             "title": "Stephanie S. - Force-free Dog Trainer, Nutritionist, Herbalist",
             "text": "<p>For nearly 20 years, Stephanie has drawn from her background in physiology, psychology, holistic health, nutrition, herbalism, trauma, neuroscience within the canine ecosystem. As a trauma-informed pet professional, Stephanie practices and promotes self-awareness and empowerment as a means to strengthen behavior and wellness outcomes, showing her clients how to cultivate a happy, healthy, and harmonized hound and life together.</p><p>Certifications</p><ul><li>M.Ed, CPCN, CHES, CCDT</li><li>Fear Free Certified</li><li>Dog Bite Prevention Educator</li><li>Certified-AKC Evaluator</li><li>Certified Professional Canine Nutritionist</li></ul>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "",
@@ -1068,6 +1115,7 @@
             "title": "Juju - Grooming Expert",
             "text": "<p>Juju is passionate about changing how your pet experiences grooming at home, she uses a fear-free grooming approach to create a positive, minimally invasive experience for your dogs. With her over a decade of experience, her grooming salons and practices have been featured in GQ and Vogue. Juju's innovative breed-specific techniques are designed to reduce pet anxiety and help maintain your dog's groom with proper and safe upkeep at home.</p><p>Experience:</p><ul><li>Owner - Juju Grooms Pet Grooming, Toronto</li><li>Master Certified Feline Groomer</li></ul>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "",
@@ -1082,6 +1130,7 @@
             "title": "Emily L. - Nutrition Specialist",
             "text": "<p>Emily is a pet nutritionist with a specialty in holistic animal wellness who dove head first into the field after her dog Hans became ill. With a specialty incorporating herbs, traditional Chinese medicine principles and other alternative and functional healing modalities, Emily’s expertise has transformed dog’s lives through the power of nutrition. </p><p>Certifications: </p><ul><li>DNM University - Certified Pet Food Nutrition Specialist</li></ul>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "https://youtu.be/Cu6XU0fwQ04",
@@ -1095,6 +1144,7 @@
             "title": "Ashwini A. - Force-free Dog Trainer & Behavior Specialist",
             "text": "<p>Ashwini is a power house within the force free dog training community. With 14 years of training experience, she has devoted her career to dogs from training to pet rescue and relocation. Armed with multiple certifications, she has successfully conducted thousands of online training sessions addressing a wide range of behavioral issues with a minimally invasive approach that continues to change lives. </p><p>Certifications: </p><ul><li>Cambridge Institute of Canine Behaviour and Training</li><li>Brenda Aloff Fundamentals Instructor Certification</li></ul>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "https://youtu.be/-dJkSc1jzpA",
@@ -1109,6 +1159,7 @@
             "title": "Gabriela B. - Pet-friendly Interior Expert",
             "text": "<p>Gabriela founded LAY LO in 2017 to bring great design to pet products in the home. After forging dozens of partnerships with interior designers and starting her own design firm, Gabriela is here to help you create a space you and your dog will love. </p><p>Certifications:</p><ul><li>RISD / Brown Design Degree</li><li>Design Leading Lady Honoree by PSFK</li><li>Shoptalk Design Education Certificate </li></ul>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "",
@@ -1123,6 +1174,7 @@
             "title": "Jeny P. - Fear-free Dog Trainer",
             "text": "<p>Jeny's true passion and joy are in helping dog parents develop happy, healthy, and harmonious friendships with their dogs that will last a lifetime. Driven by her genuine love for dogs, Jeny is committed to strengthening the human-canine bond and helping families achieve their dream life<br/>with their dogs. </p><p>Certifications:</p><ul><li>CPDT-KA </li><li>Certified Professional Dog Trainer-Knowledge Assessed</li></ul>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "",
@@ -1142,6 +1194,8 @@
         "text_block_YhRtqG"
       ],
       "settings": {
+        "grid_or_slider": false,
+        "discount_button_link": "",
         "title": "Developed alongside world-class experts",
         "align_text": "text-left",
         "columns": 3,
@@ -1244,6 +1298,7 @@
         "heading_jChHgd": {
           "type": "heading",
           "settings": {
+            "discount_button_link_heading": "",
             "text": "<p>Ready to get started?</p>",
             "size": 100,
             "heading_highlight_type": "italics"
@@ -1259,6 +1314,7 @@
         "button_68Gqyd": {
           "type": "button",
           "settings": {
+            "discount_button_link": "",
             "btn_text": "",
             "btn_link": "",
             "btn_style": "btn--primary btn--small"
@@ -1273,6 +1329,7 @@
       ],
       "settings": {
         "text_position": "center",
+        "background_custom_color": "",
         "bg_color_secondary": false,
         "text_color": "text-dark",
         "width": "wrapper--narrow",
@@ -1287,7 +1344,6 @@
           "type": "image",
           "settings": {
             "text_position": "middle-center",
-            "image": "shopify://shop_images/Homeschool_Puppy_Course_Page_1x1-min.jpg",
             "overlay_opacity": 0,
             "text_color": "text-light",
             "title": "",

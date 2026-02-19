@@ -9,73 +9,6 @@
  */
 {
   "sections": {
-    "section_marquee_JYteLD": {
-      "type": "section-marquee",
-      "blocks": {
-        "text_rHCCPz": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Valid Thru 12/8</p>",
-            "icon_name": "none",
-            "icon_color": "",
-            "icon_width": 25,
-            "target_device_enabled": false,
-            "target_device": "mobile"
-          }
-        },
-        "message_hRbtEg": {
-          "type": "message",
-          "disabled": true,
-          "settings": {
-            "message": "Spend ||amount|| more for free shipping.",
-            "target_device_enabled": false,
-            "target_device": "mobile"
-          }
-        },
-        "text_RLtbr9": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>Black Friday Sale - Save up to $300 on select packages</strong></p>",
-            "icon_name": "none",
-            "icon_color": "",
-            "icon_width": 25,
-            "target_device_enabled": false,
-            "target_device": "mobile"
-          }
-        },
-        "text_c4Tk8f": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>Free Fi Collar </strong>with any purchase</p>",
-            "icon_name": "none",
-            "icon_color": "",
-            "icon_width": 25,
-            "target_device_enabled": false,
-            "target_device": "mobile"
-          }
-        }
-      },
-      "block_order": [
-        "text_rHCCPz",
-        "message_hRbtEg",
-        "text_RLtbr9",
-        "text_c4Tk8f"
-      ],
-      "disabled": true,
-      "name": "Marquee",
-      "settings": {
-        "bg_color": "#9a0000",
-        "color": "#ffffff",
-        "layout": "marquee",
-        "padding": 20,
-        "slider_speed": 7,
-        "marquee_speed": 100,
-        "text_size": 150,
-        "message_spacing": 25,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "section_image_with_text_nYKfTn": {
       "type": "section-image-with-text",
       "settings": {
@@ -90,8 +23,8 @@
         "heading_size": 100,
         "text_content": "Get real-time guidance and answers in a live session with a dedicated dog expert and start building a better relationship with your dog today.  \n• Better understand your pup's issues\n• Get instant answers & start making progress\n• Learn our proven plans to help any challenge\n• Become your dog's best trainer for years to come",
         "text_alignment": "left",
-        "button_text": "Book Your Free Expert Call >",
-        "button_link": "https://www.laylopets.com/pages/free-consultation-booking-page",
+        "button_text": "Get Started for Free >",
+        "button_link": "https://laylopets.typeform.com/to/exWlKhbV?utm_source=xxxxx",
         "button_style": "btn--primary",
         "video_link": "",
         "text_color": "text-dark",
@@ -124,7 +57,7 @@
           "type": "text",
           "settings": {
             "icon_name": "award",
-            "title": "Match With Your Expert",
+            "title": "Led by a Certified Expert",
             "text": "<p>From training to nutrition and behavior, our team holds some of the highest certifications in their fields. Work with the best.</p>"
           }
         },
@@ -181,67 +114,85 @@
         "padding_bottom": 40
       }
     },
-    "section_custom_html_FJjQLV": {
-      "type": "section-custom-html",
-      "disabled": true,
-      "settings": {
-        "custom_code": "<!-- Calendly inline widget begin -->\n<div class=\"calendly-inline-widget\" data-url=\"https://calendly.com/d/cqkx-7yb-zm6/behavior-consult-with-a-dog-expert?hide_gdpr_banner=1utm_source=Directbook\" style=\"min-width:320px;height:700px;\"></div>\n<script type=\"text/javascript\" src=\"https://assets.calendly.com/assets/external/widget.js\" async></script>\n<!-- Calendly inline widget end -->",
-        "width": "wrapper--full-padded",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "section_text_xQTXpH": {
-      "type": "section-text",
+    "section_icons_row_nBjdiX": {
+      "type": "section-icons-row",
       "blocks": {
-        "subheading_jc8GjN": {
-          "type": "subheading",
-          "settings": {
-            "text": "<p>Subheading</p>",
-            "size": 100
-          }
-        },
-        "heading_FmiaQG": {
-          "type": "heading",
-          "settings": {
-            "discount_button_link_heading": "",
-            "text": "<p>Get instant help with your toughest pup challenges, free.</p>",
-            "size": 100,
-            "heading_highlight_type": "italics"
-          }
-        },
-        "text_mtKMnh": {
+        "text_nhBBwU": {
           "type": "text",
           "settings": {
-            "text": "<p>Get real-time guidance and answers in a live session with a dedicated <br/>dog expert and start building a better relationship with your dog today.<br/>  <br/>• Better understand your pup's issues<br/>• Get instant answers & start making progress<br/>• Learn our proven plans to help any challenge<br/>• Become your dog's best trainer for years to come<br/>• 7-day trial and free behavior evaluation call</p>",
-            "size": 100
+            "icon_name": "check",
+            "title": "No Commitment",
+            "text": "<p>From nutrition, to training, speak we have certified experts for you.</p>"
           }
         },
-        "button_w6cdcw": {
-          "type": "button",
+        "text_GTxH8n": {
+          "type": "text",
           "settings": {
-            "discount_button_link": "",
-            "btn_text": "Read More",
-            "btn_link": "",
-            "btn_style": "btn--primary btn--small"
+            "icon_name": "clipboard",
+            "title": "Led by a Certified Expert",
+            "text": "<p>Whether it’s just one session, or a full training plan, we’re here to help.</p>"
+          }
+        },
+        "text_FQjHrc": {
+          "type": "text",
+          "settings": {
+            "icon_name": "support",
+            "title": "Get Instant Help",
+            "text": "<p>Receive your video link via zoom to work with your expert face-to-face.</p>"
+          }
+        },
+        "text_RDKKUK": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "icon_name": "clock",
+            "title": "Separation Anxiety",
+            "text": "<p>Help reduce your pup's anxiety, both when you're home and when you're not.</p>"
+          }
+        },
+        "text_jtXwLV": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "icon_name": "clock",
+            "title": "Nutrition advice",
+            "text": "<p>Find the right mix of needs for your breed, right from the experts.</p>"
+          }
+        },
+        "text_XkEY9K": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "icon_name": "clock",
+            "title": "Puppy-proofing",
+            "text": "<p>Learn the best interior design tips and products to make your home.</p>"
           }
         }
       },
       "block_order": [
-        "subheading_jc8GjN",
-        "heading_FmiaQG",
-        "text_mtKMnh",
-        "button_w6cdcw"
+        "text_nhBBwU",
+        "text_GTxH8n",
+        "text_FQjHrc",
+        "text_RDKKUK",
+        "text_jtXwLV",
+        "text_XkEY9K"
       ],
       "disabled": true,
       "settings": {
-        "text_position": "center",
-        "background_custom_color": "",
-        "bg_color_secondary": false,
-        "text_color": "text-dark",
-        "width": "wrapper--narrow",
-        "padding_top": 60,
-        "padding_bottom": 60
+        "alignment": "center",
+        "columns": 3,
+        "icons_width": 30,
+        "heading": "",
+        "subheading": "",
+        "bg_color_secondary": true,
+        "box_color": "",
+        "text_color": "#000000",
+        "button_text": "",
+        "button_link": "",
+        "button_style": "btn--secondary btn--small",
+        "enable_slider_mobile": false,
+        "padding_top": 40,
+        "padding_bottom": 40
       }
     },
     "section_text_9eGxmj": {
@@ -258,26 +209,9 @@
         "heading_RMiezU": {
           "type": "heading",
           "settings": {
-            "discount_button_link_heading": "",
             "text": "<p>Trusted by 1,000+ pup parents</p>",
             "size": 100,
             "heading_highlight_type": "italics"
-          }
-        },
-        "button_9VxA9h": {
-          "type": "button",
-          "settings": {
-            "discount_button_link": "",
-            "btn_text": "View our Verified Bark.com Profile >",
-            "btn_link": "https://www.bark.com/en/us/b/homeschool-by-lay-lo-dog-training-with-world-class-experts/q4Z7p/",
-            "btn_style": "btn--text"
-          }
-        },
-        "text_NPknmD": {
-          "type": "text",
-          "settings": {
-            "text": "",
-            "size": 100
           }
         },
         "text_BnEhhT": {
@@ -292,7 +226,6 @@
           "type": "button",
           "disabled": true,
           "settings": {
-            "discount_button_link": "",
             "btn_text": "See all reviews >",
             "btn_link": "https://www.laylopets.com/pages/homeschool-virtual-dog-training-reviews",
             "btn_style": "btn--text"
@@ -302,14 +235,11 @@
       "block_order": [
         "subheading_MEMqT3",
         "heading_RMiezU",
-        "button_9VxA9h",
-        "text_NPknmD",
         "text_BnEhhT",
         "button_mAx6gM"
       ],
       "settings": {
         "text_position": "center",
-        "background_custom_color": "",
         "bg_color_secondary": false,
         "text_color": "text-dark",
         "width": "wrapper--narrow",
@@ -327,7 +257,6 @@
             "title": "\"I thought it was such an amazing investment. As a reactive dog owner, with a virtual outlet, I was able to have access to a trainer that kept everyone safe.\"",
             "text": "<p>⭐⭐⭐⭐⭐</p><p><strong>Anna & Bruno<br/></strong>Rogers, AR</p>",
             "button_text": "",
-            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "https://youtu.be/EXt96K74My4",
@@ -341,7 +270,6 @@
             "title": "“I loved it. My trainer was amazing. In a perfect world, we can work with her forever. Having that dedicated time with the trainer to see how Savannah was reacting with my instructions was very helpful.\"",
             "text": "<p>⭐⭐⭐⭐⭐</p><p><strong>Sharee & Savannah<br/></strong>Atlanta, GA</p>",
             "button_text": "",
-            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "https://youtu.be/tG_eKMRL7yU",
@@ -355,7 +283,6 @@
             "title": "\"I thought it was awesome. Every time Vivi was super helpful when she diagnosed what was going on. Nori has caught on to everything we worked on in the classes.\"",
             "text": "<p>⭐⭐⭐⭐⭐</p><p><strong>Jake, Lauren & Nori<br/></strong>Richmond, VA</p>",
             "button_text": "",
-            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "https://youtu.be/EEZrhyOSqA0",
@@ -369,7 +296,6 @@
             "title": "\"Compared to puppy school, meeting 1:1 where there are no other dogs around was the absolute best for me and Oso.\"",
             "text": "<p>⭐⭐⭐⭐⭐</p><p><strong>Bethany & Oso<br/></strong>Providence, RI</p>",
             "button_text": "",
-            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "https://youtu.be/wC6YpMA1fS4",
@@ -383,7 +309,6 @@
             "title": "Virtual training made it possible for us to practice all of the commands because he simply wouldn’t behave the same for someone else. It was more training for us, than training for him which I loved. ",
             "text": "<p>⭐⭐⭐⭐⭐</p><p><strong>Sara & Ozzy<br/></strong>Brooklyn, NY</p>",
             "button_text": "",
-            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "https://youtu.be/VFlByKPht6w",
@@ -397,7 +322,6 @@
             "title": "\"Marvin has made such great progress. Before he was pulling like a maniac and now he’s pretty loose.\"",
             "text": "<p>⭐⭐⭐⭐⭐</p><p><strong>Tara & Marvin<br/></strong>Palm Springs, CA</p>",
             "button_text": "",
-            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "https://youtu.be/DYOJo_SrwhI",
@@ -411,7 +335,6 @@
             "title": "\"Being able to train at his homebase with his family was a huge plus. When we did a simulation of a work. We will recommend it to other people full heartedly.\"",
             "text": "<p>⭐⭐⭐⭐⭐</p><p><strong>Chinami & Mochi<br/></strong>Los Angeles, CA</p>",
             "button_text": "",
-            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "https://youtu.be/rUCLC9ohB4Q",
@@ -425,7 +348,6 @@
             "title": "\"I’ve gone from having a puppy who tears everything apart to a very lovely little pup who actually listens to me without commands. I can’t thank the team enough for making my life a lot easier.\"",
             "text": "<p>⭐⭐⭐⭐⭐</p><p><strong>Linnea & Cookie<br/></strong>Westfield, NJ</p>",
             "button_text": "",
-            "calendly_widget": "",
             "button_link": "https://youtu.be/BVtXKLKEvbM",
             "button_style": "btn--text",
             "video_link_popup": "https://youtu.be/qORGt__IbOE",
@@ -439,7 +361,6 @@
             "title": "\"If it wasn’t for our trainer and everything she taught us, we would’ve never gotten this far as quickly. We have some really good tools to work with him and continue expanding on that base.\"",
             "text": "<p>⭐⭐⭐⭐⭐</p><p><strong>Marisa & Jackie<br/></strong>Portland, OR</p>",
             "button_text": "",
-            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "https://youtu.be/BVtXKLKEvbM",
@@ -453,7 +374,6 @@
             "title": "\"My trainer was so good with dog behavior and taught me those things so when something happened between the two dogs, I could understand him better and be able to help the situation.\"",
             "text": "<p>⭐⭐⭐⭐⭐</p><p><strong>Carmen & Mish<br/></strong>Bloomington, ID</p>",
             "button_text": "",
-            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "https://youtu.be/xZU6IWDim_s",
@@ -474,8 +394,6 @@
         "text_block_DkC38F"
       ],
       "settings": {
-        "grid_or_slider": true,
-        "discount_button_link": "",
         "title": "",
         "align_text": "text-left",
         "columns": 4,
@@ -560,8 +478,8 @@
         "bg_color_secondary": false,
         "box_color": "",
         "text_color": "#333333",
-        "button_text": "Book Your Free Call >",
-        "button_link": "https://www.laylopets.com/pages/free-consultation-booking-page",
+        "button_text": "Get started for free",
+        "button_link": "https://laylopets.typeform.com/to/exWlKhbV?utm_source=xxxxx",
         "button_style": "btn--primary btn--small",
         "enable_slider_mobile": true,
         "padding_top": 60,
@@ -582,7 +500,6 @@
         "template--16010683613370__05207a3b-b3b5-4855-a347-d391526296ec-16733222338243f527-1": {
           "type": "heading",
           "settings": {
-            "discount_button_link_heading": "",
             "text": "<p>A better dog starts with just one session</p>",
             "size": 100,
             "heading_highlight_type": "italics"
@@ -603,7 +520,6 @@
       ],
       "settings": {
         "text_position": "center",
-        "background_custom_color": "",
         "bg_color_secondary": false,
         "text_color": "text-dark",
         "width": "wrapper--narrow",
@@ -925,9 +841,8 @@
         "button_Em8hYR": {
           "type": "button",
           "settings": {
-            "discount_button_link": "",
-            "btn_text": "Book Your Free Call >",
-            "btn_link": "https://www.laylopets.com/pages/free-consultation-booking-page",
+            "btn_text": "Get started for free >",
+            "btn_link": "https://laylopets.typeform.com/to/exWlKhbV?utm_source=xxxxx",
             "btn_style": "btn--primary"
           }
         }
@@ -937,7 +852,6 @@
       ],
       "settings": {
         "text_position": "center",
-        "background_custom_color": "",
         "bg_color_secondary": false,
         "text_color": "text-dark",
         "width": "wrapper--narrow",
@@ -950,13 +864,11 @@
       "blocks": {
         "text_block_YhRtqG": {
           "type": "text_block",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/553BB7DC-1396-41B7-A583-241A931639D4.jpg",
             "title": "Jeny P. - Fear-free Dog Trainer",
             "text": "<p>Jeny's true passion and joy are in helping dog parents develop happy, healthy, and harmonious friendships with their dogs that will last a lifetime. Driven by her genuine love for dogs, Jeny is committed to strengthening the human-canine bond and helping families achieve their dream life<br/>with their dogs. </p><p>Certifications:</p><ul><li>CPDT-KA </li><li>Certified Professional Dog Trainer-Knowledge Assessed</li></ul>",
             "button_text": "",
-            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "",
@@ -970,7 +882,6 @@
             "title": "Emily B. - Certified Animal Behavior Consultant, Separation Anxiety Trainer and Aggression Specialist",
             "text": "<p>Emily is an animal behavior consultant that has over 15 years of experience working with dogs and cats. She worked in the behavior department in animal shelters and veterinary clinics to build her skills. She implements behavior modification through force free training. As a certified Behavioral Consultant, Fear Free Certified Animal Trainer and a Separation Anxiety Trainer, Emily holds one of the highest degrees in the field. </p><p>Certifications:</p><ul><li>Certified Canine and Feline Animal Behavioral Consultant (ACDBC, CCBC) </li><li>Certified Separation Anxiety Trainer (CSAT) </li><li>Completion - Aggression in Dogs Master Course</li><li>Bachelor of Science - Animal Ecology (BSc)</li></ul>",
             "button_text": "",
-            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "",
@@ -984,7 +895,6 @@
             "title": "Tracy M. - Certified Animal Behavior Consultant, Separation Anxiety Trainer and Aggression Specialist",
             "text": "<p>Tracy is a certified dog trainer with over a decade of experience in animal behavior and training. She specializes in science-based, humane techniques to address behavior challenges, including separation anxiety and scent work. Tracy is a graduate of the Academy for Dog Trainers (CTC) and holds certifications in Fear Free training, Nose Work, and Control Unleashed. When not training, she enjoys audiobooks and exploring the world with her two dogs, Doc Holliday and Herrick.</p><p>Certifications:</p><ul><li>Honors Graduate of the Academy for Dog Trainers (CTC)</li><li>Fear Free Certified Professional (CCFP)</li><li>Certified Nose Work Instructor (CNWI)</li><li>Certified Separation Anxiety Trainer (CSAT)</li><li>Certified Control Unleashed Instructor (CCUI)</li><li>AKC Canine Good Citizen Evaluator</li></ul>",
             "button_text": "",
-            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "",
@@ -993,13 +903,11 @@
         },
         "text_block_QnQPDd": {
           "type": "text_block",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Morgan_C.png",
             "title": "Morgan C. - Force-free Dog Trainer",
             "text": "<p>Morgan is an accredited dog trainer with a decade of experience in animal behavior and training. She specializes in using science-based, reinforcement-focused training techniques to address behavior challenges while prioritizing the welfare of canines and the people who love them. Morgan has trained and handled conservation detection dogs and search and rescue dogs, and has extensive experience as an educator helping hundreds of future dog trainers learn humane training methods.</p><p>Certifications:</p><ul><li>Accredited Dog Trainer (IAABC-ADT)</li><li>Fear Free Certified Trainer (FFCP-T)</li><li>Family Dog Mediator (FDM)</li></ul>",
             "button_text": "",
-            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "",
@@ -1013,7 +921,6 @@
             "title": "Nicole R. - Animal Behavior Consultant",
             "text": "<p>Nicole is a multi accredited trainer and animal behavior professional with over 20 years of experience working with a variety of animal species and pets with behavioral problems. She is a U.S. Veteran and began her career as a Military Police Dog Handler/Trainer for the U.S. Navy and Department of Defense. She is passionate about helping pet guardians develop a loving and enriching bond with their pets through positive reinforcement and holistic treatment methods. She is a Boston native and is owned by rescues Peter, Edith, Huckleberry cat and Oscar the tortoise. </p><p>Certifications:</p><ul><li>Fear Free Shelter Certified</li><li>Certified Holistic Behavior Consultant (CHBC)</li><li>Accredited Dog Trainer (IAABC-ADT Retired)</li><li>MSc Behavioral Medicine</li></ul>",
             "button_text": "",
-            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "",
@@ -1027,7 +934,6 @@
             "title": "Juju - Grooming Expert",
             "text": "<p>Juju is passionate about changing how your pet experiences grooming at home, she uses a fear-free grooming approach to create a positive, minimally invasive experience for your dogs. With her over a decade of experience, her grooming salons and practices have been featured in GQ and Vogue. Juju's innovative breed-specific techniques are designed to reduce pet anxiety and help maintain your dog's groom with proper and safe upkeep at home.</p><p>Experience:</p><ul><li>Owner - Juju Grooms Pet Grooming, Toronto</li><li>Master Certified Feline Groomer</li></ul>",
             "button_text": "",
-            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "",
@@ -1041,7 +947,6 @@
             "title": "Katie C. - Fear-free Dog Trainer",
             "text": "<p>Katie brings over a decade of experience in the animal industry working with a wide range of species, from dogs and cats to exotic animals. Holding a Bachelor of Science in Animal Ecology from Iowa State University, Katie merges her deep passion for animal behavior with a commitment to education. With various roles across the dog industry combined with her background in zoo animal education, Katie's unique skill set enables her to effectively educate and connect with her clients. </p><ul><li>Certified Professional Dog Trainer - Knowledge Assessed (CPDT-KA)</li><li>Bachelors of Science – Biology and Animal Ecology (BSc)<br/></li></ul>",
             "button_text": "",
-            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "",
@@ -1055,7 +960,6 @@
             "title": "Emily L. - Nutrition Specialist",
             "text": "<p>Emily is a pet nutritionist with a specialty in holistic animal wellness who dove head first into the field after her dog Hans became ill. With a specialty incorporating herbs, traditional Chinese medicine principles and other alternative and functional healing modalities, Emily’s expertise has transformed dog’s lives through the power of nutrition. </p><p>Certifications: </p><ul><li>DNM University - Certified Pet Food Nutrition Specialist</li></ul>",
             "button_text": "",
-            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "https://youtu.be/Cu6XU0fwQ04",
@@ -1064,13 +968,11 @@
         },
         "template--16036805083322__cf9dc11a-fc55-47d0-b33a-b31e463672ad-1677351842118d106c-1": {
           "type": "text_block",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Screen_Shot_2023-06-02_at_11.22.42_AM.png",
             "title": "Ashwini A. - Force-free Dog Trainer & Head of Behavior",
             "text": "<p>Ashwini is a power house within the force free dog training community. With 14 years of training experience, she has devoted her career to dogs from training to pet rescue and relocation. Armed with multiple certifications, she has successfully conducted thousands of online training sessions addressing a wide range of behavioral issues with a minimally invasive approach that continues to change lives. </p><p>Certifications: </p><ul><li>Certified Separation Anxiety Trainer (CSAT)</li><li>Cambridge Institute of Canine Behavior and Training</li><li>Brenda Aloff Fundamentals Instructor Certification</li></ul>",
             "button_text": "",
-            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "https://youtu.be/-dJkSc1jzpA",
@@ -1084,7 +986,6 @@
             "title": "Shannen S. - Force-free Dog Trainer",
             "text": "<p>Shannen is a passionate trainer working to better the lives of dogs and their owners using positive, science-backed methods that revolve around patience, love, and positivity. She is Certified in Applied Animal Behavior which focuses on behavior ethology, learning theory, and the biology behind training and how it relates to companion animals. Her mission is to educate owners on how to understand their dog on a deeper level in order to create a bond that they’ve always dreamed of.<br/><br/>Certifications:</p><ul><li>Applied Animal Behavior - University of Washington (UW-AAB) </li><li>AKC Good Citizen Evaluator<br/></li></ul>",
             "button_text": "",
-            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "https://youtube.com/shorts/wUF5lQCr97U?feature=share",
@@ -1093,13 +994,11 @@
         },
         "text_block_VqY8eG": {
           "type": "text_block",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/IMG_5371.jpg",
             "title": "Jennifer F - Veterinary Technician & Force-free Dog Trainer",
             "text": "<p>With a deep understanding of animal behavior & care honed through extensive experience in veterinary medicine, the retail pet space, and academic study, Jennifer is a Certified Professional Dog Trainer and Fear Free Certified Veterinary Partner dedicated to helping pets and their humans live enriched lives together. Her passion for rational, logical communication and ability to offer practical solutions ensures a seamless integration of training into daily life, leading to happy and harmonious relationships.</p><ul><li>Fear Free Certified Professional- Veterinary (Level2 & Avian) </li><li>Certified Professional Dog Trainer- Knowledge Assessed (CPDT-KA)</li></ul>",
             "button_text": "",
-            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "",
@@ -1114,7 +1013,6 @@
             "title": "Gabriela B. - Pet-friendly Interior Expert",
             "text": "<p>Gabriela founded LAY LO in 2017 to bring great design to pet products in the home. After forging dozens of partnerships with interior designers and starting her own design firm, Gabriela is here to help you create a space you and your dog will love. </p><p>Certifications:</p><ul><li>RISD / Brown Design Degree</li><li>Design Leading Lady Honoree by PSFK</li><li>Shoptalk Design Education Certificate </li></ul>",
             "button_text": "",
-            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "",
@@ -1137,8 +1035,6 @@
         "dd00b393-a662-4339-9905-29bcc98ff16c"
       ],
       "settings": {
-        "grid_or_slider": false,
-        "discount_button_link": "",
         "title": "Our experienced experts",
         "align_text": "text-left",
         "columns": 4,
@@ -1193,8 +1089,8 @@
         "bg_color_secondary": false,
         "box_color": "",
         "text_color": "#000000",
-        "button_text": "Book Your Free Call >",
-        "button_link": "https://www.laylopets.com/pages/free-consultation-booking-page",
+        "button_text": "Get started for free",
+        "button_link": "https://laylopets.typeform.com/to/exWlKhbV?utm_source=xxxxx",
         "button_style": "btn--primary",
         "enable_slider_mobile": false,
         "padding_top": 60,
@@ -1455,22 +1351,22 @@
         "padding_bottom": 0
       }
     },
-    "section_custom_html_N6fLAU": {
-      "type": "section-custom-html",
+    "main": {
+      "type": "main-page",
+      "disabled": true,
       "settings": {
-        "custom_code": "<a href='https://www.bark.com/en/us/company/homeschool-by-lay-lo-dog-training-with-world-class-experts/q4Z7p/' target='_blank' class='bark-widget' data-type='verified' data-id='q4Z7p' data-image='medium-gold' data-version='3.0'>Homeschool by LAY LO: Dog training with world-class experts</a><script type='text/javascript' src='https://www.bark.com/assets/js/frontend-v2/widgets-v2.24a197bed6.v2.js' defer></script>",
-        "width": "wrapper",
-        "padding_top": 60,
-        "padding_bottom": 60
+        "show_page_title": true,
+        "extra_class": "",
+        "bg_color_secondary": true,
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     }
   },
   "order": [
-    "section_marquee_JYteLD",
     "section_image_with_text_nYKfTn",
     "463164fa-b7f2-48fd-bf6b-64f4358ede74",
-    "section_custom_html_FJjQLV",
-    "section_text_xQTXpH",
+    "section_icons_row_nBjdiX",
     "section_text_9eGxmj",
     "121aca7f-e45f-40ef-831b-7ab278c7b6c8",
     "section_icons_row_VqDQUU",
@@ -1490,6 +1386,6 @@
     "a3bb7081-a649-4b91-aae3-ee9be36bf924",
     "2bbeb69d-ad3b-4b68-a947-a42915622081",
     "cfd652ff-08ed-4250-9eee-d8f7bc1035cf",
-    "section_custom_html_N6fLAU"
+    "main"
   ]
 }

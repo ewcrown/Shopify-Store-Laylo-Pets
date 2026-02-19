@@ -154,6 +154,7 @@
         "template--16010683777210__bd134d06-84b0-4be7-b37c-69040f4adf68-16750269123769c858-1": {
           "type": "heading",
           "settings": {
+            "discount_button_link_heading": "",
             "text": "<p>A smarter bed system made for you.</p>",
             "size": 100,
             "heading_highlight_type": "italics"
@@ -175,6 +176,7 @@
       "disabled": true,
       "settings": {
         "text_position": "center",
+        "background_custom_color": "",
         "bg_color_secondary": false,
         "text_color": "text-dark",
         "width": "wrapper--narrow",

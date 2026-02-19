@@ -15,6 +15,7 @@
         "heading_y9qQJN": {
           "type": "heading",
           "settings": {
+            "discount_button_link_heading": "",
             "text": "<h1>Practice Sessions</h1>",
             "size": 100,
             "heading_highlight_type": "italics"
@@ -23,7 +24,8 @@
         "heading_3zWbtP": {
           "type": "heading",
           "settings": {
-            "text": "<h5>Practice your homework with the guidance of a trainer. </h5><h5>* * * </h5><h5>Practice Sessions book up fast. To help us open up a slot for you, you can choose to book a slot with your primary trainer -or- join our wait list to be notified when your preferred slot opens up. </h5><h5>Any questions? Contact Homeschool Support at 310-564-8808.</h5>",
+            "discount_button_link_heading": "",
+            "text": "<h5>Practice your homework with the guidance of a trainer. </h5><h5>* * * </h5><h5>Practice Sessions book up fast. To help us open up a slot for you, you can choose to book a slot below -or- join our wait list to be notified when your preferred slot opens up. </h5><h5>Any questions? Contact Homeschool Support at 310-564-8808.</h5>",
             "size": 100,
             "heading_highlight_type": "italics"
           }
@@ -35,10 +37,20 @@
       ],
       "settings": {
         "text_position": "center",
+        "background_custom_color": "",
         "bg_color_secondary": false,
         "text_color": "text-dark",
         "width": "wrapper--narrow",
         "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_custom_html_CkKUqW": {
+      "type": "section-custom-html",
+      "settings": {
+        "custom_code": "<!-- Calendly inline widget begin -->\n<div class=\"calendly-inline-widget\" data-url=\"https://calendly.com/d/cs8d-2kg-5vc/15-min-practice-sessions\" style=\"min-width:320px;height:700px;\"></div>\n<script type=\"text/javascript\" src=\"https://assets.calendly.com/assets/external/widget.js\" async></script>\n<!-- Calendly inline widget end -->",
+        "width": "wrapper",
+        "padding_top": 10,
         "padding_bottom": 60
       }
     },
@@ -49,6 +61,7 @@
           "type": "button",
           "disabled": true,
           "settings": {
+            "discount_button_link": "",
             "btn_text": "Want to book with your primary trainer? BOOK A SLOT HERE >",
             "btn_link": "https://www.laylopets.com/pages/homeschool-by-lay-lo-practicesessions-trainers",
             "btn_style": "btn--secondary btn--small"
@@ -57,6 +70,7 @@
         "button_dwQyYd": {
           "type": "button",
           "settings": {
+            "discount_button_link": "",
             "btn_text": "Can't find a time that works for you? REQUEST A TIME HERE >",
             "btn_link": "https://docs.google.com/forms/d/e/1FAIpQLSejnsCMwF8oTnEHvbgWPaGSHYZY5BYQ2gBZo6ZThDxBvZLUpg/viewform",
             "btn_style": "btn--secondary"
@@ -69,53 +83,11 @@
       ],
       "settings": {
         "text_position": "center",
+        "background_custom_color": "",
         "bg_color_secondary": false,
         "text_color": "text-dark",
         "width": "wrapper--narrow",
         "padding_top": 8,
-        "padding_bottom": 8
-      }
-    },
-    "section_custom_html_CkKUqW": {
-      "type": "section-custom-html",
-      "settings": {
-        "custom_code": "<!-- Calendly inline widget begin -->\n<div class=\"calendly-inline-widget\" data-url=\"https://calendly.com/nicole-laylopets/practice-sessions\" style=\"min-width:320px;height:700px;\"></div>\n<script type=\"text/javascript\" src=\"https://assets.calendly.com/assets/external/widget.js\" async></script>\n<!-- Calendly inline widget end -->",
-        "width": "wrapper",
-        "padding_top": 10,
-        "padding_bottom": 60
-      }
-    },
-    "section_text_9hYk8W": {
-      "type": "section-text",
-      "blocks": {
-        "button_3whnd4": {
-          "type": "button",
-          "settings": {
-            "btn_text": "Want to book with your primary trainer? BOOK A SLOT HERE >",
-            "btn_link": "https://www.laylopets.com/pages/homeschool-by-lay-lo-practicesessions-trainers",
-            "btn_style": "btn--secondary"
-          }
-        },
-        "button_Wp6nQy": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "btn_text": "Can't find a time that works for you? REQUEST A TIME HERE >",
-            "btn_link": "https://docs.google.com/forms/d/e/1FAIpQLSejnsCMwF8oTnEHvbgWPaGSHYZY5BYQ2gBZo6ZThDxBvZLUpg/viewform",
-            "btn_style": "btn--secondary btn--small"
-          }
-        }
-      },
-      "block_order": [
-        "button_3whnd4",
-        "button_Wp6nQy"
-      ],
-      "settings": {
-        "text_position": "center",
-        "bg_color_secondary": false,
-        "text_color": "text-dark",
-        "width": "wrapper--narrow",
-        "padding_top": 12,
         "padding_bottom": 8
       }
     },
@@ -146,6 +118,7 @@
           "type": "heading",
           "disabled": true,
           "settings": {
+            "discount_button_link_heading": "",
             "text": "<p>Book with Jennifer</p>",
             "size": 100,
             "heading_highlight_type": "italics"
@@ -167,6 +140,7 @@
       "disabled": true,
       "settings": {
         "text_position": "center",
+        "background_custom_color": "",
         "bg_color_secondary": false,
         "text_color": "text-dark",
         "width": "wrapper--narrow",
@@ -218,9 +192,8 @@
   },
   "order": [
     "section_text_BbNbpT",
-    "section_text_YnzFet",
     "section_custom_html_CkKUqW",
-    "section_text_9hYk8W",
+    "section_text_YnzFet",
     "section_custom_html_AzLURX",
     "main",
     "section_text_ThCMNh",

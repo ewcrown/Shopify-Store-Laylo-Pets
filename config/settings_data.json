@@ -72,13 +72,15 @@
     "show_payment_button": false,
     "max_inventory": 5,
     "cart_type": "drawer",
+    "stack_cart_pairs": true,
     "enable_cart_notes": false,
+    "enable_gift_notes": false,
     "enable_additional_buttons": false,
     "show_empty_cart_buttons": true,
     "empty_cart_buttons": "new-main-menu-left",
     "show_continue_shopping": false,
     "message": "Spend ||amount|| more for FREE domestic shipping.",
-    "cart_custom_message_text": "<p>Buy one bed get the other bed 25% off</p>",
+    "cart_custom_message_text": "",
     "cart_custom_message_color": "text-light",
     "social_facebook_link": "https://www.facebook.com/laylopets/",
     "social_twitter_link": "",
@@ -211,7 +213,7 @@
             "type": "text",
             "settings": {
               "title": "Feel more at home with your pets.",
-              "footer_text": "<p>support@laylopets.com</p><p><a href=\"tel:+13104398896\" title=\"tel:+13104398896\">+1 310-439-8896</a></p><p>For Homeschool Training & Expert Support </p><p><a href=\"tel:13105648808\" title=\"tel:13105648808\">+1 310-564-8808</a>, <a href=\"tel:13109239356\" title=\"tel:13109239356\">+1 310-923-9356</a></p>"
+              "footer_text": "<p>support@laylopets.com</p><p><a href=\"tel:+13104398896\" title=\"tel:+13104398896\">+1 310-439-8896</a></p><p>For Homeschool Training & Expert Support </p><p><a href=\"tel:13105648808\" title=\"tel:13105648808\">+1 310-564-8808</a><a href=\"tel:13109239356\" title=\"tel:13109239356\"><br/>+1 310-923-9356</a></p>"
             }
           },
           "footer-block-2": {
@@ -281,7 +283,7 @@
             "type": "text",
             "disabled": true,
             "settings": {
-              "text": "<p>SPRING SALE: SAVE UP TO 30%</p>",
+              "text": "<p><strong>FREE PERSONALIZATION WITH ANY BED ORDER </strong>❤️</p>",
               "icon_name": "none",
               "icon_color": "",
               "icon_width": 20,
@@ -311,8 +313,9 @@
           },
           "b8a2f97d-5cd3-4890-ab2d-25e9d011b7a9": {
             "type": "text",
+            "disabled": true,
             "settings": {
-              "text": "<p><strong>BUNDLE & SAVE: BUY ONE BED GET ONE 15% OFF</strong></p>",
+              "text": "<p><strong>HOLIDAY GROUND SHIPPING DEADLINE: DEC 16</strong></p>",
               "icon_name": "none",
               "icon_color": "#1f294f",
               "icon_width": 20,
@@ -367,13 +370,13 @@
           "logo_not_home": "shopify://shop_images/Homeschool_By_LAY_LO_Logo_2x_cf663111-ca86-4494-8b12-a10c920f7b25.png",
           "logo_max_width": 180,
           "main-menu": "homeschool-nav",
-          "side-menu": "",
+          "side-menu": "homeschool-nav-right",
           "show_images": true,
           "image_aspect_ratio": 0.5,
           "menu_alignment": "left",
           "highlight_item": "Sale",
           "highlight_item_color": "#d02e2e",
-          "show_search": true,
+          "show_search": false,
           "menu_searches_list": "",
           "show_search_links": true,
           "header_transparent": false,
@@ -417,97 +420,10 @@
         "disabled": false,
         "settings": {}
       },
-      "15948790894311257021": {
-        "type": "shopify://apps/bold-upsell-true-upsells/blocks/CartDrawerOffer/0ea05cdc-3862-4d90-9a1b-14eafaef80dd",
-        "disabled": true,
-        "settings": {
-          "cart-drawer-offer-position": "middle",
-          "cart-drawer-show-bold-quantity-input": false,
-          "cart-drawer-custom-cart-drawer": false,
-          "cart-drawer-custom-cart-drawer-preview": false,
-          "custom-cart-drawer-checkout-text": "Checkout",
-          "custom-cart-drawer-cart-title-text": "Your cart",
-          "custom-cart-drawer-product-text": "Product",
-          "custom-cart-drawer-total-text": "Total",
-          "custom-cart-drawer-subtotal-text": "Subtotal",
-          "custom-cart-drawer-cart-empty-cart-text": "Cart empty",
-          "cart-drawer-items-element-tag": "cart-drawer-items",
-          "cart-drawer-footer-element-tag": ".cart-drawer__footer"
-        }
-      },
-      "7944482028155771153": {
-        "type": "shopify://apps/bold-upsell-true-upsells/blocks/Offer/0ea05cdc-3862-4d90-9a1b-14eafaef80dd",
-        "disabled": true,
-        "settings": {
-          "offer-modal-preview": false,
-          "offer-preview-product": "",
-          "title-font-size": 24,
-          "subtitle-font-size": 12,
-          "product-title-font-size": 15,
-          "title-color": "#121212",
-          "subtitle-color": "#343333",
-          "product-title-color": "#121212",
-          "modal-background-color": "#FFFFFF",
-          "modal-border-color": "#DEDEDE"
-        }
-      },
-      "11521838031393700371": {
-        "type": "shopify://apps/bold-upsell-true-upsells/blocks/cart-hooks/0ea05cdc-3862-4d90-9a1b-14eafaef80dd",
-        "disabled": true,
-        "settings": {}
-      },
       "16250556887416161327": {
         "type": "shopify://apps/easy-appointment-booking/blocks/select_time/cc7b690c-65b5-4bb4-a46c-1e4bd73e1c12",
         "disabled": false,
         "settings": {}
-      },
-      "14044569291296200651": {
-        "type": "shopify://apps/bundle-builder-kitenzo/blocks/bb-cart-integration-custom/78802baf-205d-4d1d-908c-fae911f24e36",
-        "disabled": true,
-        "settings": {
-          "theme_override": "",
-          "page_cartItemBox": "",
-          "page_cartItem": "",
-          "page_cartSubtotal": "",
-          "page_cartOriginalTotal": "",
-          "page_checkoutButton": "",
-          "drawer_cartItemBox": "",
-          "drawer_cartItem": "",
-          "drawer_cartSubtotal": "",
-          "drawer_cartOriginalTotal": "",
-          "drawer_checkoutButton": "",
-          "cartItemPrice": "",
-          "cartItemLinePrice": "",
-          "cartItemQuantity": "",
-          "observeTargets": ""
-        }
-      },
-      "1386531382474587334": {
-        "type": "shopify://apps/bundle-builder-kitenzo/blocks/bb-cart-integration/78802baf-205d-4d1d-908c-fae911f24e36",
-        "disabled": true,
-        "settings": {
-          "hide_accelerated_checkout": false,
-          "placement": "below",
-          "hide_empty_line_items": false,
-          "font_size": 16,
-          "font_color": "",
-          "button_color": "",
-          "button_background": "",
-          "button_radius": 0,
-          "border_color": "#000000",
-          "background": "",
-          "heading": "Your cart contains {count} bundle",
-          "heading_plural": "Your cart contains {count} bundles",
-          "view_text": "View Details",
-          "modal_title": "Your bundle summary",
-          "modal_font_color": "#000000",
-          "modal_background": "#FFFFFF",
-          "modal_border_color": "#c4c4c4",
-          "modal_item_background": "",
-          "modal_item_content_background": "#f1f1f1",
-          "modal_item_product_background": "#ffffff",
-          "custom_css": ""
-        }
       },
       "14339172867238703359": {
         "type": "shopify://apps/yotpo-product-reviews/blocks/reviews_tab/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
@@ -538,6 +454,38 @@
       },
       "10840395464443086010": {
         "type": "shopify://apps/alia/blocks/customer-app-frame/51f1d398-3e41-44da-b81e-defd5804b292",
+        "disabled": false,
+        "settings": {}
+      },
+      "5057006142565981955": {
+        "type": "shopify://apps/affirm-pay-over-time-messaging/blocks/cart-drawer-embed-block/6dce54be-130d-4d13-9636-1e8f611b3071",
+        "disabled": false,
+        "settings": {
+          "logo_align_drawer": "left",
+          "font_size_drawer": 16,
+          "logo_color_drawer": "blue",
+          "logo_type_drawer": "logo",
+          "public_api_key_drawer": "",
+          "cart_drawer_selector": "",
+          "cart_drawer_total_selector": "",
+          "add_to_cart_selector": "",
+          "adjacent_element_selector": ""
+        }
+      },
+      "12120936241911852800": {
+        "type": "shopify://apps/judge-me-reviews/blocks/reviews_tab/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "disabled": true,
+        "settings": {
+          "position": "right"
+        }
+      },
+      "15181020662106344915": {
+        "type": "shopify://apps/judge-me-reviews/blocks/popup_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "disabled": true,
+        "settings": {}
+      },
+      "14060646107696862457": {
+        "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": false,
         "settings": {}
       }

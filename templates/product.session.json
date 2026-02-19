@@ -28,11 +28,17 @@
             "subheading": "breadcrumbs",
             "show_rating": true,
             "show_rating_count": true,
+            "show_above_mobile": false,
             "padding_bottom": 10
           }
         },
+        "judge_me_reviews_preview_badge_ExXga8": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
         "1d4ae0b0-0a4d-43d5-adef-73b63d3cb27f": {
           "type": "shopify://apps/yotpo-product-reviews/blocks/star-rating/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "disabled": true,
           "settings": {
             "product": "homeschool-by-lay-lo-introductory-virtual-training-session"
           }
@@ -63,16 +69,16 @@
             "icon_name_1": "paw-heart",
             "icon_color_1": "rgba(0,0,0,0)",
             "icon_width_1": 40,
-            "icon_text_1": "Certified Instructors",
+            "icon_text_1": "Meet Live With Certified Experts",
             "icon_name_2": "message",
             "icon_color_2": "",
             "icon_width_2": 40,
-            "icon_text_2": "Text Support",
+            "icon_text_2": "Text Support Between Sessions",
             "icon_name_3": "shield",
             "icon_color_3": "",
             "icon_image_3": "shopify://shop_images/noun-video-call-7120956.svg",
             "icon_width_3": 40,
-            "icon_text_3": "1:1 Live Sessions",
+            "icon_text_3": "45-min, 1-on-1 Video Sessions",
             "icon_name_4": "none",
             "icon_color_4": "",
             "icon_width_4": 40,
@@ -93,6 +99,7 @@
         "description": {
           "type": "description",
           "settings": {
+            "show_above_mobile": false,
             "padding_bottom": 22
           }
         },
@@ -105,8 +112,8 @@
             "accordion_heading_2": "How it Works",
             "accordion_text_2": "<p>Each topic may range from one to multiple sessions. Here's what you need to begin: <br/><br/>1. Select the time and date of your first session using the calendar above and pay.<br/>2. If your program is than one session, you'll receive an email to schedule the remaining slots. <br/>3. Ahead of your session, you'll receive a calendar invite with a video link to join with your pup. That's it!<br/><br/>Note: You have up to 3 months to use your credits.</p>",
             "accordion_page_2": "",
-            "accordion_heading_3": "",
-            "accordion_text_3": "",
+            "accordion_heading_3": "7-Day Trial",
+            "accordion_text_3": "<p>You have 7 days after your purchase to get a full refund. </p>",
             "accordion_page_3": "",
             "accordion_heading_4": "Requirements",
             "accordion_text_4": "<p>Our sessions are taught live via Zoom. If you don't already have it, please download <a href=\"https://zoom.us/download\" title=\"https://zoom.us/download\">Zoom</a> to your computer or mobile device. </p>",
@@ -114,6 +121,7 @@
             "accordion_heading_5": "",
             "accordion_text_5": "",
             "accordion_page_5": "",
+            "show_above_mobile": false,
             "padding_bottom": 20
           }
         },
@@ -124,10 +132,15 @@
             "text": "Share",
             "padding_bottom": 20
           }
+        },
+        "product_quote_e8BRL7": {
+          "type": "product_quote",
+          "settings": {}
         }
       },
       "block_order": [
         "title",
+        "judge_me_reviews_preview_badge_ExXga8",
         "1d4ae0b0-0a4d-43d5-adef-73b63d3cb27f",
         "inventory_countdown",
         "form",
@@ -135,7 +148,8 @@
         "upsell",
         "description",
         "product_accordions",
-        "share-button"
+        "share-button",
+        "product_quote_e8BRL7"
       ],
       "custom_css": [
         ".product__icon__row.product__icon__row--multiple {font-size: 90%;}"
@@ -159,6 +173,7 @@
         "template--16010683777210__bd134d06-84b0-4be7-b37c-69040f4adf68-16750269123769c858-1": {
           "type": "heading",
           "settings": {
+            "discount_button_link_heading": "",
             "text": "<p>How it works</p>",
             "size": 100,
             "heading_highlight_type": "italics"
@@ -170,11 +185,12 @@
       ],
       "settings": {
         "text_position": "center",
+        "background_custom_color": "",
         "bg_color_secondary": false,
         "text_color": "text-dark",
         "width": "wrapper--narrow",
         "padding_top": 50,
-        "padding_bottom": 30
+        "padding_bottom": 20
       }
     },
     "icons": {
@@ -262,7 +278,7 @@
           "settings": {
             "icon_name": "smile",
             "title": "Live Instruction",
-            "text": "<p>No group classes here. You'll receive personal instruction from your dedicated expert.</p>"
+            "text": "<p>No group classes here. You'll receive personal, 1:1 instruction from your dedicated expert.</p>"
           }
         },
         "text_dDVDkD": {
@@ -300,6 +316,32 @@
         "button_link": "",
         "button_style": "btn--secondary btn--small",
         "enable_slider_mobile": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_image_with_text_czrn8t": {
+      "type": "section-image-with-text",
+      "disabled": true,
+      "name": "Image with text",
+      "settings": {
+        "section_height": "three-fifty-height",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "standard",
+        "subheading": "",
+        "title": "<p>Who it's for</p>",
+        "heading_highlight_type": "circle",
+        "heading_size": 130,
+        "text_content": "If you're looking",
+        "text_alignment": "left",
+        "button_text": "Button text",
+        "button_link": "",
+        "button_style": "btn--primary btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "section_width": "wrapper",
         "padding_top": 60,
         "padding_bottom": 60
       }
@@ -369,28 +411,49 @@
           "type": "text",
           "settings": {
             "title": "Do I need anything for the course?",
-            "text": "<p>All you need to get started is a computer, phone, or tablet with good internet connection. We use Zoom for our video calls. </p>"
+            "text": "<p>All you need to get started is a computer, phone, or tablet with good internet connection. We use Zoom for our video calls. Some courses request certain products, which you will be informed about over email.</p>"
           }
         },
         "template--16067035562170__655e47e5-7dcc-4b3f-bc30-52d564cd7538-167865199039f3885b-2": {
           "type": "text",
           "settings": {
-            "title": "Do you offer refunds?",
-            "text": "<p>We want you to try things out sessions and have the best time with your dog while working with us. If you are unsatisfied for any reason, email support@laylopets.com and we will make it right. </p>"
+            "title": "What is your guarantee?",
+            "text": "<p>We can't guarantee how your dog will react, but we can guarantee you'll have fun. We want you to try things out sessions and have the best time with your dog while working with us. If you are unsatisfied for any reason, email support@laylopets.com. </p>"
           }
         },
         "template--16067035562170__655e47e5-7dcc-4b3f-bc30-52d564cd7538-167865199039f3885b-3": {
           "type": "text",
           "settings": {
-            "title": "",
-            "text": ""
+            "title": "Will I get homework or follow-up help?",
+            "text": "<p>Yes. After your session, you’ll receive personalized notes and guidance. If you book a multi-session package, our experts also offer in-between support via SMS to help you stick to your plan and answer questions.</p>"
           }
         },
         "template--16067035562170__655e47e5-7dcc-4b3f-bc30-52d564cd7538-167865199039f3885b-0": {
           "type": "text",
           "settings": {
             "title": "What is Virtual Dog Training?",
-            "text": "<p>Virtual dog training is quickly becoming the most effective training method to get long-term results. Through weekly 1:1 video calls with your dedicated trainer, we demonstrate the training techniques and watch as you practice in real time with your pup. After each call, we'll provide homework and video lessons to track your progress. Still curious? Watch a sample virtual training lesson <a href=\"https://fub.direct/1/-8r8SWmgQ6mGu0nIMQoO0KB48bJeKRwbhImxJ_eJbkJmAVQstrWW-CwiqVOlv9bO1XaggZc-7wdj10103TwdJQ/https/www.instagram.com/p/Cp8R9bcA2XA/\" target=\"_blank\" title=\"https://www.instagram.com/p/Cp8R9bcA2XA/\"><span style=\"text-decoration:underline\">here</span></a> &gt;</p>"
+            "text": "<p>Virtual or online dog training is quickly becoming the most effective training method to get long-term results. Through weekly 1:1 video calls with your dedicated trainer, we demonstrate the training techniques and watch as you practice in real time with your pup. After each call, we'll provide homework and video lessons to track your progress. Still curious? Watch a sample virtual training lesson <a href=\"https://fub.direct/1/-8r8SWmgQ6mGu0nIMQoO0KB48bJeKRwbhImxJ_eJbkJmAVQstrWW-CwiqVOlv9bO1XaggZc-7wdj10103TwdJQ/https/www.instagram.com/p/Cp8R9bcA2XA/\" target=\"_blank\" title=\"https://www.instagram.com/p/Cp8R9bcA2XA/\"><span style=\"text-decoration:underline\">here</span></a> &gt;</p>"
+          }
+        },
+        "text_P6fGDK": {
+          "type": "text",
+          "settings": {
+            "title": "Who are the experts leading the sessions?",
+            "text": "<p>Our experts are certified trainers, behaviorists, nutritionists, and specialists with 10–20+ years of experience. We’ve handpicked each one for their credentials, compassion, and ability to help real families get real results.</p>"
+          }
+        },
+        "text_YLHzWt": {
+          "type": "text",
+          "settings": {
+            "title": "What if my dog already has done training before?",
+            "text": "<p>That’s totally fine. Signature Sessions are personalized, so whether you're starting from scratch or building on previous training, we’ll meet you where you are and guide you from there.</p>"
+          }
+        },
+        "text_V9mLE7": {
+          "type": "text",
+          "settings": {
+            "title": "How is this different from video courses or group classes?",
+            "text": "<p>Unlike generic videos or group lessons, Signature Sessions are 100% tailored to your dog, your home, and your lifestyle. You get focused attention and expert insight—not a one-size-fits-all answer.</p>"
           }
         }
       },
@@ -398,7 +461,10 @@
         "template--16067035562170__655e47e5-7dcc-4b3f-bc30-52d564cd7538-167865199039f3885b-1",
         "template--16067035562170__655e47e5-7dcc-4b3f-bc30-52d564cd7538-167865199039f3885b-2",
         "template--16067035562170__655e47e5-7dcc-4b3f-bc30-52d564cd7538-167865199039f3885b-3",
-        "template--16067035562170__655e47e5-7dcc-4b3f-bc30-52d564cd7538-167865199039f3885b-0"
+        "template--16067035562170__655e47e5-7dcc-4b3f-bc30-52d564cd7538-167865199039f3885b-0",
+        "text_P6fGDK",
+        "text_YLHzWt",
+        "text_V9mLE7"
       ],
       "settings": {
         "title": "Frequently Asked Questions",
@@ -603,6 +669,24 @@
       "type": "shogun-below",
       "disabled": true,
       "settings": {}
+    },
+    "1761088922c97f8796": {
+      "type": "apps",
+      "settings": {
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "176108907859b11225": {
+      "type": "apps",
+      "settings": {
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
     }
   },
   "order": [
@@ -613,12 +697,15 @@
     "icons",
     "section_image_with_text_6GLF8R",
     "section_icons_row_9ibLt8",
+    "section_image_with_text_czrn8t",
     "grid",
     "167866229113e22330",
     "655e47e5-7dcc-4b3f-bc30-52d564cd7538",
     "0b271cde-7edb-437b-a7b8-052e7178b5d6",
     "testimonials",
     "related",
-    "shogun-below"
+    "shogun-below",
+    "1761088922c97f8796",
+    "176108907859b11225"
   ]
 }

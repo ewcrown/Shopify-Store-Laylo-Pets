@@ -15,21 +15,16 @@
         "template--16127676285114__5dfbc12b-2350-4c42-8a69-13ece72ffef7-1686511540b03a1d7e-1": {
           "type": "heading",
           "settings": {
-            "text": "<h1>It's official. </h1>",
+            "discount_button_link_heading": "",
+            "text": "<h1>Welcome home.</h1>",
             "size": 125,
             "heading_highlight_type": "italics"
-          }
-        },
-        "template--16127676285114__5dfbc12b-2350-4c42-8a69-13ece72ffef7-1686511540b03a1d7e-2": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Welcome to Homeschool - we're so excited to be part of this journey. </p><p>As we get things kicked off, here's everything you need to know to make the most of your Homeschool training experience.  </p>",
-            "size": 100
           }
         },
         "button_fLV66T": {
           "type": "button",
           "settings": {
+            "discount_button_link": "",
             "btn_text": "Questions? Text us at 310-564-8808",
             "btn_link": "",
             "btn_style": "btn--text"
@@ -38,11 +33,11 @@
       },
       "block_order": [
         "template--16127676285114__5dfbc12b-2350-4c42-8a69-13ece72ffef7-1686511540b03a1d7e-1",
-        "template--16127676285114__5dfbc12b-2350-4c42-8a69-13ece72ffef7-1686511540b03a1d7e-2",
         "button_fLV66T"
       ],
       "settings": {
         "text_position": "center",
+        "background_custom_color": "",
         "bg_color_secondary": false,
         "text_color": "text-dark",
         "width": "wrapper--narrow",
@@ -50,37 +45,100 @@
         "padding_bottom": 60
       }
     },
-    "section_columns_tppa6T": {
-      "type": "section-columns",
+    "section_text_3hjGGp": {
+      "type": "section-text",
       "blocks": {
-        "text_block_k4JwmW": {
-          "type": "text_block",
+        "subheading_nFMgaW": {
+          "type": "subheading",
           "settings": {
-            "image": "shopify://shop_images/Training_Plan_Walk_Through.png",
-            "title": "",
             "text": "",
-            "button_text": "",
-            "button_link": "",
-            "button_style": "btn--text",
-            "video_link_popup": "https://cdn.shopify.com/videos/c/o/v/a571f14837884cfbbb50d712290e610a.mp4",
-            "video_link_color": "text-dark"
+            "size": 100
+          }
+        },
+        "heading_HzrcQd": {
+          "type": "heading",
+          "settings": {
+            "discount_button_link_heading": "",
+            "text": "<p>What you get, every single week</p>",
+            "size": 100,
+            "heading_highlight_type": "italics"
+          }
+        },
+        "button_PqPU33": {
+          "type": "button",
+          "settings": {
+            "discount_button_link": "",
+            "btn_text": "",
+            "btn_link": "",
+            "btn_style": "btn--primary btn--small"
           }
         }
       },
       "block_order": [
-        "text_block_k4JwmW"
+        "subheading_nFMgaW",
+        "heading_HzrcQd",
+        "button_PqPU33"
       ],
+      "disabled": true,
       "settings": {
-        "title": "",
-        "align_text": "text-center",
-        "columns": 2,
-        "equalize_height": false,
-        "image_aspect_ratio": 0.6,
-        "show_images": true,
-        "bg_color_secondary": true,
-        "width": "wrapper--full-padded",
-        "padding_top": 30,
+        "text_position": "center",
+        "background_custom_color": "#f7f7f7",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 60,
         "padding_bottom": 30
+      }
+    },
+    "section_icons_row_CtffaY": {
+      "type": "section-icons-row",
+      "blocks": {
+        "text_FPmxbJ": {
+          "type": "text",
+          "settings": {
+            "icon_name": "dollar-sign",
+            "title": "Discounts on LAY LO products",
+            "text": "<p>As a Homeschool member, you'll receive 15% off of products at LAY LO and first dibs on new products.</p>"
+          }
+        },
+        "text_6BETQT": {
+          "type": "text",
+          "settings": {
+            "icon_name": "clipboard",
+            "title": "Personalized training plan",
+            "text": "<p>Every Homeschool premium plan comes with a personalized plan specific to your pups needs</p>"
+          }
+        },
+        "text_wGHKEz": {
+          "type": "text",
+          "settings": {
+            "icon_name": "download",
+            "title": "Access to course library",
+            "text": "<p>Get lifetime access to over 20+ training course videos, from crate training to barking.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_FPmxbJ",
+        "text_6BETQT",
+        "text_wGHKEz"
+      ],
+      "disabled": true,
+      "settings": {
+        "alignment": "center",
+        "columns": 3,
+        "icons_width": 30,
+        "heading": "",
+        "subheading": "",
+        "bg_color_secondary": true,
+        "box_color": "rgba(0,0,0,0)",
+        "text_color": "#333333",
+        "button_text": "",
+        "button_link": "",
+        "button_style": "btn--secondary btn--small",
+        "enable_slider_mobile": false,
+        "padding_top": 30,
+        "padding_bottom": 60
       }
     },
     "section_video_hwLqMc": {
@@ -103,6 +161,57 @@
         "button_style": "btn--secondary btn--small"
       }
     },
+    "section_icons_row_aijFUc": {
+      "type": "section-icons-row",
+      "blocks": {
+        "text_J9dGU9": {
+          "type": "text",
+          "settings": {
+            "icon_name": "calendar",
+            "title": "45-min, 1:1 Session",
+            "text": "<p>Your main training session with your dedicated expert to work with you and your pup together.</p>"
+          }
+        },
+        "text_myzJHx": {
+          "type": "text",
+          "settings": {
+            "icon_name": "check",
+            "title": "Unlimited 15-min Practice Sessions",
+            "text": "<p>Optional video sessions with a dedicated trainer to help maximize your practice time between sessions.</p>"
+          }
+        },
+        "text_P6PzBN": {
+          "type": "text",
+          "settings": {
+            "icon_name": "message",
+            "title": "24/7 messaging service",
+            "text": "<p>Got a pup question? Ask a question to a dog expert to keep your training going.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_J9dGU9",
+        "text_myzJHx",
+        "text_P6PzBN"
+      ],
+      "disabled": true,
+      "settings": {
+        "alignment": "center",
+        "columns": 3,
+        "icons_width": 30,
+        "heading": "",
+        "subheading": "",
+        "bg_color_secondary": true,
+        "box_color": "",
+        "text_color": "#333333",
+        "button_text": "",
+        "button_link": "",
+        "button_style": "btn--secondary btn--small",
+        "enable_slider_mobile": false,
+        "padding_top": 30,
+        "padding_bottom": 30
+      }
+    },
     "section_text_YVrMaF": {
       "type": "section-text",
       "blocks": {
@@ -117,7 +226,8 @@
         "heading_66FjxB": {
           "type": "heading",
           "settings": {
-            "text": "<p>What to expect next:</p>",
+            "discount_button_link_heading": "",
+            "text": "<p>Your Resources</p>",
             "size": 100,
             "heading_highlight_type": "italics"
           }
@@ -125,13 +235,14 @@
         "text_j9jFKw": {
           "type": "text",
           "settings": {
-            "text": "<p>Your membership to Homeschool comes with a lot! Here's what to expect from us over the next few days. </p>",
+            "text": "<p>Quick access to your resources between sessions</p>",
             "size": 100
           }
         },
         "button_kUqtJQ": {
           "type": "button",
           "settings": {
+            "discount_button_link": "",
             "btn_text": "",
             "btn_link": "",
             "btn_style": "btn--primary btn--small"
@@ -146,7 +257,8 @@
       ],
       "settings": {
         "text_position": "center",
-        "bg_color_secondary": false,
+        "background_custom_color": "#f7f7f7",
+        "bg_color_secondary": true,
         "text_color": "text-dark",
         "width": "wrapper--narrow",
         "padding_top": 60,
@@ -159,11 +271,12 @@
         "text_block_nipm8C": {
           "type": "text_block",
           "settings": {
-            "image": "shopify://shop_images/HomeschoolbyLAYLO-TrainingPlan_8fae1891-43a4-47f3-ab2c-c87bf7f4ec01.png",
-            "title": "Digest your Training Plan",
-            "text": "<p>After your first session, your trainer will send your training plan which will include a recap of what you learned, video recording and homework to practice. We see the best results when people practice a little bit each day, so build it into your pup's meal time when they're food motivated and send us videos along the way. </p>",
-            "button_text": "",
-            "button_link": "",
+            "image": "shopify://shop_images/Homeschool_Card_Edit_1.5x.png",
+            "title": "Book Practice Sessions",
+            "text": "<p>Available 5 days a week on demand.</p>",
+            "button_text": "Book Now >",
+            "calendly_widget": "",
+            "button_link": "https://www.laylopets.com/pages/homeschool-by-lay-lo-practice-sessions",
             "button_style": "btn--text",
             "video_link_popup": "",
             "video_link_color": "text-dark"
@@ -172,11 +285,12 @@
         "text_block_xk94PE": {
           "type": "text_block",
           "settings": {
-            "image": "shopify://shop_images/HomeschoolbyLAYLO-SMS_108131cd-fe80-4164-a195-56616d060222.png",
-            "title": "Save our Group Text",
-            "text": "<p>A group text has been set up for you so we can communicate throughout the week. Share your wins and ask questions! Our team of dedicated experts across training, grooming, nutrition and wellness are here to help you each and every day.</p>",
-            "button_text": "",
-            "button_link": "",
+            "image": "shopify://shop_images/Video_Thumbnail_1.png",
+            "title": "Join a Group Class",
+            "text": "<p>From trick training to agility work,<strong> </strong>group classes are a great way to bond with your dog between sessions. </p>",
+            "button_text": "Explore Classes >",
+            "calendly_widget": "",
+            "button_link": "https://www.laylopets.com/pages/group-classes",
             "button_style": "btn--text",
             "video_link_popup": "",
             "video_link_color": "text-dark"
@@ -185,11 +299,12 @@
         "text_block_DQqyjM": {
           "type": "text_block",
           "settings": {
-            "image": "shopify://shop_images/Homeschool_Live_Training_Image.png",
-            "title": "Look out for an Invite(s)",
-            "text": "<p>You will be receiving calendar invites for your training sessions. We know plans change every now and then, but we kindly ask for cancellations or rescheduling to be made at least 24 hours in advance so we can release the time to other dog parents that need it. Cancellations less than 24 hours will be subject to a rebooking fee of $30. </p>",
-            "button_text": "",
-            "button_link": "",
+            "image": "shopify://shop_images/HomeschoolbyLAYLO-TrainingLibrary.png",
+            "title": "Explore the Library",
+            "text": "<p>With over 100+ handouts and resources, dive deep into how dogs think and learn. </p>",
+            "button_text": "Get Access >",
+            "calendly_widget": "",
+            "button_link": "https://homeschoolbylaylo.podia.com/membership-2025",
             "button_style": "btn--text",
             "video_link_popup": "",
             "video_link_color": "text-dark"
@@ -202,63 +317,120 @@
         "text_block_DQqyjM"
       ],
       "settings": {
+        "grid_or_slider": false,
+        "discount_button_link": "",
         "title": "",
         "align_text": "text-left",
         "columns": 3,
         "equalize_height": true,
         "image_aspect_ratio": 0.8,
         "show_images": true,
-        "bg_color_secondary": false,
+        "bg_color_secondary": true,
         "width": "wrapper",
         "padding_top": 60,
         "padding_bottom": 60
       }
     },
-    "section_text_dDmUPH": {
+    "section_text_kfpRYY": {
       "type": "section-text",
       "blocks": {
-        "subheading_4AKwVt": {
-          "type": "subheading",
-          "settings": {
-            "text": "",
-            "size": 100
-          }
-        },
-        "heading_t4Jb8R": {
+        "heading_yeeyCH": {
           "type": "heading",
           "settings": {
-            "text": "<p>Your Onboarding Tasks:</p>",
+            "discount_button_link_heading": "",
+            "text": "<p>Sign up for Practice Sessions:</p>",
             "size": 100,
             "heading_highlight_type": "italics"
           }
         },
-        "text_CecgL8": {
-          "type": "text",
-          "settings": {
-            "text": "<p>To make the most of all of the resources you get with Homeschool, please check off these tasks below.</p>",
-            "size": 100
-          }
-        },
-        "button_WTrjUQ": {
+        "button_4WnHa9": {
           "type": "button",
           "settings": {
-            "btn_text": "",
-            "btn_link": "",
-            "btn_style": "btn--primary btn--small"
+            "discount_button_link": "",
+            "btn_text": "Request a time slot here >",
+            "btn_link": "https://docs.google.com/forms/d/e/1FAIpQLSejnsCMwF8oTnEHvbgWPaGSHYZY5BYQ2gBZo6ZThDxBvZLUpg/viewform",
+            "btn_style": "btn--secondary"
           }
         }
       },
       "block_order": [
-        "subheading_4AKwVt",
-        "heading_t4Jb8R",
-        "text_CecgL8",
-        "button_WTrjUQ"
+        "heading_yeeyCH",
+        "button_4WnHa9"
       ],
       "settings": {
         "text_position": "center",
+        "background_custom_color": "",
         "bg_color_secondary": false,
         "text_color": "text-dark",
         "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_custom_html_WCCwAK": {
+      "type": "section-custom-html",
+      "settings": {
+        "custom_code": "<!-- Calendly inline widget begin -->\n<div class=\"calendly-inline-widget\" data-url=\"https://calendly.com/d/cs8d-2kg-5vc/15-min-practice-sessions?hide_event_type_details=1\" style=\"min-width:320px;height:700px;\"></div>\n<script type=\"text/javascript\" src=\"https://assets.calendly.com/assets/external/widget.js\" async></script>\n<!-- Calendly inline widget end -->",
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 18
+      }
+    },
+    "section_text_WNizCp": {
+      "type": "section-text",
+      "blocks": {
+        "heading_N69ePa": {
+          "type": "heading",
+          "settings": {
+            "discount_button_link_heading": "",
+            "text": "<p>Upcoming Group Classes</p>",
+            "size": 100,
+            "heading_highlight_type": "italics"
+          }
+        }
+      },
+      "block_order": [
+        "heading_N69ePa"
+      ],
+      "name": "Text",
+      "settings": {
+        "text_position": "center",
+        "background_custom_color": "",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_custom_html_X3TQqa": {
+      "type": "section-custom-html",
+      "name": "Custom code",
+      "settings": {
+        "custom_code": "<!-- Elfsight Event Calendar | Homeschool Calendar -->\n<script src=\"https://elfsightcdn.com/platform.js\" async></script>\n<div class=\"elfsight-app-ea86e528-4785-4f3b-bbc8-534dbdeae52c\" data-elfsight-app-lazy></div>",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_collection_BqpLXC": {
+      "type": "section-collection",
+      "name": "Featured collection",
+      "settings": {
+        "collection": "signature-sessions",
+        "products_layout": "split-left",
+        "number_of_products": 4,
+        "text_alignment": "text-left",
+        "title": "Add Ons",
+        "heading_size": 300,
+        "text": "<p>Add on additional services at any time.</p>",
+        "text_size": 125,
+        "button_text": "",
+        "button_style": "btn--primary",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "columns_mobile": "2",
+        "width": "wrapper",
         "padding_top": 60,
         "padding_bottom": 60
       }
@@ -269,11 +441,12 @@
         "text_block_prAg9A": {
           "type": "text_block",
           "settings": {
-            "image": "shopify://shop_images/HomeschoolbyLAYLO-TrainingLibrary.png",
-            "title": "Enroll in the Training Library",
-            "text": "<p>Our resource library is here to help you improve your relationship with your dog. While your training plan will link out to which videos to focus on, you are welcome to practice at your own pace. </p>",
-            "button_text": "Access Here",
-            "button_link": "https://homeschoolbylaylo.podia.com/membership-2025",
+            "image": "shopify://shop_images/Instagram_post_-_29-min.png",
+            "title": "Extend your Training",
+            "text": "<p>Keep the progress going. With personalized guidance, weekly classes, and ongoing access to your trainer, you'll keep enriching your dog's life and feel supported as new questions come up.</p>",
+            "button_text": "Explore Grow Plans >",
+            "calendly_widget": "",
+            "button_link": "https://homeschoolgrowplan.figma.site/",
             "button_style": "btn--text",
             "video_link_popup": "",
             "video_link_color": "text-dark"
@@ -281,11 +454,13 @@
         },
         "text_block_yFj9tN": {
           "type": "text_block",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Homeschool_Puppy_Course_Page_3ba320fe-05f0-49fe-b1b3-b1c2c7e66d57.jpg",
-            "title": "Get Alerts & Reminders",
+            "title": "",
             "text": "<p>If you would like to sign up for reminders to book office hours and complete your homework, click the link below. Messages will be sent twice a week and you can unsubscribe any time.</p>",
             "button_text": "Get Reminders",
+            "calendly_widget": "",
             "button_link": "https://manage.kmail-lists.com/subscriptions/subscribe?a=LMfyZv&g=RipgLX",
             "button_style": "btn--text",
             "video_link_popup": "",
@@ -294,11 +469,13 @@
         },
         "text_block_PiNaNn": {
           "type": "text_block",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/DTS_Companion_by_Shauna_Summers_25.jpg",
             "title": "Sign Your Promise Agreement",
             "text": "<p>Look out for the Promise Agreement we sent to lock in your Better Pup Guarantee. Rest assured the contract will match the payment plan we already set up and if you paid in full, there will be no additional charges.</p>",
             "button_text": "Learn More about our Guarantee",
+            "calendly_widget": "",
             "button_link": "https://www.laylopets.com/pages/homeschool",
             "button_style": "btn--text",
             "video_link_popup": "",
@@ -312,65 +489,17 @@
         "text_block_PiNaNn"
       ],
       "settings": {
+        "grid_or_slider": false,
+        "discount_button_link": "",
         "title": "",
         "align_text": "text-left",
         "columns": 3,
         "equalize_height": true,
         "image_aspect_ratio": 0.8,
         "show_images": true,
-        "bg_color_secondary": false,
+        "bg_color_secondary": true,
         "width": "wrapper",
         "padding_top": 60,
-        "padding_bottom": 60
-      }
-    },
-    "section_text_kfpRYY": {
-      "type": "section-text",
-      "blocks": {
-        "heading_yeeyCH": {
-          "type": "heading",
-          "settings": {
-            "text": "<p>Sign up for Practice Sessions:</p>",
-            "size": 100,
-            "heading_highlight_type": "italics"
-          }
-        },
-        "text_8PBHRE": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Your plan comes with additional practice sessions so you can always have support throughout the week to help you practice and monitor your progress. </p><h3><strong>* * * </strong></h3><h3><strong>Can't find a time?</strong></h3><p>Practice Sessions book up fast. To ensure we can open up a slot for you, join our wait list to be notified same week when a slot opens up. </p>",
-            "size": 100
-          }
-        },
-        "button_4WnHa9": {
-          "type": "button",
-          "settings": {
-            "btn_text": "Request a time slot here >",
-            "btn_link": "https://docs.google.com/forms/d/e/1FAIpQLSejnsCMwF8oTnEHvbgWPaGSHYZY5BYQ2gBZo6ZThDxBvZLUpg/viewform",
-            "btn_style": "btn--secondary"
-          }
-        }
-      },
-      "block_order": [
-        "heading_yeeyCH",
-        "text_8PBHRE",
-        "button_4WnHa9"
-      ],
-      "settings": {
-        "text_position": "center",
-        "bg_color_secondary": false,
-        "text_color": "text-dark",
-        "width": "wrapper--narrow",
-        "padding_top": 60,
-        "padding_bottom": 60
-      }
-    },
-    "section_custom_html_WCCwAK": {
-      "type": "section-custom-html",
-      "settings": {
-        "custom_code": "<!-- Calendly inline widget begin -->\n<div class=\"calendly-inline-widget\" data-url=\"https://calendly.com/nicole-laylopets/practice-sessions\" style=\"min-width:320px;height:700px;\"></div>\n<script type=\"text/javascript\" src=\"https://assets.calendly.com/assets/external/widget.js\" async></script>\n<!-- Calendly inline widget end -->",
-        "width": "wrapper",
-        "padding_top": 12,
         "padding_bottom": 60
       }
     },
@@ -419,55 +548,6 @@
         "width": "wrapper--narrow",
         "padding_top": 0,
         "padding_bottom": 0
-      }
-    },
-    "section_text_3hjGGp": {
-      "type": "section-text",
-      "blocks": {
-        "subheading_nFMgaW": {
-          "type": "subheading",
-          "settings": {
-            "text": "",
-            "size": 100
-          }
-        },
-        "heading_HzrcQd": {
-          "type": "heading",
-          "settings": {
-            "text": "<p>What you get, every single week</p>",
-            "size": 100,
-            "heading_highlight_type": "italics"
-          }
-        },
-        "text_feAWmb": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Homeschool by LAY LO provides the maximum value during the time we're working with you and your dog. Take advantage of everything your premium plan has to offer:</p>",
-            "size": 100
-          }
-        },
-        "button_PqPU33": {
-          "type": "button",
-          "settings": {
-            "btn_text": "",
-            "btn_link": "",
-            "btn_style": "btn--primary btn--small"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_nFMgaW",
-        "heading_HzrcQd",
-        "text_feAWmb",
-        "button_PqPU33"
-      ],
-      "settings": {
-        "text_position": "center",
-        "bg_color_secondary": false,
-        "text_color": "text-dark",
-        "width": "wrapper--narrow",
-        "padding_top": 60,
-        "padding_bottom": 30
       }
     },
     "cf9a4a64-d5dc-428a-8238-3b873b5ff7eb": {
@@ -583,6 +663,7 @@
             "title": "Expert Diagnosis",
             "text": "<p>Based on your dog's history, breed and behavior, we will assess the root of the problem (s) to ensure you fully understand your dog and how to improve their mental and physical state. </p>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "",
@@ -595,6 +676,7 @@
             "title": "Pup Behavioral Modification Plan",
             "text": "<p>We'll share an assessment for what is needed to reach your goals at home, including the cues you should teach and roughly how long it will take to improve it. </p>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "",
@@ -607,6 +689,7 @@
             "title": "Homeschool's Daily Enrichment Routine",
             "text": "<p>Dog's need a calculated amount of exercise, mental stimulation and enrichment to avoid destructive behavior. We'll evaluate your routine together to ensure your dog is receiving the proper amount of stimulation at home. </p>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "",
@@ -621,6 +704,8 @@
       ],
       "disabled": true,
       "settings": {
+        "grid_or_slider": false,
+        "discount_button_link": "",
         "title": "Book a behavior evaluation with Shannen:",
         "align_text": "text-center",
         "columns": 3,
@@ -633,112 +718,13 @@
         "padding_bottom": 60
       }
     },
-    "section_icons_row_aijFUc": {
-      "type": "section-icons-row",
-      "blocks": {
-        "text_J9dGU9": {
-          "type": "text",
-          "settings": {
-            "icon_name": "calendar",
-            "title": "45-min, 1:1 Session",
-            "text": "<p>Your main training session with your dedicated expert to work with you and your pup together.</p>"
-          }
-        },
-        "text_myzJHx": {
-          "type": "text",
-          "settings": {
-            "icon_name": "check",
-            "title": "15-min Practice Sessions (2)",
-            "text": "<p>Optional video sessions with a dedicated trainer to help maximize your practice time between sessions.</p>"
-          }
-        },
-        "text_P6PzBN": {
-          "type": "text",
-          "settings": {
-            "icon_name": "message",
-            "title": "24/7 messaging service",
-            "text": "<p>Got a pup question? Ask a question to a dog expert to keep your training going.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "text_J9dGU9",
-        "text_myzJHx",
-        "text_P6PzBN"
-      ],
-      "settings": {
-        "alignment": "center",
-        "columns": 3,
-        "icons_width": 30,
-        "heading": "",
-        "subheading": "",
-        "bg_color_secondary": false,
-        "box_color": "",
-        "text_color": "#333333",
-        "button_text": "",
-        "button_link": "",
-        "button_style": "btn--secondary btn--small",
-        "enable_slider_mobile": false,
-        "padding_top": 30,
-        "padding_bottom": 30
-      }
-    },
-    "section_icons_row_CtffaY": {
-      "type": "section-icons-row",
-      "blocks": {
-        "text_FPmxbJ": {
-          "type": "text",
-          "settings": {
-            "icon_name": "dollar-sign",
-            "title": "Discounts on LAY LO products",
-            "text": "<p>As a Homeschool member, you'll receive 15% off of products at LAY LO and first dibs on new products.</p>"
-          }
-        },
-        "text_6BETQT": {
-          "type": "text",
-          "settings": {
-            "icon_name": "clipboard",
-            "title": "Personalized training plan",
-            "text": "<p>Every Homeschool premium plan comes with a personalized plan specific to your pups needs</p>"
-          }
-        },
-        "text_wGHKEz": {
-          "type": "text",
-          "settings": {
-            "icon_name": "download",
-            "title": "Access to course library",
-            "text": "<p>Get lifetime access to over 20+ training course videos, from crate training to barking.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "text_FPmxbJ",
-        "text_6BETQT",
-        "text_wGHKEz"
-      ],
-      "settings": {
-        "alignment": "center",
-        "columns": 3,
-        "icons_width": 30,
-        "heading": "",
-        "subheading": "",
-        "bg_color_secondary": false,
-        "box_color": "",
-        "text_color": "#333333",
-        "button_text": "",
-        "button_link": "",
-        "button_style": "btn--secondary btn--small",
-        "enable_slider_mobile": false,
-        "padding_top": 30,
-        "padding_bottom": 60
-      }
-    },
     "section_text_thpNbh": {
       "type": "section-text",
       "blocks": {
         "heading_kVQeGw": {
           "type": "heading",
           "settings": {
+            "discount_button_link_heading": "",
             "text": "<p>Partnership Offers</p>",
             "size": 100,
             "heading_highlight_type": "italics"
@@ -747,7 +733,7 @@
         "text_edVyyr": {
           "type": "text",
           "settings": {
-            "text": "<p>As part of your enrollment, you can take advantage of deals from Vetster, Fetch Pet Insurance, LAY LO and more. </p><p><strong>Reach out to Homeschool Support for latest redemption offers &gt;</strong></p>",
+            "text": "<p>As part of your enrollment, you can take advantage of deals from Vetster, Fetch Pet Insurance, LAY LO and more. <strong>Reach out to Homeschool Support for latest redemption offers &gt;</strong></p>",
             "size": 100
           }
         }
@@ -758,6 +744,7 @@
       ],
       "settings": {
         "text_position": "center",
+        "background_custom_color": "",
         "bg_color_secondary": false,
         "text_color": "text-dark",
         "width": "wrapper--narrow",
@@ -775,6 +762,7 @@
             "title": "Complimentary Vet Visits",
             "text": "<p>Our partnership with Vetster offers LAY LO members a free first virtual visit with a certified veterinarian and 25% off any follow-up visits. </p>",
             "button_text": "Learn More",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "",
@@ -788,6 +776,7 @@
             "title": "10% off Pet Insurance",
             "text": "<p>We offer a discount with Fetch Pet Insurance. Our partnership provides pet parents with a free, no obligation quote in 10 seconds with 10% off for life.</p>",
             "button_text": "Learn More",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "",
@@ -801,6 +790,7 @@
             "title": "25% off of LAY LO Products",
             "text": "<p>Receive up to 25% off on dog beds, dog toys, blankets and more.</p><p>Use code HOMESCHOOL25 at check out.</p>",
             "button_text": "Learn More",
+            "calendly_widget": "",
             "button_link": "https://www.laylopets.com/discount/HOMESCHOOL25",
             "button_style": "btn--text",
             "video_link_popup": "",
@@ -814,6 +804,8 @@
         "text_block_YcJacY"
       ],
       "settings": {
+        "grid_or_slider": false,
+        "discount_button_link": "",
         "title": "",
         "align_text": "text-left",
         "columns": 3,
@@ -833,14 +825,14 @@
           "type": "text",
           "settings": {
             "title": "What if I need to cancel or reschedule my training session?",
-            "text": "<p>We'll email the calendar invites for your next sessions. We know plans change every now and then, but we kindly ask for cancellations or rescheduling to be made at least 24 hours in advance so we can release the time to other dog parents that need it. Cancellations less than 24 hours will be subject to a rebooking fee of $30. </p>"
+            "text": "<p>We'll email the calendar invites for your next sessions. We know plans change every now and then, but we kindly ask for cancellations or rescheduling to be made at least 24 hours in advance so we can release the time to other dog parents that need it.  </p>"
           }
         },
         "text_FyFnRD": {
           "type": "text",
           "settings": {
             "title": "How long are the training sessions?",
-            "text": "<p>Every week you'll have 1x 45-minute call with your dedicated trainer and 2x 15-minute Office Hours to practice your homework with the guidance of a trainer. </p>"
+            "text": "<p>Every week you'll have 1x 45-minute call with your dedicated trainer and unlimited 15-minute Office Hours to practice your homework with the guidance of a trainer. </p>"
           }
         },
         "text_VprdQ7": {
@@ -887,7 +879,7 @@
         "layout": "two-columns",
         "show_accordion_divider": false,
         "tabs_bg_color": "#fafafa",
-        "bg_color_secondary": false,
+        "bg_color_secondary": true,
         "text_color": "text-dark",
         "width": "wrapper",
         "padding_top": 60,
@@ -907,6 +899,7 @@
         "heading_HHaGtq": {
           "type": "heading",
           "settings": {
+            "discount_button_link_heading": "",
             "text": "<p>Need help?</p>",
             "size": 100,
             "heading_highlight_type": "italics"
@@ -922,6 +915,7 @@
         "button_66VQbU": {
           "type": "button",
           "settings": {
+            "discount_button_link": "",
             "btn_text": "Text us directly at 310-564-8808",
             "btn_link": "",
             "btn_style": "btn--secondary btn--small"
@@ -936,6 +930,7 @@
       ],
       "settings": {
         "text_position": "center",
+        "background_custom_color": "",
         "bg_color_secondary": true,
         "text_color": "text-dark",
         "width": "wrapper--narrow",
@@ -946,25 +941,26 @@
   },
   "order": [
     "5dfbc12b-2350-4c42-8a69-13ece72ffef7",
-    "section_columns_tppa6T",
+    "section_text_3hjGGp",
+    "section_icons_row_CtffaY",
     "section_video_hwLqMc",
+    "section_icons_row_aijFUc",
     "section_text_YVrMaF",
     "section_columns_MTzcD7",
-    "section_text_dDmUPH",
-    "section_columns_G6WdX7",
     "section_text_kfpRYY",
     "section_custom_html_WCCwAK",
+    "section_text_WNizCp",
+    "section_custom_html_X3TQqa",
+    "section_collection_BqpLXC",
+    "section_columns_G6WdX7",
     "section_image_with_text_GUeYid",
     "main",
     "67f7744f-33ad-4a01-bf3a-a39288bbc3a8",
-    "section_text_3hjGGp",
     "cf9a4a64-d5dc-428a-8238-3b873b5ff7eb",
     "section_image_with_text_Cra9xR",
     "section_image_with_text_cxKWfJ",
     "section_image_with_text_XERkTR",
     "a1fef923-1a06-42e5-8281-acf46898dc66",
-    "section_icons_row_aijFUc",
-    "section_icons_row_CtffaY",
     "section_text_thpNbh",
     "section_columns_AkHTr6",
     "section_accordions_Cni8mr",

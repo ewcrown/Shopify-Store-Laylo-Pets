@@ -2049,6 +2049,11 @@ h6.text-highlight-wrapper,
     display: none !important;
   }
 }
+@media only screen and (min-width:768px){
+  .hidden-md-up{
+    display:none!important;
+  }
+}
 .visually-hidden, .fallback-text {
   position: absolute;
   overflow: hidden;
@@ -18482,6 +18487,13 @@ body.notification-visible .popup.popup--visible {
 @media only screen and (max-width: 767px) {
   .product__price {
     font-size: calc(1rem * var(--adjust-body));
+    text-decoration: none!important;
+  }
+  .product__price--compare{
+    margin-bottom:0!important;
+  }
+  .product__price--off{
+    margin-bottom:0!important;
   }
 }
 

@@ -33,7 +33,7 @@
             "text_position": "center",
             "text_color": "text-light",
             "subheading": "",
-            "title": "Gift the gift of style",
+            "title": "Give the gift of style",
             "text": "The best gifts for dog parents, curated by LAY LO.",
             "slide_btn_text": "",
             "slide_btn_link": "shopify://collections/all",
@@ -168,7 +168,7 @@
         "text_Mn4Bq6": {
           "type": "text",
           "settings": {
-            "text": "<p>Holiday Sale: Save 20% Sitewide</p>",
+            "text": "<p>BLACK FRIDAY: Save up to 50%</p>",
             "icon_name": "none",
             "icon_color": "",
             "icon_width": 25,
@@ -188,13 +188,13 @@
         "bg_color": "#f3e2b2",
         "color": "#9a0000",
         "layout": "marquee",
-        "padding": 20,
+        "padding": 5,
         "slider_speed": 7,
-        "marquee_speed": 100,
+        "marquee_speed": 75,
         "text_size": 150,
         "message_spacing": 25,
         "padding_top": 0,
-        "padding_bottom": 60
+        "padding_bottom": 40
       }
     },
     "section_list_collection_wFLCUc": {
@@ -222,6 +222,7 @@
           "type": "collection",
           "settings": {
             "collection": "feeding-bowls",
+            "custom_collection_image": "shopify://shop_images/HeroGrey.jpg",
             "bg_color": "",
             "text_color": "text-light",
             "overlay_opacity": 0
@@ -268,7 +269,7 @@
       "settings": {
         "layout": "carousel",
         "columns": 6,
-        "image_size": 90,
+        "image_size": 100,
         "image_shape": "circle",
         "title": "Something for every pup on the nice list",
         "text_size": 100,
@@ -335,9 +336,73 @@
         "collection_UUVKqK"
       ],
       "settings": {
-        "title": "Our best selling dog beds",
+        "title": "Best-selling beds to cozy up to",
         "bg_color_secondary": false,
         "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_image_with_text_gLyGYR": {
+      "type": "section-image-with-text",
+      "name": "Image with text",
+      "settings": {
+        "section_height": "four-fifty-height",
+        "layout": "inline",
+        "image_location": "right",
+        "image_width": "standard",
+        "image": "shopify://shop_images/2-Copy_20of_20aisle_9_laylo-17-edit.jpg",
+        "subheading": "PERSONALIZED HANDLES",
+        "title": "<p>Make it theirs</p>",
+        "heading_highlight_type": "circle",
+        "heading_size": 130,
+        "text_content": "Crafted from premium vegan leather and laser-etched with your dog’s name, our handle wraps add a subtle, personal touch that feels right at home. It’s a small detail that makes your dog’s favorite spot truly theirs.",
+        "text_alignment": "left",
+        "button_text": "Shop Beds",
+        "button_link": "shopify://collections/all",
+        "button_style": "btn--primary btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_promotion_row_qbbVa3": {
+      "type": "section-promotion-row",
+      "blocks": {
+        "column_Q4iwyj": {
+          "type": "column",
+          "settings": {
+            "subheading": "",
+            "subheading_size": 90,
+            "heading": "<p>50%  off Personalized Handles .</p>",
+            "heading_highlight_type": "italics",
+            "heading_size": 140,
+            "description": "Discount automatically applied at cart.",
+            "description_size": 100,
+            "disclaimer": "",
+            "disclaimer_size": 75,
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--primary btn--small",
+            "bg_color": "#f3e2b2",
+            "text_color": "#9a0000",
+            "gradient_background": "",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "column_Q4iwyj"
+      ],
+      "settings": {
+        "layout": "none",
+        "height": "200",
+        "bg_color": "rgba(0,0,0,0)",
+        "enable_slider_mobile": true,
+        "width": "wrapper--full-padded",
         "padding_top": 60,
         "padding_bottom": 60
       }
@@ -400,44 +465,6 @@
         "padding_bottom": 60
       }
     },
-    "section_promotion_row_qbbVa3": {
-      "type": "section-promotion-row",
-      "blocks": {
-        "column_Q4iwyj": {
-          "type": "column",
-          "settings": {
-            "subheading": "",
-            "subheading_size": 90,
-            "heading": "<p>Buy one bed or blanket and get the second 25%  off.</p>",
-            "heading_highlight_type": "italics",
-            "heading_size": 140,
-            "description": "Discount automatically applied at cart.",
-            "description_size": 100,
-            "disclaimer": "*Not applicable with other discounts.",
-            "disclaimer_size": 75,
-            "button_text": "",
-            "button_link": "",
-            "button_style": "btn--primary btn--small",
-            "bg_color": "#f3e2b2",
-            "text_color": "#9a0000",
-            "gradient_background": "",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "column_Q4iwyj"
-      ],
-      "settings": {
-        "layout": "none",
-        "height": "200",
-        "bg_color": "rgba(0,0,0,0)",
-        "enable_slider_mobile": true,
-        "width": "wrapper--full-padded",
-        "padding_top": 60,
-        "padding_bottom": 60
-      }
-    },
     "section_tab_collections_973MAg": {
       "type": "section-tab-collections",
       "blocks": {
@@ -475,11 +502,113 @@
         "products_layout": "grid",
         "number_of_products": 4,
         "text_alignment": "text-left",
-        "title": "Something to play with",
+        "title": "Keeping them enriched",
         "heading_size": 115,
         "text": "",
         "text_size": 100,
         "button_text": "",
+        "button_style": "btn--primary",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "columns_mobile": "2",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_look_jAkUig": {
+      "type": "section-look",
+      "blocks": {
+        "product_76UMHz": {
+          "type": "product",
+          "settings": {
+            "product": "lay-lo-sessions-intro-to-trick-training",
+            "position_x": 31,
+            "position_y": 41
+          }
+        },
+        "product_DBQBrQ": {
+          "type": "product",
+          "settings": {
+            "product": "lay-lo-sessions-enrichment-workshop",
+            "position_x": 50,
+            "position_y": 63
+          }
+        },
+        "product_UaqTH7": {
+          "type": "product",
+          "settings": {
+            "product": "lay-lo-sessions-dog-nutrition-assessment-consultation",
+            "position_x": 31,
+            "position_y": 41
+          }
+        },
+        "product_dX7Xxc": {
+          "type": "product",
+          "settings": {
+            "product": "lay-lo-sessions-cooperative-care",
+            "position_x": 73,
+            "position_y": 47
+          }
+        }
+      },
+      "block_order": [
+        "product_76UMHz",
+        "product_DBQBrQ",
+        "product_UaqTH7",
+        "product_dX7Xxc"
+      ],
+      "name": "Shop the look ",
+      "settings": {
+        "image": "shopify://shop_images/Stocksy_txp1c640f89MbC400_Medium_6909095_Edit.jpg",
+        "enable_aspect_ratio": true,
+        "main_image_aspect_ratio": 1,
+        "title": "Build your bond together with live, 1:1 sessions with dog experts",
+        "text": "<p>Our expert-led, live sessions dive into the topics that matter most—from training and behavior to nutrition and more. </p>",
+        "text_alignment": "text-left",
+        "show_hotspots": false,
+        "content_color": "text-dark",
+        "hotspot_color": "",
+        "bg_color_secondary": true,
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_collection_bb4NQb": {
+      "type": "section-collection",
+      "disabled": true,
+      "settings": {
+        "collection": "nutrition",
+        "products_layout": "grid",
+        "number_of_products": 8,
+        "text_alignment": "text-left",
+        "title": "A few festive treats",
+        "heading_size": 115,
+        "text": "",
+        "text_size": 100,
+        "button_text": "View All",
+        "button_style": "btn--primary",
+        "bg_color_secondary": false,
+        "enable_slider_mobile": true,
+        "columns_mobile": "2",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_collection_jGAXQF": {
+      "type": "section-collection",
+      "settings": {
+        "collection": "feeding-bowls",
+        "products_layout": "grid",
+        "number_of_products": 8,
+        "text_alignment": "text-left",
+        "title": "A fanciful place to eat",
+        "heading_size": 115,
+        "text": "",
+        "text_size": 100,
+        "button_text": "View All",
         "button_style": "btn--primary",
         "bg_color_secondary": false,
         "enable_slider_mobile": true,
@@ -539,50 +668,9 @@
         "padding_bottom": 60
       }
     },
-    "section_collection_bb4NQb": {
-      "type": "section-collection",
-      "settings": {
-        "collection": "nutrition",
-        "products_layout": "grid",
-        "number_of_products": 8,
-        "text_alignment": "text-left",
-        "title": "A few festive treats",
-        "heading_size": 115,
-        "text": "",
-        "text_size": 100,
-        "button_text": "View All",
-        "button_style": "btn--primary",
-        "bg_color_secondary": false,
-        "enable_slider_mobile": true,
-        "columns_mobile": "2",
-        "width": "wrapper",
-        "padding_top": 60,
-        "padding_bottom": 60
-      }
-    },
-    "section_collection_jGAXQF": {
-      "type": "section-collection",
-      "settings": {
-        "collection": "feeding-bowls",
-        "products_layout": "grid",
-        "number_of_products": 8,
-        "text_alignment": "text-left",
-        "title": "A fanciful place to eat",
-        "heading_size": 115,
-        "text": "",
-        "text_size": 100,
-        "button_text": "View All",
-        "button_style": "btn--primary",
-        "bg_color_secondary": false,
-        "enable_slider_mobile": true,
-        "columns_mobile": "2",
-        "width": "wrapper",
-        "padding_top": 60,
-        "padding_bottom": 60
-      }
-    },
     "section_image_with_text_BUNNLz": {
       "type": "section-image-with-text",
+      "disabled": true,
       "settings": {
         "section_height": "three-fifty-height",
         "layout": "inline",
@@ -605,6 +693,31 @@
         "padding_top": 60,
         "padding_bottom": 60
       }
+    },
+    "section_image_with_text_EghLRf": {
+      "type": "section-image-with-text",
+      "settings": {
+        "section_height": "three-fifty-height",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "standard",
+        "image": "shopify://shop_images/LAY_LO_Gift_Card.png",
+        "subheading": "GIFT CARDS",
+        "title": "<p>Give them the gift of great design and comfort.</p>",
+        "heading_highlight_type": "circle",
+        "heading_size": 130,
+        "text_content": "LAY LO® gift cards are a great gift for the new pet parent who wants to choose what's best for their dog.",
+        "text_alignment": "left",
+        "button_text": "Shop Gift Cards",
+        "button_link": "shopify://products/laylo-pets-gift-card",
+        "button_style": "btn--primary btn--small",
+        "video_link": "",
+        "text_color": "text-dark",
+        "bg_color": "#f7f7f7",
+        "section_width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
     }
   },
   "order": [
@@ -613,13 +726,16 @@
     "section_marquee_XJhMxL",
     "section_list_collection_wFLCUc",
     "section_tab_collections_aLCVAU",
-    "section_look_4G6Yag",
+    "section_image_with_text_gLyGYR",
     "section_promotion_row_qbbVa3",
+    "section_look_4G6Yag",
     "section_tab_collections_973MAg",
     "section_collection_8QedRC",
-    "section_look_CCae9E",
+    "section_look_jAkUig",
     "section_collection_bb4NQb",
     "section_collection_jGAXQF",
-    "section_image_with_text_BUNNLz"
+    "section_look_CCae9E",
+    "section_image_with_text_BUNNLz",
+    "section_image_with_text_EghLRf"
   ]
 }

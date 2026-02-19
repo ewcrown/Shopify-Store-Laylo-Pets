@@ -1,0 +1,438 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_text_BbNbpT": {
+      "type": "section-text",
+      "blocks": {
+        "subheading_H7yFt4": {
+          "type": "subheading",
+          "settings": {
+            "text": "<p>BOOK WITH YOUR TRAINER</p>",
+            "size": 100
+          }
+        },
+        "heading_y9qQJN": {
+          "type": "heading",
+          "settings": {
+            "discount_button_link_heading": "",
+            "text": "<p>Practice Sessions</p>",
+            "size": 100,
+            "heading_highlight_type": "italics"
+          }
+        },
+        "text_3CLJxG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>To help guarantee your success, we offer Practice Sessions to review the homework in your Training Plan with the guidance of a force-free trainer. </p>",
+            "size": 100
+          }
+        }
+      },
+      "block_order": [
+        "subheading_H7yFt4",
+        "heading_y9qQJN",
+        "text_3CLJxG"
+      ],
+      "disabled": true,
+      "settings": {
+        "text_position": "center",
+        "background_custom_color": "",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_icons_row_9imNxr": {
+      "type": "section-icons-row",
+      "blocks": {
+        "text_U3EEjU": {
+          "type": "text",
+          "settings": {
+            "icon_name": "calendar",
+            "title": "Pick a group class",
+            "text": "<p>Pick a class that you want to explore </p>"
+          }
+        },
+        "text_pWDJtt": {
+          "type": "text",
+          "settings": {
+            "icon_name": "check",
+            "title": "Book your time",
+            "text": "<p>Use the calendar to reserve your spot</p>"
+          }
+        },
+        "text_7mjtEM": {
+          "type": "text",
+          "settings": {
+            "icon_name": "eco-friendly",
+            "title": "Join the Zoom",
+            "text": "<p>You will receive a Zoom link to join the video call. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_U3EEjU",
+        "text_pWDJtt",
+        "text_7mjtEM"
+      ],
+      "settings": {
+        "alignment": "center",
+        "columns": 3,
+        "icons_width": 30,
+        "heading": "Upcoming Group Classes",
+        "subheading": "<p>For a limited time, group classes are complimentary for all Homeschool Members </p>",
+        "bg_color_secondary": true,
+        "box_color": "",
+        "text_color": "#333333",
+        "button_text": "",
+        "button_link": "",
+        "button_style": "btn--secondary btn--small",
+        "enable_slider_mobile": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_columns_L8fh6B": {
+      "type": "section-columns",
+      "blocks": {
+        "text_block_mzV4Lz": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/love-heart-and-petals.jpg",
+            "title": "Craft Night: Puppy Art Party",
+            "text": "<p><strong>● FEB 7 @ 7 PM EST ●</strong></p><p>Grab your pup and come make something cute. In this live class, we’ll create a Valentine-inspired heart painting step-by-step (no art skills needed). </p>",
+            "button_text": "RSVP",
+            "calendly_widget": "",
+            "button_link": "https://calendly.com/nicole-laylopets/valentines-paint-night",
+            "button_style": "btn--primary btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_ama374": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/Session_Images_57241605-18b6-43bb-8f0e-14e4d819402d.png",
+            "title": "Trick Training: Be My Fur-Ever Valentine",
+            "text": "<p><strong>● FEB 9 @ 8 PM EST ●</strong></p><p>Celebrate Valentine’s Day with your dog by teaching some cute, feel-good tricks that are just as fun to practice as they are to show off. We’ll work through simple, Valentine’s-themed tricks that build confidence, focus, and connection.</p>",
+            "button_text": "RSVP",
+            "calendly_widget": "",
+            "button_link": "https://calendly.com/stephanie-laylopets/valentines-day-tricks",
+            "button_style": "btn--primary btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_ATheck": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/Homeschool_Card_Edit_1.5x.png",
+            "title": "Workshop: Becoming Your Dog’s Favorite Person",
+            "text": "<p><strong>● FEB 12 @ 8 PM EST ●</strong></p><p>Great training starts with connection, not just commands. In this workshop, you’ll learn how to build stronger communication with your dog so training feels easier and more natural in everyday life. We’ll cover simple mindset and interaction shifts that improve focus, trust, and responsiveness. </p>",
+            "button_text": "RSVP",
+            "calendly_widget": "",
+            "button_link": "https://calendly.com/stephanie-laylopets/building-connections-workshop",
+            "button_style": "btn--primary btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_mzV4Lz",
+        "text_block_ama374",
+        "text_block_ATheck"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "grid_or_slider": false,
+        "discount_button_link": "",
+        "title": "",
+        "align_text": "text-left",
+        "columns": 3,
+        "equalize_height": true,
+        "image_aspect_ratio": 0.8,
+        "show_images": true,
+        "bg_color_secondary": false,
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_columns_MNd6r7": {
+      "type": "section-columns",
+      "blocks": {
+        "text_block_FhpyEE": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/EnrichmentActivities.png",
+            "title": "Happy Hour: Treat Making + Enrichment Games",
+            "text": "<p><strong>● FEB 20 @ 8 PM EST ●</strong></p><p>Join Homeschool Social Club for a fun, feel-good class where we’ll make simple DIY dog snacks that can be used in <em>food-based </em>enrichment games to keep your pup busy, calm, and fulfilled. </p>",
+            "button_text": "RSVP",
+            "calendly_widget": "",
+            "button_link": "https://calendly.com/nicole-laylopets/happy_hour",
+            "button_style": "btn--primary btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_wBUp4J": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/teachpuppytocalled.jpg",
+            "title": "Pup Olympics: At-Home Edition",
+            "text": "<p><strong>● FEB 22 @ 7 PM EST ●</strong></p><p>This at-home agility class is designed to turn everyday space into a confidence course. We’ll teach simple agility foundations using items you already have at home (think cones, chairs, broomsticks). It’s fun, energizing, and perfect for building focus, body awareness, and a dog who loves working with you.</p>",
+            "button_text": "RSVP",
+            "calendly_widget": "",
+            "button_link": "https://calendly.com/katie-laylopets/diy-indoor-agility",
+            "button_style": "btn--primary btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_jXHRQM": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/Nutrition.png",
+            "title": "Expert Talk: Food + Supplements",
+            "text": "<p><strong>● FEB 23 @ 7 PM EST ●</strong></p><p>Dog food labels are confusing on purpose. In this Homeschool Social Club class, we’ll break down how to read ingredient lists, spot marketing traps, and make smarter food + supplement choices for long-term health. You’ll leave feeling way more confident about what’s actually in your dog’s bowl.</p>",
+            "button_text": "RSVP",
+            "calendly_widget": "",
+            "button_link": "https://calendly.com/nicole-laylopets/food-label-reading-and-healthy-choices",
+            "button_style": "btn--primary btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_FhpyEE",
+        "text_block_wBUp4J",
+        "text_block_jXHRQM"
+      ],
+      "name": "Text columns with images",
+      "settings": {
+        "grid_or_slider": false,
+        "discount_button_link": "",
+        "title": "",
+        "align_text": "text-left",
+        "columns": 3,
+        "equalize_height": true,
+        "image_aspect_ratio": 0.8,
+        "show_images": true,
+        "bg_color_secondary": false,
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "extra_class": "",
+        "bg_color_secondary": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_custom_html_MbXVYE": {
+      "type": "section-custom-html",
+      "disabled": true,
+      "settings": {
+        "custom_code": "<!-- Calendly inline widget begin -->\n<div class=\"calendly-inline-widget\" data-url=\"https://calendly.com/katie-laylopets/practice-sessions\" style=\"min-width:320px;height:700px;\"></div>\n<script type=\"text/javascript\" src=\"https://assets.calendly.com/assets/external/widget.js\" async></script>\n<!-- Calendly inline widget end -->",
+        "width": "wrapper",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "section_divider_mUQR4M": {
+      "type": "section-divider",
+      "disabled": true,
+      "settings": {
+        "show_line": true,
+        "width": "wrapper",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_text_g6XCyL": {
+      "type": "section-text",
+      "blocks": {
+        "heading_aJgVFX": {
+          "type": "heading",
+          "settings": {
+            "discount_button_link_heading": "",
+            "text": "<p>Book with Tracy M.</p>",
+            "size": 100,
+            "heading_highlight_type": "italics"
+          }
+        }
+      },
+      "block_order": [
+        "heading_aJgVFX"
+      ],
+      "disabled": true,
+      "settings": {
+        "text_position": "center",
+        "background_custom_color": "",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_custom_html_Eir6EQ": {
+      "type": "section-custom-html",
+      "disabled": true,
+      "settings": {
+        "custom_code": "<div class=\"calendly-inline-widget\" data-url=\"https://calendly.com/tracy-laylopets/practice-sessions\" style=\"min-width:320px;height:700px;\"></div>",
+        "width": "wrapper",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "section_text_dhjpFh": {
+      "type": "section-text",
+      "blocks": {
+        "heading_rHTNQX": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "discount_button_link_heading": "",
+            "text": "<p>Book with Morgan C.</p>",
+            "size": 100,
+            "heading_highlight_type": "italics"
+          }
+        }
+      },
+      "block_order": [
+        "heading_rHTNQX"
+      ],
+      "disabled": true,
+      "settings": {
+        "text_position": "center",
+        "background_custom_color": "",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_custom_html_UbthRU": {
+      "type": "section-custom-html",
+      "disabled": true,
+      "settings": {
+        "custom_code": "<!-- Calendly inline widget begin -->\n<div class=\"calendly-inline-widget\" data-url=\"https://calendly.com/morgan-laylopets/practice-sessions\" style=\"min-width:320px;height:700px;\"></div>\n<script type=\"text/javascript\" src=\"https://assets.calendly.com/assets/external/widget.js\" async></script>\n<!-- Calendly inline widget end -->",
+        "width": "wrapper",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "section_text_67eiVf": {
+      "type": "section-text",
+      "blocks": {
+        "heading_qGzr4P": {
+          "type": "heading",
+          "settings": {
+            "discount_button_link_heading": "",
+            "text": "<p>Book with Karen</p>",
+            "size": 100,
+            "heading_highlight_type": "italics"
+          }
+        }
+      },
+      "block_order": [
+        "heading_qGzr4P"
+      ],
+      "disabled": true,
+      "settings": {
+        "text_position": "center",
+        "background_custom_color": "",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_custom_html_pxy9n6": {
+      "type": "section-custom-html",
+      "disabled": true,
+      "settings": {
+        "custom_code": "<!-- Calendly inline widget begin -->\n<div class=\"calendly-inline-widget\" data-url=\"https://calendly.com/karen-laylopets/practice-sessions\" style=\"min-width:320px;height:700px;\"></div>\n<script type=\"text/javascript\" src=\"https://assets.calendly.com/assets/external/widget.js\" async></script>\n<!-- Calendly inline widget end -->",
+        "width": "wrapper",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "section_text_MKeT6z": {
+      "type": "section-text",
+      "blocks": {
+        "heading_TaAXcp": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "discount_button_link_heading": "",
+            "text": "<p>Book with Shannen</p>",
+            "size": 100,
+            "heading_highlight_type": "italics"
+          }
+        }
+      },
+      "block_order": [
+        "heading_TaAXcp"
+      ],
+      "disabled": true,
+      "settings": {
+        "text_position": "center",
+        "background_custom_color": "",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_custom_html_k3hr7z": {
+      "type": "section-custom-html",
+      "disabled": true,
+      "settings": {
+        "custom_code": "<!-- Calendly inline widget begin -->\n<div class=\"calendly-inline-widget\" data-url=\"https://calendly.com/shannenlaylo/practice-sessions\" style=\"min-width:320px;height:700px;\"></div>\n<script type=\"text/javascript\" src=\"https://assets.calendly.com/assets/external/widget.js\" async></script>\n<!-- Calendly inline widget end -->",
+        "width": "wrapper",
+        "padding_top": 10,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "section_text_BbNbpT",
+    "section_icons_row_9imNxr",
+    "section_columns_L8fh6B",
+    "section_columns_MNd6r7",
+    "main",
+    "section_custom_html_MbXVYE",
+    "section_divider_mUQR4M",
+    "section_text_g6XCyL",
+    "section_custom_html_Eir6EQ",
+    "section_text_dhjpFh",
+    "section_custom_html_UbthRU",
+    "section_text_67eiVf",
+    "section_custom_html_pxy9n6",
+    "section_text_MKeT6z",
+    "section_custom_html_k3hr7z"
+  ]
+}

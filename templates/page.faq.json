@@ -33,6 +33,7 @@
         "heading_xqGhxd": {
           "type": "heading",
           "settings": {
+            "discount_button_link_heading": "",
             "text": "<p>Frequently Asked Questions</p>",
             "size": 100,
             "heading_highlight_type": "italics"
@@ -48,6 +49,7 @@
         "button_iCmcPN": {
           "type": "button",
           "settings": {
+            "discount_button_link": "",
             "btn_text": "",
             "btn_link": "",
             "btn_style": "btn--primary btn--small"
@@ -62,6 +64,7 @@
       ],
       "settings": {
         "text_position": "center",
+        "background_custom_color": "",
         "bg_color_secondary": false,
         "text_color": "text-dark",
         "width": "wrapper--narrow",
@@ -137,7 +140,7 @@
           "type": "text",
           "settings": {
             "title": "What is your return policy?",
-            "text": "<p><strong>For LAY LO Beds and Bed Covers:</strong> if you have not opened the vacuum seal or original packaging, you will be eligible for a return or an exchange of size. Returns must be requested within 30 days of the  purchase date. LAY LO beds must be unopened for a return or a refund.  <br/><br/><strong>Liners, toys, and and other products</strong> must be unused to be eligible for a return. </p><p>For <strong>exchange items</strong>, please see \"How do I exchange a product?\" in the questions below. </p><p>If you wish to return or exchange your items, knowing the above, please contact our team at <a href=\"mailto:support@laylopets.com\">support@laylopets.com</a> for return details. Please provide your order number and photo of your product. </p><p>Return shipping of a LAY LO bed will be subject to a $20 return fee, which will be deducted from your final refund amount. Other returned products will be subject to a $5 fee. </p><p>Once the product is received and passes inspection, the payment will be processed to the original payment method and the customer will receive an email notification.</p>"
+            "text": "<p><strong>For LAY LO Beds and Bed Covers:</strong> We want to ensure the best experience for your pup, and we get that things don't always work out. Unused items are eligible for return within 30 days of purchase. If you have not opened the vacuum seal on the mattress, you will be eligible for a return or an exchange of another item. Returns must be requested within 30 days of the  purchase date.  <br/><br/><strong>Liners, toys, and and other products</strong> must be unused to be eligible for a return. </p><p>For <strong>exchange items</strong>, please see \"How do I exchange a product?\" in the questions below. </p><p>If you wish to return or exchange your items, knowing the above, please contact our team at <a href=\"mailto:support@laylopets.com\">support@laylopets.com</a> for return details. Please provide your order number and photo of your product. </p><p>Bed returns will be subject to a $25 return fee, which will be deducted from your final refund amount. Other returned products will be subject to a $10 fee. </p><p>Once the product is received and passes inspection, the payment will be processed to the original payment method and the customer will receive an email notification.</p>"
           }
         },
         "accordion_block_4_1": {
@@ -151,7 +154,7 @@
           "type": "text",
           "settings": {
             "title": "How much can I get refunded?",
-            "text": "<p>In the case when the <strong>product and packaging are unopened and undamaged</strong>, you are<strong> eligible </strong>for a full refund.*<br/><br/>In the case when<strong> the packaging has been opened and the product has been used</strong>, you are <strong>eligible</strong> for a partial refund.*<br/><br/>In the case when a<strong> product has been damaged</strong>, and the damage is not covered by your warranty, you are<strong> not eligible </strong>for a refund.*<br/><br/>*Dog bed mattresses that have been opened and used are eligible for exchange but not a refund. Eligible returned or exchanged items are subject to up to a restocking and shipping fee. <br/></p>"
+            "text": "<p>In the case when the <strong>product and packaging are unused and undamaged</strong>, you are<strong> eligible </strong>for a full refund.*<br/><br/>In the case when<strong> the packaging has been opened and the product has been used</strong>, you are <strong>eligible</strong> for a partial refund.*<br/><br/>In the case when a<strong> product has been damaged</strong>, and the damage is not covered by your warranty, you are<strong> not eligible </strong>for a refund.*<br/><br/>*Dog bed mattresses that have been opened and used are eligible for exchange but not a refund. Eligible returned or exchanged items are subject to up to a restocking and shipping fee. <br/></p>"
           }
         },
         "accordion_block_4_3": {

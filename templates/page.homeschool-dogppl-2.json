@@ -9,73 +9,6 @@
  */
 {
   "sections": {
-    "section_marquee_JYteLD": {
-      "type": "section-marquee",
-      "blocks": {
-        "text_rHCCPz": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Valid Thru 12/8</p>",
-            "icon_name": "none",
-            "icon_color": "",
-            "icon_width": 25,
-            "target_device_enabled": false,
-            "target_device": "mobile"
-          }
-        },
-        "message_hRbtEg": {
-          "type": "message",
-          "disabled": true,
-          "settings": {
-            "message": "Spend ||amount|| more for free shipping.",
-            "target_device_enabled": false,
-            "target_device": "mobile"
-          }
-        },
-        "text_RLtbr9": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>Black Friday Sale - Save up to $300 on select packages</strong></p>",
-            "icon_name": "none",
-            "icon_color": "",
-            "icon_width": 25,
-            "target_device_enabled": false,
-            "target_device": "mobile"
-          }
-        },
-        "text_c4Tk8f": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>Free Fi Collar </strong>with any purchase</p>",
-            "icon_name": "none",
-            "icon_color": "",
-            "icon_width": 25,
-            "target_device_enabled": false,
-            "target_device": "mobile"
-          }
-        }
-      },
-      "block_order": [
-        "text_rHCCPz",
-        "message_hRbtEg",
-        "text_RLtbr9",
-        "text_c4Tk8f"
-      ],
-      "disabled": true,
-      "name": "Marquee",
-      "settings": {
-        "bg_color": "#9a0000",
-        "color": "#ffffff",
-        "layout": "marquee",
-        "padding": 20,
-        "slider_speed": 7,
-        "marquee_speed": 100,
-        "text_size": 150,
-        "message_spacing": 25,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "section_image_with_text_nYKfTn": {
       "type": "section-image-with-text",
       "settings": {
@@ -84,14 +17,14 @@
         "image_location": "right",
         "image_width": "wide",
         "image": "shopify://shop_images/Homeschool_LAY_LO_Expert_Virtual_Dog_Training_5-min.jpg",
-        "subheading": "Exclusive offer",
-        "title": "<p>Get instant, personalized help with your toughest pup challenges.</p>",
+        "subheading": "EXCLUSIVE DOG PPL OFFER",
+        "title": "<p>Raise a happy, well-trained dog with live help from dog experts</p>",
         "heading_highlight_type": "circle",
         "heading_size": 100,
-        "text_content": "Get real-time guidance and answers in a live session with a dedicated dog expert and start building a better relationship with your dog today.  \n• Better understand your pup's issues\n• Get instant answers & start making progress\n• Learn our proven plans to help any challenge\n• Become your dog's best trainer for years to come",
+        "text_content": "Get real-time guidance with your toughest pup challenges in a live session with a dedicated dog expert and start building a better relationship with your dog today. \n\n• Better understand your pup's issues\n• Get instant answers & start making progress\n• Learn our proven plans to help any challenge\n• Become your dog's best trainer for years to come",
         "text_alignment": "left",
-        "button_text": "Book Your Free Expert Call >",
-        "button_link": "https://www.laylopets.com/pages/free-consultation-booking-page",
+        "button_text": "Talk to an expert for free >",
+        "button_link": "https://calendly.com/d/cx59-mn4-3cb/pup-behavior-evaluation-dogpplLAY7188?utm_source=dogppl",
         "button_style": "btn--primary",
         "video_link": "",
         "text_color": "text-dark",
@@ -99,6 +32,60 @@
         "section_width": "wrapper",
         "padding_top": 60,
         "padding_bottom": 30
+      }
+    },
+    "section_text_P9UjtC": {
+      "type": "section-text",
+      "blocks": {
+        "image_hpzdEp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DOG_PPL_Logo_Stacked_Black_1.png",
+            "image_width": 60,
+            "image_link": ""
+          }
+        },
+        "heading_aaNw9d": {
+          "type": "heading",
+          "settings": {
+            "discount_button_link_heading": "",
+            "text": "<p>Member exclusive 20% discount</p>",
+            "size": 60,
+            "heading_highlight_type": "italics"
+          }
+        },
+        "text_3GUGBN": {
+          "type": "text",
+          "settings": {
+            "text": "<p>DOG PPL members receive 20% off any training package (up to $150). <br/>Mention code \"DOGPPL\" during your introductory call or on the checkout page to receive the discount.</p>",
+            "size": 100
+          }
+        },
+        "button_7Vqw4y": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "discount_button_link": "https://calendly.com/d/cx59-mn4-3cb/pup-behavior-evaluation-dogppl",
+            "btn_text": "Read More",
+            "btn_link": "https://calendly.com/d/cx59-mn4-3cb/pup-behavior-evaluation-dogppl",
+            "btn_style": "btn--primary btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "image_hpzdEp",
+        "heading_aaNw9d",
+        "text_3GUGBN",
+        "button_7Vqw4y"
+      ],
+      "settings": {
+        "text_position": "center",
+        "background_custom_color": "",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 20,
+        "padding_bottom": 60
       }
     },
     "463164fa-b7f2-48fd-bf6b-64f4358ede74": {
@@ -117,14 +104,14 @@
           "settings": {
             "icon_name": "check",
             "title": "Free Introductory Call",
-            "text": "<p>Get expert help and start supporting your dog from the first call—no commitment required.</p>"
+            "text": "<p>Get expert help and start supporting your new dog from the first call—no commitment required.</p>"
           }
         },
         "d1e9956a-53ef-4ca9-96b6-72b378d81245": {
           "type": "text",
           "settings": {
             "icon_name": "award",
-            "title": "Match With Your Expert",
+            "title": "Led by a Certified Expert",
             "text": "<p>From training to nutrition and behavior, our team holds some of the highest certifications in their fields. Work with the best.</p>"
           }
         },
@@ -181,67 +168,85 @@
         "padding_bottom": 40
       }
     },
-    "section_custom_html_FJjQLV": {
-      "type": "section-custom-html",
-      "disabled": true,
-      "settings": {
-        "custom_code": "<!-- Calendly inline widget begin -->\n<div class=\"calendly-inline-widget\" data-url=\"https://calendly.com/d/cqkx-7yb-zm6/behavior-consult-with-a-dog-expert?hide_gdpr_banner=1utm_source=Directbook\" style=\"min-width:320px;height:700px;\"></div>\n<script type=\"text/javascript\" src=\"https://assets.calendly.com/assets/external/widget.js\" async></script>\n<!-- Calendly inline widget end -->",
-        "width": "wrapper--full-padded",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "section_text_xQTXpH": {
-      "type": "section-text",
+    "section_icons_row_nBjdiX": {
+      "type": "section-icons-row",
       "blocks": {
-        "subheading_jc8GjN": {
-          "type": "subheading",
-          "settings": {
-            "text": "<p>Subheading</p>",
-            "size": 100
-          }
-        },
-        "heading_FmiaQG": {
-          "type": "heading",
-          "settings": {
-            "discount_button_link_heading": "",
-            "text": "<p>Get instant help with your toughest pup challenges, free.</p>",
-            "size": 100,
-            "heading_highlight_type": "italics"
-          }
-        },
-        "text_mtKMnh": {
+        "text_nhBBwU": {
           "type": "text",
           "settings": {
-            "text": "<p>Get real-time guidance and answers in a live session with a dedicated <br/>dog expert and start building a better relationship with your dog today.<br/>  <br/>• Better understand your pup's issues<br/>• Get instant answers & start making progress<br/>• Learn our proven plans to help any challenge<br/>• Become your dog's best trainer for years to come<br/>• 7-day trial and free behavior evaluation call</p>",
-            "size": 100
+            "icon_name": "check",
+            "title": "No Commitment",
+            "text": "<p>From nutrition, to training, speak we have certified experts for you.</p>"
           }
         },
-        "button_w6cdcw": {
-          "type": "button",
+        "text_GTxH8n": {
+          "type": "text",
           "settings": {
-            "discount_button_link": "",
-            "btn_text": "Read More",
-            "btn_link": "",
-            "btn_style": "btn--primary btn--small"
+            "icon_name": "clipboard",
+            "title": "Led by a Certified Expert",
+            "text": "<p>Whether it’s just one session, or a full training plan, we’re here to help.</p>"
+          }
+        },
+        "text_FQjHrc": {
+          "type": "text",
+          "settings": {
+            "icon_name": "support",
+            "title": "Get Instant Help",
+            "text": "<p>Receive your video link via zoom to work with your expert face-to-face.</p>"
+          }
+        },
+        "text_RDKKUK": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "icon_name": "clock",
+            "title": "Separation Anxiety",
+            "text": "<p>Help reduce your pup's anxiety, both when you're home and when you're not.</p>"
+          }
+        },
+        "text_jtXwLV": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "icon_name": "clock",
+            "title": "Nutrition advice",
+            "text": "<p>Find the right mix of needs for your breed, right from the experts.</p>"
+          }
+        },
+        "text_XkEY9K": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "icon_name": "clock",
+            "title": "Puppy-proofing",
+            "text": "<p>Learn the best interior design tips and products to make your home.</p>"
           }
         }
       },
       "block_order": [
-        "subheading_jc8GjN",
-        "heading_FmiaQG",
-        "text_mtKMnh",
-        "button_w6cdcw"
+        "text_nhBBwU",
+        "text_GTxH8n",
+        "text_FQjHrc",
+        "text_RDKKUK",
+        "text_jtXwLV",
+        "text_XkEY9K"
       ],
       "disabled": true,
       "settings": {
-        "text_position": "center",
-        "background_custom_color": "",
-        "bg_color_secondary": false,
-        "text_color": "text-dark",
-        "width": "wrapper--narrow",
-        "padding_top": 60,
-        "padding_bottom": 60
+        "alignment": "center",
+        "columns": 3,
+        "icons_width": 30,
+        "heading": "",
+        "subheading": "",
+        "bg_color_secondary": true,
+        "box_color": "",
+        "text_color": "#000000",
+        "button_text": "",
+        "button_link": "",
+        "button_style": "btn--secondary btn--small",
+        "enable_slider_mobile": false,
+        "padding_top": 40,
+        "padding_bottom": 40
       }
     },
     "section_text_9eGxmj": {
@@ -262,22 +267,6 @@
             "text": "<p>Trusted by 1,000+ pup parents</p>",
             "size": 100,
             "heading_highlight_type": "italics"
-          }
-        },
-        "button_9VxA9h": {
-          "type": "button",
-          "settings": {
-            "discount_button_link": "",
-            "btn_text": "View our Verified Bark.com Profile >",
-            "btn_link": "https://www.bark.com/en/us/b/homeschool-by-lay-lo-dog-training-with-world-class-experts/q4Z7p/",
-            "btn_style": "btn--text"
-          }
-        },
-        "text_NPknmD": {
-          "type": "text",
-          "settings": {
-            "text": "",
-            "size": 100
           }
         },
         "text_BnEhhT": {
@@ -302,8 +291,6 @@
       "block_order": [
         "subheading_MEMqT3",
         "heading_RMiezU",
-        "button_9VxA9h",
-        "text_NPknmD",
         "text_BnEhhT",
         "button_mAx6gM"
       ],
@@ -474,7 +461,7 @@
         "text_block_DkC38F"
       ],
       "settings": {
-        "grid_or_slider": true,
+        "grid_or_slider": false,
         "discount_button_link": "",
         "title": "",
         "align_text": "text-left",
@@ -488,6 +475,83 @@
         "padding_bottom": 30
       }
     },
+    "6493dcda-a810-4cb9-a611-bc082a57bcc4": {
+      "type": "section-icons-row",
+      "blocks": {
+        "template--16036805083322__6493dcda-a810-4cb9-a611-bc082a57bcc4-1677350244f7ee6ee6-0": {
+          "type": "text",
+          "settings": {
+            "icon_name": "truck",
+            "title": "Potty Training",
+            "text": "<p>Effectively build your dog's bladder control by teaching them the basics.</p>"
+          }
+        },
+        "template--16036805083322__6493dcda-a810-4cb9-a611-bc082a57bcc4-1677350244f7ee6ee6-1": {
+          "type": "text",
+          "settings": {
+            "icon_name": "check",
+            "title": "Leash Training & Socialization",
+            "text": "<p>Improve your walks, whether your going around town or around the block. </p>"
+          }
+        },
+        "template--16036805083322__6493dcda-a810-4cb9-a611-bc082a57bcc4-1677350244f7ee6ee6-2": {
+          "type": "text",
+          "settings": {
+            "icon_name": "award",
+            "title": "Basic Manners",
+            "text": "<p>Help your dog relax around guests, reduce barking, and eliminate chewing and puppy biting.</p>"
+          }
+        },
+        "4385bd36-7283-4efb-8161-ccb6a221e560": {
+          "type": "text",
+          "settings": {
+            "icon_name": "clock",
+            "title": "Separation Anxiety",
+            "text": "<p>Help reduce your pup's anxiety, both when you're home and when you're not.</p>"
+          }
+        },
+        "a62955a7-515f-485d-87ca-c15b715d94af": {
+          "type": "text",
+          "settings": {
+            "icon_name": "vegetarian",
+            "title": "Nutrition advice",
+            "text": "<p>Find the right mix of needs for your breed, right from the experts.</p>"
+          }
+        },
+        "f7f80055-bd16-46a3-bd19-7bdee579dc94": {
+          "type": "text",
+          "settings": {
+            "icon_name": "paw-heart",
+            "title": "Puppy-proofing",
+            "text": "<p>Learn the best interior design tips and products to make your home.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16036805083322__6493dcda-a810-4cb9-a611-bc082a57bcc4-1677350244f7ee6ee6-0",
+        "template--16036805083322__6493dcda-a810-4cb9-a611-bc082a57bcc4-1677350244f7ee6ee6-1",
+        "template--16036805083322__6493dcda-a810-4cb9-a611-bc082a57bcc4-1677350244f7ee6ee6-2",
+        "4385bd36-7283-4efb-8161-ccb6a221e560",
+        "a62955a7-515f-485d-87ca-c15b715d94af",
+        "f7f80055-bd16-46a3-bd19-7bdee579dc94"
+      ],
+      "settings": {
+        "alignment": "center",
+        "columns": 3,
+        "icons_width": 30,
+        "heading": "What you'll learn",
+        "subheading": "<p>Our certified team will build a bespoke program to help you and your pup build a strong foundation for life.</p>",
+        "bg_color_secondary": false,
+        "box_color": "",
+        "text_color": "#333333",
+        "button_text": "",
+        "button_link": "",
+        "button_style": "btn--secondary btn--small",
+        "enable_slider_mobile": false,
+        "padding_top": 30,
+        "padding_bottom": 60
+      }
+    },
     "section_icons_row_VqDQUU": {
       "type": "section-icons-row",
       "blocks": {
@@ -495,7 +559,7 @@
           "type": "text",
           "settings": {
             "icon_name": "truck",
-            "title": "Dog Training & Behavior",
+            "title": "Training & Behavior",
             "text": "<p>From the smallest trick, to solving challenging behaviors, our certified force-free dog trainers are here to help you and your pup succeed.</p><p>Potty Training</p><p>General Obedience</p><p>New Puppy Fundamentals</p><p>Crate Training</p><p>Separation Anxiety</p><p>Reactivity and Aggression</p><p>& More</p>"
           }
         },
@@ -551,17 +615,18 @@
         "text_KjAGNg",
         "text_miLH7H"
       ],
+      "disabled": true,
       "settings": {
         "alignment": "center",
         "columns": 3,
         "icons_width": 30,
         "heading": "Get help with a wide range of issues",
-        "subheading": "<p>From puppies problems to behavioral challenges, our certified team will build a custom virtual dog training program on this call to help you and your pup succeed.</p>",
+        "subheading": "<p>With any new dog comes new questions and challenges. Our certified team will build a custom virtual dog training program to help you and your pup succeed.</p>",
         "bg_color_secondary": false,
         "box_color": "",
         "text_color": "#333333",
-        "button_text": "Book Your Free Call >",
-        "button_link": "https://www.laylopets.com/pages/free-consultation-booking-page",
+        "button_text": "Get started for free",
+        "button_link": "https://laylopets.typeform.com/to/exWlKhbV?utm_source=xxxxx",
         "button_style": "btn--primary btn--small",
         "enable_slider_mobile": true,
         "padding_top": 60,
@@ -583,7 +648,7 @@
           "type": "heading",
           "settings": {
             "discount_button_link_heading": "",
-            "text": "<p>A better dog starts with just one session</p>",
+            "text": "<p>A lifelong, positive relationship starts with just one session.</p>",
             "size": 100,
             "heading_highlight_type": "italics"
           }
@@ -591,7 +656,7 @@
         "51b1c0a3-23f0-43fd-9de9-d3cd9c84acd0": {
           "type": "text",
           "settings": {
-            "text": "<p>Starting with the first call, you'll get the support you need to make quick changes and start seeing improvement. Here's what you can expect:</p>",
+            "text": "<p>Starting with the first call, you'll get the support you need to get your relationship with your new dog started off right. Here's what you can expect:</p>",
             "size": 100
           }
         }
@@ -620,10 +685,10 @@
         "image_width": "wide",
         "image": "shopify://shop_images/iStock-1275071273-min.jpg",
         "subheading": "1. The Behavior Evaluation",
-        "title": "<p>Understand what's going on with your pup.</p>",
+        "title": "<p>Understand your new dog's behavior</p>",
         "heading_highlight_type": "circle",
         "heading_size": 100,
-        "text_content": "In this free call, we'll assess your challenges as well as your pup's breed and age to recommend actionable tips and schedule time with the ideal dog expert for your needs.",
+        "text_content": "In this free call, we'll assess goals as well as your pup's breed and age to recommend actionable tips and then schedule time with the ideal dog expert for your needs.",
         "text_alignment": "left",
         "button_text": "",
         "button_link": "https://youtu.be/f5rq-t12l24?si=YIwF7eTdUYvOWsSH",
@@ -648,7 +713,7 @@
         "title": "<p>Make immediate progress alongside a dog expert.</p>",
         "heading_highlight_type": "circle",
         "heading_size": 100,
-        "text_content": "After the call, we'll place you with your dedicated, certified expert to work with you and your pup 1-on-1 and solve your toughest issues together. This is not a group class, this is a personal program just for you.",
+        "text_content": "We'll place you with your dedicated, certified expert to work with you and your pup 1-on-1 and ensure you're both building a solid foundation together. This is not a group class, this is a personal program just for you.",
         "text_alignment": "left",
         "button_text": "",
         "button_link": "https://youtu.be/f5rq-t12l24?si=YIwF7eTdUYvOWsSH",
@@ -673,7 +738,7 @@
         "title": "<p>A custom plan made for your dog's needs.</p>",
         "heading_highlight_type": "circle",
         "heading_size": 100,
-        "text_content": "Your dedicated expert (no bots here!) will create a unique custom online dog training plan with weekly milestones and homework based on your dog’s breed, adoption story and training knowledge — all designed to meet your goals.",
+        "text_content": "You'll receive a custom online dog training plan with weekly milestones and homework based on your dog’s breed, adoption story and training knowledge — all designed to meet your goals.",
         "text_alignment": "left",
         "button_text": "",
         "button_link": "https://www.laylopets.com/pages/dog-bed-cover",
@@ -695,10 +760,10 @@
         "image_width": "wide",
         "image": "shopify://shop_images/Frame_140.png",
         "subheading": "4. Ongoing SMS Support",
-        "title": "<p>Get your follow-up questions answered.</p>",
+        "title": "<p>Get any follow-up questions answered.</p>",
         "heading_highlight_type": "circle",
         "heading_size": 100,
-        "text_content": "Send questions or videos of your pup + get real-time advice from certified virtual dog training experts for up to one week following your call. Stop asking google and gain some peace of mind.",
+        "text_content": "Plan members can ask questions or send videos of your pup + get real-time advice and guidance. Stop asking google and gain some peace of mind.",
         "text_alignment": "left",
         "button_text": "",
         "button_link": "",
@@ -766,44 +831,28 @@
     "8cc69ca8-3815-400e-9908-b91856bd1c07": {
       "type": "section-icons-row",
       "blocks": {
+        "2dc52604-a9da-485a-862c-13dcbedadbcd": {
+          "type": "text",
+          "settings": {
+            "icon_name": "clock",
+            "title": "Start Earlier",
+            "text": "<p>With virtual, you can start as early as 8-weeks (instead of the typical 16), ensuring that your dog is beginning training during their prime weeks of learning and development. </p>"
+          }
+        },
         "493f3f79-7fae-471a-994d-40273ccc3877": {
           "type": "text",
           "settings": {
             "icon_name": "check",
             "title": "Reduced Distractions",
-            "text": "<p>Training in your dog’s home environment without new smells and distractions is proven to drive faster long-term results. </p>"
-          }
-        },
-        "41d616c3-2224-4f58-b794-20d02f788224": {
-          "type": "text",
-          "settings": {
-            "icon_name": "heart",
-            "title": "Increased Safety",
-            "text": "<p>For fearful, aggressive or shy dogs, virtual dog training can be a lot less frightening than an unfamiliar environment with unknown people and dogs. By training in your dog’s “safe space”, you are making the process less overwhelming for them (and you!) </p>"
+            "text": "<p>Training with your new dog at home without new smells and distractions is proven to drive faster long-term results.</p>"
           }
         },
         "378c64ed-8360-479a-818b-274a1dbd6371": {
           "type": "text",
           "settings": {
             "icon_name": "eco-friendly",
-            "title": "Anywhere, Anytime Support",
-            "text": "<p>With our 24/7 messaging support, you’ll get experts on call to help calm any puppy blues and/or analyze your training progress. Why wait between sessions when you can get the support you need daily.</p>"
-          }
-        },
-        "cff8bb63-a14d-4801-b95a-e391b0b6f670": {
-          "type": "text",
-          "settings": {
-            "icon_name": "award",
-            "title": "Guaranteed Results",
-            "text": "<p>If you are not satisfied with the dog’s progress after the program, we will give you your money back* OR continue to train with you for 4 more weeks free of cost.</p>"
-          }
-        },
-        "2dc52604-a9da-485a-862c-13dcbedadbcd": {
-          "type": "text",
-          "settings": {
-            "icon_name": "clock",
-            "title": "Get Ahead of the Problem",
-            "text": "<p>With virtual, you can start as early as 8-weeks (instead of the typical 16), ensuring that your dog is beginning training during their prime weeks of learning and development. </p>"
+            "title": "Anywhere, Anytime",
+            "text": "<p>With flexible scheduling and no long commute, you can train with your new puppy on your time from the comfort of your own home. </p>"
           }
         },
         "af90b4af-932d-4481-b23d-21c04cb61b49": {
@@ -813,20 +862,37 @@
             "title": "Get the Family Involved",
             "text": "<p>Don’t let schedules get in the way of everyone training. With virtual calls and an extensive video library, the whole family can get involved wherever they are.</p>"
           }
+        },
+        "cff8bb63-a14d-4801-b95a-e391b0b6f670": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "icon_name": "award",
+            "title": "Guaranteed Results",
+            "text": "<p>If you are not satisfied with the dog’s progress after the program, we will give you your money back* OR continue to train with you for 4 more weeks free of cost.</p>"
+          }
+        },
+        "41d616c3-2224-4f58-b794-20d02f788224": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "icon_name": "heart",
+            "title": "Increased Safety",
+            "text": "<p>For fearful, aggressive or shy dogs, virtual dog training can be a lot less frightening than an unfamiliar environment with unknown people and dogs. By training in your dog’s “safe space”, you are making the process less overwhelming for them (and you!) </p>"
+          }
         }
       },
       "block_order": [
-        "493f3f79-7fae-471a-994d-40273ccc3877",
-        "41d616c3-2224-4f58-b794-20d02f788224",
-        "378c64ed-8360-479a-818b-274a1dbd6371",
-        "cff8bb63-a14d-4801-b95a-e391b0b6f670",
         "2dc52604-a9da-485a-862c-13dcbedadbcd",
-        "af90b4af-932d-4481-b23d-21c04cb61b49"
+        "493f3f79-7fae-471a-994d-40273ccc3877",
+        "378c64ed-8360-479a-818b-274a1dbd6371",
+        "af90b4af-932d-4481-b23d-21c04cb61b49",
+        "cff8bb63-a14d-4801-b95a-e391b0b6f670",
+        "41d616c3-2224-4f58-b794-20d02f788224"
       ],
-      "disabled": true,
       "settings": {
         "alignment": "center",
-        "columns": 3,
+        "columns": 4,
         "icons_width": 30,
         "heading": "Why Choose Online Dog Training?",
         "subheading": "<p>When training your dog online, there's no place like home and no better trainer than you. </p>",
@@ -838,85 +904,7 @@
         "button_style": "btn--secondary btn--small",
         "enable_slider_mobile": false,
         "padding_top": 100,
-        "padding_bottom": 100
-      }
-    },
-    "6493dcda-a810-4cb9-a611-bc082a57bcc4": {
-      "type": "section-icons-row",
-      "blocks": {
-        "template--16036805083322__6493dcda-a810-4cb9-a611-bc082a57bcc4-1677350244f7ee6ee6-0": {
-          "type": "text",
-          "settings": {
-            "icon_name": "truck",
-            "title": "Perfect Puppy Course",
-            "text": "<p>A full course dedicated to everything you and your pup need to learn in the first few months.</p>"
-          }
-        },
-        "template--16036805083322__6493dcda-a810-4cb9-a611-bc082a57bcc4-1677350244f7ee6ee6-1": {
-          "type": "text",
-          "settings": {
-            "icon_name": "check",
-            "title": "Leash Training & Socialization",
-            "text": "<p>Improve your walks, whether your going around town or around the block. </p>"
-          }
-        },
-        "template--16036805083322__6493dcda-a810-4cb9-a611-bc082a57bcc4-1677350244f7ee6ee6-2": {
-          "type": "text",
-          "settings": {
-            "icon_name": "eco-friendly",
-            "title": "Behavior issues",
-            "text": "<p>to forest conservation</p>"
-          }
-        },
-        "4385bd36-7283-4efb-8161-ccb6a221e560": {
-          "type": "text",
-          "settings": {
-            "icon_name": "clock",
-            "title": "Separation Anxiety",
-            "text": "<p>Help reduce your pup's anxiety, both when you're home and when you're not.</p>"
-          }
-        },
-        "a62955a7-515f-485d-87ca-c15b715d94af": {
-          "type": "text",
-          "settings": {
-            "icon_name": "clock",
-            "title": "Nutrition advice",
-            "text": "<p>Find the right mix of needs for your breed, right from the experts.</p>"
-          }
-        },
-        "f7f80055-bd16-46a3-bd19-7bdee579dc94": {
-          "type": "text",
-          "settings": {
-            "icon_name": "clock",
-            "title": "Puppy-proofing",
-            "text": "<p>Learn the best interior design tips and products to make your home.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--16036805083322__6493dcda-a810-4cb9-a611-bc082a57bcc4-1677350244f7ee6ee6-0",
-        "template--16036805083322__6493dcda-a810-4cb9-a611-bc082a57bcc4-1677350244f7ee6ee6-1",
-        "template--16036805083322__6493dcda-a810-4cb9-a611-bc082a57bcc4-1677350244f7ee6ee6-2",
-        "4385bd36-7283-4efb-8161-ccb6a221e560",
-        "a62955a7-515f-485d-87ca-c15b715d94af",
-        "f7f80055-bd16-46a3-bd19-7bdee579dc94"
-      ],
-      "disabled": true,
-      "settings": {
-        "alignment": "center",
-        "columns": 3,
-        "icons_width": 30,
-        "heading": "What you'll learn",
-        "subheading": "<p>From new puppy's to specific behaviors, our certified team will build a bespoke program to help you and your pup succeed.</p>",
-        "bg_color_secondary": false,
-        "box_color": "",
-        "text_color": "#333333",
-        "button_text": "",
-        "button_link": "",
-        "button_style": "btn--secondary btn--small",
-        "enable_slider_mobile": false,
-        "padding_top": 60,
-        "padding_bottom": 80
+        "padding_bottom": 30
       }
     },
     "section_text_fqK3nM": {
@@ -925,9 +913,9 @@
         "button_Em8hYR": {
           "type": "button",
           "settings": {
-            "discount_button_link": "",
-            "btn_text": "Book Your Free Call >",
-            "btn_link": "https://www.laylopets.com/pages/free-consultation-booking-page",
+            "discount_button_link": "https://calendly.com/d/cx59-mn4-3cb/pup-behavior-evaluation-dogppl",
+            "btn_text": "Get started for free >",
+            "btn_link": "https://calendly.com/d/cx59-mn4-3cb/pup-behavior-evaluation-dogpplLAY7188?utm_source=dogppl",
             "btn_style": "btn--primary"
           }
         }
@@ -950,7 +938,6 @@
       "blocks": {
         "text_block_YhRtqG": {
           "type": "text_block",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/553BB7DC-1396-41B7-A583-241A931639D4.jpg",
             "title": "Jeny P. - Fear-free Dog Trainer",
@@ -993,7 +980,6 @@
         },
         "text_block_QnQPDd": {
           "type": "text_block",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Morgan_C.png",
             "title": "Morgan C. - Force-free Dog Trainer",
@@ -1064,7 +1050,6 @@
         },
         "template--16036805083322__cf9dc11a-fc55-47d0-b33a-b31e463672ad-1677351842118d106c-1": {
           "type": "text_block",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Screen_Shot_2023-06-02_at_11.22.42_AM.png",
             "title": "Ashwini A. - Force-free Dog Trainer & Head of Behavior",
@@ -1093,7 +1078,6 @@
         },
         "text_block_VqY8eG": {
           "type": "text_block",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/IMG_5371.jpg",
             "title": "Jennifer F - Veterinary Technician & Force-free Dog Trainer",
@@ -1151,6 +1135,77 @@
         "padding_bottom": 60
       }
     },
+    "section_text_jQeyPU": {
+      "type": "section-text",
+      "blocks": {
+        "subheading_xDqFww": {
+          "type": "subheading",
+          "settings": {
+            "text": "",
+            "size": 100
+          }
+        },
+        "heading_DWkxaJ": {
+          "type": "heading",
+          "settings": {
+            "discount_button_link_heading": "",
+            "text": "<p>Professional support starting at $99/week</p>",
+            "size": 100,
+            "heading_highlight_type": "italics"
+          }
+        },
+        "text_htTTrV": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "size": 100
+          }
+        },
+        "button_ApNGMb": {
+          "type": "button",
+          "settings": {
+            "discount_button_link": "",
+            "btn_text": "",
+            "btn_link": "",
+            "btn_style": "btn--primary btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_xDqFww",
+        "heading_DWkxaJ",
+        "text_htTTrV",
+        "button_ApNGMb"
+      ],
+      "settings": {
+        "text_position": "center",
+        "background_custom_color": "",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_custom_html_9ttibM": {
+      "type": "section-custom-html",
+      "disabled": true,
+      "settings": {
+        "custom_code": "<!-- Elfsight Pricing Table | Homeschool - Vetster Pricing -->\n<script src=\"https://static.elfsight.com/platform/platform.js\" async></script>\n<div class=\"elfsight-app-6113a8ad-7bf4-494c-923d-44e808059541\" data-elfsight-app-lazy></div>",
+        "width": "wrapper",
+        "padding_top": 20,
+        "padding_bottom": 60
+      }
+    },
+    "a3bb7081-a649-4b91-aae3-ee9be36bf924": {
+      "type": "section-custom-html",
+      "settings": {
+        "custom_code": "<!-- Elfsight Pricing Table | Homeschool - Vetster Pricing -->\n<script src=\"https://elfsightcdn.com/platform.js\" async></script>\n<div class=\"elfsight-app-6113a8ad-7bf4-494c-923d-44e808059541\" data-elfsight-app-lazy></div>",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
     "bf09f991-7e3a-4cff-b515-3225a6d06b60": {
       "type": "section-icons-row",
       "blocks": {
@@ -1193,8 +1248,8 @@
         "bg_color_secondary": false,
         "box_color": "",
         "text_color": "#000000",
-        "button_text": "Book Your Free Call >",
-        "button_link": "https://www.laylopets.com/pages/free-consultation-booking-page",
+        "button_text": "Get started for free",
+        "button_link": "https://calendly.com/d/cx59-mn4-3cb/pup-behavior-evaluation-dogpplLAY7188?utm_source=dogppl",
         "button_style": "btn--primary",
         "enable_slider_mobile": false,
         "padding_top": 60,
@@ -1251,16 +1306,6 @@
         "bg_color": "",
         "width": "wrapper",
         "add_gutter": false,
-        "padding_top": 60,
-        "padding_bottom": 60
-      }
-    },
-    "a3bb7081-a649-4b91-aae3-ee9be36bf924": {
-      "type": "section-custom-html",
-      "disabled": true,
-      "settings": {
-        "custom_code": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-6742fe8d-77cd-4ec9-a392-3df668ad4c4d\"></div>",
-        "width": "wrapper",
         "padding_top": 60,
         "padding_bottom": 60
       }
@@ -1362,117 +1407,26 @@
         "padding_bottom": 60
       }
     },
-    "cfd652ff-08ed-4250-9eee-d8f7bc1035cf": {
-      "type": "section-image-accordions",
-      "blocks": {
-        "template--16036805083322__cfd652ff-08ed-4250-9eee-d8f7bc1035cf-16774368272d827d8d-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Screen_Shot_2023-02-25_at_9.54.45_AM.png",
-            "overlay_opacity": 10,
-            "text_width": "normal",
-            "text_position": "center",
-            "text_color": "text-light",
-            "title": "Schedule your free pup evaluation call",
-            "text": "Curious? Give Homeschool a test and we'll help you with your pup for one session at no cost and no commitment. Plans starting at $25 / week.",
-            "btn_text": "Try for free",
-            "btn_link": "https://www.laylopets.com/pages/book-a-free-call",
-            "btn_style": "btn--secondary",
-            "btn_text_2": "",
-            "btn_link_2": "",
-            "btn_style_2": "btn--secondary btn--small"
-          }
-        },
-        "template--16036805083322__cfd652ff-08ed-4250-9eee-d8f7bc1035cf-16774368272d827d8d-1": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "overlay_opacity": 10,
-            "text_width": "full",
-            "text_position": "left",
-            "text_color": "text-light",
-            "title": "Welcome to Palo Alto",
-            "text": "This text helps you provide some more detail to the title above.",
-            "btn_text": "",
-            "btn_link": "",
-            "btn_style": "btn--primary btn--small",
-            "btn_text_2": "",
-            "btn_link_2": "",
-            "btn_style_2": "btn--secondary btn--small"
-          }
-        },
-        "template--16036805083322__cfd652ff-08ed-4250-9eee-d8f7bc1035cf-16774368272d827d8d-2": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "overlay_opacity": 10,
-            "text_width": "full",
-            "text_position": "left",
-            "text_color": "text-light",
-            "title": "Welcome to Palo Alto",
-            "text": "This text helps you provide some more detail to the title above.",
-            "btn_text": "",
-            "btn_link": "",
-            "btn_style": "btn--primary btn--small",
-            "btn_text_2": "",
-            "btn_link_2": "",
-            "btn_style_2": "btn--secondary btn--small"
-          }
-        },
-        "template--16036805083322__cfd652ff-08ed-4250-9eee-d8f7bc1035cf-16774368272d827d8d-3": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "overlay_opacity": 10,
-            "text_width": "full",
-            "text_position": "left",
-            "text_color": "text-light",
-            "title": "Welcome to Palo Alto",
-            "text": "This text helps you provide some more detail to the title above.",
-            "btn_text": "",
-            "btn_link": "",
-            "btn_style": "btn--primary btn--small",
-            "btn_text_2": "",
-            "btn_link_2": "",
-            "btn_style_2": "btn--secondary btn--small"
-          }
-        }
-      },
-      "block_order": [
-        "template--16036805083322__cfd652ff-08ed-4250-9eee-d8f7bc1035cf-16774368272d827d8d-0",
-        "template--16036805083322__cfd652ff-08ed-4250-9eee-d8f7bc1035cf-16774368272d827d8d-1",
-        "template--16036805083322__cfd652ff-08ed-4250-9eee-d8f7bc1035cf-16774368272d827d8d-2",
-        "template--16036805083322__cfd652ff-08ed-4250-9eee-d8f7bc1035cf-16774368272d827d8d-3"
-      ],
+    "main": {
+      "type": "main-page",
       "disabled": true,
       "settings": {
-        "accordion_height": "four-fifty-height",
-        "enable_mobile_height": false,
-        "mobile_section_height": "five-fifty-height-mobile",
-        "heading_size": 100,
-        "width": "wrapper--full",
+        "show_page_title": true,
+        "extra_class": "",
+        "bg_color_secondary": true,
         "padding_top": 0,
         "padding_bottom": 0
-      }
-    },
-    "section_custom_html_N6fLAU": {
-      "type": "section-custom-html",
-      "settings": {
-        "custom_code": "<a href='https://www.bark.com/en/us/company/homeschool-by-lay-lo-dog-training-with-world-class-experts/q4Z7p/' target='_blank' class='bark-widget' data-type='verified' data-id='q4Z7p' data-image='medium-gold' data-version='3.0'>Homeschool by LAY LO: Dog training with world-class experts</a><script type='text/javascript' src='https://www.bark.com/assets/js/frontend-v2/widgets-v2.24a197bed6.v2.js' defer></script>",
-        "width": "wrapper",
-        "padding_top": 60,
-        "padding_bottom": 60
       }
     }
   },
   "order": [
-    "section_marquee_JYteLD",
     "section_image_with_text_nYKfTn",
+    "section_text_P9UjtC",
     "463164fa-b7f2-48fd-bf6b-64f4358ede74",
-    "section_custom_html_FJjQLV",
-    "section_text_xQTXpH",
+    "section_icons_row_nBjdiX",
     "section_text_9eGxmj",
     "121aca7f-e45f-40ef-831b-7ab278c7b6c8",
+    "6493dcda-a810-4cb9-a611-bc082a57bcc4",
     "section_icons_row_VqDQUU",
     "05207a3b-b3b5-4855-a347-d391526296ec",
     "6b9d903b-d256-4472-9474-272b3e4ba371",
@@ -1482,14 +1436,14 @@
     "25f9e180-dc2d-4745-a4e0-854120ac313c",
     "25a3c25f-b847-42a5-9529-64baad9ba614",
     "8cc69ca8-3815-400e-9908-b91856bd1c07",
-    "6493dcda-a810-4cb9-a611-bc082a57bcc4",
     "section_text_fqK3nM",
     "cf9dc11a-fc55-47d0-b33a-b31e463672ad",
+    "section_text_jQeyPU",
+    "section_custom_html_9ttibM",
+    "a3bb7081-a649-4b91-aae3-ee9be36bf924",
     "bf09f991-7e3a-4cff-b515-3225a6d06b60",
     "3f34e5da-6cb0-40ff-b532-99377ec775fa",
-    "a3bb7081-a649-4b91-aae3-ee9be36bf924",
     "2bbeb69d-ad3b-4b68-a947-a42915622081",
-    "cfd652ff-08ed-4250-9eee-d8f7bc1035cf",
-    "section_custom_html_N6fLAU"
+    "main"
   ]
 }

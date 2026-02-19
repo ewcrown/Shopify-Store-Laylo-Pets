@@ -42,8 +42,8 @@
             "text_width": "narrow",
             "text_position": "left",
             "text_color": "text-light",
-            "subheading": "",
-            "title": "Feel more at home with your pets.",
+            "subheading": "AWARD-WINNING DOG BEDS",
+            "title": "Beauty meets comfort.",
             "text": "",
             "slide_btn_text": "Shop Now",
             "slide_btn_link": "shopify://collections/all",
@@ -80,6 +80,7 @@
         },
         "image_WKRgJa": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Better_Dog_LAY_LO_Header-min.jpg",
             "image_mobile": "shopify://shop_images/Instagram_post_-_29-min.png",
@@ -159,6 +160,7 @@
         "heading_qrNEFB": {
           "type": "heading",
           "settings": {
+            "discount_button_link_heading": "",
             "text": "<p>Thoughtful design meets expert guidance</p>",
             "size": 100,
             "heading_highlight_type": "italics"
@@ -185,8 +187,12 @@
         "text_JaiXA4",
         "image_X4ykc3"
       ],
+      "custom_css": [
+        ".h2 span {font-family: Big Caslon !important;}"
+      ],
       "settings": {
         "text_position": "center",
+        "background_custom_color": "",
         "bg_color_secondary": false,
         "text_color": "text-dark",
         "width": "wrapper",
@@ -197,6 +203,28 @@
     "section_promotion_row_G3EfLk": {
       "type": "section-promotion-row",
       "blocks": {
+        "column_XaBgaq": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/2-Copy_20of_20aisle_9_laylo-17-edit.jpg",
+            "subheading": "",
+            "subheading_size": 100,
+            "heading": "<p>Gift Guide</p>",
+            "heading_highlight_type": "italics",
+            "heading_size": 125,
+            "description": "Find something for the dog lover",
+            "description_size": 100,
+            "disclaimer": "",
+            "disclaimer_size": 75,
+            "button_text": "Shop Now >",
+            "button_link": "shopify://pages/gift-guide",
+            "button_style": "btn--text",
+            "bg_color": "#ffffff",
+            "text_color": "#ffffff",
+            "gradient_background": "radial-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1) 100%)",
+            "overlay_opacity": 20
+          }
+        },
         "column_8Ay7zG": {
           "type": "column",
           "settings": {
@@ -249,12 +277,12 @@
             "subheading_size": 100,
             "heading": "<p>50% OFF</p>",
             "heading_highlight_type": "italics",
-            "heading_size": 280,
+            "heading_size": 125,
             "description": "Share details about the promotion",
             "description_size": 100,
             "disclaimer": "",
             "disclaimer_size": 75,
-            "button_text": "",
+            "button_text": "Shop Now >",
             "button_link": "",
             "button_style": "btn--primary btn--small",
             "bg_color": "",
@@ -265,6 +293,7 @@
         }
       },
       "block_order": [
+        "column_XaBgaq",
         "column_8Ay7zG",
         "column_8gTHhy",
         "column_myc9Qi"
@@ -328,6 +357,228 @@
         "enable_slider_mobile": false,
         "padding_top": 30,
         "padding_bottom": 58
+      }
+    },
+    "section-press": {
+      "type": "section-press",
+      "blocks": {
+        "section-press-0": {
+          "type": "press",
+          "settings": {
+            "text": "<p>For the pet parents who refuse to bow down on style.</p>",
+            "link": "",
+            "press_logo": "shopify://shop_images/logo_1.png",
+            "logo_width": 180
+          }
+        },
+        "section-press-1": {
+          "type": "press",
+          "settings": {
+            "text": "<p>These stylish dog beds are nicer than most human beds</p>",
+            "link": "",
+            "press_logo": "shopify://shop_images/logo_2.png",
+            "logo_width": 180
+          }
+        },
+        "section-press-2": {
+          "type": "press",
+          "settings": {
+            "text": "<p>The next puppy I plan to adopt deserves a bed like this one.</p>",
+            "link": "",
+            "press_logo": "shopify://shop_images/logo_3.png",
+            "logo_width": 180
+          }
+        },
+        "ee3b9e43-b20b-4859-bb70-5944292310ed": {
+          "type": "press",
+          "settings": {
+            "text": "<p>This bed was added to the top of our wish lists.</p>",
+            "link": "",
+            "press_logo": "shopify://shop_images/logo_4.png",
+            "logo_width": 180
+          }
+        },
+        "23f45cdc-4b6c-4fa0-acda-c2268f7facf3": {
+          "type": "press",
+          "settings": {
+            "text": "<p>These beds offer more than just good looks.</p>",
+            "link": "",
+            "press_logo": "shopify://shop_images/logo_5.png",
+            "logo_width": 180
+          }
+        },
+        "70c50064-3d79-4b55-8f95-eef9d9c0bcd2": {
+          "type": "press",
+          "settings": {
+            "text": "<p>A win for pets and pet parents alike.</p>",
+            "link": "",
+            "press_logo": "shopify://shop_images/logo_6.png",
+            "logo_width": 180
+          }
+        }
+      },
+      "block_order": [
+        "section-press-0",
+        "section-press-1",
+        "section-press-2",
+        "ee3b9e43-b20b-4859-bb70-5944292310ed",
+        "23f45cdc-4b6c-4fa0-acda-c2268f7facf3",
+        "70c50064-3d79-4b55-8f95-eef9d9c0bcd2"
+      ],
+      "settings": {
+        "title": "Press",
+        "show_quotations": true,
+        "bg_color_secondary": true,
+        "width": "wrapper",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "section_list_collection_tQ8QY8": {
+      "type": "section-list-collection",
+      "blocks": {
+        "collection_8G3EBh": {
+          "type": "collection",
+          "settings": {
+            "collection": "checker-collection",
+            "custom_collection_image": "shopify://shop_images/lay_lo_checker_collection_dog_beds_mobile_3a34508e-33cf-4ddc-95d6-ad3dd0ca38ad.png",
+            "bg_color": "",
+            "text_color": "text-light",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_8zJqNr": {
+          "type": "collection",
+          "settings": {
+            "collection": "brigette-romanek-collection",
+            "custom_collection_image": "shopify://shop_images/Brigette_Romanek_LAY_LO_Cream_Bed.jpg",
+            "bg_color": "",
+            "text_color": "text-light",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_i4KWUn": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "john-legend-creator-collab",
+            "custom_collection_image": "shopify://shop_images/laylo_lifestyle-32.jpg",
+            "bg_color": "",
+            "text_color": "text-light",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_YHqg6J": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "nutrition",
+            "custom_collection_image": "shopify://shop_images/wild-earth-3-pack-superfood-dog-treats-with-koji-5-oz-per-bag-by-wild-earth-lay-lo-33653244821690.jpg",
+            "bg_color": "",
+            "text_color": "text-light",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_xJLdfU": {
+          "type": "collection",
+          "settings": {
+            "collection": "frontpage",
+            "custom_collection_image": "shopify://shop_images/LayloPets_SageTerra_Group2_Edit.jpg",
+            "bg_color": "",
+            "text_color": "text-light",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_YK9D6w": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "accessories",
+            "custom_collection_image": "shopify://shop_images/LAY_LO_WaterproofLiner_IMG_0402_websize.jpg",
+            "bg_color": "",
+            "text_color": "text-light",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_NMFtG6": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "",
+            "bg_color": "",
+            "text_color": "text-light",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_iRfDBT": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "play",
+            "custom_collection_image": "shopify://shop_images/lay-lo-pets-macrame-rope-dog-toys-bundle-pack-lay-lo-33609600139450.jpg",
+            "bg_color": "",
+            "text_color": "text-light",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_bPmdrm": {
+          "type": "collection",
+          "settings": {
+            "collection": "boho-collection-1",
+            "custom_collection_image": "shopify://shop_images/LAY-LO-Pets-Boho-Dog-Beds.jpg",
+            "bg_color": "",
+            "text_color": "text-light",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_KWyX3B": {
+          "type": "collection",
+          "settings": {
+            "collection": "classic",
+            "bg_color": "",
+            "text_color": "text-light",
+            "overlay_opacity": 0
+          }
+        },
+        "collection_7qP3ea": {
+          "type": "collection",
+          "settings": {
+            "collection": "terrazzo-collection-1",
+            "custom_collection_image": "shopify://shop_images/20-07-18_Laylo_Terrazzo_0196-Edit_HiRes.jpg",
+            "bg_color": "",
+            "text_color": "text-light",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "collection_8G3EBh",
+        "collection_8zJqNr",
+        "collection_i4KWUn",
+        "collection_YHqg6J",
+        "collection_xJLdfU",
+        "collection_YK9D6w",
+        "collection_NMFtG6",
+        "collection_iRfDBT",
+        "collection_bPmdrm",
+        "collection_KWyX3B",
+        "collection_7qP3ea"
+      ],
+      "settings": {
+        "layout": "carousel",
+        "columns": 4,
+        "image_size": 100,
+        "image_shape": "square",
+        "title": "Our award-winning bed collections",
+        "text_size": 100,
+        "overlay_text": false,
+        "layout_mobile": "grid",
+        "columns_mobile": "2",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
       }
     },
     "84c89925-05f0-48ba-9aa0-46aa0f5146af": {
@@ -464,7 +715,7 @@
         "image_location": "right",
         "image_width": "wide",
         "image": "shopify://shop_images/LAY_LO_Creator_Collaborations_v2-min.jpg",
-        "subheading": "Our Products",
+        "subheading": "Our Beds",
         "title": "<p>Designed and vetted by the best of the best</p>",
         "heading_highlight_type": "circle",
         "heading_size": 100,
@@ -619,153 +870,6 @@
         "padding_bottom": 40
       }
     },
-    "section_list_collection_tQ8QY8": {
-      "type": "section-list-collection",
-      "blocks": {
-        "collection_8G3EBh": {
-          "type": "collection",
-          "settings": {
-            "collection": "checker-collection",
-            "custom_collection_image": "shopify://shop_images/lay_lo_checker_collection_dog_beds_mobile_3a34508e-33cf-4ddc-95d6-ad3dd0ca38ad.png",
-            "bg_color": "",
-            "text_color": "text-light",
-            "overlay_opacity": 0
-          }
-        },
-        "collection_8zJqNr": {
-          "type": "collection",
-          "settings": {
-            "collection": "brigette-romanek-collection",
-            "custom_collection_image": "shopify://shop_images/Brigette_Romanek_LAY_LO_Cream_Bed.jpg",
-            "bg_color": "",
-            "text_color": "text-light",
-            "overlay_opacity": 0
-          }
-        },
-        "collection_i4KWUn": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "collection": "john-legend-creator-collab",
-            "custom_collection_image": "shopify://shop_images/laylo_lifestyle-32.jpg",
-            "bg_color": "",
-            "text_color": "text-light",
-            "overlay_opacity": 0
-          }
-        },
-        "collection_YHqg6J": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "collection": "nutrition",
-            "custom_collection_image": "shopify://shop_images/wild-earth-3-pack-superfood-dog-treats-with-koji-5-oz-per-bag-by-wild-earth-lay-lo-33653244821690.jpg",
-            "bg_color": "",
-            "text_color": "text-light",
-            "overlay_opacity": 0
-          }
-        },
-        "collection_xJLdfU": {
-          "type": "collection",
-          "settings": {
-            "collection": "frontpage",
-            "custom_collection_image": "shopify://shop_images/LayloPets_SageTerra_Group2_Edit.jpg",
-            "bg_color": "",
-            "text_color": "text-light",
-            "overlay_opacity": 0
-          }
-        },
-        "collection_YK9D6w": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "collection": "accessories",
-            "custom_collection_image": "shopify://shop_images/LAY_LO_WaterproofLiner_IMG_0402_websize.jpg",
-            "bg_color": "",
-            "text_color": "text-light",
-            "overlay_opacity": 0
-          }
-        },
-        "collection_NMFtG6": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "collection": "",
-            "bg_color": "",
-            "text_color": "text-light",
-            "overlay_opacity": 0
-          }
-        },
-        "collection_iRfDBT": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "collection": "play",
-            "custom_collection_image": "shopify://shop_images/lay-lo-pets-macrame-rope-dog-toys-bundle-pack-lay-lo-33609600139450.jpg",
-            "bg_color": "",
-            "text_color": "text-light",
-            "overlay_opacity": 0
-          }
-        },
-        "collection_bPmdrm": {
-          "type": "collection",
-          "settings": {
-            "collection": "boho-collection-1",
-            "custom_collection_image": "shopify://shop_images/LAY-LO-Pets-Boho-Dog-Beds.jpg",
-            "bg_color": "",
-            "text_color": "text-light",
-            "overlay_opacity": 0
-          }
-        },
-        "collection_KWyX3B": {
-          "type": "collection",
-          "settings": {
-            "collection": "classic",
-            "bg_color": "",
-            "text_color": "text-light",
-            "overlay_opacity": 0
-          }
-        },
-        "collection_7qP3ea": {
-          "type": "collection",
-          "settings": {
-            "collection": "terrazzo-collection-1",
-            "custom_collection_image": "shopify://shop_images/20-07-18_Laylo_Terrazzo_0196-Edit_HiRes.jpg",
-            "bg_color": "",
-            "text_color": "text-light",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "collection_8G3EBh",
-        "collection_8zJqNr",
-        "collection_i4KWUn",
-        "collection_YHqg6J",
-        "collection_xJLdfU",
-        "collection_YK9D6w",
-        "collection_NMFtG6",
-        "collection_iRfDBT",
-        "collection_bPmdrm",
-        "collection_KWyX3B",
-        "collection_7qP3ea"
-      ],
-      "settings": {
-        "layout": "carousel",
-        "columns": 4,
-        "image_size": 100,
-        "image_shape": "square",
-        "title": "Explore all bed collections",
-        "text_size": 100,
-        "overlay_text": false,
-        "layout_mobile": "grid",
-        "columns_mobile": "2",
-        "bg_color_secondary": false,
-        "text_color": "text-dark",
-        "width": "wrapper--full-padded",
-        "padding_top": 60,
-        "padding_bottom": 60
-      }
-    },
     "section_tab_collections_rkwF3p": {
       "type": "section-tab-collections",
       "blocks": {
@@ -839,6 +943,7 @@
         "template--16010683547834__e691434e-6d14-4c4d-86db-d7c8fa6f16ad-1672788615f5fa6bd4-1": {
           "type": "heading",
           "settings": {
+            "discount_button_link_heading": "",
             "text": "<p>Consult with top dog experts at home</p>",
             "size": 100,
             "heading_highlight_type": "italics"
@@ -854,6 +959,7 @@
         "button_dLFGxB": {
           "type": "button",
           "settings": {
+            "discount_button_link": "",
             "btn_text": "Learn More",
             "btn_link": "shopify://pages/homeschool",
             "btn_style": "btn--primary btn--small"
@@ -869,6 +975,7 @@
       "disabled": true,
       "settings": {
         "text_position": "center",
+        "background_custom_color": "",
         "bg_color_secondary": false,
         "text_color": "text-dark",
         "width": "wrapper--narrow",
@@ -911,6 +1018,7 @@
             "title": "Nicole R. - Animal Behavior Consultant",
             "text": "<p><strong>Certifications:</strong></p><ul><li>Fear Free Shelter Certified</li><li>Certified Holistic Behavior Consultant (CHBC)</li><li>Accredited Dog Trainer (IAABC-ADT Retired)</li><li>MSc Behavioral Medicine</li></ul>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "",
@@ -924,6 +1032,7 @@
             "title": "Emily L. - Nutrition Specialist",
             "text": "<p><strong>Certifications:</strong></p><ul><li>DNM University – Certified Pet Food Nutrition Specialist</li></ul>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "",
@@ -937,6 +1046,7 @@
             "title": "Juju - Grooming Expert",
             "text": "<p><strong>Experience:</strong></p><ul><li>Owner – Juju Grooms Pet Grooming, Toronto</li><li>Master Certified Feline Groomer</li></ul>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "",
@@ -950,6 +1060,7 @@
             "title": "Jeny P. - Fear-free trainer",
             "text": "<p><strong>Certifications:</strong></p><ul><li>CPDT-KA</li><li>Certified Professional Dog Trainer–Knowledge Assessed</li></ul>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "",
@@ -963,6 +1074,7 @@
             "title": "Katie C. - Fear-free Dog Trainer",
             "text": "<p><strong>Certifications:</strong></p><ul><li>Certified Professional Dog Trainer – Knowledge Assessed (CPDT-KA)</li><li>Bachelors of Science – Biology and Animal Ecology (BSc)</li></ul>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "",
@@ -976,6 +1088,7 @@
             "title": "Emily B. - Certified Animal Behavior Consultant, Separation Anxiety Trainer, and Aggression Specialist",
             "text": "<p><strong>Certifications:</strong></p><ul><li>Certified Canine and Feline Animal Behavioral Consultant (ACDBC, CCBC)</li><li>Certified Separation Anxiety Trainer (CSAT)</li><li>Completion – Aggression in Dogs Master Course</li><li>Bachelor of Science – Animal Ecology (BSc)</li></ul>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "",
@@ -992,6 +1105,8 @@
         "text_block_7jU4Kf"
       ],
       "settings": {
+        "grid_or_slider": false,
+        "discount_button_link": "",
         "title": "Meet some of our experts",
         "align_text": "text-left",
         "columns": 4,
@@ -1186,81 +1301,6 @@
         "add_gutter": true,
         "padding_top": 60,
         "padding_bottom": 60
-      }
-    },
-    "section-press": {
-      "type": "section-press",
-      "blocks": {
-        "section-press-0": {
-          "type": "press",
-          "settings": {
-            "text": "<p>For the pet parents who refuse to bow down on style.</p>",
-            "link": "",
-            "press_logo": "shopify://shop_images/logo_1.png",
-            "logo_width": 180
-          }
-        },
-        "section-press-1": {
-          "type": "press",
-          "settings": {
-            "text": "<p>These stylish dog beds are nicer than most human beds</p>",
-            "link": "",
-            "press_logo": "shopify://shop_images/logo_2.png",
-            "logo_width": 180
-          }
-        },
-        "section-press-2": {
-          "type": "press",
-          "settings": {
-            "text": "<p>The next puppy I plan to adopt deserves a bed like this one.</p>",
-            "link": "",
-            "press_logo": "shopify://shop_images/logo_3.png",
-            "logo_width": 180
-          }
-        },
-        "ee3b9e43-b20b-4859-bb70-5944292310ed": {
-          "type": "press",
-          "settings": {
-            "text": "<p>This bed was added to the top of our wish lists.</p>",
-            "link": "",
-            "press_logo": "shopify://shop_images/logo_4.png",
-            "logo_width": 180
-          }
-        },
-        "23f45cdc-4b6c-4fa0-acda-c2268f7facf3": {
-          "type": "press",
-          "settings": {
-            "text": "<p>These beds offer more than just good looks.</p>",
-            "link": "",
-            "press_logo": "shopify://shop_images/logo_5.png",
-            "logo_width": 180
-          }
-        },
-        "70c50064-3d79-4b55-8f95-eef9d9c0bcd2": {
-          "type": "press",
-          "settings": {
-            "text": "<p>A win for pets and pet parents alike.</p>",
-            "link": "",
-            "press_logo": "shopify://shop_images/logo_6.png",
-            "logo_width": 180
-          }
-        }
-      },
-      "block_order": [
-        "section-press-0",
-        "section-press-1",
-        "section-press-2",
-        "ee3b9e43-b20b-4859-bb70-5944292310ed",
-        "23f45cdc-4b6c-4fa0-acda-c2268f7facf3",
-        "70c50064-3d79-4b55-8f95-eef9d9c0bcd2"
-      ],
-      "settings": {
-        "title": "Press",
-        "show_quotations": true,
-        "bg_color_secondary": true,
-        "width": "wrapper",
-        "padding_top": 40,
-        "padding_bottom": 40
       }
     },
     "b986c5b5-1d19-44c0-a24d-d37ad9b2aeab": {
@@ -1522,11 +1562,11 @@
     "section_promotion_row_G3EfLk",
     "40482de8-489d-4eb6-834d-c5b7780cd535",
     "section-press",
+    "section_list_collection_tQ8QY8",
     "84c89925-05f0-48ba-9aa0-46aa0f5146af",
     "e114f45b-a119-4b33-8c9c-15c2d105b0aa",
     "section_look_jRfBpG",
     "a5a57cf4-2a78-4f14-a4e0-e80f0ab168f7",
-    "section_list_collection_tQ8QY8",
     "section_tab_collections_rkwF3p",
     "e691434e-6d14-4c4d-86db-d7c8fa6f16ad",
     "section_image_with_text_DwUbYL",

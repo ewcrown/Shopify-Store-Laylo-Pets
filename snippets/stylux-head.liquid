@@ -1,0 +1,107 @@
+<script>
+    (async function () {
+        window.Stylux = {
+        queue: [],
+        onScriptLoad: (fn) => {
+            window.Stylux.queue.push(fn);
+        },
+    };
+
+    (function loadStyluxSDK(src, onload) {
+        const script = document.createElement('script');
+        script.src = src;
+        script.async = true;
+        script.crossOrigin = 'anonymous';
+        script.onload = onload;
+        document.head.appendChild(script);
+        })('https://sdk.stylux.io/js-sdk.js', async () => {
+            if (!self.Stylux) {
+                return;
+            }
+
+            if (!self.Shopify || self.Shopify.country !== 'US') {
+                return;
+            }
+            
+            await Stylux.setup({
+                merchantId: 'a24b80d3-d190-4dad-bcfc-020f30b49470',
+                monitoring: true,
+
+                apiKey: 'STLX_bca9a12f357c36a3398e8b265e509182981670ecf178ae830ec40ed3f30c',
+
+                getButtonOfferText(config) {
+                    return config.ctaText;
+                },
+
+                modal: {
+                    // any custom CSS styling (key-value pairs)
+                    buttonStyles: {},
+                },
+
+                plugins: {
+                    shopify: {
+                        afterUpdateCartVersion: 'V2',
+                        afterUpdateCart(updateCartRes) {
+                            if (!updateCartRes) {
+                                return;
+                            }
+
+                            const isCartPage = document.location.pathname.includes('cart');
+
+                            if (isCartPage) {
+                                window.location.reload();
+                            } else {
+                                window.cart.getCart();
+                            }
+                        }
+                    }
+                }
+            })
+        });
+     })();
+</script>
+<style>
+    .stylux-offer-btn {
+        background: var(--button-secondary-bg);
+        margin-bottom: 8px;
+        color: var(--button-secondary-text);
+    }
+    .stylux-offer-btn:hover {
+        color: var(--button-secondary-text-hover);
+    }
+    .stylux-offer-btn::before {
+        background: var(--button-secondary-bg-hover);
+    }
+</style>
+<script>
+  Stylux.onScriptLoad(() => {
+    async function showCartOffer() {
+        await Stylux.waitForDOMElements();
+
+        if (!document.querySelector('#stylux-cart-offer-container')) {
+            return;
+        }
+
+        Stylux.offers.show({
+            type: 'CART',
+            elementClasses: ['stylux-cart-offer-container']
+        });
+    }
+    
+    document.addEventListener('theme:cart:open', () => {
+        setTimeout(() => showCartOffer(), 500);
+    });
+
+    document.addEventListener('theme:cart:loaded', () => {
+        setTimeout(() => showCartOffer(), 500);
+    });
+
+    document.addEventListener('theme:cart:update', () => {
+        setTimeout(() => showCartOffer(), 500);
+    });
+
+    document.addEventListener('theme:cart:added', () => {
+        setTimeout(() => showCartOffer(), 500);
+    });
+  });
+</script>

@@ -33,8 +33,9 @@
         },
         "1d4ae0b0-0a4d-43d5-adef-73b63d3cb27f": {
           "type": "shopify://apps/yotpo-product-reviews/blocks/star-rating/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "disabled": true,
           "settings": {
-            "product": "homeschool-by-lay-lo-introductory-virtual-training-session"
+            "product": "{{product}}"
           }
         },
         "inventory_countdown": {
@@ -146,26 +147,6 @@
         "enable_zoom": true,
         "hide_product_thumbnails": true,
         "enable_video_looping": true,
-        "bg_color": "",
-        "width": "wrapper",
-        "padding_top": 60,
-        "padding_bottom": 60
-      }
-    },
-    "1740639973c7923c3e": {
-      "type": "apps",
-      "blocks": {
-        "yotpo_product_reviews_reviews_gcKhn4": {
-          "type": "shopify://apps/yotpo-product-reviews/blocks/reviews/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
-          "settings": {
-            "product": "homeschool-by-lay-lo-introductory-virtual-training-session"
-          }
-        }
-      },
-      "block_order": [
-        "yotpo_product_reviews_reviews_gcKhn4"
-      ],
-      "settings": {
         "bg_color": "",
         "width": "wrapper",
         "padding_top": 60,
@@ -289,7 +270,6 @@
     "shogun-helper",
     "shogun-above",
     "main",
-    "1740639973c7923c3e",
     "0b271cde-7edb-437b-a7b8-052e7178b5d6",
     "related",
     "16796286950518c688",

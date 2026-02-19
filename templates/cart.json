@@ -32,16 +32,16 @@
           "type": "text",
           "settings": {
             "icon_name": "check",
-            "title": "30-Day Trial",
-            "text": "<p>If you are your pup aren't satisfied, send it back.</p>"
+            "title": "1-Year Warranty",
+            "text": "<p>We don't compromise on quality</p>"
           }
         },
         "template--16059995717818__fda9006d-8b14-4bfd-9789-105eecc1f680-1678924127a3c3615a-2": {
           "type": "text",
           "settings": {
             "icon_name": "eco-friendly",
-            "title": "365 Guarantee",
-            "text": "<p>If our products are defective, we'll make it right.</p>"
+            "title": "Live Support",
+            "text": "<p>Email or call us anytime and we're here to help.</p>"
           }
         }
       },
@@ -58,7 +58,7 @@
         "subheading": "",
         "bg_color_secondary": true,
         "box_color": "",
-        "text_color": "#333",
+        "text_color": "#333333",
         "button_text": "",
         "button_link": "",
         "button_style": "btn--secondary btn--small",

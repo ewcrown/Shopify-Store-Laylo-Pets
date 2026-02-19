@@ -28,14 +28,22 @@
             "subheading": "breadcrumbs",
             "show_rating": true,
             "show_rating_count": true,
+            "show_above_mobile": true,
             "padding_bottom": 10
           }
         },
-        "1d4ae0b0-0a4d-43d5-adef-73b63d3cb27f": {
-          "type": "shopify://apps/yotpo-product-reviews/blocks/star-rating/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+        "text_WdyaYr": {
+          "type": "text",
           "settings": {
-            "product": "{{product}}"
+            "title": "<p>{{ product.metafields.custom.subtitle.value }}</p>",
+            "text_alignment": "left",
+            "show_above_mobile": true,
+            "padding_bottom": 20
           }
+        },
+        "judge_me_reviews_preview_badge_yrt8BR": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
         },
         "inventory_countdown": {
           "type": "inventory_countdown",
@@ -80,6 +88,7 @@
             "icon_text_4": "1-Year Warranty",
             "alignment": "center",
             "bg_color": "#f7f8fb",
+            "show_above_mobile": false,
             "padding_bottom": 10
           }
         },
@@ -94,6 +103,7 @@
         "description": {
           "type": "description",
           "settings": {
+            "show_above_mobile": false,
             "padding_bottom": 22
           }
         },
@@ -115,6 +125,7 @@
             "accordion_heading_5": "",
             "accordion_text_5": "",
             "accordion_page_5": "",
+            "show_above_mobile": false,
             "padding_bottom": 20
           }
         },
@@ -129,7 +140,8 @@
       },
       "block_order": [
         "title",
-        "1d4ae0b0-0a4d-43d5-adef-73b63d3cb27f",
+        "text_WdyaYr",
+        "judge_me_reviews_preview_badge_yrt8BR",
         "inventory_countdown",
         "form",
         "icon_row",
@@ -146,7 +158,7 @@
         "image_layout": "grid",
         "image_width": "large",
         "enable_zoom": true,
-        "hide_product_thumbnails": true,
+        "hide_product_thumbnails": false,
         "enable_video_looping": true,
         "bg_color": "",
         "width": "wrapper--full-padded",
@@ -261,6 +273,7 @@
         "template--16010683777210__bd134d06-84b0-4be7-b37c-69040f4adf68-16750269123769c858-1": {
           "type": "heading",
           "settings": {
+            "discount_button_link_heading": "",
             "text": "<p>Luxury comfort meets functional aesthetics</p>",
             "size": 100,
             "heading_highlight_type": "italics"
@@ -273,6 +286,7 @@
       ],
       "settings": {
         "text_position": "center",
+        "background_custom_color": "",
         "bg_color_secondary": false,
         "text_color": "text-dark",
         "width": "wrapper",
@@ -370,6 +384,7 @@
           "type": "heading",
           "disabled": true,
           "settings": {
+            "discount_button_link_heading": "",
             "text": "<p>Custom comfort and smarter style</p>",
             "size": 100,
             "heading_highlight_type": "italics"
@@ -383,6 +398,7 @@
       "disabled": true,
       "settings": {
         "text_position": "center",
+        "background_custom_color": "",
         "bg_color_secondary": false,
         "text_color": "text-dark",
         "width": "wrapper--narrow",
@@ -546,15 +562,18 @@
     "167866229113e22330": {
       "type": "apps",
       "blocks": {
-        "92e43edb-6f2c-42ec-bbac-948b543d32e4": {
-          "type": "shopify://apps/yotpo-product-reviews/blocks/reviews/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+        "judge_me_reviews_review_widget_UPtWaX": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
-            "product": "{{product}}"
+            "review_data": "sample_data",
+            "max_width": 1200,
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget"
           }
         }
       },
       "block_order": [
-        "92e43edb-6f2c-42ec-bbac-948b543d32e4"
+        "judge_me_reviews_review_widget_UPtWaX"
       ],
       "settings": {
         "bg_color": "",
@@ -578,6 +597,15 @@
       "type": "shogun-below",
       "disabled": true,
       "settings": {}
+    },
+    "17610888787fe32fcc": {
+      "type": "apps",
+      "settings": {
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
     }
   },
   "order": [
@@ -598,6 +626,7 @@
     "section_image_with_text_6GLF8R",
     "167866229113e22330",
     "related",
-    "shogun-below"
+    "shogun-below",
+    "17610888787fe32fcc"
   ]
 }

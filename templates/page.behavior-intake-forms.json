@@ -58,40 +58,80 @@
         "text_U3EEjU": {
           "type": "text",
           "settings": {
-            "icon_name": "calendar",
-            "title": "Find the Correct Calendar",
-            "text": "<p>Find your primary trainer's calendar from the list below.</p>"
-          }
-        },
-        "text_pWDJtt": {
-          "type": "text",
-          "settings": {
-            "icon_name": "check",
-            "title": "Book your time",
-            "text": "<p>Use the calendar to book your practice session. </p>"
-          }
-        },
-        "text_7mjtEM": {
-          "type": "text",
-          "settings": {
-            "icon_name": "eco-friendly",
-            "title": "Join the Zoom",
-            "text": "<p>You will receive a Zoom link to join the video call. </p>"
+            "icon_name": "none",
+            "title": "",
+            "text": "<p>This helps your trainer understand your pup's history and connect the dots.</p>"
           }
         }
       },
       "block_order": [
-        "text_U3EEjU",
-        "text_pWDJtt",
-        "text_7mjtEM"
+        "text_U3EEjU"
       ],
       "settings": {
         "alignment": "center",
         "columns": 3,
         "icons_width": 30,
-        "heading": "Instructions for Booking Practice Sessions",
-        "subheading": "<p>IMPORTANT: Please only select your weekly trainer from the list below. Do not book with a new trainer.</p>",
-        "bg_color_secondary": true,
+        "heading": "First, submit your General History Form",
+        "subheading": "",
+        "bg_color_secondary": false,
+        "box_color": "",
+        "text_color": "#333333",
+        "button_text": "",
+        "button_link": "",
+        "button_style": "btn--secondary btn--small",
+        "enable_slider_mobile": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_text_Gjfapw": {
+      "type": "section-text",
+      "blocks": {
+        "button_WaFE46": {
+          "type": "button",
+          "settings": {
+            "discount_button_link": "",
+            "btn_text": "General Form",
+            "btn_link": "https://forms.gle/iVmt9SbY4aRow47k7",
+            "btn_style": "btn--primary btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "button_WaFE46"
+      ],
+      "settings": {
+        "text_position": "center",
+        "background_custom_color": "",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 20,
+        "padding_bottom": 60
+      }
+    },
+    "section_icons_row_dakpzD": {
+      "type": "section-icons-row",
+      "blocks": {
+        "text_RaVmLj": {
+          "type": "text",
+          "settings": {
+            "icon_name": "none",
+            "title": "",
+            "text": "<p>If your dog is showing any of the behaviors listed, fill out the corresponding form to help your trainer understand the full picture.</p><p>Have questions? </p><p>Text 310-564-8808</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_RaVmLj"
+      ],
+      "settings": {
+        "alignment": "center",
+        "columns": 3,
+        "icons_width": 30,
+        "heading": "Then, submit your Behavior Form(s)",
+        "subheading": "",
+        "bg_color_secondary": false,
         "box_color": "",
         "text_color": "#333333",
         "button_text": "",
@@ -105,19 +145,12 @@
     "section_text_EQYqXH": {
       "type": "section-text",
       "blocks": {
-        "subheading_RCdFaq": {
-          "type": "subheading",
-          "settings": {
-            "text": "<p>FIND YOUR TRAINER BELOW</p>",
-            "size": 100
-          }
-        },
         "button_4YWjUH": {
           "type": "button",
           "settings": {
             "discount_button_link": "",
-            "btn_text": "Trainer Emily",
-            "btn_link": "https://calendly.com/emily-laylopets/practice-sessions",
+            "btn_text": "Separation Anxiety",
+            "btn_link": "https://forms.gle/xHvDcUYF9haDbjpp7",
             "btn_style": "btn--primary btn--small"
           }
         },
@@ -125,14 +158,13 @@
           "type": "button",
           "settings": {
             "discount_button_link": "",
-            "btn_text": "Trainer Ashley",
-            "btn_link": "https://calendly.com/ashley-laylopets/practice-sessions",
+            "btn_text": "Aggression - Human",
+            "btn_link": "https://forms.gle/1eUvcbWVph85dkhZ8",
             "btn_style": "btn--primary btn--small"
           }
         }
       },
       "block_order": [
-        "subheading_RCdFaq",
         "button_4YWjUH",
         "button_W7Ka6i"
       ],
@@ -160,8 +192,8 @@
           "type": "button",
           "settings": {
             "discount_button_link": "",
-            "btn_text": "Trainer Tracy",
-            "btn_link": "https://calendly.com/tracy-laylopets/practice-sessions",
+            "btn_text": "Inter Dog Aggression",
+            "btn_link": "https://forms.gle/EaXM893VMjANkVV66",
             "btn_style": "btn--primary btn--small"
           }
         },
@@ -169,8 +201,8 @@
           "type": "button",
           "settings": {
             "discount_button_link": "",
-            "btn_text": "Trainer Karen",
-            "btn_link": "https://calendly.com/karen-laylopets/practice-sessions",
+            "btn_text": "Reactivity",
+            "btn_link": "https://docs.google.com/forms/d/e/1FAIpQLSf6qOPgqR_KUa1muC9b0grL7qWRPCppaZyPT6RLoQcsI6f3IQ/viewform?usp=sf_link",
             "btn_style": "btn--primary btn--small"
           }
         }
@@ -204,25 +236,15 @@
           "type": "button",
           "settings": {
             "discount_button_link": "",
-            "btn_text": "Trainer Shannen",
-            "btn_link": "https://calendly.com/shannenlaylo/pet-training-with-shannen-clone",
-            "btn_style": "btn--primary btn--small"
-          }
-        },
-        "button_UKWdHC": {
-          "type": "button",
-          "settings": {
-            "discount_button_link": "",
-            "btn_text": "Trainer Katie",
-            "btn_link": "https://calendly.com/katie-laylopets/practice-sessions",
+            "btn_text": "Resource Guarding",
+            "btn_link": "https://forms.gle/5hH5hGv7drqn62v28",
             "btn_style": "btn--primary btn--small"
           }
         }
       },
       "block_order": [
         "subheading_UakjmB",
-        "button_FCxDVm",
-        "button_UKWdHC"
+        "button_FCxDVm"
       ],
       "settings": {
         "text_position": "center",
@@ -232,84 +254,6 @@
         "width": "wrapper--narrow",
         "padding_top": 20,
         "padding_bottom": 20
-      }
-    },
-    "section_text_BE7qPk": {
-      "type": "section-text",
-      "blocks": {
-        "subheading_c7ULpL": {
-          "type": "subheading",
-          "settings": {
-            "text": "",
-            "size": 100
-          }
-        },
-        "button_6hY93q": {
-          "type": "button",
-          "settings": {
-            "discount_button_link": "",
-            "btn_text": "Trainer Stephanie",
-            "btn_link": "https://calendly.com/stephanie-laylopets/practice-sessions",
-            "btn_style": "btn--primary btn--small"
-          }
-        },
-        "button_wm4Vej": {
-          "type": "button",
-          "settings": {
-            "discount_button_link": "",
-            "btn_text": "Trainer Christi",
-            "btn_link": "https://calendly.com/christi-laylopets/practice-sessions",
-            "btn_style": "btn--primary btn--small"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_c7ULpL",
-        "button_6hY93q",
-        "button_wm4Vej"
-      ],
-      "settings": {
-        "text_position": "center",
-        "background_custom_color": "",
-        "bg_color_secondary": false,
-        "text_color": "text-dark",
-        "width": "wrapper--narrow",
-        "padding_top": 20,
-        "padding_bottom": 60
-      }
-    },
-    "section_text_Gjfapw": {
-      "type": "section-text",
-      "blocks": {
-        "subheading_gFKB36": {
-          "type": "subheading",
-          "settings": {
-            "text": "<p>OR BOOK WITH TRAINER NICOLE (AVAILABLE TO ALL)</p>",
-            "size": 100
-          }
-        },
-        "button_WaFE46": {
-          "type": "button",
-          "settings": {
-            "discount_button_link": "",
-            "btn_text": "Trainer Nicole",
-            "btn_link": "https://calendly.com/nicole-laylopets/practice-sessions",
-            "btn_style": "btn--primary btn--small"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_gFKB36",
-        "button_WaFE46"
-      ],
-      "settings": {
-        "text_position": "center",
-        "background_custom_color": "",
-        "bg_color_secondary": false,
-        "text_color": "text-dark",
-        "width": "wrapper--narrow",
-        "padding_top": 20,
-        "padding_bottom": 60
       }
     },
     "section_text_88akFc": {
@@ -621,11 +565,11 @@
   "order": [
     "section_text_BbNbpT",
     "section_icons_row_9imNxr",
+    "section_text_Gjfapw",
+    "section_icons_row_dakpzD",
     "section_text_EQYqXH",
     "section_text_wKjwaQ",
     "section_text_4JTjgd",
-    "section_text_BE7qPk",
-    "section_text_Gjfapw",
     "section_text_88akFc",
     "section_custom_html_AzLURX",
     "section_divider_xgMaHU",

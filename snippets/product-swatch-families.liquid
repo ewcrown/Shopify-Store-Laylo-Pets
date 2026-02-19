@@ -48,7 +48,7 @@
   {% endif %}
   
   
-  {% if show_color_swatches %}
+  {% comment %} {% if show_color_swatches %}
   <script>
     (async () => {
       
@@ -93,4 +93,4 @@
       document.dispatchEvent(new CustomEvent('variant:change', {detail: { variant: current_swatch_variant }}));
     })();
   </script>
-  {% endif %}
+  {% endif %} {% endcomment %}

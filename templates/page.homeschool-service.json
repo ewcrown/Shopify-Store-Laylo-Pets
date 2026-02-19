@@ -100,7 +100,7 @@
         "51b1c0a3-23f0-43fd-9de9-d3cd9c84acd0": {
           "type": "text",
           "settings": {
-            "text": "<p>When training your dog, there's no place like home and no better trainer than you. As one of the highest rated premium virtual training services, you can meet a certified fear-free trainer up to 3x a week with unlimited text support and guaranteed results. A better dog starts with you. </p>",
+            "text": "<p>When training your dog, there's no place like home and no better trainer than you. As one of the highest rated premium virtual training services, you can meet a certified fear-free trainer (one 45-min session and unlimited 15-min practice sessions per week) with unlimited text support and guaranteed results. A better dog starts with you.  </p>",
             "size": 100
           }
         }
@@ -357,7 +357,7 @@
         "title": "<p>Train 1:1 with us at home or on the go.</p>",
         "heading_highlight_type": "circle",
         "heading_size": 100,
-        "text_content": "Train on your terms with 1:1 live video calls up to 3x / week accompanied by your dedicated certified force-free dog trainer and a roster of other dog specialists. We'll coach you  in real-time, giving you the confidence to be the very best pet parent you can be.",
+        "text_content": "Train on your terms with 1:1 live video calls accompanied by your dedicated certified force-free dog trainer and a roster of other dog specialists. We'll coach you  in real-time, giving you the confidence to be the very best pet parent you can be.",
         "text_alignment": "left",
         "button_text": "Watch a Session >",
         "button_link": "https://youtu.be/f5rq-t12l24?si=YIwF7eTdUYvOWsSH",
@@ -935,6 +935,7 @@
         },
         "template--16036805083322__cf9dc11a-fc55-47d0-b33a-b31e463672ad-1677351842118d106c-1": {
           "type": "text_block",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/christi_Kirby.jpg",
             "title": "Christi B. - Force-free Behavior Consultant",
@@ -965,9 +966,9 @@
           "type": "text_block",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Morgan_C.png",
-            "title": "Morgan C. - Force-Free Dog Trainer & Behavior Consultant",
-            "text": "<p>Morgan is an accredited dog trainer with a decade of experience in animal behavior and training. She specializes in using science-based, reinforcement-focused training techniques to address behavior challenges while prioritizing the welfare of canines and the people who love them. Morgan has trained and handled conservation detection dogs and search and rescue dogs, and has extensive experience as an educator helping hundreds of future dog trainers learn humane training methods.</p><p>Certifications:</p><ul><li>Accredited Dog Trainer (IAABC-ADT)</li><li>Fear Free Certified Trainer (FFCP-T)</li><li>Family Dog Mediator (FDM)</li></ul>",
+            "image": "shopify://shop_images/Ashley_Botz.png",
+            "title": "Ashley B - Certified Dog Trainer",
+            "text": "<p>Ashley is a seasoned animal welfare and behavior professional with over 15 years of experience supporting dogs and the families who love them. Ashley specializes in behavior cases involving separation anxiety, arousal regulation, and multi-species household dynamics.</p><p>Her work spans shelter behavior programs, enrichment-based daycare leadership, private training, and team development. She’s passionate about helping families navigate complex behavior concerns with empathy, structure, and evidence-based tools. </p><p>Certifications:</p><ul><li>Fear Free Certified Professional </li><li>Certified Professional Dog Trainer- Knowledge Assessed (Certification Council for Professional Dog Trainers)<br/></li></ul><p><br/></p>",
             "button_text": "",
             "calendly_widget": "",
             "button_link": "",
@@ -1151,7 +1152,7 @@
             "text_color": "text-dark",
             "subheading": "$49 / Week (Billed Monthly)",
             "title": "Homeschool Lite",
-            "text": "<p><strong>Message on-demand with certified dog experts and get 1:1 help every week. <br/><br/>Cancel anytime.</strong><br/><br/><br/>Daily Text Support</p><p>1x Intensive Session / month (45-min)</p><p>4x Practice Sessions / month (15-min)</p><p>LAY LO™ Product Discounts</p><p>* * * </p><p>Insider Community Access</p><p>Course Membership Library Access</p>",
+            "text": "<p><strong>Message on-demand with certified dog experts and get 1:1 help every week. <br/><br/>Cancel anytime.</strong><br/><br/><br/>Daily Text Support</p><p>1x Intensive Session / month (45-min)</p><p>Unlimited Practice Sessions (15-min)</p><p>LAY LO™ Product Discounts</p><p>* * * </p><p>Insider Community Access</p><p>Course Membership Library Access</p>",
             "button_text": "Get Started >",
             "button_link": "https://pfnl.co/k9c9xgy",
             "button_style": "btn--primary btn--small",
@@ -1169,7 +1170,7 @@
             "text_color": "text-dark",
             "subheading": "$125 / Week",
             "title": "Homeschool Premium",
-            "text": "<p><strong>Personalized, private 1:1 online training with your dedicated dog expert. Guaranteed results. <br/></strong></p><p><strong>4, 6 and 8 week packages available<br/><br/><br/></strong>Intensive Pup Evaluation</p><p>1x Weekly Live 1:1 Sessions (45 min)</p><p>2x Weekly Private Practice Sessions (15-min)</p><p>Message-an-Expert</p><p>Personalized Training Plan</p><p>LAY LO™ Product Discounts</p><p>Homeschool Training Guarantee*</p><p>* * * </p><p>Insider Community Access</p><p>Course Membership Library - Full Access ($150 value)</p>",
+            "text": "<p><strong>Personalized, private 1:1 online training with your dedicated dog expert. Guaranteed results. <br/></strong></p><p><strong>4, 6 and 8 week packages available<br/><br/><br/></strong>Intensive Pup Evaluation</p><p>1x Weekly Live 1:1 Sessions (45 min)</p><p>Unlimited Practice Sessions (15-min)</p><p>Message-an-Expert</p><p>Personalized Training Plan</p><p>LAY LO™ Product Discounts</p><p>Homeschool Training Guarantee*</p><p>* * * </p><p>Insider Community Access</p><p>Course Membership Library - Full Access ($150 value)</p>",
             "button_text": "Schedule Your Free Pup Consult",
             "button_link": "https://laylopets.typeform.com/to/exWlKhbV?utm_source=xxxxx",
             "button_style": "btn--primary btn--small",
@@ -1266,7 +1267,7 @@
           "type": "text",
           "settings": {
             "title": "What does it cost?",
-            "text": "<p>We have a several options depending on your budget and how much you're looking to solve at one time. One full week's worth of premium training & support is $125, which includes 3 sessions (1 intensive training and 2 mini practice sessions).</p><p>Tight on a budget? We also offer text training for $25 / week and self-paced courses. </p>"
+            "text": "<p>We have several options depending on your budget and how much you're looking to solve at one time. One full week's worth of premium training & support is $125 which includes 1 intensive session and unlimited practice sessions per week with unlimited text support.</p><p>Tight on a budget? We also offer text training for $25 / week and self-paced courses. </p>"
           }
         }
       },

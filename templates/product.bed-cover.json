@@ -28,13 +28,21 @@
             "subheading": "breadcrumbs",
             "show_rating": true,
             "show_rating_count": true,
+            "show_above_mobile": true,
             "padding_bottom": 10
           }
         },
-        "1d4ae0b0-0a4d-43d5-adef-73b63d3cb27f": {
-          "type": "shopify://apps/yotpo-product-reviews/blocks/star-rating/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+        "judge_me_reviews_preview_badge_txKbnR": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "text_KB3AAe": {
+          "type": "text",
           "settings": {
-            "product": "{{product}}"
+            "title": "<p>{{ product.metafields.custom.subtitle.value }}</p>",
+            "text_alignment": "left",
+            "show_above_mobile": true,
+            "padding_bottom": 20
           }
         },
         "inventory_countdown": {
@@ -64,23 +72,33 @@
             "icon_color_1": "rgba(0,0,0,0)",
             "icon_image_1": "shopify://shop_images/washable.png",
             "icon_width_1": 40,
-            "icon_text_1": "Machine Washable",
+            "icon_text_1": "Easy-Zip Machine Washable",
             "icon_name_2": "paw-heart",
             "icon_color_2": "",
             "icon_image_2": "shopify://shop_images/digproof.png",
             "icon_width_2": 40,
-            "icon_text_2": "Orthopedic Comfort",
+            "icon_text_2": "CertiPUR-US® Foam Comfort",
             "icon_name_3": "shield",
             "icon_color_3": "",
-            "icon_width_3": 25,
-            "icon_text_3": "Dig proof  Outer Knit",
+            "icon_width_3": 35,
+            "icon_text_3": "Dig-proof & Breathable Knit",
             "icon_name_4": "award",
             "icon_color_4": "",
-            "icon_width_4": 25,
-            "icon_text_4": "1-Year Warranty",
+            "icon_width_4": 35,
+            "icon_text_4": "10-Year No Sag Guarantee",
             "alignment": "center",
             "bg_color": "#f7f8fb",
+            "show_above_mobile": false,
             "padding_bottom": 10
+          }
+        },
+        "text_dJCDkG": {
+          "type": "text",
+          "settings": {
+            "title": "<p><strong>30-Day Returns & Exchanges </strong>- <a href=\"/pages/faq\" title=\"Returns, Exchanges & Warranty\">Learn More</a></p>",
+            "text_alignment": "center",
+            "show_above_mobile": false,
+            "padding_bottom": 20
           }
         },
         "upsell": {
@@ -97,6 +115,7 @@
         "description": {
           "type": "description",
           "settings": {
+            "show_above_mobile": false,
             "padding_bottom": 22
           }
         },
@@ -118,28 +137,22 @@
             "accordion_heading_5": "",
             "accordion_text_5": "",
             "accordion_page_5": "",
-            "padding_bottom": 20
-          }
-        },
-        "share-button": {
-          "type": "share-button",
-          "disabled": true,
-          "settings": {
-            "text": "Share",
+            "show_above_mobile": false,
             "padding_bottom": 20
           }
         }
       },
       "block_order": [
         "title",
-        "1d4ae0b0-0a4d-43d5-adef-73b63d3cb27f",
+        "judge_me_reviews_preview_badge_txKbnR",
+        "text_KB3AAe",
         "inventory_countdown",
         "form",
         "icon_row",
+        "text_dJCDkG",
         "upsell",
         "description",
-        "product_accordions",
-        "share-button"
+        "product_accordions"
       ],
       "custom_css": [
         ".product__icon__row.product__icon__row--multiple {font-size: 90%;}"
@@ -149,7 +162,7 @@
         "image_layout": "grid",
         "image_width": "large",
         "enable_zoom": true,
-        "hide_product_thumbnails": true,
+        "hide_product_thumbnails": false,
         "enable_video_looping": true,
         "bg_color": "",
         "width": "wrapper--full-padded",
@@ -170,6 +183,7 @@
         "template--16010683777210__bd134d06-84b0-4be7-b37c-69040f4adf68-16750269123769c858-1": {
           "type": "heading",
           "settings": {
+            "discount_button_link_heading": "",
             "text": "<p>Custom comfort and smarter style</p>",
             "size": 100,
             "heading_highlight_type": "italics"
@@ -182,6 +196,7 @@
       ],
       "settings": {
         "text_position": "center",
+        "background_custom_color": "",
         "bg_color_secondary": false,
         "text_color": "text-dark",
         "width": "wrapper--narrow",
@@ -530,15 +545,18 @@
     "167866229113e22330": {
       "type": "apps",
       "blocks": {
-        "92e43edb-6f2c-42ec-bbac-948b543d32e4": {
-          "type": "shopify://apps/yotpo-product-reviews/blocks/reviews/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+        "judge_me_reviews_review_widget_9qHMYQ": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
-            "product": "{{product}}"
+            "review_data": "sample_data",
+            "max_width": 1200,
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget"
           }
         }
       },
       "block_order": [
-        "92e43edb-6f2c-42ec-bbac-948b543d32e4"
+        "judge_me_reviews_review_widget_9qHMYQ"
       ],
       "settings": {
         "bg_color": "",
@@ -663,6 +681,24 @@
       "type": "shogun-below",
       "disabled": true,
       "settings": {}
+    },
+    "1761073516cba930fb": {
+      "type": "apps",
+      "settings": {
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "1761073541331955c1": {
+      "type": "apps",
+      "settings": {
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
     }
   },
   "order": [
@@ -682,6 +718,8 @@
     "167866229113e22330",
     "testimonials",
     "related",
-    "shogun-below"
+    "shogun-below",
+    "1761073516cba930fb",
+    "1761073541331955c1"
   ]
 }

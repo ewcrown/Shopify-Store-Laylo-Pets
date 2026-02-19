@@ -119,7 +119,7 @@
       assign image_alt = logo_not_home.alt | escape
     -%}
 
-    <a href="{{ routes.root_url }}" aria-label="{{ shop.name }}" class="logo__image-link logo__image-link--other{% unless logo %} logo__image-link--single{% endunless %}">
+    <a href="/pages/homeschool" aria-label="{{ shop.name }}" class="logo__image-link logo__image-link--other{% unless logo %} logo__image-link--single{% endunless %}">
       {%- render 'image',
         image: logo_not_home,
         width: retina_size,
@@ -140,7 +140,7 @@
       assign image_alt = logo.alt | escape
     -%}
 
-    <a href="{{ routes.root_url }}" aria-label="{{ shop.name }}" class="logo__image-link logo__image-link--home{% unless logo_not_home %} logo__image-link--single{% endunless %}">
+    <a href="/pages/homeschool" aria-label="{{ shop.name }}" class="logo__image-link logo__image-link--home{% unless logo_not_home %} logo__image-link--single{% endunless %}">
       {%- render 'image',
         image: logo,
         width: retina_size,
@@ -159,7 +159,7 @@
     {{- logo_not_home_markup -}}
     {{- logo_markup -}}
   {%- else -%}
-    <a class="logo__text-link" href="{{ routes.root_url }}">{{ shop.name }}</a>
+    <a class="logo__text-link" href="/pages/homeschool">{{ shop.name }}</a>
   {%- endif -%}
 </h1>
     <!-- /partials/site-nav.liquid -->

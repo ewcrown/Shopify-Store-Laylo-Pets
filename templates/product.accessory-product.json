@@ -18,11 +18,17 @@
             "subheading": "breadcrumbs",
             "show_rating": true,
             "show_rating_count": true,
+            "show_above_mobile": false,
             "padding_bottom": 20
           }
         },
+        "judge_me_reviews_preview_badge_YKPUXq": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
         "1d4ae0b0-0a4d-43d5-adef-73b63d3cb27f": {
           "type": "shopify://apps/yotpo-product-reviews/blocks/star-rating/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "disabled": true,
           "settings": {
             "product": "{{product}}"
           }
@@ -78,12 +84,14 @@
             "icon_text_4": "One-Year Warranty",
             "alignment": "center",
             "bg_color": "#ffffff",
+            "show_above_mobile": false,
             "padding_bottom": 20
           }
         },
         "description": {
           "type": "description",
           "settings": {
+            "show_above_mobile": false,
             "padding_bottom": 20
           }
         },
@@ -105,6 +113,7 @@
             "accordion_heading_5": "",
             "accordion_text_5": "",
             "accordion_page_5": "",
+            "show_above_mobile": false,
             "padding_bottom": 20
           }
         },
@@ -119,6 +128,7 @@
       },
       "block_order": [
         "title",
+        "judge_me_reviews_preview_badge_YKPUXq",
         "1d4ae0b0-0a4d-43d5-adef-73b63d3cb27f",
         "inventory_countdown",
         "form",
@@ -154,6 +164,7 @@
         "template--16010683777210__bd134d06-84b0-4be7-b37c-69040f4adf68-16750269123769c858-1": {
           "type": "heading",
           "settings": {
+            "discount_button_link_heading": "",
             "text": "<p>A smarter bed system made for you.</p>",
             "size": 100,
             "heading_highlight_type": "italics"
@@ -175,6 +186,7 @@
       "disabled": true,
       "settings": {
         "text_position": "center",
+        "background_custom_color": "",
         "bg_color_secondary": false,
         "text_color": "text-dark",
         "width": "wrapper--narrow",
@@ -382,16 +394,28 @@
     "168238782193835517": {
       "type": "apps",
       "blocks": {
-        "e46e1d7e-3d64-404b-8eae-4f3bef703756": {
-          "type": "shopify://apps/yotpo-product-reviews/blocks/reviews/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+        "judge_me_reviews_review_widget_U8GeEF": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
-            "product": "{{product}}"
+            "review_data": "sample_data",
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget",
+            "max_width": 1200
           }
         }
       },
       "block_order": [
-        "e46e1d7e-3d64-404b-8eae-4f3bef703756"
+        "judge_me_reviews_review_widget_U8GeEF"
       ],
+      "settings": {
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "1761072711e3411077": {
+      "type": "apps",
       "settings": {
         "bg_color": "",
         "width": "wrapper",
@@ -408,6 +432,7 @@
     "section_image_with_text_nKEKYQ",
     "grid",
     "related",
-    "168238782193835517"
+    "168238782193835517",
+    "1761072711e3411077"
   ]
 }

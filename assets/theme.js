@@ -6481,11 +6481,14 @@
   class Drawer {
     constructor() {
       this.drawers = document.querySelectorAll(selectors$l.drawer);
-      this.drawerToggleButtons = document.querySelectorAll(selectors$l.drawerToggle);
       this.a11y = a11y;
+      this.collapsibleInstances = [];
 
       this.drawerToggleEvent = throttle((event) => {
-        this.toggle(event);
+        const drawerToggle = event.target.closest(selectors$l.drawerToggle);
+        if (!drawerToggle) return;
+        event.preventDefault();
+        this.toggle(drawerToggle);
       }, 150);
 
       this.keyPressCloseEvent = throttle((event) => {
@@ -6493,6 +6496,12 @@
           this.close(event);
         }
       }, 150);
+
+      this.keyPressCloseHandler = (event) => {
+        if (document.querySelector(`${selectors$l.drawer}.${classes$j.open}`) && event.code === theme.keyboardKeys.ESCAPE) {
+          this.keyPressCloseEvent(event);
+        }
+      };
 
       // Define drawer close event
       this.drawerCloseEvent = (event) => {
@@ -6502,7 +6511,7 @@
           return;
         }
 
-        const isDrawerToggle = event.target.matches(selectors$l.drawerToggle);
+        const isDrawerToggle = event.target.closest(selectors$l.drawerToggle);
         const isDrawerChild = activeDrawer ? activeDrawer.contains(event.target) : false;
 
         if (!isDrawerToggle && !isDrawerChild) {
@@ -6514,26 +6523,24 @@
     }
 
     initListeners() {
-      // Toggle event for each drawer button
-      this.drawerToggleButtons.forEach((button) => {
-        button.addEventListener('click', this.drawerToggleEvent);
-      });
+      // Event delegation: single listener for all current and future drawer toggles
+      document.addEventListener('click', this.drawerToggleEvent);
 
       // Close drawers if escape key pressed
-      this.drawers.forEach((drawer) => {
-        drawer.addEventListener('keyup', this.keyPressCloseEvent);
+      document.addEventListener('keyup', this.keyPressCloseHandler);
 
-        // Init collapsible mobile dropdowns
-        this.collapsible = new Collapsible(drawer);
+      // Init collapsible mobile dropdowns
+      this.drawers.forEach((drawer) => {
+        this.collapsibleInstances.push(new Collapsible(drawer));
       });
 
       // Close drawers on click outside
       document.addEventListener('click', this.drawerCloseEvent);
     }
 
-    toggle(e) {
-      e.preventDefault();
-      const drawer = document.querySelector(`#${e.target.getAttribute(attributes$f.ariaControls)}`);
+    toggle(drawerToggle) {
+      const drawerId = drawerToggle.getAttribute(attributes$f.ariaControls);
+      const drawer = drawerId ? document.querySelector(`#${drawerId}`) : null;
       if (!drawer) {
         return;
       }
@@ -6543,14 +6550,11 @@
       if (isDrawerOpen) {
         this.close();
       } else {
-        this.open(e);
+        this.open(drawerToggle, drawer);
       }
     }
 
-    open(e) {
-      const drawerOpenButton = e.target;
-      const drawer = document.querySelector(`#${e.target.getAttribute(attributes$f.ariaControls)}`);
-
+    open(drawerOpenButton, drawer) {
       if (!drawer) {
         return;
       }
@@ -6579,7 +6583,7 @@
 
       const drawer = document.querySelector(`${selectors$l.drawer}.${classes$j.open}`);
 
-      this.drawerToggleButtons.forEach((button) => {
+      document.querySelectorAll(selectors$l.drawerToggle).forEach((button) => {
         button.setAttribute(attributes$f.ariaExpanded, false);
       });
 
@@ -6600,17 +6604,17 @@
       // Close drawer
       this.close();
 
-      // Unbind all event listeners for drawers
-      this.drawerToggleButtons.forEach((button) => {
-        button.removeEventListener('click', this.drawerToggleEvent);
-      });
-      this.drawers.forEach((drawer) => {
-        drawer.removeEventListener('keyup', this.keyPressCloseEvent);
-      });
+      // Unbind event listeners
+      document.removeEventListener('click', this.drawerToggleEvent);
+      document.removeEventListener('keyup', this.keyPressCloseHandler);
       document.removeEventListener('click', this.drawerCloseEvent);
 
-      if (this.collapsible) {
-        this.collapsible.onUnload();
+      if (this.collapsibleInstances && this.collapsibleInstances.length) {
+        this.collapsibleInstances.forEach((collapsible) => {
+          if (typeof collapsible.onUnload === 'function') {
+            collapsible.onUnload();
+          }
+        });
       }
     }
   }

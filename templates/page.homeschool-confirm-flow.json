@@ -15,8 +15,9 @@
         "template--16127676285114__5dfbc12b-2350-4c42-8a69-13ece72ffef7-1686511540b03a1d7e-1": {
           "type": "heading",
           "settings": {
-            "text": "<h1>Thank you! <br/>One of our experts will reach out to you shortly.<br/></h1>",
-            "size": 125,
+            "discount_button_link_heading": "",
+            "text": "<h1>Thank you! Please pick a time to meet.<br/></h1>",
+            "size": 100,
             "heading_highlight_type": "italics"
           }
         },
@@ -30,7 +31,7 @@
         "template--16127676285114__5dfbc12b-2350-4c42-8a69-13ece72ffef7-1686511540b03a1d7e-2": {
           "type": "text",
           "settings": {
-            "text": "<p>Our experts will review your information and provide actionable tips as well as guidance for next steps on how to meet your goals. We couldn't be more excited to help you and your pup. </p>",
+            "text": "<p>Our experts will review your information and provide actionable tips as well as guidance for next steps on how to meet your goals. Choose a time from below for your free consultation:</p>",
             "size": 100
           }
         },
@@ -38,6 +39,7 @@
           "type": "button",
           "disabled": true,
           "settings": {
+            "discount_button_link": "",
             "btn_text": "Call or Text us: 310-564-8808",
             "btn_link": "",
             "btn_style": "btn--primary btn--small"
@@ -47,6 +49,7 @@
           "type": "button",
           "disabled": true,
           "settings": {
+            "discount_button_link": "",
             "btn_text": "Or schedule a call directly",
             "btn_link": "https://calendly.com/d/cqkx-7yb-zm6/pup-behavior-evaluation-with-a-dog-expert",
             "btn_style": "btn--primary btn--small"
@@ -62,6 +65,7 @@
       ],
       "settings": {
         "text_position": "center",
+        "background_custom_color": "",
         "bg_color_secondary": false,
         "text_color": "text-dark",
         "width": "wrapper--narrow",
@@ -74,7 +78,9 @@
       "blocks": {
         "heading_pmbxXi": {
           "type": "heading",
+          "disabled": true,
           "settings": {
+            "discount_button_link_heading": "",
             "text": "<h2>Prefer to schedule for later? Book a time below:</h2>",
             "size": 100,
             "heading_highlight_type": "italics"
@@ -98,6 +104,7 @@
           "type": "button",
           "disabled": true,
           "settings": {
+            "discount_button_link": "",
             "btn_text": "Call or Text us: 310-564-8808",
             "btn_link": "",
             "btn_style": "btn--primary btn--small"
@@ -112,6 +119,7 @@
       ],
       "settings": {
         "text_position": "center",
+        "background_custom_color": "",
         "bg_color_secondary": false,
         "text_color": "text-dark",
         "width": "wrapper--narrow",
@@ -129,6 +137,7 @@
             "title": "",
             "text": "",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "https://www.youtube.com/watch?v=rAaZqpgAq7M",
@@ -141,6 +150,8 @@
       ],
       "disabled": true,
       "settings": {
+        "grid_or_slider": false,
+        "discount_button_link": "",
         "title": "Learn more about our program:",
         "align_text": "text-center",
         "columns": 2,
@@ -178,7 +189,7 @@
       "settings": {
         "custom_code": "<!-- Calendly inline widget begin -->\n<div class=\"calendly-inline-widget\" data-url=\"https://calendly.com/d/cqkx-7yb-zm6/pup-behavior-evaluation-with-a-dog-expert\" style=\"min-width:320px;height:700px;\"></div>\n<script type=\"text/javascript\" src=\"https://assets.calendly.com/assets/external/widget.js\" async></script>\n<!-- Calendly inline widget end -->",
         "width": "wrapper",
-        "padding_top": 10,
+        "padding_top": 0,
         "padding_bottom": 10
       }
     },
@@ -223,7 +234,7 @@
         "subheading": "",
         "bg_color_secondary": false,
         "box_color": "",
-        "text_color": "#333",
+        "text_color": "#333333",
         "button_text": "",
         "button_link": "",
         "button_style": "btn--secondary btn--small",
@@ -238,6 +249,7 @@
         "heading_yeeyCH": {
           "type": "heading",
           "settings": {
+            "discount_button_link_heading": "",
             "text": "<p>Real customers. Real transformations.</p>",
             "size": 100,
             "heading_highlight_type": "italics"
@@ -246,6 +258,7 @@
         "button_4WnHa9": {
           "type": "button",
           "settings": {
+            "discount_button_link": "",
             "btn_text": "See 100+ more reviews",
             "btn_link": "https://www.laylopets.com/pages/homeschool-virtual-dog-training-reviews",
             "btn_style": "btn--text"
@@ -258,6 +271,7 @@
       ],
       "settings": {
         "text_position": "center",
+        "background_custom_color": "",
         "bg_color_secondary": false,
         "text_color": "text-dark",
         "width": "wrapper--narrow",
@@ -322,6 +336,7 @@
             "title": "\"It was such an amazing investment. As a reactive dog owner, with a virtual outlet I was able to have access to a trainer in a way that kept everyone safe.",
             "text": "<p>⭐⭐⭐⭐⭐</p><p><br/><strong>Anna & Bruno<br/></strong>Rodgers, AR</p>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "https://youtu.be/EXt96K74My4",
@@ -335,6 +350,7 @@
             "title": "\"Compared to a puppy school, meeting 1:1 virtually where there were no other dogs around was the absolute best for me and Oso.\"",
             "text": "<p>⭐⭐⭐⭐⭐<br/><br/><strong>Bethany & Oso</strong><br/>Providence, RI</p>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "https://youtu.be/7qApLAMSj-s",
@@ -348,6 +364,7 @@
             "title": "“I loved Homeschool. My trainer was amazing. In a perfect world, we can work with her forever. Having that dedicated time with the trainer to see how Savannah was reacting with my instructions was very helpful.“",
             "text": "<p>⭐⭐⭐⭐⭐</p><p><strong>Sharee & Savannah</strong><br/>Atlanta, GA</p>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "https://youtu.be/tG_eKMRL7yU",
@@ -362,6 +379,7 @@
             "title": "\"I thought it was awesome. Vivi was super helpful when she diagnosed what was going on. Now Nori has caught on to everything we worked on in the classes.\"",
             "text": "<p>⭐⭐⭐⭐⭐</p><p><strong>Jacob, Lauren & Nori</strong><br/>Richmond, VA</p>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "https://youtu.be/EEZrhyOSqA0",
@@ -376,6 +394,8 @@
         "template--16127676285114__690f51b9-93ce-45d2-99ad-d3a4d62a6113-1686512678fe21029f-3"
       ],
       "settings": {
+        "grid_or_slider": false,
+        "discount_button_link": "",
         "title": "",
         "align_text": "text-center",
         "columns": 3,
@@ -399,6 +419,7 @@
             "title": "\"It was such an amazing investment. As a reactive dog owner, with a virtual outlet I was able to have access to a trainer in a way that kept everyone safe.",
             "text": "<p>⭐⭐⭐⭐⭐</p><p><br/><strong>Anna & Bruno<br/></strong>Rodgers, AR</p>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "https://youtu.be/EXt96K74My4",
@@ -412,6 +433,7 @@
             "title": "\"Working with LAY LO was a life saver for me since I’ve never raised a puppy before. Shannon was informative and super patient to help me through the first 6 weeks. Chantilley is well behaved and I have no problems getting her in the crate now.\"",
             "text": "<p>⭐⭐⭐⭐⭐<br/><br/><strong>Carole + Chantilley</strong><br/>Kingsburg, CA</p>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "https://www.youtube.com/watch?v=1iGv21jfX50",
@@ -425,6 +447,7 @@
             "title": "“Homeschool is professional in every way and the teachers are fabulous! But by far the most helpful are the weekly lessons and 15 minute check-ins. It’s really me that they’re teaching so I can then teach/train my dog. Bruno is happier and more relaxed since I signed up for Homeschool. I really liked the zoom lessons, too. It was simple and in-person truly wasn’t necessary. I highly recommend Homeschool!\"",
             "text": "<p>⭐⭐⭐⭐⭐</p><p><strong>Frances & Bruno</strong><br/>Berkely, CA</p>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "https://www.youtube.com/watch?v=4aRJyWvJmKs",
@@ -438,6 +461,7 @@
             "title": "\"I thought it was awesome. Vivi was super helpful when she diagnosed what was going on. Now Nori has caught on to everything we worked on in the classes.\"",
             "text": "<p>⭐⭐⭐⭐⭐</p><p><strong>Jacob, Lauren & Nori</strong><br/>Richmond, VA</p>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "https://youtu.be/EEZrhyOSqA0",
@@ -452,6 +476,8 @@
         "text_block_3iNzBf"
       ],
       "settings": {
+        "grid_or_slider": false,
+        "discount_button_link": "",
         "title": "",
         "align_text": "text-center",
         "columns": 3,
@@ -475,6 +501,7 @@
             "title": "\"It was such an amazing investment. As a reactive dog owner, with a virtual outlet I was able to have access to a trainer in a way that kept everyone safe.",
             "text": "<p>⭐⭐⭐⭐⭐</p><p><br/><strong>Anna & Bruno<br/></strong>Rodgers, AR</p>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "https://youtu.be/EXt96K74My4",
@@ -488,6 +515,7 @@
             "title": "\"When we started, she was having accidents and destroying her crate all the time. And now she’s completely fine and is very comfortable in her space. I’m constantly impressed by how much she’ll stay and wait for us. She’s way better on a leash. I’m very happy with what we learned.\"",
             "text": "<p>⭐⭐⭐⭐⭐<br/><br/><strong>Peter & Whiskey</strong><br/>Los Angeles, CA</p>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "https://www.youtube.com/watch?v=4MiJiAIguKg",
@@ -501,6 +529,7 @@
             "title": "\"The training that Choopie and I received is phenomenal! Our trainer, Shannen, was so kind, so understanding, and so professional! So extremely helpful! I didn't have 1 single doubt that this is where we should get our training from! 10/10 absolutely recommend, I've already starting recommending them to my friends, family, and a couple strangers!\"",
             "text": "<p>⭐⭐⭐⭐⭐</p><p><strong>Kaitlynn & Choopie</strong><br/>Columbus, OH</p>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "https://www.youtube.com/watch?v=-jMMBHznTGQ",
@@ -514,6 +543,7 @@
             "title": "Homeschool by LAY LO has TRULY changed my life! This was my very first time owning a puppy on my own and I had no idea what I was doing. Well 8 weeks later I’m happy to say my dog is fully crate trained! Our trainer was so patient with us and provided all the support I needed to help my dog and I get through this process. I recommend this program to anyone interested in getting their pup trained!!",
             "text": "<p>⭐⭐⭐⭐⭐</p><p><strong>Dominoe & Willa</strong><br/>Los Angeles, CA</p>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "https://www.youtube.com/watch?v=wK7bcT9GAO4",
@@ -528,6 +558,8 @@
         "text_block_VahHhX"
       ],
       "settings": {
+        "grid_or_slider": false,
+        "discount_button_link": "",
         "title": "",
         "align_text": "text-center",
         "columns": 3,
@@ -553,6 +585,7 @@
         "heading_HzrcQd": {
           "type": "heading",
           "settings": {
+            "discount_button_link_heading": "",
             "text": "<p>What you get, every single week</p>",
             "size": 100,
             "heading_highlight_type": "italics"
@@ -568,6 +601,7 @@
         "button_PqPU33": {
           "type": "button",
           "settings": {
+            "discount_button_link": "",
             "btn_text": "",
             "btn_link": "",
             "btn_style": "btn--primary btn--small"
@@ -582,6 +616,7 @@
       ],
       "settings": {
         "text_position": "center",
+        "background_custom_color": "",
         "bg_color_secondary": false,
         "text_color": "text-dark",
         "width": "wrapper--narrow",
@@ -702,6 +737,7 @@
             "title": "Expert Diagnosis",
             "text": "<p>Based on your dog's history, breed and behavior, we will assess the root of the problem (s) to ensure you fully understand your dog and how to improve their mental and physical state. </p>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "",
@@ -714,6 +750,7 @@
             "title": "Pup Behavioral Modification Plan",
             "text": "<p>We'll share an assessment for what is needed to reach your goals at home, including the cues you should teach and roughly how long it will take to improve it. </p>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "",
@@ -726,6 +763,7 @@
             "title": "Homeschool's Daily Enrichment Routine",
             "text": "<p>Dog's need a calculated amount of exercise, mental stimulation and enrichment to avoid destructive behavior. We'll evaluate your routine together to ensure your dog is receiving the proper amount of stimulation at home. </p>",
             "button_text": "",
+            "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "",
@@ -740,6 +778,8 @@
       ],
       "disabled": true,
       "settings": {
+        "grid_or_slider": false,
+        "discount_button_link": "",
         "title": "Book a behavior evaluation with Shannen:",
         "align_text": "text-center",
         "columns": 3,
@@ -933,6 +973,7 @@
         "heading_HHaGtq": {
           "type": "heading",
           "settings": {
+            "discount_button_link_heading": "",
             "text": "<p>Need help?</p>",
             "size": 100,
             "heading_highlight_type": "italics"
@@ -948,6 +989,7 @@
         "button_66VQbU": {
           "type": "button",
           "settings": {
+            "discount_button_link": "",
             "btn_text": "Text us directly at 310-564-8808",
             "btn_link": "",
             "btn_style": "btn--secondary btn--small"
@@ -962,6 +1004,7 @@
       ],
       "settings": {
         "text_position": "center",
+        "background_custom_color": "",
         "bg_color_secondary": true,
         "text_color": "text-dark",
         "width": "wrapper--narrow",

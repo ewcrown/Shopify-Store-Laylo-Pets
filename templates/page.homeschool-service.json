@@ -919,35 +919,6 @@
             "video_link_color": "text-dark"
           }
         },
-        "template--16036805083322__cf9dc11a-fc55-47d0-b33a-b31e463672ad-1677351842118d106c-3": {
-          "type": "text_block",
-          "settings": {
-            "image": "shopify://shop_images/Karen_Zephyr_Fox_Road_PhotoImagery_102423_05-modified.jpg",
-            "title": "Karen D. - Fear-free Dog Trainer",
-            "text": "<p>Karen is an experienced, credentialed professional dog trainer with a passion for her clients' success--both human and canine. She has over 13 years of experience as a behavior consultant and specializes in helping people whose dogs exhibit behavior issues like reactivity, aggression, compulsive disorders, chronic hyperarousal, impulsivity, fearfulness, anxiety, and stress. She is deeply committed to helping people and their dogs live in harmony and enjoy their best lives together.</p><p>Certifications:</p><ul><li>Karen Pryor Academy Certified Training Partner (KPA CTP)</li><li>Certified Professional Dog Trainer - Knowledge Assessed (CPDT-KA)</li><li>Fear Free Certified Professional Trainer (FFCP-T)</li><li>Completed the L.E.G.S. Applied Ethology Family Dog Mediation Professional Course</li><li>Completed the Living and Learning with Animals: the Science and Technology of Behavior Change Course</li><li>Completed the Natural Encounters Professional Animal Training Workshop</li><li>Completed Applied Behavior Analysis - The Theory Behind the Training Course</li><li>Completed the Control the Meerkat: Trauma in Animals Conference</li><li>Completed the Canine Impulsivity & Fear Course</li></ul>",
-            "button_text": "",
-            "calendly_widget": "",
-            "button_link": "",
-            "button_style": "btn--text",
-            "video_link_popup": "https://youtu.be/Cu6XU0fwQ04",
-            "video_link_color": "text-light"
-          }
-        },
-        "template--16036805083322__cf9dc11a-fc55-47d0-b33a-b31e463672ad-1677351842118d106c-1": {
-          "type": "text_block",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/christi_Kirby.jpg",
-            "title": "Christi B. - Force-free Behavior Consultant",
-            "text": "<p>Christi Kirby-Baron has been actively exhibiting dogs since 1990, participating in many venues.  She has been an active member of both all-breed, specialty and obedience training clubs, having held officer positions locally and on the national level.  She specializes in Service Dog Training as well as  Behavioral Modification for people and their pets virtually across the U.S.   Her current certifications include:</p><p>Certifications: </p><ul><li>Certified Dog Behavioral Consultant ( International Association of Animal Behavior Consultants) </li><li>Accredited Dog Trainer ( International Association of Animal Behavior Consultants) </li><li>Certified Professional Dog Trainer- Knowledge Assessed (Certification Council for Professional Dog Trainers) </li><li>FEAR FREE PROFESSIONAL COACH </li><li>AKC Trick Dog evaluator, CGC evaluator, Level 1 Fit Dog trainer, Farm Dog Judge, Temperament Test evaluator</li><li>AGGRESSION IN DOGS: Master Course Certificate of Completion (Michael Shikashio, CDBC) </li></ul><p><br/></p>",
-            "button_text": "",
-            "calendly_widget": "",
-            "button_link": "",
-            "button_style": "btn--text",
-            "video_link_popup": "",
-            "video_link_color": "text-light"
-          }
-        },
         "text_block_VqY8eG": {
           "type": "text_block",
           "settings": {
@@ -964,11 +935,10 @@
         },
         "text_block_yCRJWf": {
           "type": "text_block",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Ashley_Botz.png",
-            "title": "Ashley B - Certified Dog Trainer",
-            "text": "<p>Ashley is a seasoned animal welfare and behavior professional with over 15 years of experience supporting dogs and the families who love them. Ashley specializes in behavior cases involving separation anxiety, arousal regulation, and multi-species household dynamics.</p><p>Her work spans shelter behavior programs, enrichment-based daycare leadership, private training, and team development. She’s passionate about helping families navigate complex behavior concerns with empathy, structure, and evidence-based tools. </p><p>Certifications:</p><ul><li>Fear Free Certified Professional </li><li>Certified Professional Dog Trainer- Knowledge Assessed (Certification Council for Professional Dog Trainers)<br/></li></ul><p><br/></p>",
+            "image": "shopify://shop_images/unnamed_4_-modified.jpg",
+            "title": "Angela M. - Certified Dog Behavior Consultant",
+            "text": "<p>Angela is a Certified Dog Behavior consultant through the International Association of Animal Behavior Consultants with 17 years of experience working with animals, and a dog groomer with numerous years of experience.<br/></p><p>Certifications:</p><ul><li>Accredited Dog Trainer through the IAABC</li><li>Certified Professional Canine Nutritionist through the Feed Real Institute</li><li>Fear Free Certified Professional through Fear Free</li><li>Low Stress Handling Certified Silver through Low Stress University</li><li>AKC Canine Good Citizen Evaluator<br/></li></ul>",
             "button_text": "",
             "calendly_widget": "",
             "button_link": "",
@@ -977,19 +947,32 @@
             "video_link_color": "text-dark"
           }
         },
-        "template--16036805083322__cf9dc11a-fc55-47d0-b33a-b31e463672ad-1677351842118d106c-2": {
+        "template--16036805083322__cf9dc11a-fc55-47d0-b33a-b31e463672ad-1677351842118d106c-3": {
           "type": "text_block",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Screen_Shot_2023-06-02_at_11.23.15_AM.png",
-            "title": "Juju - Grooming Expert",
-            "text": "<p>Juju is passionate about changing how your pet experiences grooming at home, she uses a fear-free grooming approach to create a positive, minimally invasive experience for your dogs. With her over a decade of experience, her grooming salons and practices have been featured in GQ and Vogue. Juju's innovative breed-specific techniques are designed to reduce pet anxiety and help maintain your dog's groom with proper and safe upkeep at home.</p><p>Experience:</p><ul><li>Owner - Juju Grooms Pet Grooming, Toronto</li><li>Master Certified Feline Groomer</li></ul>",
+            "image": "shopify://shop_images/unnamed_6_-modified.jpg",
+            "title": "Mike M. - Force Free Dog Trainer",
+            "text": "<p>With a lifelong love for dogs and a passion for coaching, Mike is dedicated to helping people better understand and connect with their dogs. With over 10 years of experience in dog training, he uses modern, science-based methods rooted in positive reinforcement to help dogs and their owners build clear communication, trust, and lasting relationships. Mike also brings more than 20 years of experience as a player development coach working with athletes, giving him a natural coaching mindset and a strong ability to teach people the skills needed to guide their dogs. He believes each dog, owner, and situation is unique and trains from a place of understanding so both owner and dog feel comfortable and confident while learning new skills<br/></p><p>Certifications:</p><ul><li>Certified Professional Dog Trainer- Knowledge Assessed (CPDT-KA)</li><li>Catch Trainers Academy Mentor</li><li>Canine Good Citizen Evaluator ( CGC)<br/><br/></li></ul>",
+            "button_text": "",
+            "calendly_widget": "",
+            "button_link": "",
+            "button_style": "btn--text",
+            "video_link_popup": "https://youtu.be/Cu6XU0fwQ04",
+            "video_link_color": "text-light"
+          }
+        },
+        "template--16036805083322__cf9dc11a-fc55-47d0-b33a-b31e463672ad-1677351842118d106c-1": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-02-16_131255-modified.png",
+            "title": "Sam S. - Dog Behavior Consultant",
+            "text": "<p>Sam is a Certified Dog Behavior Consultant and trainer with a deep passion for helping dogs and their families build stronger, more confident relationships. Specializing in complex behavior modification, reactivity, and aggression cases, Sam focuses on clear communication and confidence building. He is dedicated to setting dogs up for success while equipping pet guardians with the practical handling skills they need for the real world. Based in Ohio, Sam enjoys indoor bouldering, hiking, and spending time with his wife, Shanna, and daughter, Ellie.<br/></p><p>Certifications: </p><ul><li>Certified Dog Behavior Consultant (CDBC - IAABC)</li><li>Karen Pryor Academy Certified Training Partner (KPA-CTP)</li><li>Fear Free Certified Trainer (FFCT)</li><li>Aggression in Dogs Mastercourse</li><li>Living and Learning with Animals (Dr. Susan Friedman)</li></ul><p><br/></p>",
             "button_text": "",
             "calendly_widget": "",
             "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "",
-            "video_link_color": "text-dark"
+            "video_link_color": "text-light"
           }
         }
       },
@@ -1000,11 +983,10 @@
         "text_block_CbGCBG",
         "af2bf11c-a968-4321-b1a9-b76e5c7073ea",
         "text_block_YhRtqG",
-        "template--16036805083322__cf9dc11a-fc55-47d0-b33a-b31e463672ad-1677351842118d106c-3",
-        "template--16036805083322__cf9dc11a-fc55-47d0-b33a-b31e463672ad-1677351842118d106c-1",
         "text_block_VqY8eG",
         "text_block_yCRJWf",
-        "template--16036805083322__cf9dc11a-fc55-47d0-b33a-b31e463672ad-1677351842118d106c-2"
+        "template--16036805083322__cf9dc11a-fc55-47d0-b33a-b31e463672ad-1677351842118d106c-3",
+        "template--16036805083322__cf9dc11a-fc55-47d0-b33a-b31e463672ad-1677351842118d106c-1"
       ],
       "settings": {
         "grid_or_slider": false,

@@ -102,6 +102,16 @@
         "padding_bottom": 60
       }
     },
+    "section_custom_html_87VjTD": {
+      "type": "section-custom-html",
+      "name": "Custom code",
+      "settings": {
+        "custom_code": "<!-- Elfsight Event Calendar | Homeschool Calendar -->\n<script src=\"https://elfsightcdn.com/platform.js\" async></script>\n<div class=\"elfsight-app-ea86e528-4785-4f3b-bbc8-534dbdeae52c\" data-elfsight-app-lazy></div>",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
     "section_columns_L8fh6B": {
       "type": "section-columns",
       "blocks": {
@@ -153,6 +163,7 @@
         "text_block_ama374",
         "text_block_ATheck"
       ],
+      "disabled": true,
       "name": "Text columns with images",
       "settings": {
         "grid_or_slider": false,
@@ -220,6 +231,7 @@
         "text_block_wBUp4J",
         "text_block_jXHRQM"
       ],
+      "disabled": true,
       "name": "Text columns with images",
       "settings": {
         "grid_or_slider": false,
@@ -421,6 +433,7 @@
   "order": [
     "section_text_BbNbpT",
     "section_icons_row_9imNxr",
+    "section_custom_html_87VjTD",
     "section_columns_L8fh6B",
     "section_columns_MNd6r7",
     "main",

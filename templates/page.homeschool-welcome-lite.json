@@ -105,11 +105,11 @@
           "type": "text_block",
           "settings": {
             "image": "shopify://shop_images/Homeschool_Card_Edit_1.5x.png",
-            "title": "Book Practice Sessions",
-            "text": "<p>Available 5 days a week on demand.</p>",
-            "button_text": "Book Now >",
+            "title": "Explore Partnership Offers",
+            "text": "<p>Text 310-564-8808 for latest offers and discounts. </p>",
+            "button_text": "Text 310-564-8808",
             "calendly_widget": "",
-            "button_link": "https://www.laylopets.com/pages/homeschool-by-lay-lo-practice-sessions",
+            "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "",
             "video_link_color": "text-dark"
@@ -391,6 +391,7 @@
       "blocks": {
         "heading_yeeyCH": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "discount_button_link_heading": "",
             "text": "<p>Sign up for Practice Sessions:</p>",
@@ -412,6 +413,7 @@
         "heading_yeeyCH",
         "button_4WnHa9"
       ],
+      "disabled": true,
       "settings": {
         "text_position": "center",
         "background_custom_color": "",
@@ -424,6 +426,7 @@
     },
     "section_custom_html_WCCwAK": {
       "type": "section-custom-html",
+      "disabled": true,
       "settings": {
         "custom_code": "<!-- Calendly inline widget begin -->\n<div class=\"calendly-inline-widget\" data-url=\"https://calendly.com/d/cs8d-2kg-5vc/15-min-practice-sessions?hide_event_type_details=1\" style=\"min-width:320px;height:700px;\"></div>\n<script type=\"text/javascript\" src=\"https://assets.calendly.com/assets/external/widget.js\" async></script>\n<!-- Calendly inline widget end -->",
         "width": "wrapper",

@@ -18839,11 +18839,11 @@ body.notification-visible .popup.popup--visible {
 .product-single__thumbnails {
   margin: 5px 0;
 }
-@media only screen and (max-width: 1023px) {
+/* @media only screen and (max-width: 1023px) {
   .product-single__thumbnails {
     margin: 5px calc(var(--gutter-mobile) * -1);
   }
-}
+} */
 
 .product-single__thumbnails:not(.flickity-enabled) {
   display: flex;
@@ -18898,12 +18898,12 @@ body.notification-visible .popup.popup--visible {
   width: 22px;
   vertical-align: baseline;
 }
-.product-single__thumbnail:first-child {
+/* .product-single__thumbnail:first-child {
   padding-left: var(--gutter-mobile);
 }
 .product-single__thumbnail:last-child {
   padding-right: var(--gutter-mobile);
-}
+} */
 @media only screen and (min-width: 1024px) {
   .product-single__thumbnail:first-child {
     padding-left: 0;
@@ -18997,9 +18997,12 @@ body.notification-visible .popup.popup--visible {
 }
 
 .product__popup {
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    z-index: 10000;
+    align-items: center;
+    justify-content: center;
 }
 @media only screen and (min-width: 1024px) {
   .product__popup {

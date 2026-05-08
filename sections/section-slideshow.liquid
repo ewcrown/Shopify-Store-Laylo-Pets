@@ -1,5 +1,21 @@
 {% comment %} /sections/slideshow.liquid {% endcomment %}
 
+{%- if section.blocks.size > 0 -%}
+  {%- assign first_slide = section.blocks.first -%}
+  {%- if first_slide.settings.image != blank -%}
+    {%- comment -%} Preload the first desktop slide image {%- endcomment -%}
+    <link rel="preload" as="image" href="{{ first_slide.settings.image | img_url: '1600x' }}" fetchpriority="high" media="(min-width: 768px)">
+  {%- endif -%}
+  
+  {%- if first_slide.settings.image_mobile != blank -%}
+    {%- comment -%} Preload the first mobile slide image {%- endcomment -%}
+    <link rel="preload" as="image" href="{{ first_slide.settings.image_mobile | img_url: '800x' }}" fetchpriority="high" media="(max-width: 767px)">
+  {%- elsif first_slide.settings.image != blank -%}
+    {%- comment -%} If no mobile image, preload a smaller version of the desktop image for mobile {%- endcomment -%}
+    <link rel="preload" as="image" href="{{ first_slide.settings.image | img_url: '800x' }}" fetchpriority="high" media="(max-width: 767px)">
+  {%- endif -%}
+{%- endif -%}
+
 {%- liquid
   assign transition = section.settings.transition
   assign autoplay = section.settings.autoplay
@@ -129,7 +145,7 @@
         {%- if image_mobile != blank -%}
           <div class="slide__image__container slide__image__container--mobile">
             <div class="slide__image__inner">
-              {%- render 'image-fill', is_background: true, img_object: image_mobile, classes: 'slide__image' -%}
+              {%- render 'image-fill', is_background: true, img_object: image_mobile, classes: 'slide__image', skip_lazy: forloop.first, fetchpriority: 'high' -%}
             </div>
           </div>
         {%- endif -%}
@@ -137,7 +153,7 @@
         <div class="slide__image__container slide__image__container--desktop{% unless image %} slide__image__container--placeholder{% endunless %}">
           <div class="slide__image__inner">
             {%- if image != blank -%}
-              {%- render 'image-fill', is_background: true, img_object: image, classes: 'slide__image' -%}
+              {%- render 'image-fill', is_background: true, img_object: image, classes: 'slide__image', skip_lazy: forloop.first, fetchpriority: 'high' -%}
             {%- else -%}
               <div class="slide__image slide__image--desktop slide__image--placeholder background-size-cover">
                 <div class="slide__image__svg">
@@ -154,10 +170,10 @@
             {%- if video_link != blank or video_text != blank -%}
               <div class="slide__buttons main-buttons main-buttons--video">
                 {%- liquid
-  assign video_link_downcase = video_link | downcase
-  assign video_type = ''
-  assign video_id = ''
-  assign video_parent_id = 'item-video-' | append: unique
+                  assign video_link_downcase = video_link | downcase
+                  assign video_type = ''
+                  assign video_id = ''
+                  assign video_parent_id = 'item-video-' | append: unique
 
   if video_link contains "vimeo.com"
     assign video_type = "vimeo"
@@ -165,42 +181,42 @@
     assign video_type = "youtube"
   elsif video_link contains "youtu.be"
     assign video_type = "youtube"
-    assign youtubeShortlink = true
+                    assign youtubeShortlink = true
   elsif video_link_downcase contains ".mp4"
     assign video_type = "native"
-  endif
+                  endif
 
-  assign link_array = video_link | split: '/'
-  assign id_with_params = link_array | last
+                  assign link_array = video_link | split: '/'
+                  assign id_with_params = link_array | last
 
   if video_type == "vimeo" or youtubeShortlink
-  comment
-    https://vimeo.com/[ID]?foo=bar&baz=boo
-    https://youtu.be/[ID]?foo=bar&baz=boo
-  endcomment
-    assign starts_with_id = id_with_params | split: '?'
-    assign video_id = starts_with_id | first
+                    comment
+                      https://vimeo.com/[ID]?foo=bar&baz=boo
+                      https://youtu.be/[ID]?foo=bar&baz=boo
+                    endcomment
+                    assign starts_with_id = id_with_params | split: '?'
+                    assign video_id = starts_with_id | first
   elsif video_type == "youtube" 
-  comment
-    https://youtube.com/watch?v=[ID]?foo=bar&baz=boo
-  endcomment
-    assign first_param = id_with_params | split: '&' | first
-    assign watch_then_id = first_param | split: '?'
-    assign equals_id = watch_then_id[1]
-    assign ends_with_id = equals_id | split: '='
-    assign video_id = ends_with_id | last
-  endif
+                    comment
+                      https://youtube.com/watch?v=[ID]?foo=bar&baz=boo
+                    endcomment
+                    assign first_param = id_with_params | split: '&' | first
+                    assign watch_then_id = first_param | split: '?'
+                    assign equals_id = watch_then_id[1]
+                    assign ends_with_id = equals_id | split: '='
+                    assign video_id = ends_with_id | last
+                  endif
 
-  if video_type == 'youtube'
-    capture video_link
-      echo 'https://www.youtube.com/watch?v=' | append: video_id
-    endcapture
-  elsif video_type == 'vimeo'
-    capture video_link
-      echo 'https://vimeo.com/' | append: video_id
-    endcapture
-  endif
--%}
+                  if video_type == 'youtube'
+                    capture video_link
+                      echo 'https://www.youtube.com/watch?v=' | append: video_id
+                    endcapture
+                  elsif video_type == 'vimeo'
+                    capture video_link
+                      echo 'https://vimeo.com/' | append: video_id
+                    endcapture
+                  endif
+                -%}
 
                 <div class="main-buttons__item"
                   {% if animations_enabled %}
@@ -210,7 +226,7 @@
                   {% endif %}>
                   <a class="slide__btn video-text-link" href="{{ video_link | default: '#!' }}"{% if forloop.index > 1 %} tabindex="-1"{% endif %}
                     {% unless video_link == blank %}
-                    data-video-play="{%- render 'photoswipe-video-html' item_link: video_link , item_link_type: video_type, item_link_id: video_id, item_id: video_parent_id -%}"
+                      data-video-play="{%- render 'photoswipe-video-html' item_link: video_link , item_link_type: video_type, item_link_id: video_id, item_id: video_parent_id -%}"
                     {% endunless %}>
                     {%- render 'icon-play' -%}
 

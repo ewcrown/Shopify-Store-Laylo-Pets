@@ -135,20 +135,6 @@
     "section_columns_bCC4Kz": {
       "type": "section-columns",
       "blocks": {
-        "text_block_epRTkE": {
-          "type": "text_block",
-          "settings": {
-            "image": "shopify://shop_images/Karen_Zephyr_Fox_Road_PhotoImagery_102423_05-modified.jpg",
-            "title": "Karen",
-            "text": "<p><strong>Puppy Training • Adult Life Skills • Working with Fearful Dogs • Dog-on-Dog Aggression / Family Dogs Fighting • Dog-on-People Aggression • Reactivity Towards Humans • Reactivity Towards Other Dogs • Resource Guarding • Inter-Household Dog-on-Dog Aggression • Dogs Interacting with Other Household Animals (Cats / Guinea Pigs / Rabbits) • Service Dog Specialties</strong></p><p></p>",
-            "button_text": "Book Now",
-            "calendly_widget": "",
-            "button_link": "#trainer-karen",
-            "button_style": "btn--text",
-            "video_link_popup": "",
-            "video_link_color": "text-dark"
-          }
-        },
         "text_block_RTDfc6": {
           "type": "text_block",
           "settings": {
@@ -176,12 +162,26 @@
             "video_link_popup": "",
             "video_link_color": "text-dark"
           }
+        },
+        "text_block_etcH3y": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/unnamed_6_-modified.jpg",
+            "title": "Mike",
+            "text": "<p><strong>Puppy Training • Adult Life Skills • Fearful Dogs • Family Dog Training • Trick / Agility Training • Street Dogs • Rescue Dogs</strong></p><p><strong>MORNINGS | EVENINGS | WEEKENDS</strong></p>",
+            "button_text": "Book Now",
+            "calendly_widget": "",
+            "button_link": "#trainer-mike",
+            "button_style": "btn--text",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
         }
       },
       "block_order": [
-        "text_block_epRTkE",
         "text_block_RTDfc6",
-        "text_block_DtEqmL"
+        "text_block_DtEqmL",
+        "text_block_etcH3y"
       ],
       "name": "Text columns with images",
       "settings": {
@@ -219,12 +219,39 @@
         "text_block_yQwrbK": {
           "type": "text_block",
           "settings": {
-            "image": "shopify://shop_images/Ashley_Botz.png",
-            "title": "Ashley",
+            "image": "shopify://shop_images/unnamed_4_-modified.jpg",
+            "title": "Angela",
             "text": "<p><strong>Puppy Training • Adult Life Skills • Working with Fearful Dogs • Dog-on-Dog Aggression • Dog-on-People Aggression • Reactivity Towards Humans • Reactivity Towards Other Dogs • Resource Guarding •  Family Dog Training - Working with children   •  Inter-household dog-on-dog aggression •  Trick / Agility Training  • Dogs interacting with other household animals •  Canine Nose Work  •  Feline Training  •  Deaf Dogs/Mobility challenged dogs  • Street Dogs • Rescue Dogs • Herding dogs living on farms • Service Dog Specialties</strong></p>",
             "button_text": "Book Now",
             "calendly_widget": "",
-            "button_link": "#trainer-ashley",
+            "button_link": "#trainer-angela",
+            "button_style": "btn--text",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_r6bHEm": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-02-16_131255-modified.png",
+            "title": "Sam",
+            "text": "<p><strong>Puppy Training • Adult Life Skills • Fearful Dogs • Family Dog Training • Trick / Agility Training • Street Dogs • Rescue Dogs</strong></p><p><strong>MORNINGS | EVENINGS | WEEKENDS</strong></p>",
+            "button_text": "Book Now",
+            "calendly_widget": "",
+            "button_link": "#trainer-sam",
+            "button_style": "btn--text",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_wWYnNJ": {
+          "type": "text_block",
+          "settings": {
+            "title": "Add a title or tagline",
+            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
+            "button_text": "Learn More",
+            "calendly_widget": "",
+            "button_link": "",
             "button_style": "btn--text",
             "video_link_popup": "",
             "video_link_color": "text-dark"
@@ -233,7 +260,9 @@
       },
       "block_order": [
         "text_block_kAXfH8",
-        "text_block_yQwrbK"
+        "text_block_yQwrbK",
+        "text_block_r6bHEm",
+        "text_block_wWYnNJ"
       ],
       "custom_css": [
         ".column__item:last-of-type {display: none !important;}"
@@ -286,9 +315,9 @@
     },
     "section_custom_html_CewtBG": {
       "type": "section-custom-html",
-      "name": "Karen",
+      "name": "Mike",
       "settings": {
-        "custom_code": "<div id=\"trainer-karen\"></div>\n<div class=\"calendly-inline-widget\" data-url=\"https://calendly.com/karen-laylopets/dog-training-with-homeschool-grow-plan?hide_event_type_details=1&hide_gdpr_banner=1\" style=\"min-width:320px;height:700px;\"></div>\n<script type=\"text/javascript\" src=\"https://assets.calendly.com/assets/external/widget.js\" async></script>",
+        "custom_code": "<div id=\"trainer-mike\"></div>\n<!-- Calendly inline widget begin -->\n<div class=\"calendly-inline-widget\" data-url=\"https://calendly.com/mike-laylopets/homeschool-grow\" style=\"min-width:320px;height:700px;\"></div>\n<script type=\"text/javascript\" src=\"https://assets.calendly.com/assets/external/widget.js\" async></script>\n<!-- Calendly inline widget end -->",
         "width": "wrapper",
         "padding_top": 10,
         "padding_bottom": 10
@@ -322,6 +351,26 @@
         "width": "wrapper",
         "padding_top": 10,
         "padding_bottom": 10
+      }
+    },
+    "section_custom_html_tCeNKx": {
+      "type": "section-custom-html",
+      "name": "Angela",
+      "settings": {
+        "custom_code": "<div id=\"trainer-angela\"></div><!-- Calendly inline widget begin -->\n<div class=\"calendly-inline-widget\" data-url=\"https://calendly.com/angela-laylopets/homeschool-grow\" style=\"min-width:320px;height:700px;\"></div>\n<script type=\"text/javascript\" src=\"https://assets.calendly.com/assets/external/widget.js\" async></script>\n<!-- Calendly inline widget end -->",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_custom_html_tfgk7E": {
+      "type": "section-custom-html",
+      "name": "Sam",
+      "settings": {
+        "custom_code": "<div id=\"trainer-sam\"></div>\n<!-- Calendly inline widget begin -->\n<div class=\"calendly-inline-widget\" data-url=\"https://calendly.com/sam-laylopets/homeschool-grow\" style=\"min-width:320px;height:700px;\"></div>\n<script type=\"text/javascript\" src=\"https://assets.calendly.com/assets/external/widget.js\" async></script>\n<!-- Calendly inline widget end -->",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
       }
     },
     "section_custom_html_4kTkHC": {
@@ -381,6 +430,8 @@
     "section_custom_html_UH3Pcz",
     "section_custom_html_NjNLKT",
     "section_custom_html_84PJVx",
+    "section_custom_html_tCeNKx",
+    "section_custom_html_tfgk7E",
     "section_custom_html_4kTkHC",
     "section_custom_html_PBJDtz",
     "section_custom_html_qDXCdE",

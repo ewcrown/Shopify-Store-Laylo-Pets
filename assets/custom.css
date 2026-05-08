@@ -14,43 +14,16 @@
   width:100px;
   height: 100px;
 }
-@media screen and (min-width:768px){
-  .custom-image-badge{
-    bottom:20px;
-    left:20px;
-    width:140px;
-    height: 140px;
-  }
-}
 .custom-image-badge img{
   width:100%;
   height: 100%;
   object-fit: contain;
 }
-@media only screen and (max-width:768px){
-  .product-single__media-slider{
-    margin-bottom:40px;
-  }
-  .product-single__gallery{
-    margin-left:-20px;
-    margin-right:-20px;
-  }
-  .body--rounded-corners .product-single__media-slider .product-single__media{
-    border-radius:0px!important;
-  }
-}
-
 .color-swatches-container {
   margin: 0;
 }
 .color-swatches-container .color-title {
   margin: 0 0 0.5rem;
-}
-@media screen and (min-width:768px){
-  .color-swatches-wrap{
-    display:grid;
-    grid-template-columns: 70px auto;
-  }
 }
 .family-wrap{
   min-height: 36px;
@@ -90,11 +63,9 @@
   height: 100%;
   position: relative;
 }
-
 .color-swatches-container .color-swatch.active {
   border: 1.5px solid #000;
 }
-
 .color-swatches-container .color-swatch.soldout {
   opacity: 0.8;
   background-color: rgba(0, 0, 0, 0.25);
@@ -109,65 +80,15 @@
   top: 50%;
   transform: translate(-50%, -50%) rotate(45deg);
 }
-
-@media screen and (max-width: 767px) {
-  .color-swatches-wrap {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(42px, 1fr)); /* Makes columns auto-fill */
-    grid-auto-flow: column; /* Forces the grid to flow horizontally */
-    grid-template-rows: repeat(3, 42px); /* Ensures exactly 3 rows */
-    gap: 0.5rem;
-    overflow-x: auto; /* Enables horizontal scrolling */
-    overflow-y: hidden; /* Prevents vertical scrolling */
-    scroll-snap-type: x mandatory;
-    white-space: nowrap;
-    padding-bottom: 0.5rem;
-    width: 100%; /* Ensures it stretches full width */
-    scrollbar-width: none; /* Firefox */
-
-    
-  }
-
-  /* WebKit (Chrome, Edge, Safari) */
-  .color-swatches-wrap::-webkit-scrollbar {
-    display:none;
-  }
-
-
-  /* Hover effect */
-  .scroll-container::-webkit-scrollbar-thumb:hover {
-    background: #888;
-  }
-
-  .family-wrap {
-    display: contents; /* Merges all swatches into the same grid */
-  }
-
-  .family-title {
-    display: none; /* Hides family titles */
-  }
-
-  .color-swatches-container .color-swatch {
-    width: 42px;
-    height: 42px;
-    flex-shrink: 0; /* Prevents shrinking */
-    scroll-snap-align: start;
-  }
-}
-
-
 .extra-info p{
   color:#747474;
   font-size:12px;
   margin-bottom:8px;
   margin-top:3px;
 }
-
-
 [aria-label][data-balloon-pos]:after {
   line-height: 1.5;
 }
-
 .color-swatches-container .color-swatch a:hover:before {
     content: attr(data-label);
     color: #000;
@@ -187,7 +108,6 @@
     white-space: nowrap;
     z-index:8;
 }
-
 /* Size chart table style */
 .size-chart-page h1{
   color:#fff; margin:0;
@@ -211,7 +131,6 @@
   color: var(--text);
   display: flex;
 }
-
 .scrollbar__progress {
   height: 2px;
   background: rgba(0,0,0, 0.1);
@@ -219,7 +138,6 @@
   display: block;
   position: relative;
 }
-
 .scrollbar__progress:before {
   content: "";
   transform-origin: left;
@@ -232,7 +150,6 @@
   left: 0;
   right: 0;
 }
-
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, .h1 a, .h2 a, .h3 a, .h4 a, .h5 a, .h6 a,
 h1,
 h2,
@@ -264,6 +181,67 @@ section[data-section-type="blog-posts"] h1.text-center a,
 .text-highlight__break,
 .main-heading {
   font-family:Big Caslon !important;
+}
+
+@media screen and (min-width:768px){
+  .custom-image-badge{
+    bottom:20px;
+    left:20px;
+    width:140px;
+    height: 140px;
+  }
+    .color-swatches-wrap{
+    display:grid;
+    grid-template-columns: 70px auto;
+  }
+}
+@media only screen and (max-width:768px){
+  .product-single__media-slider{
+    margin-bottom:40px;
+  }
+  .product-single__gallery{
+    margin-left:-20px;
+    margin-right:-20px;
+  }
+  .body--rounded-corners .product-single__media-slider .product-single__media{
+    border-radius:0px!important;
+  }
+}
+@media screen and (max-width: 767px) {
+  .color-swatches-wrap {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(42px, 1fr)); /* Makes columns auto-fill */
+    grid-auto-flow: column; /* Forces the grid to flow horizontally */
+    grid-template-rows: repeat(3, 42px); /* Ensures exactly 3 rows */
+    gap: 0.5rem;
+    overflow-x: auto; /* Enables horizontal scrolling */
+    overflow-y: hidden; /* Prevents vertical scrolling */
+    scroll-snap-type: x mandatory;
+    white-space: nowrap;
+    padding-bottom: 0.5rem;
+    width: 100%; /* Ensures it stretches full width */
+    scrollbar-width: none; /* Firefox */ 
+  }
+  /* WebKit (Chrome, Edge, Safari) */
+  .color-swatches-wrap::-webkit-scrollbar {
+    display:none;
+  }
+  /* Hover effect */
+  .scroll-container::-webkit-scrollbar-thumb:hover {
+    background: #888;
+  }
+  .family-wrap {
+    display: contents; /* Merges all swatches into the same grid */
+  }
+  .family-title {
+    display: none; /* Hides family titles */
+  }
+  .color-swatches-container .color-swatch {
+    width: 42px;
+    height: 42px;
+    flex-shrink: 0; /* Prevents shrinking */
+    scroll-snap-align: start;
+  }
 }
 @media only screen and (max-width: 800px) {
   .product-single__details .jdgm-widget.jdgm-widget {

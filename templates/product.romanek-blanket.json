@@ -56,6 +56,13 @@
             "padding_bottom": 20
           }
         },
+        "tolstoy_shoppable_video_quiz_stories_block_VPzAC7": {
+          "type": "shopify://apps/tolstoy-shoppable-video-quiz/blocks/stories-block/06fa8282-42ff-403e-b67c-1936776aed11",
+          "disabled": true,
+          "settings": {
+            "publishId": "v2omgfdgouzya"
+          }
+        },
         "icon_row": {
           "type": "icon_row",
           "settings": {
@@ -133,6 +140,7 @@
         "judge_me_reviews_preview_badge_6KnedN",
         "inventory_countdown",
         "form",
+        "tolstoy_shoppable_video_quiz_stories_block_VPzAC7",
         "icon_row",
         "upsell",
         "description",
@@ -555,9 +563,9 @@
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
             "review_data": "sample_data",
+            "max_width": 1200,
             "show_shop_reviews": false,
-            "empty_state": "empty_widget",
-            "max_width": 1200
+            "empty_state": "empty_widget"
           }
         }
       },
@@ -586,6 +594,15 @@
       "type": "shogun-below",
       "disabled": true,
       "settings": {}
+    },
+    "17726849000249667b": {
+      "type": "apps",
+      "settings": {
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
     }
   },
   "order": [
@@ -606,6 +623,7 @@
     "section_image_with_text_6GLF8R",
     "167866229113e22330",
     "related",
-    "shogun-below"
+    "shogun-below",
+    "17726849000249667b"
   ]
 }

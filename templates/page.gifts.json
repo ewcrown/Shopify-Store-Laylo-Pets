@@ -397,6 +397,7 @@
       "block_order": [
         "column_Q4iwyj"
       ],
+      "disabled": true,
       "settings": {
         "layout": "none",
         "height": "200",

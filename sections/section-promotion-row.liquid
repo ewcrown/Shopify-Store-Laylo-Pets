@@ -172,10 +172,10 @@
                 <div class="overlay"></div>
 
                 {%- if image != blank -%}
-                  {%- render 'image-fill', is_background: true, img_object: image, classes: 'promotion-row__item__image-bg' -%}
+                  {%- render 'image-fill', is_background: true, img_object: image, classes: 'promotion-row__item__image-bg',skip_lazy: forloop.first, eager_width: 800 -%}
 
                 {%- elsif empty_bg_color and image == blank -%}
-                  {%- render 'image-fill', is_background: true, img_object: '', classes: 'promotion-row__item__image-bg' -%}
+                  {%- render 'image-fill', is_background: true, img_object: '', classes: 'promotion-row__item__image-bg',skip_lazy: forloop.first  -%}
                 {%- endif -%}
 
                 <div class="promotion-row__item__content">

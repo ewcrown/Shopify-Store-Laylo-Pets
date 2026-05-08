@@ -446,6 +446,14 @@
                   </div>
                 </div>
               </div>
+              <script>
+                (function() {
+                  var drawer = document.getElementById('size-chart--{{ section.id }}');
+                  if (drawer && drawer.parentNode !== document.body) {
+                    document.body.appendChild(drawer);
+                  }
+                })();
+              </script>
             {%- endif -%}
 
             {%- form 'product', product, class: 'product__form', data-product-form: '', id: product_form_id -%}
@@ -1603,6 +1611,14 @@
                 </div>
               </div>
             </div>
+            <script>
+              (function() {
+                var drawer = document.getElementById('popup-text--{{ block.id }}');
+                if (drawer && drawer.parentNode !== document.body) {
+                  document.body.appendChild(drawer);
+                }
+              })();
+            </script>
           {%- endunless -%}
         </div>
 

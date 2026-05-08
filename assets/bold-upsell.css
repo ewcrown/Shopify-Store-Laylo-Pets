@@ -29,13 +29,6 @@ In order to edit custom CSS for Bold Product Upsell you should:
     bottom: 0;
     overflow-y: auto; }
 
-    @media only screen and (max-width: 500px) {
-      .bold-modal__window {
-        height: 100%;
-        padding: 20px;
-      }
-    }
-
   .bold-modal__window_content{
     height: 100%;
   }
@@ -55,18 +48,8 @@ In order to edit custom CSS for Bold Product Upsell you should:
     cursor: pointer;
     z-index: 100000000; }
 
-    @media only screen and (max-width: 500px) {
-      .bold-modal__btn-close {
-        width: 30px;
-        height: 30px;
-      }
-    }
-
 .bold-modal__btn-close:hover {
       opacity: 0.5; }
-
-
-
 
   .bold-modal__header {
     box-sizing: border-box;
@@ -83,14 +66,6 @@ In order to edit custom CSS for Bold Product Upsell you should:
     padding: 30px;
     margin: -30px -30px 0; }
 
-    @media only screen and (max-width: 500px) {
-      .bold-modal__content {
-        padding: 20px;
-        margin: -20px -20px 0;
-        overflow: scroll;
-        height: calc(100% - 27px); }
-    }
-
     .bold-modal__header+.bold-modal__content {
       margin-top: 0; }
 
@@ -101,16 +76,6 @@ In order to edit custom CSS for Bold Product Upsell you should:
     box-sizing: border-box;
     padding: 30px;
     margin: 0px -30px -30px; }
-
-  @media only screen and (max-width: 500px) {
-    .bold-modal__footer {
-      width: 100%;
-      position: absolute;
-      margin: 0px -15px -15px;
-      padding: 15px;
-      bottom: 15px;
-      left: 15px; }
-  }
 
 /* Showing and Hiding the Modal */
 body.bold-modal--is-showing,
@@ -140,28 +105,6 @@ div.bold-modal--is-showing .bold-modal--animated {
   visibility: visible;
   opacity: 1; }
 
-@media only screen and (min-width: 499px) {
-  .bold-modal {
-    background: rgba(0,0,0,0.8);
-    overflow-y: auto; }
-
-    .bold-modal__window {
-      position: relative;
-      margin: 40px; }
-
-  .bold-modal--animated {
-    opacity: 0; }
-
-    .bold-modal--animated .bold-modal__window {
-      top: 200px; }
-}
-
-@media only screen and (min-width: 879px) {
-  .bold-modal__window {
-    max-width: 800px;
-    margin: 40px auto; }
-}
-
 /* bold.grid.css */
 .bold-grid {
   box-sizing: border-box; }
@@ -178,12 +121,6 @@ div.bold-modal--is-showing .bold-modal--animated {
   float: left;
 }
 
-@media only screen and (max-width: 500px) {
-  .bold-grid__column {
-    padding: 3px 8px 3px 0px;
-  }
-}
-
 .bold-grid__column--half{
   width: 50%;
 }
@@ -191,34 +128,6 @@ div.bold-modal--is-showing .bold-modal--animated {
 .bold-grid__column--third{
   width: 33.3333%;
 }
-
-@media only screen and (max-width: 700px) {
-
-  .bold-grid__column--half,
-  .bold-grid__column--third,
-  .bold-grid__column--quarter {
-    width: 100%; }
-
-  .bold-grid__column--third:first-child {
-    width: 100%;
-  }
-
-
-  .flickity-slider .bold-grid__column--half,
-  .flickity-slider .bold-grid__column--third,
-  .flickity-slider .bold-grid__column--quarter {
-    width: 70%;
-  }
-
-  .flickity-slider .bold-grid__column--third:first-child {
-    width: 70%;
-  }
-
-}
-
-
-
-/* bold.grid.css */
 
 /* bold.product.css */
 .bold-product {
@@ -417,9 +326,7 @@ div.bold-modal--is-showing .bold-modal--animated {
   to{ bottom:0; opacity:1 }
 }
 
-
 /*Nate Styles... or whatever*/
-
 #bold-modal-second__window .bold-control-group__item{
   display: inline-block;
   width: initial;
@@ -451,16 +358,6 @@ div.bold-modal--is-showing .bold-modal--animated {
   position: relative;
 }
 
-@media screen and (max-width: 500px){
-
-  #bold-modal-second__window .bold-control-group__item{
-    width: 100%;
-    margin-bottom: 10px;
-  }
-
-}
-
-
 /* =============================================================================
   Responsive Slider Styles
 ============================================================================= */
@@ -482,12 +379,6 @@ div.bold-modal--is-showing .bold-modal--animated {
   pointer-events: none;
   z-index: 10;
   transition: opacity .4s ease-in-out;
-}
-
-@media screen and (max-width: 699px){
-  .bold-modal__slider:after{
-    display: none;
-  }
 }
 
 .bold-modal__slider .flickity-prev-next-button{
@@ -525,17 +416,6 @@ div.bold-modal--is-showing .bold-modal--animated {
   bottom: -15px !important;
 }
 
-@media screen and (max-width: 499px){
-  .bold-modal__window{
-    width: calc(100% - 40px);
-    height: calc(100% - 40px);
-    top: 20px !important;
-    left: 20px;
-  }
-}
-
-
-
 /* Options second window */
 
 #bold-modal-second__window .bold_option {
@@ -543,12 +423,6 @@ div.bold-modal--is-showing .bold-modal--animated {
     margin-bottom: 16px;
     text-align: left;
     padding: 0 40px;
-}
-
-@media screen and (max-width: 600px){
-  #bold-modal-second__window .bold_option {
-      padding: 0 15px;
-  }
 }
 
 #bold-modal-second__window .bold_option_title {
@@ -584,8 +458,6 @@ div.bold-modal--is-showing .bold-modal--animated {
     display: flex;
 }
 
-
-
 #bold-modal-second__window .bold_option_textbox .bold_option_element {
     display: block;
     width: 65%;
@@ -594,8 +466,6 @@ div.bold-modal--is-showing .bold-modal--animated {
 #bold-modal-second__window .bold_option_textbox .bold_option_element input {
     width: 100%;
 }
-
-
 
 #bold-modal-second__window .bold_option_radio input {
     margin-right: 8px;
@@ -624,7 +494,6 @@ div.bold-modal--is-showing .bold-modal--animated {
     border: 0;
     overflow-x: hidden;
 }
-
 
 #second_window_back_btn {
     float: left;
@@ -685,17 +554,6 @@ div.bold-modal--is-showing .bold-modal--animated {
     flex: 1 0 35px;
 }
 
-
-@media screen and (max-width: 600px){
-  #bold-modal-second__window .bold_option_checkbox .bold_option_title {
-      flex: 1 0 70%;
-  }
-
-  #bold-modal-second__window .bold-upsell__products-list{
-    padding: 10px;
-  }
-}
-
 #bold-modal-second__window .bold_option_value_price::before {
     content: "+";
 }
@@ -730,7 +588,6 @@ div.bold-modal--is-showing .bold-modal--animated {
 	display: flex;
 }
 
-
 /* Product options: Textarea */
 
 #bold-modal-second__window .bold_option_textarea label {
@@ -750,7 +607,6 @@ div.bold-modal--is-showing .bold-modal--animated {
     width: 100%;
     max-width: 100%;
 }
-
 
 /* Product options: Textbox multi */
 
@@ -789,7 +645,6 @@ div.bold-modal--is-showing .bold-modal--animated {
   width: 100%;
 }
 
-
 /* Product options: Number */
 
 #bold-modal-second__window .bold_option_number label{
@@ -800,7 +655,6 @@ div.bold-modal--is-showing .bold-modal--animated {
 #bold-modal-second__window .bold_option_number input{
   width: 100%;
 }
-
 
 /* Product options: Email */
 
@@ -813,15 +667,12 @@ div.bold-modal--is-showing .bold-modal--animated {
   width: 100%;
 }
 
-
-
 /* Product options: Color */
 
 #bold-modal-second__window .bold_option_color label{
   display: flex;
   width: 100%;
 }
-
 
 /* Product options: Date */
 
@@ -834,7 +685,6 @@ div.bold-modal--is-showing .bold-modal--animated {
   width: 100%;
 }
 
-
 /* Product options: Telephone */
 
 #bold-modal-second__window .bold_option_telephone label{
@@ -845,7 +695,6 @@ div.bold-modal--is-showing .bold-modal--animated {
 #bold-modal-second__window .bold_option_telephone input{
   width: 100%;
 }
-
 
 /* bold options file upload */
 
@@ -907,8 +756,6 @@ div.bold-modal--is-showing .bold-modal--animated {
   transform: translate(-150%);
   -webkit-transform: translate(-150%);
 }
-
-
 
 /* =============================================================================
   MODAL STYLES
@@ -978,12 +825,6 @@ div.bold-modal--is-showing .bold-modal--animated {
   margin-right: 20px;
   font-size: 90%; }
 
-@media screen and (max-width: 500px){
-  .bold-upsell__button--primary {
-    padding: 5px 25px; }
-}
-
-
 /* =============================================================================
   PRODUCT STYLES
 ============================================================================= */
@@ -1004,18 +845,6 @@ div.bold-modal--is-showing .bold-modal--animated {
     margin: 10px 0; }
 
 
-  @media only screen and (min-width: 700px) {
-    .bold-product__above_content_button_container {
-      display: none;
-    }
-  }
-
-  @media only screen and (max-width: 699px) {
-    .bold-product__below_content_button_container {
-      display: none;
-    }
-  }
-
   .bold-product__pricing {
     margin: 15px 0;
     display: flex;
@@ -1025,11 +854,6 @@ div.bold-modal--is-showing .bold-modal--animated {
 
   .bold-upsell__triger-product-container .bold-product__pricing{
     display: block;
-  }
-
-  @media only screen and (max-width: 500px) {
-    .bold-product__pricing {
-      margin: 10px 0; }
   }
 
   .bold-product__title {
@@ -1042,11 +866,6 @@ div.bold-modal--is-showing .bold-modal--animated {
 
   .bold-upsell__triger-product-container .bold-product__title{
     display: block;
-  }
-
-  @media only screen and (max-width: 500px) {
-    .bold-product__title {
-      font-size: 12px; }
   }
 
   .bold-product__title_content {
@@ -1101,11 +920,6 @@ div.bold-modal--is-showing .bold-modal--animated {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none; }
-
-@media only screen and (max-width: 500px) {
-  .bold-product__control {
-    padding: 5px 15px; }
-}
 
 .bold-product__control-label {
   display: inline-block;
@@ -1195,20 +1009,6 @@ div.bold-modal-is-showing .bold-modal-animated {}
 
 div.bold-modal-is-showing .bold-modal-animated .bold-modal__window {}
 
-@media only screen and (min-width: 499px) {
-.bold-modal {}
-
-.bold-modal__window {}
-
-.bold-modal--animated {}
-
-.bold-modal--animated .bold-modal__window {}
-}
-
-@media only screen and (min-width: 879px) {
-.bold-modal__window {}
-}
-
 /* bold.grid.css */
 .bold-grid {}
 
@@ -1221,24 +1021,6 @@ div.bold-modal-is-showing .bold-modal-animated .bold-modal__window {}
 margin-left: -1px;
 }
 
-@media only screen and (min-width: 499px) {
-.bold-grid__column {}
-
-.bold-grid__column--half,
-.bold-grid__column--third,
-.bold-grid__column--quarter {}
-
-.bold-grid__column--third:first-child {}
-}
-
-@media only screen and (min-width: 599px) {
-.bold-grid__column--third,
-.bold-grid__column--third:first-child {}
-}
-
-@media only screen and (min-width: 739px) {
-.bold-grid__column--quarter {}
-}
 /* bold.grid.css */
 
 /* bold.product.css */
@@ -1435,3 +1217,161 @@ THIRD PARTY APPS STYLES
 ============================================================================= */
 
 #bold-upsell-modal-window .yotpo {}
+
+@media only screen and (max-width: 500px) {
+      .bold-modal__window {
+        height: 100%;
+        padding: 20px;
+      }
+         .bold-modal__btn-close {
+        width: 30px;
+        height: 30px;
+      }
+       .bold-modal__content {
+        padding: 20px;
+        margin: -20px -20px 0;
+        overflow: scroll;
+        height: calc(100% - 27px); 
+      }
+      .bold-modal__footer {
+      width: 100%;
+      position: absolute;
+      margin: 0px -15px -15px;
+      padding: 15px;
+      bottom: 15px;
+      left: 15px; 
+      }
+        .bold-grid__column {
+          padding: 3px 8px 3px 0px;
+        }
+          .bold-product__pricing {
+      margin: 10px 0; }
+       .bold-product__title {
+      font-size: 12px; }
+      .bold-product__control {
+    padding: 5px 15px; }
+
+    }
+
+@media only screen and (max-width: 700px) {
+  .bold-grid__column--half,
+  .bold-grid__column--third,
+  .bold-grid__column--quarter {
+    width: 100%; 
+  }
+  .bold-grid__column--third:first-child {
+    width: 100%;
+  }
+  .flickity-slider .bold-grid__column--half,
+  .flickity-slider .bold-grid__column--third,
+  .flickity-slider .bold-grid__column--quarter {
+    width: 70%;
+  }
+  .flickity-slider .bold-grid__column--third:first-child {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 500px){
+  #bold-modal-second__window .bold-control-group__item{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .bold-upsell__button--primary {
+    padding: 5px 25px; }
+}
+
+@media screen and (max-width: 699px){
+  .bold-modal__slider:after{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 499px){
+  .bold-modal__window{
+    width: calc(100% - 40px);
+    height: calc(100% - 40px);
+    top: 20px !important;
+    left: 20px;
+  }
+}
+
+@media screen and (max-width: 600px){
+  #bold-modal-second__window .bold_option {
+      padding: 0 15px;
+  }
+    #bold-modal-second__window .bold_option_checkbox .bold_option_title {
+      flex: 1 0 70%;
+  }
+
+  #bold-modal-second__window .bold-upsell__products-list{
+    padding: 10px;
+  }
+}
+
+  @media only screen and (min-width: 700px) {
+    .bold-product__above_content_button_container {
+      display: none;
+    }
+  }
+
+  @media only screen and (max-width: 699px) {
+    .bold-product__below_content_button_container {
+      display: none;
+    }
+  }
+
+@media only screen and (min-width: 879px) {
+  .bold-modal__window {
+    max-width: 800px;
+    margin: 40px auto; }
+}
+
+@media only screen and (min-width: 879px) {
+.bold-modal__window {}
+}
+
+@media only screen and (min-width: 499px) {
+  .bold-modal {
+    background: rgba(0,0,0,0.8);
+    overflow-y: auto; }
+
+    .bold-modal__window {
+      position: relative;
+      margin: 40px; }
+
+  .bold-modal--animated {
+    opacity: 0; }
+
+    .bold-modal--animated .bold-modal__window {
+      top: 200px; }
+}
+
+@media only screen and (min-width: 499px) {
+.bold-modal {}
+
+.bold-modal__window {}
+
+.bold-modal--animated {}
+
+.bold-modal--animated .bold-modal__window {}
+}
+
+@media only screen and (min-width: 499px) {
+.bold-grid__column {}
+
+.bold-grid__column--half,
+.bold-grid__column--third,
+.bold-grid__column--quarter {}
+
+.bold-grid__column--third:first-child {}
+}
+
+@media only screen and (min-width: 599px) {
+.bold-grid__column--third,
+.bold-grid__column--third:first-child {}
+}
+
+@media only screen and (min-width: 739px) {
+.bold-grid__column--quarter {}
+}

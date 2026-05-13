@@ -17,7 +17,7 @@
         "image_location": "right",
         "image_width": "wide",
         "image": "shopify://shop_images/Homeschool_LAY_LO_Expert_Virtual_Dog_Training_5-min.jpg",
-        "subheading": "EXCLUSIVE PARTNER OFFER",
+        "subheading": "PAWS: SAVE UP TO $200",
         "title": "<p>Raise a happy, well-trained dog with live help from dog experts</p>",
         "heading_highlight_type": "circle",
         "heading_size": 100,
@@ -40,8 +40,8 @@
         "image_hpzdEp": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Fetch_X_LAY_LO_Logo.png",
-            "image_width": 180,
+            "image": "shopify://shop_images/Philly_Paws.jpg",
+            "image_width": 300,
             "image_link": ""
           }
         },
@@ -49,7 +49,7 @@
           "type": "heading",
           "settings": {
             "discount_button_link_heading": "",
-            "text": "<p>Member exclusive discount</p>",
+            "text": "<p>20%-Off Member Exclusive Discount</p>",
             "size": 60,
             "heading_highlight_type": "italics"
           }
@@ -57,7 +57,7 @@
         "text_3GUGBN": {
           "type": "text",
           "settings": {
-            "text": "<p>Fetch members receive discounted rates on any 1-on-1 multi-week package.<br/>Mention \"Fetch\" during your introductory call to receive the discount.</p>",
+            "text": "<p>PAWS adopters can save up to $200 on select weekly 1-on-1 training programs.<br/>Mention \"Philly Paws\" during your introductory call to receive the discount and PAWS receives a $30 donation from LAY LO</p>",
             "size": 100
           }
         },
@@ -996,7 +996,6 @@
         },
         "text_block_D8bBUp": {
           "type": "text_block",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/https___3eea677b88e9cbe48f289ea4b87ef53d.cdn.bubble.io_f1696618596672x829303150294288900_IMG_20211217_152456.jpg",
             "title": "Nicole R. - Animal Behavior Consultant",
@@ -1156,7 +1155,7 @@
           "type": "heading",
           "settings": {
             "discount_button_link_heading": "",
-            "text": "<p>Partner rates starting at $110 USD/week (normally $125 USD/week)</p>",
+            "text": "<p>Packages starting at $99 USD/week (normally $125 USD/week)</p>",
             "size": 100,
             "heading_highlight_type": "italics"
           }
@@ -1207,7 +1206,7 @@
     "a3bb7081-a649-4b91-aae3-ee9be36bf924": {
       "type": "section-custom-html",
       "settings": {
-        "custom_code": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-6742fe8d-77cd-4ec9-a392-3df668ad4c4d\"></div>",
+        "custom_code": "<!-- Elfsight Pricing Table | Homeschool Pricing Widget - Philly Paws -->\n<script src=\"https://elfsightcdn.com/platform.js\" async></script>\n<div class=\"elfsight-app-983b0a9d-bc12-4a2c-b3b8-022e20fedea6\" data-elfsight-app-lazy></div>",
         "width": "wrapper",
         "padding_top": 60,
         "padding_bottom": 60

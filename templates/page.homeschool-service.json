@@ -23,12 +23,12 @@
             "subheading": "",
             "title": "Raise a better dog at home with premium virtual dog training.",
             "text": "Be your dog's best trainer with 1:1 online dog training and mentorship from certified fear-free trainers, groomers and nutritionists.",
-            "slide_btn_text": "Get started for free >",
-            "slide_btn_link": "https://laylopets.typeform.com/to/exWlKhbV?utm_source=xxxxx",
+            "slide_btn_text": "Find your plan >",
+            "slide_btn_link": "https://start.laylopets.com",
             "slide_btn_style": "btn--secondary",
-            "slide_btn_text_2": "",
-            "slide_btn_link_2": "",
-            "slide_btn_style_2": "btn--secondary btn--small",
+            "slide_btn_text_2": "Book a free consultation >",
+            "slide_btn_link_2": "https://www.laylopets.com/pages/free-consultation-booking-page",
+            "slide_btn_style_2": "btn--text",
             "video_text": "",
             "video_link": ""
           }
@@ -539,7 +539,7 @@
         "box_color": "",
         "text_color": "#333333",
         "button_text": "Book a Free Behavior Evaluation",
-        "button_link": "https://laylopets.typeform.com/to/exWlKhbV?utm_source=xxxxx",
+        "button_link": "https://www.laylopets.com/pages/free-consultation-booking-page",
         "button_style": "btn--primary btn--small",
         "enable_slider_mobile": false,
         "padding_top": 80,
@@ -837,6 +837,7 @@
       "blocks": {
         "text_block_D8bBUp": {
           "type": "text_block",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/https___3eea677b88e9cbe48f289ea4b87ef53d.cdn.bubble.io_f1696618596672x829303150294288900_IMG_20211217_152456.jpg",
             "title": "Nicole R. - Animal Behavior Consultant",
@@ -853,7 +854,7 @@
           "type": "text_block",
           "settings": {
             "image": "shopify://shop_images/EmilyRosie.jpg",
-            "title": "Emily B. - Certified Animal Behavior Consultant, Separation Anxiety Trainer and Aggression Specialist",
+            "title": "Emily B. - Animal Behavior Consultant, Separation Anxiety Trainer and Aggression Specialist",
             "text": "<p>Emily is an animal behavior consultant that has over 15 years of experience working with dogs and cats. She worked in the behavior department in animal shelters and veterinary clinics to build her skills. She implements behavior modification through force free training. As a certified Behavioral Consultant, Fear Free Certified Animal Trainer and a Separation Anxiety Trainer, Emily holds one of the highest degrees in the field. </p><p>Certifications:</p><ul><li>Certified Canine and Feline Animal Behavioral Consultant (ACDBC, CCBC) </li><li>Certified Separation Anxiety Trainer (CSAT) </li><li>Completion - Aggression in Dogs Master Course</li><li>Bachelor of Science - Animal Ecology (BSc)</li></ul>",
             "button_text": "",
             "calendly_widget": "",
@@ -861,6 +862,20 @@
             "button_style": "btn--text",
             "video_link_popup": "",
             "video_link_color": "text-dark"
+          }
+        },
+        "template--16036805083322__cf9dc11a-fc55-47d0-b33a-b31e463672ad-1677351842118d106c-1": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-02-16_131255-modified.png",
+            "title": "Sam S. - Animal Behavior Consultant",
+            "text": "<p>Sam is a Certified Dog Behavior Consultant and trainer with a deep passion for helping dogs and their families build stronger, more confident relationships. Specializing in complex behavior modification, reactivity, and aggression cases, Sam focuses on clear communication and confidence building. He is dedicated to setting dogs up for success while equipping pet guardians with the practical handling skills they need for the real world. Based in Ohio, Sam enjoys indoor bouldering, hiking, and spending time with his wife, Shanna, and daughter, Ellie.<br/></p><p>Certifications: </p><ul><li>Certified Dog Behavior Consultant (CDBC - IAABC)</li><li>Karen Pryor Academy Certified Training Partner (KPA-CTP)</li><li>Fear Free Certified Trainer (FFCT)</li><li>Aggression in Dogs Mastercourse</li><li>Living and Learning with Animals (Dr. Susan Friedman)</li></ul><p><br/></p>",
+            "button_text": "",
+            "calendly_widget": "",
+            "button_link": "",
+            "button_style": "btn--text",
+            "video_link_popup": "",
+            "video_link_color": "text-light"
           }
         },
         "text_block_CwL4Kb": {
@@ -877,11 +892,39 @@
             "video_link_color": "text-dark"
           }
         },
+        "text_block_YhRtqG": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/Erin-modified.jpg",
+            "title": "Erin A. - Animal Behavior Consultant",
+            "text": "<p>Erin is a seasoned animal behavior professional with over two decades of experience helping people build stronger, more rewarding relationships with their pets. She is known for her compassionate, evidence-based approach to training and behavior support, making life better for both animals and the humans who care for them. A passionate educator and advocate, Erin is committed to making high-quality training and behavior support accessible. Her work reflects a core belief: when we understand our pets better, we can live better together.</p><p>Certifications:</p><ul><li>Masters of Science in Clinical Animal Behavior</li><li>Certified Professional Dog Trainer - Knowledge Assessed (CPDT-KA)</li><li>Certified Behavior Consultant Canine - Knowledge Assessed (CBCC-KA)</li><li>Fear Free Certified Professional (FFCP)</li></ul>",
+            "button_text": "",
+            "calendly_widget": "",
+            "button_link": "",
+            "button_style": "btn--text",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block_yCRJWf": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/unnamed_4_-modified.jpg",
+            "title": "Angela M. - Animal Behavior Consultant",
+            "text": "<p>Angela is a Certified Dog Behavior consultant through the International Association of Animal Behavior Consultants with 17 years of experience working with animals, and a dog groomer with numerous years of experience.<br/></p><p>Certifications:</p><ul><li>Accredited Dog Trainer through the IAABC</li><li>Certified Professional Canine Nutritionist through the Feed Real Institute</li><li>Fear Free Certified Professional through Fear Free</li><li>Low Stress Handling Certified Silver through Low Stress University</li><li>AKC Canine Good Citizen Evaluator<br/></li></ul>",
+            "button_text": "",
+            "calendly_widget": "",
+            "button_link": "",
+            "button_style": "btn--text",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
         "text_block_CbGCBG": {
           "type": "text_block",
           "settings": {
             "image": "shopify://shop_images/Tracy_M.png",
-            "title": "Tracy M. - Certified Animal Behavior Consultant, Separation Anxiety Trainer and Aggression Specialist",
+            "title": "Tracy M. - Separation Anxiety Trainer and Aggression Specialist",
             "text": "<p>Tracy is a certified dog trainer with over a decade of experience in animal behavior and training. She specializes in science-based, humane techniques to address behavior challenges, including separation anxiety and scent work. Tracy is a graduate of the Academy for Dog Trainers (CTC) and holds certifications in Fear Free training, Nose Work, and Control Unleashed. When not training, she enjoys audiobooks and exploring the world with her two dogs, Doc Holliday and Herrick.</p><p>Certifications:</p><ul><li>Certified Dog Trainer (CTC)</li><li>Fear Free Certified Professional (CCFP)</li><li>Certified Nose Work Instructor (CNWI)</li><li>Separation Anxiety Trainer (CSAT)</li></ul>",
             "button_text": "",
             "calendly_widget": "",
@@ -891,11 +934,25 @@
             "video_link_color": "text-dark"
           }
         },
+        "template--16036805083322__cf9dc11a-fc55-47d0-b33a-b31e463672ad-1677351842118d106c-3": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify://shop_images/unnamed_6_-modified.jpg",
+            "title": "Mike M. - Fear-free Dog Trainer",
+            "text": "<p>With a lifelong love for dogs and a passion for coaching, Mike is dedicated to helping people better understand and connect with their dogs. With over 10 years of experience in dog training, he uses modern, science-based methods rooted in positive reinforcement to help dogs and their owners build clear communication, trust, and lasting relationships. Mike also brings more than 20 years of experience as a player development coach working with athletes, giving him a natural coaching mindset and a strong ability to teach people the skills needed to guide their dogs. He believes each dog, owner, and situation is unique and trains from a place of understanding so both owner and dog feel comfortable and confident while learning new skills<br/></p><p>Certifications:</p><ul><li>Certified Professional Dog Trainer- Knowledge Assessed (CPDT-KA)</li><li>Catch Trainers Academy Mentor</li><li>Canine Good Citizen Evaluator ( CGC)<br/><br/></li></ul>",
+            "button_text": "",
+            "calendly_widget": "",
+            "button_link": "",
+            "button_style": "btn--text",
+            "video_link_popup": "https://youtu.be/Cu6XU0fwQ04",
+            "video_link_color": "text-light"
+          }
+        },
         "af2bf11c-a968-4321-b1a9-b76e5c7073ea": {
           "type": "text_block",
           "settings": {
             "image": "shopify://shop_images/image0_7.jpg",
-            "title": "Shannen S. - Force-free Dog Trainer",
+            "title": "Shannen S. - Fear-free Dog Trainer",
             "text": "<p>Shannen is a passionate trainer working to better the lives of dogs and their owners using positive, science-backed methods that revolve around patience, love, and positivity. She is Certified in Applied Animal Behavior which focuses on behavior ethology, learning theory, and the biology behind training and how it relates to companion animals. Her mission is to educate owners on how to understand their dog on a deeper level in order to create a bond that they’ve always dreamed of.<br/><br/>Certifications</p><ul><li>Applied Animal Behavior - University of Washington (UW-AAB) </li><li>AKC Good Citizen Evaluator<br/></li></ul>",
             "button_text": "",
             "calendly_widget": "",
@@ -903,20 +960,6 @@
             "button_style": "btn--text",
             "video_link_popup": "https://youtube.com/shorts/wUF5lQCr97U?feature=share",
             "video_link_color": "text-light"
-          }
-        },
-        "text_block_YhRtqG": {
-          "type": "text_block",
-          "settings": {
-            "image": "shopify://shop_images/Erin-modified.jpg",
-            "title": "Erin A. - Fear-free Dog Trainer",
-            "text": "<p>Erin is a seasoned animal behavior professional with over two decades of experience helping people build stronger, more rewarding relationships with their pets. She is known for her compassionate, evidence-based approach to training and behavior support, making life better for both animals and the humans who care for them. A passionate educator and advocate, Erin is committed to making high-quality training and behavior support accessible. Her work reflects a core belief: when we understand our pets better, we can live better together.</p><p>Certifications:</p><ul><li>Masters of Science in Clinical Animal Behavior</li><li>Certified Professional Dog Trainer - Knowledge Assessed (CPDT-KA)</li><li>Certified Behavior Consultant Canine - Knowledge Assessed (CBCC-KA)</li><li>Fear Free Certified Professional (FFCP)</li></ul>",
-            "button_text": "",
-            "calendly_widget": "",
-            "button_link": "",
-            "button_style": "btn--text",
-            "video_link_popup": "",
-            "video_link_color": "text-dark"
           }
         },
         "text_block_VqY8eG": {
@@ -932,61 +975,19 @@
             "video_link_popup": "",
             "video_link_color": "text-dark"
           }
-        },
-        "text_block_yCRJWf": {
-          "type": "text_block",
-          "settings": {
-            "image": "shopify://shop_images/unnamed_4_-modified.jpg",
-            "title": "Angela M. - Certified Dog Behavior Consultant",
-            "text": "<p>Angela is a Certified Dog Behavior consultant through the International Association of Animal Behavior Consultants with 17 years of experience working with animals, and a dog groomer with numerous years of experience.<br/></p><p>Certifications:</p><ul><li>Accredited Dog Trainer through the IAABC</li><li>Certified Professional Canine Nutritionist through the Feed Real Institute</li><li>Fear Free Certified Professional through Fear Free</li><li>Low Stress Handling Certified Silver through Low Stress University</li><li>AKC Canine Good Citizen Evaluator<br/></li></ul>",
-            "button_text": "",
-            "calendly_widget": "",
-            "button_link": "",
-            "button_style": "btn--text",
-            "video_link_popup": "",
-            "video_link_color": "text-dark"
-          }
-        },
-        "template--16036805083322__cf9dc11a-fc55-47d0-b33a-b31e463672ad-1677351842118d106c-3": {
-          "type": "text_block",
-          "settings": {
-            "image": "shopify://shop_images/unnamed_6_-modified.jpg",
-            "title": "Mike M. - Force Free Dog Trainer",
-            "text": "<p>With a lifelong love for dogs and a passion for coaching, Mike is dedicated to helping people better understand and connect with their dogs. With over 10 years of experience in dog training, he uses modern, science-based methods rooted in positive reinforcement to help dogs and their owners build clear communication, trust, and lasting relationships. Mike also brings more than 20 years of experience as a player development coach working with athletes, giving him a natural coaching mindset and a strong ability to teach people the skills needed to guide their dogs. He believes each dog, owner, and situation is unique and trains from a place of understanding so both owner and dog feel comfortable and confident while learning new skills<br/></p><p>Certifications:</p><ul><li>Certified Professional Dog Trainer- Knowledge Assessed (CPDT-KA)</li><li>Catch Trainers Academy Mentor</li><li>Canine Good Citizen Evaluator ( CGC)<br/><br/></li></ul>",
-            "button_text": "",
-            "calendly_widget": "",
-            "button_link": "",
-            "button_style": "btn--text",
-            "video_link_popup": "https://youtu.be/Cu6XU0fwQ04",
-            "video_link_color": "text-light"
-          }
-        },
-        "template--16036805083322__cf9dc11a-fc55-47d0-b33a-b31e463672ad-1677351842118d106c-1": {
-          "type": "text_block",
-          "settings": {
-            "image": "shopify://shop_images/Screenshot_2026-02-16_131255-modified.png",
-            "title": "Sam S. - Dog Behavior Consultant",
-            "text": "<p>Sam is a Certified Dog Behavior Consultant and trainer with a deep passion for helping dogs and their families build stronger, more confident relationships. Specializing in complex behavior modification, reactivity, and aggression cases, Sam focuses on clear communication and confidence building. He is dedicated to setting dogs up for success while equipping pet guardians with the practical handling skills they need for the real world. Based in Ohio, Sam enjoys indoor bouldering, hiking, and spending time with his wife, Shanna, and daughter, Ellie.<br/></p><p>Certifications: </p><ul><li>Certified Dog Behavior Consultant (CDBC - IAABC)</li><li>Karen Pryor Academy Certified Training Partner (KPA-CTP)</li><li>Fear Free Certified Trainer (FFCT)</li><li>Aggression in Dogs Mastercourse</li><li>Living and Learning with Animals (Dr. Susan Friedman)</li></ul><p><br/></p>",
-            "button_text": "",
-            "calendly_widget": "",
-            "button_link": "",
-            "button_style": "btn--text",
-            "video_link_popup": "",
-            "video_link_color": "text-light"
-          }
         }
       },
       "block_order": [
         "text_block_D8bBUp",
         "text_block_nLgCTf",
+        "template--16036805083322__cf9dc11a-fc55-47d0-b33a-b31e463672ad-1677351842118d106c-1",
         "text_block_CwL4Kb",
-        "text_block_CbGCBG",
-        "af2bf11c-a968-4321-b1a9-b76e5c7073ea",
         "text_block_YhRtqG",
-        "text_block_VqY8eG",
         "text_block_yCRJWf",
+        "text_block_CbGCBG",
         "template--16036805083322__cf9dc11a-fc55-47d0-b33a-b31e463672ad-1677351842118d106c-3",
-        "template--16036805083322__cf9dc11a-fc55-47d0-b33a-b31e463672ad-1677351842118d106c-1"
+        "af2bf11c-a968-4321-b1a9-b76e5c7073ea",
+        "text_block_VqY8eG"
       ],
       "settings": {
         "grid_or_slider": false,
@@ -1095,23 +1096,15 @@
           "type": "heading",
           "settings": {
             "discount_button_link_heading": "",
-            "text": "<p>Ready to start training?</p>",
+            "text": "<p>Plans and Pricing</p>",
             "size": 100,
             "heading_highlight_type": "italics"
-          }
-        },
-        "template--16036805083322__d762a719-b591-4339-8d56-2b6db54ac56f-16773497307b85ce9c-2": {
-          "type": "text",
-          "settings": {
-            "text": "",
-            "size": 100
           }
         }
       },
       "block_order": [
         "template--16036805083322__d762a719-b591-4339-8d56-2b6db54ac56f-16773497307b85ce9c-0",
-        "template--16036805083322__d762a719-b591-4339-8d56-2b6db54ac56f-16773497307b85ce9c-1",
-        "template--16036805083322__d762a719-b591-4339-8d56-2b6db54ac56f-16773497307b85ce9c-2"
+        "template--16036805083322__d762a719-b591-4339-8d56-2b6db54ac56f-16773497307b85ce9c-1"
       ],
       "settings": {
         "text_position": "center",
@@ -1123,65 +1116,38 @@
         "padding_bottom": 0
       }
     },
-    "3f34e5da-6cb0-40ff-b532-99377ec775fa": {
-      "type": "section-custom-content",
-      "blocks": {
-        "2978c1e5-af85-4ece-bdf5-e6de6d5b8f2b": {
-          "type": "text",
-          "settings": {
-            "text_position": "center",
-            "top_image_width": 100,
-            "text_color": "text-dark",
-            "subheading": "$49 / Week (Billed Monthly)",
-            "title": "Homeschool Lite",
-            "text": "<p><strong>Message on-demand with certified dog experts and get 1:1 help every week. <br/><br/>Cancel anytime.</strong><br/><br/><br/>Daily Text Support</p><p>1x Intensive Session / month (45-min)</p><p>Unlimited Practice Sessions (15-min)</p><p>LAY LO™ Product Discounts</p><p>* * * </p><p>Insider Community Access</p><p>Course Membership Library Access</p>",
-            "button_text": "Get Started >",
-            "button_link": "https://pfnl.co/k9c9xgy",
-            "button_style": "btn--primary btn--small",
-            "secondary_button_text": "",
-            "secondary_button_link": "",
-            "secondary_button_style": "btn--secondary btn--small",
-            "bg_color": "#d3d3d3"
-          }
-        },
-        "template--16059996111034__3f34e5da-6cb0-40ff-b532-99377ec775fa-1685743622c146d6f3-1": {
-          "type": "text",
-          "settings": {
-            "text_position": "center",
-            "top_image_width": 100,
-            "text_color": "text-dark",
-            "subheading": "$125 / Week",
-            "title": "Homeschool Premium",
-            "text": "<p><strong>Personalized, private 1:1 online training with your dedicated dog expert. Guaranteed results. <br/></strong></p><p><strong>4, 6 and 8 week packages available<br/><br/><br/></strong>Intensive Pup Evaluation</p><p>1x Weekly Live 1:1 Sessions (45 min)</p><p>Unlimited Practice Sessions (15-min)</p><p>Message-an-Expert</p><p>Personalized Training Plan</p><p>LAY LO™ Product Discounts</p><p>Homeschool Training Guarantee*</p><p>* * * </p><p>Insider Community Access</p><p>Course Membership Library - Full Access ($150 value)</p>",
-            "button_text": "Schedule Your Free Pup Consult",
-            "button_link": "https://laylopets.typeform.com/to/exWlKhbV?utm_source=xxxxx",
-            "button_style": "btn--primary btn--small",
-            "secondary_button_text": "",
-            "secondary_button_link": "",
-            "secondary_button_style": "btn--secondary btn--small",
-            "bg_color": "#f7f2ee"
-          }
-        }
-      },
-      "block_order": [
-        "2978c1e5-af85-4ece-bdf5-e6de6d5b8f2b",
-        "template--16059996111034__3f34e5da-6cb0-40ff-b532-99377ec775fa-1685743622c146d6f3-1"
-      ],
+    "a3bb7081-a649-4b91-aae3-ee9be36bf924": {
+      "type": "section-custom-html",
       "settings": {
-        "height": "six-fifty-height",
-        "bg_color": "",
+        "custom_code": "<!-- Elfsight Pricing Table | Homeschool Pricing Widget - Main Page -->\n<script src=\"https://elfsightcdn.com/platform.js\" async></script>\n<div class=\"elfsight-app-1b10b2b0-ae11-4355-a3d6-06ff578eb240\" data-elfsight-app-lazy></div>",
         "width": "wrapper",
-        "add_gutter": false,
         "padding_top": 60,
         "padding_bottom": 60
       }
     },
-    "a3bb7081-a649-4b91-aae3-ee9be36bf924": {
-      "type": "section-custom-html",
-      "disabled": true,
+    "section_text_EK6ncD": {
+      "type": "section-text",
+      "blocks": {
+        "button_69BG3W": {
+          "type": "button",
+          "settings": {
+            "discount_button_link": "https://start.laylopets.com",
+            "btn_text": "Take Our Quiz and Find Your Plan >",
+            "btn_link": "https://start.laylopets.com",
+            "btn_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "button_69BG3W"
+      ],
+      "name": "Text",
       "settings": {
-        "custom_code": "<script src=\"https://static.elfsight.com/platform/platform.js\" data-use-service-core defer></script>\n<div class=\"elfsight-app-6742fe8d-77cd-4ec9-a392-3df668ad4c4d\"></div>",
-        "width": "wrapper",
+        "text_position": "center",
+        "background_custom_color": "",
+        "bg_color_secondary": false,
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
         "padding_top": 60,
         "padding_bottom": 60
       }
@@ -1291,8 +1257,8 @@
             "text_color": "text-light",
             "title": "Talk to an expert for free",
             "text": "Get instant, personalized help with your toughest pup challenges. Get real-time guidance and answers in a live session with a dedicated dog expert and start building a better relationship with your dog today.",
-            "btn_text": "Get started for free",
-            "btn_link": "https://www.laylopets.com/pages/book-a-free-call",
+            "btn_text": "Book a free consultation",
+            "btn_link": "https://www.laylopets.com/pages/free-consultation-booking-page",
             "btn_style": "btn--secondary",
             "btn_text_2": "",
             "btn_link_2": "",
@@ -1380,88 +1346,6 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
-    },
-    "7c88bcad-fd75-40bd-b1a8-7357c82ec4f3": {
-      "type": "section-columns",
-      "blocks": {
-        "template--16059996111034__7c88bcad-fd75-40bd-b1a8-7357c82ec4f3-1685749097eafe3564-0": {
-          "type": "text_block",
-          "settings": {
-            "image": "shopify://shop_images/Frame_150.png",
-            "title": "Homeschool Lite",
-            "text": "<h4><strong>On-demand message support from dog experts, access to online group training & more.</strong></h4><p></p><p>Free Behavior Discovery Call</p><p>Message-an-Expert</p><p></p><p>LAY LO™ Product Discounts</p><p>Insider Community Access</p><p>Video Vault Library Access</p>",
-            "button_text": "Learn More",
-            "calendly_widget": "",
-            "button_link": "",
-            "button_style": "btn--primary btn--small",
-            "video_link_popup": "",
-            "video_link_color": "text-dark"
-          }
-        },
-        "template--16059996111034__7c88bcad-fd75-40bd-b1a8-7357c82ec4f3-1685749097eafe3564-1": {
-          "type": "text_block",
-          "settings": {
-            "image": "shopify://shop_images/Frame_149.png",
-            "title": "Homeschool Premium",
-            "text": "<h4><strong>Personalized, 1:1 live programs alongside dedicated experts, from training to nutrition. 4 week and 8 week plans avaialble.</strong></h4><p>Live 1:1 Sessions</p><p>4-Week & 8-Week Plans</p><p>Dedicated Program Trainer</p><p>Message-an-Expert</p><p>Homeschool Guarantee</p><p>LAY LO™ Product Discounts</p><p>Insider Community Access</p><p>Video Vault Library Access<br/>                </p>",
-            "button_text": "Learn More",
-            "calendly_widget": "",
-            "button_link": "",
-            "button_style": "btn--primary btn--small",
-            "video_link_popup": "",
-            "video_link_color": "text-dark"
-          }
-        },
-        "template--16059996111034__7c88bcad-fd75-40bd-b1a8-7357c82ec4f3-1685749097eafe3564-2": {
-          "type": "text_block",
-          "disabled": true,
-          "settings": {
-            "title": "Add a title or tagline",
-            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
-            "button_text": "Learn More",
-            "calendly_widget": "",
-            "button_link": "",
-            "button_style": "btn--text",
-            "video_link_popup": "",
-            "video_link_color": "text-dark"
-          }
-        },
-        "template--16059996111034__7c88bcad-fd75-40bd-b1a8-7357c82ec4f3-1685749097eafe3564-3": {
-          "type": "text_block",
-          "disabled": true,
-          "settings": {
-            "title": "Add a title or tagline",
-            "text": "<p>Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
-            "button_text": "Learn More",
-            "calendly_widget": "",
-            "button_link": "",
-            "button_style": "btn--text",
-            "video_link_popup": "",
-            "video_link_color": "text-dark"
-          }
-        }
-      },
-      "block_order": [
-        "template--16059996111034__7c88bcad-fd75-40bd-b1a8-7357c82ec4f3-1685749097eafe3564-0",
-        "template--16059996111034__7c88bcad-fd75-40bd-b1a8-7357c82ec4f3-1685749097eafe3564-1",
-        "template--16059996111034__7c88bcad-fd75-40bd-b1a8-7357c82ec4f3-1685749097eafe3564-2",
-        "template--16059996111034__7c88bcad-fd75-40bd-b1a8-7357c82ec4f3-1685749097eafe3564-3"
-      ],
-      "disabled": true,
-      "settings": {
-        "grid_or_slider": false,
-        "discount_button_link": "",
-        "title": "Our Programs",
-        "align_text": "text-left",
-        "columns": 2,
-        "equalize_height": true,
-        "image_aspect_ratio": 0.7,
-        "show_images": true,
-        "bg_color_secondary": false,
-        "width": "wrapper",
-        "padding_top": 60,
-        "padding_bottom": 60
-      }
     }
   },
   "order": [
@@ -1484,11 +1368,10 @@
     "cf9dc11a-fc55-47d0-b33a-b31e463672ad",
     "8cc69ca8-3815-400e-9908-b91856bd1c07",
     "d762a719-b591-4339-8d56-2b6db54ac56f",
-    "3f34e5da-6cb0-40ff-b532-99377ec775fa",
     "a3bb7081-a649-4b91-aae3-ee9be36bf924",
+    "section_text_EK6ncD",
     "2bbeb69d-ad3b-4b68-a947-a42915622081",
     "cfd652ff-08ed-4250-9eee-d8f7bc1035cf",
-    "main",
-    "7c88bcad-fd75-40bd-b1a8-7357c82ec4f3"
+    "main"
   ]
 }

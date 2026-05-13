@@ -8,13 +8,18 @@
     assign this_product = product
     assign total_colors = 0
     assign scroll_area_id = 'scroll-area-' | append: id
+    assign fam_count = 0
+    for family in families.value
+    assign fam_count = fam_count | plus: 1
+    endfor
   %}
   {% if show_color_swatches %}
   <div class="color-swatches-container">
     <div class="color-title radio__legend__label">Choose your color &dash; <em>{{ product.title | split: '|' | first | remove: 'Dog Bed' | strip }}</em></div>
-    <div class="color-swatches-wrap" id="{{ scroll_area_id }}">
+    <div class="color-swatches-wrap{% unless fam_count > 1 %} mini-grid{% endunless %}" id="{{ scroll_area_id }}">
         {% for family in families.value %}
-            <div class="family-title">{{ family.title }}</div>
+
+            {% if fam_count > 1 %}<div class="family-title">{{ family.title }}</div>{% endif %}
             <div class="family-wrap">
                 {% for product in family.products.value %}
                 {% liquid

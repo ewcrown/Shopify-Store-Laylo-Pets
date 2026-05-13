@@ -36,10 +36,8 @@
     assign has_image = false
     assign image_classes = image_classes | append: ' ' | append: 'placeholder-svg--overlayed'
   else
-     unless skip_lazy
-      assign image_classes = image_classes | append: ' ' | append: 'lazyload'
-    endunless
-    endif
+    assign image_classes = image_classes | append: ' ' | append: 'lazyload'
+  endif
 
   assign focal = image.presentation.focal_point | default: '50.0% 50.0%'
   if focal == '50.0% 50.0%'
@@ -85,17 +83,11 @@
 {%- endunless -%}
 
   {%- if has_image -%}
-     {% if skip_lazy %}
-    {%- assign eager_url = image | img_url: '1400x' -%}
-        {% if fetchpriority == 'high' %}
-        <link rel="preload" as="image" href="{{ eager_url }}" fetchpriority="high">
-      {% endif %}
-    {% endif %}
     <div class="{{ image_classes }}"
-        style="{{ bg_position_style }}{{ image_styles }}{% if skip_lazy %} background-image: url('{{ eager_url }}');{% endif %}"
+      style="{{ bg_position_style }}{{ image_styles }}"
       role="img"
       aria-label="{{ alt }}"
-         {% unless skip_lazy %}data-bgset="{% render 'bgset', image: image %}"{% endunless %}
+      data-bgset="{% render 'bgset', image: image %}"
       {% if is_background %}
         data-aspectratio="{{ image.aspect_ratio }}"
         data-sizes="auto"

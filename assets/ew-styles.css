@@ -45,6 +45,34 @@ body .hengam-product-price-wrapper .hengam-final-price {
   margin-right: 50px;
 }
 
+@media(min-width:769px) {
+  .ew-discount-button-image {
+    position: relative;
+    top: -100px;
+    right: -280px;
+  }
+
+  .ew-discount-button-image-text {
+    width: 200px;
+    margin-left: auto;
+    position: relative;
+    margin-bottom: -53px;
+    right: 80px;
+  }
+}
+
+@media(max-width:768px) {
+  .ew-discount-button-image-text {
+    width: 200px;
+    margin: auto;
+  }
+
+  .ew-discount-button-image2-wrap {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 .ew-grid-section-columns {
 
   .flickity-slider,
@@ -78,33 +106,10 @@ body .hengam-product-price-wrapper .hengam-final-price {
     display: none !important;
   }
 
-@media(min-width:769px) {
-  .ew-discount-button-image {
-    position: relative;
-    top: -100px;
-    right: -280px;
-  }
+  @media(max-width:768px) {
 
-  .ew-discount-button-image-text {
-    width: 200px;
-    margin-left: auto;
-    position: relative;
-    margin-bottom: -53px;
-    right: 80px;
-  }
-}
-
-@media(max-width:768px) {
-  .ew-discount-button-image-text {
-    width: 200px;
-    margin: auto;
-  }
-  .ew-discount-button-image2-wrap {
-    display: flex;
-    flex-direction: column;
-  }
-  .section-columns__slider,
-  .section-columns__slider {
+    .section-columns__slider,
+    .section-columns__slider {
       display: grid;
       grid-template-columns: repeat(1, 1fr);
       gap: 30px;

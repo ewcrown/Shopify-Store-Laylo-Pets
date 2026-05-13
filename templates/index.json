@@ -12,11 +12,32 @@
     "section-slideshow": {
       "type": "section-slideshow",
       "blocks": {
+        "image_VaXzAP": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "overlay_opacity": 10,
+            "text_width": "normal",
+            "text_position": "center",
+            "text_color": "text-light",
+            "subheading": "",
+            "title": "Welcome to Palo Alto",
+            "text": "Add more info or delete this text",
+            "slide_btn_text": "Shop All",
+            "slide_btn_link": "shopify://collections/all",
+            "slide_btn_style": "btn--primary btn--small",
+            "slide_btn_text_2": "",
+            "slide_btn_link_2": "",
+            "slide_btn_style_2": "btn--secondary btn--small",
+            "video_text": "",
+            "video_link": ""
+          }
+        },
         "section-slideshow-0": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/lay-lo-pets-brigette-romanek-brigette-romanek-taupe-dog-bed-or-bed-cover-lay-lo-36327727300794.webp",
-            "image_mobile": "shopify://shop_images/lay-lo-pets-brigette-romanek-brigette-romanek-luxury-pet-blanket-cream-lay-lo-36329664217274.webp",
+            "image": "shopify://shop_images/lay-lo-pets-brigette-romanek-brigette-romanek-taupe-dog-bed-or-bed-cover-lay-lo-36327727300794.jpg",
+            "image_mobile": "shopify://shop_images/lay-lo-pets-brigette-romanek-brigette-romanek-luxury-pet-blanket-cream-lay-lo-36329664217274.jpg",
             "overlay_opacity": 0,
             "text_width": "narrow",
             "text_position": "left",
@@ -82,6 +103,7 @@
         }
       },
       "block_order": [
+        "image_VaXzAP",
         "section-slideshow-0",
         "image_pjMXcA",
         "image_WKRgJa"
@@ -94,7 +116,7 @@
         "show_nav_arrows": true,
         "show_arrow_down": false,
         "autoplay": true,
-        "duration": 4,
+        "duration": 5,
         "transition": "slide",
         "enable_zoom_animation": true,
         "heading_size": 130
@@ -184,7 +206,7 @@
         "column_XaBgaq": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/2-Copy_20of_20aisle_9_laylo-17-edit.webp",
+            "image": "shopify://shop_images/2-Copy_20of_20aisle_9_laylo-17-edit.jpg",
             "subheading": "",
             "subheading_size": 100,
             "heading": "<p>Gift Guide</p>",
@@ -206,7 +228,7 @@
         "column_8Ay7zG": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/BrigetteRomanekLAYLOCreamBed-2-min.webp",
+            "image": "shopify://shop_images/BrigetteRomanekLAYLOCreamBed-2-min.jpg",
             "subheading": "",
             "subheading_size": 90,
             "heading": "<p>Shop Beds & Products</p>",
@@ -228,7 +250,7 @@
         "column_8gTHhy": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Consult_Experts_3.webp",
+            "image": "shopify://shop_images/Consult_Experts_3.jpg",
             "subheading": "",
             "subheading_size": 80,
             "heading": "<p>Consult Top Dog Experts</p>",
@@ -419,7 +441,7 @@
           "type": "collection",
           "settings": {
             "collection": "checker-collection",
-            "custom_collection_image": "shopify://shop_images/lay_lo_checker_collection_dog_beds_mobile_3a34508e-33cf-4ddc-95d6-ad3dd0ca38ad.webp",
+            "custom_collection_image": "shopify://shop_images/lay_lo_checker_collection_dog_beds_mobile_3a34508e-33cf-4ddc-95d6-ad3dd0ca38ad.png",
             "bg_color": "",
             "text_color": "text-light",
             "overlay_opacity": 0
@@ -429,7 +451,7 @@
           "type": "collection",
           "settings": {
             "collection": "brigette-romanek-collection",
-            "custom_collection_image": "shopify://shop_images/Brigette_Romanek_LAY_LO_Cream_Bed.webp",
+            "custom_collection_image": "shopify://shop_images/Brigette_Romanek_LAY_LO_Cream_Bed.jpg",
             "bg_color": "",
             "text_color": "text-light",
             "overlay_opacity": 0
@@ -461,7 +483,7 @@
           "type": "collection",
           "settings": {
             "collection": "frontpage",
-            "custom_collection_image": "shopify://shop_images/LayloPets_SageTerra_Group2_Edit.webp",
+            "custom_collection_image": "shopify://shop_images/LayloPets_SageTerra_Group2_Edit.jpg",
             "bg_color": "",
             "text_color": "text-light",
             "overlay_opacity": 0
@@ -503,7 +525,7 @@
           "type": "collection",
           "settings": {
             "collection": "boho-collection-1",
-            "custom_collection_image": "shopify://shop_images/LAY-LO-Pets-Boho-Dog-Beds.webp",
+            "custom_collection_image": "shopify://shop_images/LAY-LO-Pets-Boho-Dog-Beds.jpg",
             "bg_color": "",
             "text_color": "text-light",
             "overlay_opacity": 0
@@ -522,7 +544,7 @@
           "type": "collection",
           "settings": {
             "collection": "terrazzo-collection-1",
-            "custom_collection_image": "shopify://shop_images/20-07-18_Laylo_Terrazzo_0196-Edit_HiRes.webp",
+            "custom_collection_image": "shopify://shop_images/20-07-18_Laylo_Terrazzo_0196-Edit_HiRes.jpg",
             "bg_color": "",
             "text_color": "text-light",
             "overlay_opacity": 0
@@ -576,7 +598,7 @@
           "type": "collection",
           "settings": {
             "collection": "pet-blankets",
-            "custom_collection_image": "shopify://shop_images/lay-lo-pets-brigette-romanek-brigette-romanek-luxury-pet-blanket-taupe-lay-lo-36329738371258.webp",
+            "custom_collection_image": "shopify://shop_images/lay-lo-pets-brigette-romanek-brigette-romanek-luxury-pet-blanket-taupe-lay-lo-36329738371258.jpg",
             "bg_color": "",
             "text_color": "text-light",
             "overlay_opacity": 0
@@ -629,7 +651,7 @@
           "type": "collection",
           "settings": {
             "collection": "nutrition",
-            "custom_collection_image": "shopify://shop_images/Wild_Earth_Grey_Background.webp",
+            "custom_collection_image": "shopify://shop_images/Wild_Earth_Grey_Background.png",
             "bg_color": "",
             "text_color": "text-light",
             "overlay_opacity": 0
@@ -692,7 +714,7 @@
         "layout": "inline",
         "image_location": "right",
         "image_width": "wide",
-        "image": "shopify://shop_images/LAY_LO_Creator_Collaborations_v2-min.webp",
+        "image": "shopify://shop_images/LAY_LO_Creator_Collaborations_v2-min.jpg",
         "subheading": "Our Beds",
         "title": "<p>Designed and vetted by the best of the best</p>",
         "heading_highlight_type": "circle",
@@ -753,7 +775,7 @@
         "product_MppxR4"
       ],
       "settings": {
-        "image": "shopify://shop_images/Brigette_Romanek_LAY_LO_Hero_2048x1141-min.webp",
+        "image": "shopify://shop_images/Brigette_Romanek_LAY_LO_Hero_2048x1141-min.jpg",
         "enable_aspect_ratio": true,
         "main_image_aspect_ratio": 1,
         "title": "New: Brigette Romanek Collection",
@@ -885,7 +907,7 @@
             "title": "Checker",
             "tab_collection": "checker-collection",
             "show_image": true,
-            "image": "shopify://shop_images/lay_lo_checker_collection_dog_beds_mobile_3a34508e-33cf-4ddc-95d6-ad3dd0ca38ad_1.webp",
+            "image": "shopify://shop_images/lay_lo_checker_collection_dog_beds_mobile_3a34508e-33cf-4ddc-95d6-ad3dd0ca38ad.png",
             "overlay_opacity": 20,
             "heading": "<p>Checker Collection</p>",
             "text_color": "text-light",
@@ -968,7 +990,7 @@
         "layout": "inline",
         "image_location": "left",
         "image_width": "wide",
-        "image": "shopify://shop_images/Homeschool_LAY_LO_Expert_Virtual_Dog_Training_7-min.webp",
+        "image": "shopify://shop_images/Homeschool_LAY_LO_Expert_Virtual_Dog_Training_7-min.jpg",
         "subheading": "EXPERT CONSULTATIONS",
         "title": "<p>Learn to live better together at home.</p>",
         "heading_highlight_type": "circle",
@@ -1006,7 +1028,7 @@
         "text_block_rdAiNr": {
           "type": "text_block",
           "settings": {
-            "image": "shopify://shop_images/Screen_Shot_2023-06-02_at_11.26.29_AM.webp",
+            "image": "shopify://shop_images/Screen_Shot_2023-06-02_at_11.26.29_AM.png",
             "title": "Emily L. - Nutrition Specialist",
             "text": "<p><strong>Certifications:</strong></p><ul><li>DNM University – Certified Pet Food Nutrition Specialist</li></ul>",
             "button_text": "",
@@ -1020,7 +1042,7 @@
         "text_block_fVdGN9": {
           "type": "text_block",
           "settings": {
-            "image": "shopify://shop_images/Screen_Shot_2023-06-02_at_11.23.15_AM.webp",
+            "image": "shopify://shop_images/Screen_Shot_2023-06-02_at_11.23.15_AM.png",
             "title": "Juju - Grooming Expert",
             "text": "<p><strong>Experience:</strong></p><ul><li>Owner – Juju Grooms Pet Grooming, Toronto</li><li>Master Certified Feline Groomer</li></ul>",
             "button_text": "",
@@ -1034,7 +1056,7 @@
         "text_block_Wzjj6M": {
           "type": "text_block",
           "settings": {
-            "image": "shopify://shop_images/553BB7DC-1396-41B7-A583-241A931639D4.webp",
+            "image": "shopify://shop_images/553BB7DC-1396-41B7-A583-241A931639D4.jpg",
             "title": "Jeny P. - Fear-free trainer",
             "text": "<p><strong>Certifications:</strong></p><ul><li>CPDT-KA</li><li>Certified Professional Dog Trainer–Knowledge Assessed</li></ul>",
             "button_text": "",
@@ -1048,7 +1070,7 @@
         "text_block_bHeUji": {
           "type": "text_block",
           "settings": {
-            "image": "shopify://shop_images/KatieCloyd_HomeschoolbyLAYLODogTrainer.webp",
+            "image": "shopify://shop_images/KatieCloyd_HomeschoolbyLAYLODogTrainer.jpg",
             "title": "Katie C. - Fear-free Dog Trainer",
             "text": "<p><strong>Certifications:</strong></p><ul><li>Certified Professional Dog Trainer – Knowledge Assessed (CPDT-KA)</li><li>Bachelors of Science – Biology and Animal Ecology (BSc)</li></ul>",
             "button_text": "",
@@ -1330,7 +1352,7 @@
           "type": "image",
           "settings": {
             "width": "33.33",
-            "image": "shopify://shop_images/Allison_G.webp",
+            "image": "shopify://shop_images/Allison_G.png",
             "overlay_opacity": 0,
             "text_position": "center",
             "subheading": "",
@@ -1347,7 +1369,7 @@
           "type": "image",
           "settings": {
             "width": "33.33",
-            "image": "shopify://shop_images/sun-resistant-dog-bed.webp",
+            "image": "shopify://shop_images/sun-resistant-dog-bed.jpg",
             "overlay_opacity": 0,
             "text_position": "center",
             "subheading": "",
@@ -1364,7 +1386,7 @@
           "type": "image",
           "settings": {
             "width": "33.33",
-            "image": "shopify://shop_images/dog_on_altuzarra_bed.webp",
+            "image": "shopify://shop_images/dog_on_altuzarra_bed.png",
             "overlay_opacity": 0,
             "text_position": "bottom-right",
             "subheading": "",
@@ -1381,7 +1403,7 @@
           "type": "image",
           "settings": {
             "width": "33.33",
-            "image": "shopify://shop_images/Kat_G.webp",
+            "image": "shopify://shop_images/Kat_G.png",
             "overlay_opacity": 0,
             "text_position": "center",
             "subheading": "",
@@ -1398,7 +1420,7 @@
           "type": "image",
           "settings": {
             "width": "33.33",
-            "image": "shopify://shop_images/outdoor-insert.webp",
+            "image": "shopify://shop_images/outdoor-insert.jpg",
             "overlay_opacity": 0,
             "text_position": "center",
             "subheading": "",

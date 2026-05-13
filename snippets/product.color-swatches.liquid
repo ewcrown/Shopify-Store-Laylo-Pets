@@ -20,7 +20,9 @@
 {% if group_tag %}
 <script>
   (async () => {
-    let swatches_html = await fetch(`/collections/all/{{ group_tag }}?view=raw-swatches`).then((res) => res.text());
+    let swatches_html = await fetch(`/collections/all/{{ group_tag | handleize }}?view=raw-swatches`).then((res) => res.text());
+    console.log('test swatch')
+    console.log({{ group_tag | handleize | json }});
     document.querySelector('.color-swatches-wrap').innerHTML = swatches_html;
 
     // add active state to current product
@@ -58,4 +60,6 @@
     document.dispatchEvent(new CustomEvent('variant:change', {detail: { variant: current_variant }}));
   })();
 </script>
+{% else %}
+  <input type="hidden" value="test jessie test">
 {% endif %}

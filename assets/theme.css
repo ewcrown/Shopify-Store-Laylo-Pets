@@ -913,7 +913,7 @@ input[disabled] {
   cursor: default;
 }
 
-.btn, .shopify-payment-button__button--unbranded {
+.btn, .shopify-payment-button__button--unbranded, .Find-Your-Plan- {
   position: relative;
   display: inline-block;
   overflow: hidden;
@@ -975,17 +975,17 @@ input[disabled] {
   transform: scaleY(0);
 }
 @media only screen and (min-width: 480px) {
-  .btn, .shopify-payment-button__button--unbranded {
+  .btn, .shopify-payment-button__button--unbranded, .Find-Your-Plan- {
     min-width: 120px;
   }
 }
 @media only screen and (min-width: 1440px) {
-  .btn, .shopify-payment-button__button--unbranded {
+  .btn, .shopify-payment-button__button--unbranded, .Find-Your-Plan- {
     min-width: 180px;
   }
 }
 @media only screen and (max-width: 479px) {
-  .btn, .shopify-payment-button__button--unbranded {
+  .btn, .shopify-payment-button__button--unbranded, .Find-Your-Plan- {
     width: 100%;
   }
 }

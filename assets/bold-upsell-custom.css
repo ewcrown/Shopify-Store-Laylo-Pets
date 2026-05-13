@@ -34,7 +34,19 @@ div.bold-modal--is-showing .bold-modal--animated {}
 div.bold-modal--is-showing .bold-modal--animated .bold-modal__window {}
 
 
+@media only screen and (min-width: 499px) {
+    .bold-modal {}
 
+    .bold-modal__window {}
+
+    .bold-modal--animated {}
+
+    .bold-modal--animated .bold-modal__window {}
+}
+
+@media only screen and (min-width: 879px) {
+    .bold-modal__window {}
+}
 
 /* bold.grid.css */
 .bold-grid {}
@@ -43,6 +55,25 @@ div.bold-modal--is-showing .bold-modal--animated .bold-modal__window {}
 
 .bold-grid__column {}
 
+
+@media only screen and (min-width: 499px) {
+    .bold-grid__column {}
+
+    .bold-grid__column--half,
+    .bold-grid__column--third,
+    .bold-grid__column--quarter {}
+
+    .bold-grid__column--third:first-child {}
+}
+
+@media only screen and (min-width: 599px) {
+    .bold-grid__column--third,
+    .bold-grid__column--third:first-child {}
+}
+
+@media only screen and (min-width: 739px) {
+    .bold-grid__column--quarter {}
+}
 /* bold.grid.css */
 
 /* bold.product.css */
@@ -154,33 +185,7 @@ div.bold-modal--is-showing .bold-modal--animated .bold-modal__window {}
 #bold-upsell-modal-window .yotpo {}
 
 
-@media only screen and (min-width: 499px) {
-    .bold-modal {}
 
-    .bold-modal__window {}
 
-    .bold-modal--animated {}
 
-    .bold-modal--animated .bold-modal__window {}
 
-        .bold-grid__column {}
-
-    .bold-grid__column--half,
-    .bold-grid__column--third,
-    .bold-grid__column--quarter {}
-
-    .bold-grid__column--third:first-child {}
-}
-
-@media only screen and (min-width: 879px) {
-    .bold-modal__window {}
-}
-
-@media only screen and (min-width: 599px) {
-    .bold-grid__column--third,
-    .bold-grid__column--third:first-child {}
-}
-
-@media only screen and (min-width: 739px) {
-    .bold-grid__column--quarter {}
-}
